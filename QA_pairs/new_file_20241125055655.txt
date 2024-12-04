@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "AMS-02是由哪个组织负责的？", "answer": "AMS 国际合作"},
+    {"question": "AMS-02是在哪一年发射的？", "answer": "2011年5月16日"},
+    {"question": "AMS-02的发射地点是哪里？", "answer": "肯尼迪航天中心 39A发射台"},
+    {"question": "AMS-02的任务期限是多久？", "answer": "10年或更长"},
+    {"question": "AMS-02的质量是多少？", "answer": "14,809 lb (6,717 kg) 或 6731 kg (14,839 lb)"},
+    {"question": "AMS-02的轨道最小高度和最大高度分别是多少？", "answer": "最小高度341 km (184 nmi)，最大高度353 km (191 nmi)"},
+    {"question": "AMS-02的轨道周期大约是多少分钟？", "answer": "91分钟"},
+    {"question": "AMS-02的动力需求是多少瓦特？", "answer": "2000–2500 瓦特"},
+    {"question": "AMS-02的磁场强度是多少？", "answer": "0.15 T"},
+    {"question": "AMS-02的总花费大约是多少美元？", "answer": "15亿美元"}
+]
+```

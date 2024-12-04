@@ -1,0 +1,44 @@
+```json
+[
+    {
+        "content": "主巡天模块0级数据的文件夹命名结构是怎样的？",
+        "summary": "主巡天模块0级数据的文件夹命名结构从设备总体到不同终端的不同功能层层递进，例如：CSST_L0/MSC/SCI/MJD/OBSID/MS 或 IR，其中CSST_L0 表示CSST的0级数据，MSC表示主巡天模块，SCI表示科学观测数据，MJD表示观测开始时间的MJD取整，OBSID表示观测编号，MS表示主巡天光学相机，IR表示主巡天红外相机。"
+    },
+    {
+        "content": "MCI模块中，每个探测器单次曝光的数据存储在什么文件中？",
+        "summary": "MCI模块中，每个探测器单次曝光（含BIAS读取等定标过程）的读出数据存储为一个FITS文件。文件名命名规则为CSST_MCI_CHANNEL_TYPE_YYYYMMDDhhmmss_YYYYMMDDhhmmss_OBSID_FILTER_L0_VER.fits，其中CHANNEL、TYPE、YYYYMMDD、hhmmss、OBSID、FILTER、L0和VER分别代表通道编号、目标类型、观测日期、观测时间、观测编号、滤光片编号、L0级数据和版本号。"
+    },
+    {
+        "content": "IFS模块的0级数据文件名中，CAMERA字段代表什么？",
+        "summary": "IFS模块的0级数据文件名中，CAMERA字段代表光谱仪编号，红端CCD为“R”，蓝端CCD为“B”。"
+    },
+    {
+        "content": "CPIC模块的可见光相机和红外相机在0级数据文件名中分别如何表示？",
+        "summary": "CPIC模块的0级数据文件名中，可见光相机和红外相机分别用“VIS”和“NIR”表示。"
+    },
+    {
+        "content": "HSTDM模块中，探测器的黑体校准数据在文件名中如何标识？",
+        "summary": "HSTDM模块中，探测器的黑体校准数据在文件名中通过TYPE2字段标识为“BLK”，如CSST_HSTDM_ONS_BLK_YYYYMMDDhhmmss_YYYYMMDDhhmmss_OBSID_MM-NNNN_L0_VER.fits，表示对目标源进行观测时的黑体校准数据。"
+    },
+    {
+        "content": "如果对象数据使用fpack工具压缩，文件后缀是什么？",
+        "summary": "如果对象数据使用fpack工具压缩，文件后缀应为.fits.fz。"
+    },
+    {
+        "content": "文件索引号是如何从文件名中计算得到的？",
+        "summary": "文件索引号通过计算文件名的SHA256散列值给出，取散列值的前128bit为文件索引号。"
+    },
+    {
+        "content": "FITS格式文件需要支持哪些主流读写软件？",
+        "summary": "FITS格式文件需要支持的主流读写软件至少应当包括astropy.io.fits和libcfitsio。"
+    },
+    {
+        "content": "MSC模块的光学数据文件对象包含多少个HDU？",
+        "summary": "MSC模块的光学数据文件对象包含两个HDU，其中一个是primary HDU，另一个是图像扩展（raw image）。"
+    },
+    {
+        "content": "MSC模块的primary HDU中主要包含哪些信息？",
+        "summary": "MSC模块的primary HDU主要包含望远镜的位置姿态信息。同一次观测所有波段测光和无缝光谱图像的global header内容基本一致。"
+    }
+]
+```

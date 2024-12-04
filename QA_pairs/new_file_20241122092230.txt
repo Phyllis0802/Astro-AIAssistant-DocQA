@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "CRVAL2的值是多少？", "answer": "39.68195466"},
+    {"question": "CTYPE1代表什么类型的投影？", "answer": "RA---TAN，即RA的世界坐标系统投影类型"},
+    {"question": "CD1_1的数据类型是什么？", "answer": "float"},
+    {"question": "GAIN01的值是多少？", "answer": "1.089977689"},
+    {"question": "RON05的值是多少？", "answer": "5.0"},
+    {"question": "ROTIME0表示什么时间？", "answer": "readout start time (UTC)，即2024-08-17T06:07:42.1"},
+    {"question": "SHTSTAT为TRUE代表什么？", "answer": "shutter status, T=open, F=close，即快门状态为打开"},
+    {"question": "LEDTEMP的值是多少？", "answer": "173.0"},
+    {"question": "XTENSION在RAW EXTENSION HEADER KEYWORDS中的值是什么？", "answer": "IMAGE"},
+    {"question": "IMGNUM代表什么？", "answer": "image number，即图像编号"}
+]
+```

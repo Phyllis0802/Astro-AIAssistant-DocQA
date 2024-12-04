@@ -1,0 +1,44 @@
+```json
+[
+    {
+        "content": "MSC_MS 0级数据头文件中XTENSION关键字代表什么？",
+        "summary": "在MSC_MS 0级数据头文件中，XTENSION关键字代表文件的扩展类型或格式。"
+    },
+    {
+        "content": "BITPIX在MSC_MS 0级数据头文件中是什么意思？",
+        "summary": "在MSC_MS 0级数据头文件中，BITPIX关键字表示每个数据点的位数，它决定了数据的存储方式和精度。"
+    },
+    {
+        "content": "MSC_MS 0级数据头文件的CRVAL1和CRVAL2如何估算？",
+        "summary": "MSC_MS 0级数据头文件的CRVAL1和CRVAL2需要根据指向以及焦面板的几何参数进行估算，通常由地面预处理完成。"
+    },
+    {
+        "content": "DETTEMP1在MSC_MS 0级数据头文件中记录的是什么温度？",
+        "summary": "DETTEMP1在MSC_MS 0级数据头文件中记录的是曝光开始时刻，主焦面的温度。"
+    },
+    {
+        "content": "MCI的DIFFUSER关键字在0级数据头文件中记录了什么信息？",
+        "summary": "MCI的DIFFUSER关键字在0级数据头文件中记录了多通道成像仪的挡板开合信息。"
+    },
+    {
+        "content": "MCI的BAND关键字是如何与DETNAME关联的？",
+        "summary": "MCI的BAND关键字通过其值（如可见光通道005、紫外近红外006）与DETNAME关联，DETNAME根据BAND的值查询配置文件给出。"
+    },
+    {
+        "content": "MSC_IR的DETTEMP3关键字记录了哪个时刻的温度？",
+        "summary": "MSC_IR的DETTEMP3关键字记录了读出结束时刻，主焦面的温度。"
+    },
+    {
+        "content": "MSC_IR的IMGNUM关键字表示什么信息？",
+        "summary": "MSC_IR的IMGNUM关键字表示短波红外图像数据包的帧序号，特别是最后一帧图像的帧序号。"
+    },
+    {
+        "content": "在MSC_MS 0级数据头文件中，GAIN01到GAIN16是如何设置的？",
+        "summary": "在MSC_MS 0级数据头文件中，GAIN01到GAIN16代表各通道或探测器的增益，这些值由指令上传，并添加到相应的数据包中。"
+    },
+    {
+        "content": "MCI的WCSAXES关键字在0级数据头文件中与MSC_MS的有什么共同之处？",
+        "summary": "MCI的WCSAXES关键字在0级数据头文件中与MSC_MS的WCSAXES关键字都用于表示世界坐标系统（WCS）的轴数，通常它们的值都是2。"
+    }
+]
+```

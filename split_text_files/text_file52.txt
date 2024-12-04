@@ -1,0 +1,608 @@
+int 
+ 
+FWHM 
+2.1735 
+FWHM (pix) 
+float 
+ 
+RA_OFF 
+0.0512 
+median RA 
+offset from 
+CAL_REF 
+(arcsec) 
+float 
+ 
+DEC_OFF 
+-0.0915 
+median Dec 
+offset from 
+CAL_REF 
+(arcsec) 
+float 
+ 
+NS_FLUX 
+370 
+total number of 
+stars detected 
+int 
+ 
+NS_MATCH 
+264 
+total number of 
+matched stars 
+in 0.5 arcsec 
+int 
+ 
+MED_CLR 
+-9999 
+median color of 
+matched stars 
+float 
+ 
+SKY_MAG 
+21.9735 
+estimated sky 
+background 
+(mag/arcsec^2) 
+float 
+ 
+MAG_LIM 
+22.6978 
+magnitude 
+limiting of 5-
+sigma detection 
+float 
+ 
+ 
+ 
+195 
+V_QC1 
+0.0.4 
+version of QC1 
+str5 
+ 
+T_QC1 
+2024-03-
+13T06:57:12.93
+5 
+timestamp of 
+QC1 
+str23 
+ 
+S_QC1 
+0 
+status of QC1 
+(0/1/2) 
+int 
+ 
+QC1_FLAG 
+0 
+flag of QC1 in 
+bitmask (2**n, 
+n>2) 
+int 
+ 
+CHECKSUM 
+Pe9GPZ89Pb8
+EPZ89 
+HDU checksum 
+updated 2024-
+03-
+21T14:44:52 
+str 
+ 
+DATASUM 
+0 
+data unit 
+checksum 
+updated 2024-
+03-
+21T14:44:52 
+str1 
+ 
+ 
+表49: 天体测量1 级数据产品表格说明 (FITS TABLE) 
+name 
+dtype 
+shape 
+unit 
+description 
+id 
+str20 
+[] 
+ 
+unique source 
+identifier 
+source_id 
+str45 
+[] 
+ 
+astrometric 
+internal source 
+ID 
+ref_cat 
+str32 
+[] 
+ 
+reference star 
+catalog 
+ref_epoch 
+float64 
+[] 
+ 
+reference epoch 
+to which the 
+astrometric 
+source 
+parameters are 
+referred, 
+expressed as a 
+julian year in 
+TCB 
+ 
+ 
+196 
+obs_time 
+str21 
+[] 
+ 
+the midpoint of 
+the exposure time 
+for this 
+observation 
+session, 
+reflecting the 
+central moment 
+when data was 
+collected 
+x_image 
+float32 
+[] 
+pix 
+object position 
+along x (pixel) 
+y_image 
+float32 
+[] 
+pix 
+object position 
+along y (pixel) 
+errx_image 
+float32 
+[] 
+pix 
+error of x_image 
+(pixel) 
+erry_image 
+float32 
+[] 
+pix 
+error of y_image 
+(pixel) 
+xwin_image 
+float64 
+[] 
+pix 
+windowed 
+position estimate 
+along x (pixel) 
+ywin_image 
+float64 
+[] 
+pix 
+windowed 
+position estimate 
+along y (pixel) 
+errxwin_image 
+float32 
+[] 
+pix 
+error of 
+xwin_image 
+(pixel) 
+errywin_image 
+float32 
+[] 
+pix 
+error of 
+ywin_image 
+(pixel) 
+xepsf_image 
+float64 
+[] 
+pix 
+x coordinate 
+from EPSF-
+fitting (pixel) 
+yepsf_image 
+float64 
+[] 
+pix 
+y coordinate 
+from EPSF-
+fitting (pixel) 
+errxepsf_image 
+float32 
+[] 
+pix 
+error of 
+xepsf_image 
+(pixel) 
+ 
+ 
+197 
+erryepsf_image 
+float32 
+[] 
+pix 
+error of 
+yepsf_image 
+(pixel) 
+xpsf_image 
+float64 
+[] 
+pix 
+x coordinate 
+from PSF-fitting 
+(pixel) 
+ypsf_image 
+float64 
+[] 
+pix 
+y coordinate 
+from PSF-fitting 
+(pixel) 
+errxpsf_image 
+float32 
+[] 
+pix 
+error of 
+xpsf_image 
+(pixel) 
+errypsf_image 
+float32 
+[] 
+pix 
+error of 
+ypsf_image 
+(pixel) 
+flux_auto 
+float32 
+[] 
+ct 
+flux within a 
+Kron-like 
+elliptical aperture 
+fluxerr_auto 
+float32 
+[] 
+ct 
+RMS error for 
+auto flux 
+mag_filter 
+float32 
+[] 
+mag 
+Kron-like 
+elliptical aperture 
+magnitude 
+magerr_filter 
+float32 
+[] 
+mag 
+RMS error for 
+auto magnitude 
+xmin_image 
+int32 
+[] 
+pix 
+minimum x-
+coordinate 
+among detected 
+pixels (pixel) 
+ymin_image 
+int32 
+[] 
+pix 
+minimum y-
+coordinate 
+among detected 
+pixels (pixel) 
+xmax_image 
+int32 
+[] 
+pix 
+maximum x-
+coordinate 
+among detected 
+pixels (pixel) 
+ymax_image 
+int32 
+[] 
+pix 
+maximum y-
+coordinate 
+ 
+ 
+198 
+among detected 
+pixels (pixel) 
+xpeak_image 
+int32 
+[] 
+pix 
+x-coordinate of 
+the brightest 
+pixel (pixel) 
+ellipticity 
+float32 
+[] 
+ 
+ellipticity 
+classification 
+float32 
+[] 
+ 
+star/galaxy 
+classifier output 
+ra 
+float64 
+[] 
+deg 
+Represents the 
+celestial 
+coordinates of 
+the solar system 
+barycenter at the 
+mid-exposure 
+time of a single 
+frame image. 
+Proper motion 
+corrections have 
+been applied to 
+reference stars 
+from the Gaia 
+catalog (degree) 
+err_ra 
+float64 
+[] 
+deg 
+error of ra (mas) 
+dec 
+float64 
+[] 
+deg 
+represents the 
+celestial 
+coordinates of 
+the solar system 
+barycenter at the 
+mid-exposure 
+time of a single 
+frame image. 
+proper motion 
+corrections have 
+been applied to 
+reference stars 
+from the Gaia 
+catalog. 
+err_dec 
+float64 
+[] 
+deg 
+error of dec 
+ra_ccrs 
+float64 
+[] 
+deg 
+represents the 
+topocentric 
+celestial 
+coordinates 
+(coordinate 
+ 
+ 
+199 
+direction) at the 
+mid-exposure 
+time of a single 
+frame image. 
+proper motion 
+corrections and 
+parallax 
+adjustments have 
+been applied to 
+reference stars 
+from the Gaia 
+catalog. 
+err_ra_ccrs 
+float64 
+[] 
+deg 
+error of ra_ccrs 
+dec_ccrs 
+float64 
+[] 
+deg 
+represents the 
+topocentric 
+celestial 
+coordinates 
+(coordinate 
+direction) at the 
+mid-exposure 
+time of a single 
+frame image. 
+proper motion 
+corrections and 
+parallax 
+adjustments have 
+been applied to 
+reference stars 
+from the Gaia 
+catalog. 
+err_dec_ccrs 
+float64 
+[] 
+deg 
+error of dec_ccrs 
+ra_obs 
+float64 
+[] 
+deg 
+represents the 
+corrected 
+topocentric 
+celestial 
+coordinates 
+(observation 
+direction) at the 
+mid-exposure 
+time of a single 
+frame image, 
+corrections have 
+been applied to 
+reference stars 
+from the Gaia 
+ 
+ 
+200 
+catalog for 
+proper motion, 
+parallax, along 
+with adjustments 
+for astrometric 
+effects such as 
+stellar aberration 
+and gravitational 
+deflection. 
+err_ra_obs 
+float64 
+[] 
+deg 
+error of dec 
+dec_obs 
+float64 
+[] 
+deg 
+represents the 
+corrected 
+topocentric 
+celestial 
+coordinates 
+(observation 
+direction) at the 
+mid-exposure 
+time of a single 
+frame image. 
+corrections have 
+been applied to 
+reference stars 
+from the Gaia 
+catalog for 
+proper motion, 
+parallax, along 
+with adjustments 
+for astrometric 
+effects such as 
+stellar aberration 
+and gravitational 
+deflection. 
+err_dec_obs 
+float64 
+[] 
+deg 
+error of dec_gcrs 
+healpix_1 
+int32 
+[] 
+ 
+resolution level 1 
+healpix_2 
+int32 
+[] 
+ 
+resolution level 2 
+healpix_3 
+int32 
+[] 
+ 
+resolution level 3 
+data_quality 
+float32 
+[] 
+ 
+A rating assigned 
+to a source based 
+on factors like 
+positional 
+accuracy, 
+reflecting the 
+ 
+ 
+201 
+reliability of 
+associated data. 
+ps_prob 
+float32 
+[] 
+ 
+The likelihood 
+that a source 
+behaves as a 
+point source, 
+ranging from 0 to 
+1, higher values 
+indicate higher 
+probability of 
+being a point 
+source. 
+ 
+表50: 天体测量-近地⼩天体1 级数据产品表格说明(FITS TABLE) 
+name 
+dtype 
+shape 
+unit 
+description 
+objid 
+str32 
+[] 
+ 
+near earth asteroids 
+id 
+exp_time 
+float64 
+[] 
+d 
+exposure time 
+ra 
+float64 
+[] 
+deg 
+right ascension 
+dec 
+float64 
+[] 
+deg 
+declination 
+aph 
+str32 
+[] 
+mag 
+apparent magnitude 
+delta_d 
+float64 
+[] 
+arcsec 
+spherical distance 
+between ephemeris 
+and detected 
+delta_aph 
+float64 
+[] 
+mag 
+difference between 
+predicted and 
+actual apparent 
+magnitude

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "FWHM的数据类型是什么？", "answer": "FWHM的数据类型是int（但在某些描述中可能也提到其值为浮点数，但在此问答中根据给出的内容确定为int）"},
+    {"question": "RA_OFF表示什么偏移量，单位是？", "answer": "RA_OFF表示median RA offset from CAL_REF，单位是arcsec（角秒）"},
+    {"question": "NS_FLUX表示什么数量？", "answer": "NS_FLUX表示total number of stars detected（检测到的恒星总数）"},
+    {"question": "MED_CLR表示什么颜色的中位数？", "answer": "从文档中找不到答案（因为MED_CLR描述为median color of matched stars，但没有明确说明是什么颜色的中位数）"},
+    {"question": "SKY_MAG估计的背景是多少(mag/arcsec^2)？", "answer": "SKY_MAG估计的背景是21.9735 (mag/arcsec^2)"},
+    {"question": "MAG_LIM的5-sigma检测极限是多少？", "answer": "MAG_LIM的5-sigma检测极限是22.6978"},
+    {"question": "V_QC1表示什么版本？", "answer": "V_QC1表示version of QC1（QC1的版本）"},
+    {"question": "S_QC1的状态值有哪些可能？", "answer": "S_QC1的状态值有0/1/2"},
+    {"question": "x_image表示什么位置？", "answer": "x_image表示object position along x (pixel)，即对象沿x轴的位置（像素）"},
+    {"question": "aph表示什么类型的星等？", "answer": "aph表示apparent magnitude（视星等）"}
+]
+```

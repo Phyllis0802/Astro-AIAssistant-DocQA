@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "1级数据文件的名称格式是什么？", "answer": "1级数据文件的名称格式为：CSST_HSTDM__type_yyyymmddHHMMSS_yyyymmddHHMMSS__OBSID_MM-NNNN-L1_VER.fits，其中type表示数据类型，yyyymmddHHMMSS是八位时间戳信息，OBSID_MM-NNNN-L1_VER是观测标识和版本信息。"},
+    {"question": "1级数据文件名中的type表示什么？", "answer": "1级数据文件名中的type表示数据类型，包括科学数据SCI，处理过程中采用的辅助信息AUX，质量检查与控制数据QC。"},
+    {"question": "1级数据文件名中的时间戳信息代表什么？", "answer": "1级数据文件名中的时间戳信息代表观测从开始到结束的时间段，由两个八位时间戳信息组合而成。"},
+    {"question": "SCI类型数据在csst-hstdm l1处理流程中是什么角色？", "answer": "SCI类型数据是标准的1级数据处理流水线csst-hstdm l1的最终数据产品。"},
+    {"question": "AUX类型数据包含哪些信息？", "answer": "AUX类型数据是csst-hstdm l1处理过程中涉及的辅助数据参数（如BLK，OFF点选择，指向校准，效率校准）等相关信息记录数据。"},
+    {"question": "QC类型数据主要用于什么？", "answer": "QC类型数据主要用于对太赫兹模块0级数据进行QC0的具体检测结果，以及对太赫兹模块1级数据进行QC1的具体检测结果。"},
+    {"question": "CSST_HSTDM_CAL_context_*_*.fits文件包含哪些内容？", "answer": "CSST_HSTDM_CAL_context_*_*.fits文件包含1级数据文件生成过程中涉及的所有数据文件索引表，所产生数据的时间段内太赫兹模块具体的工作模式时序列表（工作模式包括正常观测、OFF点校准，冷热负载校准），以及处理流程历史信息。"},
+    {"question": "主巡天模块多色成像1级数据包含多少个HDU？", "answer": "主巡天模块多色成像1级数据包含9个HDU。"},
+    {"question": "主巡天无缝光谱1级科学数据产品文件包含哪些扩展？", "answer": "主巡天无缝光谱1级科学数据产品文件包含4个扩展（HDU），分别是PRIMARY、IMAGE、ERROR、FLAG和CAL_WCS。"},
+    {"question": "主巡天无缝光谱1级数据的第一个HDU扩展包含哪些信息？", "answer": "主巡天无缝光谱1级数据的第一个HDU扩展（SCI图像）包含CCD相关信息、WCS相关数据等内容，大部分关键字继承自0级数据header中的信息，其data为二维矩阵数据，源于0级数据。"}
+]
+```

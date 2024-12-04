@@ -1,0 +1,60 @@
+风风是全球地球空间科学第一个卫星名称GGS/Wind, ISTP/Wind, Interplanetary Physics Laboratory任务类型日心轨道运营方NASA国际卫星标识符1994-071A卫星目录序号23333网站http://wind.nasa.gov/任务时长3 years (planned)29年，8个月，20天 (in progress)
+航天器属性制造方马丁·玛丽埃塔发射质量1,250千克（2,760磅） [1]干质量950千克（2,090磅）有效载荷质量195千克（430磅）尺寸2.4乘1.8米（7英尺10英寸乘5英尺11英寸）功率370 watts
+任务开始发射日期1 November 1994, 09:31:00 UTC运载火箭三角洲2号运载火箭 7925-10 (Delta 227)发射场卡纳维拉尔角空军基地LC-17B发射台承包方麦克唐纳-道格拉斯公司
+轨道参数参照系日心轨道轨域L1 拉格朗日点
+太阳轨道器入轨May 2004
+3DPThree-Dimensional Plasma and Energetic Particle Investigation for the Wind SpacecraftTGRSTransient Gamma-Ray SpectrometerMFIMagnetic Field InvestigationWAVESRadio and Plasma Wave ExperimentSWESolar Wind ExperimentSMSSolar Wind and Suprathermal Ion Composition ExperimentKONUSGamma-Ray Burst ExperimentEPACTEnergetic Particles: Acceleration, Composition, and TransportWind mission patch
+International Solar-Terrestrial Physics Science Initiative← Geotail极 → 
+风（Wind）是美国国家航空航天局科学卫星，也是全球地球空间科学卫星其中之一，于1994年11月1日9:31 UTC从佛罗里达州梅里特岛卡纳维拉尔角空军基地LC-17B发射台发射，搭载三角洲2号运载火箭。风由位于新泽西州东温莎镇的马丁·玛丽埃塔设计和制造。风卫星是一颗自旋稳定的圆柱形卫星，直径为2.4米（7 英尺 10 英寸），高度为1.8 米（5 英尺 11 英寸）[2]。
+风卫星可以研究太阳风和地球磁层中的无线电波和等离子体。风卫星最初任务是在L1拉格朗日点绕太阳运行，但是在太阳和太阳圈探测器和先进成分探测器被发射到同一位置后，风卫星研究目标变更为研究磁层和近月环境。自2004年5月以来，风卫星一直处于 L1。风卫星目前有足够的燃料在L1上仍可以持续使用50年，至少到2070年前[3]。风卫星目前继续收集数据，到2020年底，已为5810篇科学出版物贡献了数据。
+
+参考资料[编辑]
+
+
+^ WIND Solar-Terrestrial Mission. ESA eoPortal. European Space Agency.   [August 19, 2018]. （原始内容存档于2021-12-31）. 
+
+^ NASA Wind Home Page. NASA.   [2021-12-26]. （原始内容存档于2022-06-25）. 
+
+^ Tran, Lina. 25 Years of Science in the Solar Wind. NASA. 2019-10-31  [2022-04-12]. （原始内容存档于2021-02-24）. 
+
+
+查论编太阳太阳内部结构
+核心
+辐射层
+差旋层
+对流层
+大气层光球
+超米粒组织
+米粒组织
+光斑
+太阳黑子
+色球
+谱斑
+针状体
+莫尔顿波
+耀斑
+日珥
+日冕
+过渡区
+冕洞
+冕环
+日冕物质抛射
+盔状流
+费米辉光
+活动
+太阳周期
+太阳周期表
+太阳极大期
+太阳极小期
+沃夫数
+耀斑
+毫微闪焰
+日震
+太阳圈
+太阳风
+电流片
+终端激波
+日鞘
+日球层顶
+弓形激波
+

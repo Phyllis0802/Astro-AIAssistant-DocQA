@@ -1,0 +1,447 @@
+DEC_PNT0
+47.19525833333330
+float DEC of the pointing
+(degrees) at
+CABSTART
+EXPEND
+24597671.00001160
+float exposure end time
+(MJD)
+CABEND
+24597671.00001160
+float nearst absolute time
+after exposure end
+(MJD)
+SUNANGL1
+50.0
+float angle between sun and
+optical axis at
+CABEND
+MOONANG1 30.0
+float angle between moon
+and optical axis at
+CABEND
+TEL_ALT1
+20.0
+float angle between
+groud_plane and
+optical axis at C
+POS_ANG1
+20.0
+float angle bwt y axis and
+the North Pole at
+88
+CABEND
+POSI1_X
+5152.43457735
+float the orbital position in X
+at CABEND
+POSI1_Y
+-850.64604263
+float the orbital position in Y
+at CABEND
+POSI1_Z
+4297.77083803
+float the orbital position in Z
+at CABEND
+VELO1_X
+2.66632246
+float The orbital velocity in
+X at CABEND
+VELO1_Y
+6.97307976
+float The orbital velocity in
+Y at CABEND
+VELO1_Z
+-1.80175713
+float The orbital velocity in
+Z at CABEND
+EULER1_1
+float Euler angle 1
+at CABEND
+EULER1_2
+float Euler angle 2
+at CABEND
+EULER1_3
+float Euler angle 3
+at CABEND
+RA_PNT1
+13.49797166666670
+float RA of the pointing
+(degrees) at CABEND
+DEC_PNT1
+47.19525833333330
+float DEC of the pointing
+(degrees) at CABEND
+EXPTIME
+150.0
+float exposure time length
+(EXPEND-
+EXPSTART)
+EPOCH
+2000.0
+float coordinate epoch
+CHECKSUM OFZaO9YVOEYaO9YU
+str16 HDU checksum
+updated 2023-07-
+13T19:48:59
+DATASUM
+0
+str1
+data unit checksum
+updated 2023-07-
+13T19:48:59
+表38:HSTDM 数据文件HDU1 头文件(header)关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str5
+Image extension
+BITPIX
+-64
+int
+array data type
+89
+NAXIS
+2
+int
+number of array dimensions
+NAXIS1
+2
+int
+NAXIS2
+16384
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+SCI
+str3
+extension name
+EXTVER
+1
+int
+extension version
+BUNIT
+adu
+str3
+physical unit of array value
+OPERATOR
+admin
+str
+Telescope operator
+CTYPE1
+spectrum amplitude
+str18 Name of the physical coordinate
+for axis 1
+CRVAL1
+int
+Offset value for axis 1(Offset
+frequency)
+CDELT1
+62.5
+float
+Frequency resolution:62.5KHz
+CRPIX1
+int
+Reference index of frequency axis
+DATE-OBS
+2024-08-17T06:05:12
+str19 Date when this observation begin
+OBJECT
+M31
+str
+source name
+UTCSTART
+2024-08-17T06:05:12
+str19 Date when this corresponding data
+begin expose
+UTCEND
+2024-08-17T06:05:12
+str19 Date when this corresponding data
+end exposed
+PROID
+PI_OBJECT_SCIENCYOBJ
+str20 project id of this piece of exposure
+data bel
+SRCTYPE
+single
+str6
+source type: single or extend
+TELRA
+23.4235
+float
+telescope Boresight RA (ICRS
+J2000)
+TELDEC
+23.4235
+float
+telescope Boresight DEC (ICRS
+J2000)
+TELVPA
+23.4235
+float
+telescope Boresight vertical
+position angle or
+90
+TELEQUI
+J2000
+str5
+Equinox of ERF coords: J2000
+CHOPPING
+TRUE
+bool
+True: when switch to
+blackbody(cold), False : w
+NODDING
+TRUE
+bool
+True: when switch to background
+signal, False :
+SCANNING
+TRUE
+bool
+True: when operates in OTF mode,
+False : when o
+SCANNUM
+30
+int
+number of points do the on per off
+TRACERR
+bool
+Tracking error flag when true
+means telecscope
+DATATYPE
+SPECTRAL
+str8
+spectral or FULL-POWER
+SCNRA0
+13.6234
+float
+start of scan RA (in degrees)
+SCNDEC0
+33.6234
+float
+start of scan DEC (in degrees)
+SCNRRAF
+14.6234
+float
+End of scan RA (in degrees)
+SCNDECF
+43.6234
+float
+End of scan DEC (in degrees)
+SCNDIR
+1
+int
+Scan direction (1: along RA, 2:
+along the DEC o
+LINE
+CO
+str2
+Line NAME of spectrum
+DET_NAME
+sis1
+str4
+Dector Name(sis1, sis2)
+RESTFREQ
+492.65
+float
+Rest frequency of line(In GHz)
+OBSFREQ
+492.65
+float
+Sky frequency (In GHz)
+LOFREQ
+492.65
+float
+oscillator frequency
+IMAGFREQ
+490.23
+float
+Image frequency(In GHz)
+SIDEBAND
+1
+int
+Sideband indicator (lower:-1,
+upper 1)
+NUMCHN
+16384
+int
+number of ffts channels
+LO_LOCK
+TRUE
+bool
+oscillator stable?
+SPE_TIME
+16384.9
+float
+the corresponding time of internal
+spectrum dat
+91
+BEFF
+0.89
+float
+beam efficiency
+FOREFF
+0.89
+float
+forward efficiency
+BEAM_AT1
+0.89
+float
+beam offset and direct cosine
+BEAM_AT2
+float
+beam offset and direct cosine
+BEAM_AT3
+float
+beam offset and direct cosine
+BEAM_AT4
+float
+beam offset and direct cosine
+BEAM_AT5
+float
+beam offset and direct cosine
+TRA_ERR1
+float
+tracking error in RA (J2000) in
+degrees
+TRA_ERR2
+float
+tracking error in DEC (J2000) in
+degrees
+SUN_ANG
+float
+Angle between the THz module
+major axis and the
+DATAQUAL
+int
+data quality indicator (1~10),
+estimated throug
+TSYS
+250
+int
+total system noise temperature( in
+K)
+TAMB
+300
+int
+temperature of ambient in K
+EXPTIME
+0.98
+float
+real integration time (s)
+SPECTIME
+1.0
+float
+specified integration time (s)
+SISI_MIN
+1.5
+float
+min value of SIS current for the a
+period of ti
+SISI_MAX
+5.5
+float
+max value of SIS current for the a
+period of ti
+SISI_RMS
+0.5
+float
+rms value of SIS current for the a
+period of ti
+SISV_MIN
+0.5
+float
+min value of SIS voltage for the a
+period of ti
+SISV_MAX
+0.5
+float
+max value of SIS voltage for the a
+period of ti
+SISV_RMS
+0.5
+float
+rms value of SIS voltage for the a
+period of ti
+MULV_MIN
+0.5
+float
+min value of multiplier voltage for
+the a perio
+92
+MULV_MAX
+0.5
+float
+max value of multiplier voltage for
+the a perio
+MULV_RMS
+0.5
+float
+rms value of multiplier voltage for
+the a perio
+MULI_MIN
+0.5
+float
+min value of multiplier current for
+the a perio
+MULI_MAX
+0.5
+float
+max value of multiplier current for
+the a perio
+MULI_RMS
+0.5
+float
+rms value of multiplier current for
+the a perio
+CLANVMIN
+0.5
+float
+min value of normal temperature
+voltage for the
+CLANVMAX
+0.5
+float
+max value of normal temperature
+voltage for the
+CLANVRMS
+0.5
+float
+rms value of normal temperature
+voltage for the
+CLANIMIN
+0.5
+float
+min value of normal temperature
+current for the
+CLANIMAX
+0.5
+float
+max value of normal temperature
+current for the
+CLANIRMS
+0.5
+float
+rms value of normal temperature
+current for the
+CHECKSUM
+dIMjgFJhdFJhdFJh
+str16 HDU checksum updated 2023-07-
+13T19:48:59
+DATASUM
+908286241
+str9
+data unit checksum updated 2023-
+07-13T19:48:59

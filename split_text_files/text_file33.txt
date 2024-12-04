@@ -1,0 +1,667 @@
+PSFAXIS3 
+10 
+number of 
+element along 
+this axis 
+int 
+ 
+EXTNAME 
+PSF_DATA 
+extension name 
+str8 
+ 
+TTYPE1 
+PSF_MASK 
+ 
+str8 
+ 
+TFORM1 
+50410E 
+ 
+str6 
+ 
+TDIM1 
+(71, 71, 10) 
+ 
+str12 
+ 
+R_PSF 
+CCDS 
+reference PSF 
+str 
+ 
+CHECKSUM 
+ljSAmhP9lhPAlhP9 
+HDU checksum 
+updated 2024-03-
+11T15:01:30 
+str 
+ 
+DATASUM 
+1792924348 
+data unit 
+checksum 
+updated 2024-03-
+11T15:01:30 
+str10 
+ 
+ 
+表23: 多⾊成像1 级数据关键字（HDU9） 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+image extension 
+str 
+ 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+0 
+number of array 
+dimensions 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+V_WCS 
+1.3 
+version of WCS 
+calibration 
+str 
+ 
+T_WCS 
+2023-12-
+29T04:55:46.520 
+timestamp of 
+WCS calibration 
+str23 
+ 
+S_WCS 
+0 
+status of WCS 
+calibration 
+int 
+ 
+WCSDIM 
+2 
+number of WCS 
+axes 
+float 
+ 
+ 
+ 
+75 
+CTYPE1 
+RA---TPV 
+type of RA WCS 
+projection 
+str8 
+ 
+CTYPE2 
+DEC--TPV 
+type of Dec 
+WCS projection 
+str8 
+ 
+CUNIT1 
+deg 
+axis unit 
+str3 
+ 
+CUNIT2 
+deg 
+axis unit 
+str3 
+ 
+CRVAL1 
+192.948161 
+value of 
+reference pixel 
+on axis 1 
+float 
+ 
+CRVAL2 
+28.0424743 
+value of 
+reference pixel 
+on axis 2 
+float 
+ 
+CRPIX1 
+4548.3895 
+x-coordinate of 
+reference pixel 
+float 
+ 
+CRPIX2 
+4623.53827 
+y-coordinate of 
+reference pixel 
+float 
+ 
+CD1_1 
+-8.13E-06 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+CD1_2 
+-1.87E-05 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+CD2_1 
+1.88E-05 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+CD2_2 
+-8.10E-06 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+PV1_0 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_1 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_2 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+76 
+PV1_3 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_4 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_5 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_6 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_7 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_8 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_9 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_10 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_11 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_12 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_13 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_14 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_15 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+77 
+PV1_16 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_17 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_18 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_19 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_20 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_21 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_22 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_23 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_0 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_1 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_2 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_3 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_4 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+78 
+PV2_5 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_6 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_7 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_8 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_9 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_10 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_11 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_12 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_13 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_14 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_15 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_16 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_17 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+79 
+PV2_18 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_19 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_20 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_21 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_22 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_23 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+RA_CEN 
+-9999 
+center of field in 
+RA (deg) 
+float 
+ 
+DEC_CEN 
+-9999 
+center of field in 
+Dec (deg) 
+float 
+ 
+ASTRMED1 
+-9999 
+astrom. median 
+for RA (arcsec) 
+float 
+ 
+ASTRMED2 
+-9999 
+astrom. median 
+for Dec (arcsec) 
+float 
+ 
+ASTRRMS1 
+-9999 
+astrom. 
+dispersion for 
+RA (arcsec) 
+float 
+ 
+ASTRRMS2 
+-9999 
+astrom. 
+dispersion for 
+Dec (arcsec) 
+float 
+ 
+NS_WCS 
+-9999 
+number of WCS 
+calibration stars 
+int 
+ 
+EXTNAME 
+WCS 
+extension name 
+str 
+ 
+CHECKSUM 
+PAcGP0aEP7aEP7aE 
+HDU checksum 
+updated 2024-
+03-14T09:05:49 
+str 
+ 
+ 
+ 
+80 
+DATASUM 
+0 
+data unit 
+checksum 
+updated 2024-
+03-14T09:05:49 
+str 
+ 
+ 
+(II)主巡天⽆缝光谱1 级数据关键字 
+表24：⽆缝光谱1 级数据HDU1 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+image 
+extension 
+str 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+9216 
+ 
+int 
+ 
+NAXIS2 
+9232 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+IMAGE 
+extension name 
+str 
+ 
+EXTVER 
+1 
+extension 
+version number 
+int 
+ 
+BUNIT 
+electron/s 
+physical unit of 
+array values 
+str 
+ 
+COMMENT

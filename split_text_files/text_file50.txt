@@ -1,0 +1,607 @@
+NAXIS1 
+35 
+int length of first 
+data axis 
+ 
+EXTNAME 
+‘QC1’ 
+int 
+ 
+ 
+ 
+ 
+182 
+EXTVER 
+always 1 
+int 
+ 
+ 
+QC1PARM 
+‘algorithm=(standard, 
+average,...),associate_file_num=10' 
+C90 
+QC1 
+parameter for 
+the generated 
+sci data 
+ 
+ 
+ 
+（VII）主巡天天体测量模块1 级数据头文件关键字 
+表48：主巡天天体测量1 级数据关键字(HDU1) 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+0 
+number of 
+array 
+dimensions 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+IMAGE 
+extension name 
+str5 
+ 
+EXTVER 
+1 
+extension 
+version number 
+int 
+ 
+BUNIT 
+electron/s 
+physical unit of 
+array values 
+str10 
+ 
+COMMENT 
+===========
+===========
+===========
+===========
+===========
+===========
+====== 
+ 
+str72 
+ 
+CAMERA 
+MS 
+camera of main 
+survey 
+str2 
+ 
+ 
+ 
+183 
+DETSN 
+12345678 
+detector serial 
+number 
+str8 
+ 
+DETNAME 
+CCD 
+detector type 
+str3 
+ 
+DETTEMP1 
+173 
+detector 
+temperature at 
+EXPSTART 
+(K) 
+float 
+ 
+DETTEMP2 
+173 
+detector 
+temperature at 
+EXPEND (K) 
+float 
+ 
+DETTEMP3 
+173 
+detector 
+temperature at 
+READT1 (K) 
+float 
+ 
+DETSIZE 
+9560x9264 
+detector size 
+str9 
+ 
+DATASECT 
+9216x9232 
+data section 
+str9 
+ 
+PIXSCAL1 
+0.074 
+pixel scale for 
+axis 1 
+(arcsec/pixel) 
+float 
+ 
+PIXSCAL2 
+0.074 
+pixel scale for 
+axis 2 
+(arcsec/pixel) 
+float 
+ 
+PIXSIZE1 
+10 
+pixel size for 
+axis 1 (micron) 
+int 
+ 
+PIXSIZE2 
+10 
+pixel size for 
+axis 2 (micron) 
+int 
+ 
+CHIPID 
+9 
+chip ID 
+str2 
+ 
+CHIPLABL 
+r-1 
+chip label 
+str3 
+ 
+FILTER 
+r 
+filter name 
+str1 
+ 
+NCHANNEL 
+16 
+number of 
+readout 
+channels 
+int 
+ 
+PSCAN1 
+27 
+horizontal 
+prescan width, 
+per readout 
+channel 
+int 
+ 
+ 
+ 
+184 
+PSCAN2 
+8 
+vertical prescan 
+width, per 
+readout channel 
+int 
+ 
+OSCAN1 
+16 
+horizontal 
+overscan width, 
+per readout 
+channel 
+int 
+ 
+OSCAN2 
+16 
+vertical 
+overscan width, 
+per readout 
+channel 
+int 
+ 
+GAINLVL 
+1 
+gain level 
+str2 
+ 
+GAIN01 
+1.089977689 
+gain (e-/ADU, 
+channel 01) 
+float 
+ 
+GAIN02 
+1.09917562 
+gain (e-/ADU, 
+channel 02) 
+float 
+ 
+GAIN03 
+1.107649165 
+gain (e-/ADU, 
+channel 03) 
+float 
+ 
+GAIN04 
+1.121722215 
+gain (e-/ADU, 
+channel 04) 
+float 
+ 
+GAIN05 
+1.081220798 
+gain (e-/ADU, 
+channel 05) 
+float 
+ 
+GAIN06 
+1.094562729 
+gain (e-/ADU, 
+channel 06) 
+float 
+ 
+GAIN07 
+1.111430472 
+gain (e-/ADU, 
+channel 07) 
+float 
+ 
+GAIN08 
+1.105606424 
+gain (e-/ADU, 
+channel 08) 
+float 
+ 
+GAIN09 
+1.10187497 
+gain (e-/ADU, 
+channel 09) 
+float 
+ 
+GAIN10 
+1.085064047 
+gain (e-/ADU, 
+channel 10) 
+float 
+ 
+GAIN11 
+1.122187725 
+gain (e-/ADU, 
+channel 11) 
+float 
+ 
+GAIN12 
+1.114934178 
+gain (e-/ADU, 
+channel 12) 
+float 
+ 
+ 
+ 
+185 
+GAIN13 
+1.119336505 
+gain (e-/ADU, 
+channel 13) 
+float 
+ 
+GAIN14 
+1.09303619 
+gain (e-/ADU, 
+channel 14) 
+float 
+ 
+GAIN15 
+1.084334798 
+gain (e-/ADU, 
+channel 15) 
+float 
+ 
+GAIN16 
+1.090894538 
+gain (e-/ADU, 
+channel 16) 
+float 
+ 
+RON01 
+5 
+readout noise 
+(e-, channel 01) 
+float 
+ 
+RON02 
+5 
+readout noise 
+(e-, channel 02) 
+float 
+ 
+RON03 
+5 
+readout noise 
+(e-, channel 03) 
+float 
+ 
+RON04 
+5 
+readout noise 
+(e-, channel 04) 
+float 
+ 
+RON05 
+5 
+readout noise 
+(e-, channel 05) 
+float 
+ 
+RON06 
+5 
+readout noise 
+(e-, channel 06) 
+float 
+ 
+RON07 
+5 
+readout noise 
+(e-, channel 07) 
+float 
+ 
+RON08 
+5 
+readout noise 
+(e-, channel 08) 
+float 
+ 
+RON09 
+5 
+readout noise 
+(e-, channel 09) 
+float 
+ 
+RON10 
+5 
+readout noise 
+(e-, channel 10) 
+float 
+ 
+RON11 
+5 
+readout noise 
+(e-, channel 11) 
+float 
+ 
+RON12 
+5 
+readout noise 
+(e-, channel 12) 
+float 
+ 
+RON13 
+5 
+readout noise 
+(e-, channel 13) 
+float 
+ 
+RON14 
+5 
+readout noise 
+(e-, channel 14) 
+float 
+ 
+ 
+ 
+186 
+RON15 
+5 
+readout noise 
+(e-, channel 15) 
+float 
+ 
+RON16 
+5 
+readout noise 
+(e-, channel 16) 
+float 
+ 
+ROTIME0 
+2024-08-
+17T06:07:42.1 
+readout start 
+time (UTC) 
+str21 
+ 
+ROTIME1 
+2024-08-
+17T06:08:22.1 
+readout end 
+time (UTC) 
+str21 
+ 
+ROSPEED 
+10 
+readout speed 
+(MHz) 
+float 
+ 
+EXPTIME 
+150 
+exposure time 
+(s) 
+float 
+ 
+DARKTIME 
+152 
+dark current 
+time (s) 
+float 
+ 
+SHTSTAT 
+TRUE 
+shutter status, 
+T=open, 
+F=close 
+bool 
+ 
+SHTOPEN0 
+2024-08-
+17T06:07:42.1 
+shutter open 
+time (start, 
+UTC) 
+str21 
+ 
+SHTOPEN1 
+2024-08-
+17T06:07:42.1 
+shutter open 
+time (end, 
+UTC) 
+str21 
+ 
+SHTCLOS0 
+2024-08-
+17T06:07:42.1 
+shutter close 
+time (start, 
+UTC) 
+str21 
+ 
+SHTCLOS1 
+2024-08-
+17T06:07:42.1 
+shutter close 
+time (end, 
+UTC) 
+str21 
+ 
+LEDFLAG 
+main 
+main/backup 
+LED 
+str4 
+ 
+LEDSTAT 
+0 
+LED status 
+str14 
+ 
+LEDT01 
+0 
+LED01 flash 
+time (ms) 
+float 
+ 
+LEDT02 
+0 
+LED02 flash 
+time (ms) 
+float 
+ 
+ 
+ 
+187 
+LEDT03 
+0 
+LED03 flash 
+time (ms) 
+float 
+ 
+LEDT04 
+0 
+LED04 flash 
+time (ms) 
+float 
+ 
+LEDT05 
+0 
+LED05 flash 
+time (ms) 
+float 
+ 
+LEDT06 
+0 
+LED06 flash 
+time (ms) 
+float 
+ 
+LEDT07 
+0 
+LED07 flash 
+time (ms) 
+float 
+ 
+LEDT08 
+0 
+LED08 flash 
+time (ms) 
+float 
+ 
+LEDT09 
+0 
+LED09 flash 
+time (ms) 
+float 
+ 
+LEDT10 
+0 
+LED10 flash 
+time (ms) 
+float 
+ 
+LEDT11 
+0 
+LED11 flash 
+time (ms) 
+float 
+ 
+LEDT12 
+0 
+LED12 flash 
+time (ms) 
+float 
+ 
+LEDT13 
+0 
+LED13 flash 
+time (ms) 
+float 
+ 
+LEDT14 
+0 
+LED14 flash 
+time (ms) 
+float 
+ 
+LEDTEMP 
+173 
+LED 
+temperature (K) 
+float 
+ 
+V_QC0

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "XMM-牛顿卫星是哪个组织发射的？", "answer": "欧洲空间局"},
+    {"question": "XMM-牛顿卫星的发射日期是什么时候？", "answer": "1999年12月10日"},
+    {"question": "XMM-牛顿卫星在哪个发射场发射的？", "answer": "库鲁发射场"},
+    {"question": "XMM-牛顿卫星使用的发射载体是什么？", "answer": "亚利安五号火箭"},
+    {"question": "XMM-牛顿卫星的质量是多少？", "answer": "3800公斤"},
+    {"question": "XMM-牛顿卫星的轨道周期有多长？", "answer": "48小时"},
+    {"question": "XMM-牛顿卫星的集光面积有多大？", "answer": "4,300 cm²"},
+    {"question": "XMM-牛顿卫星原计划寿命是多久？", "answer": "两年"},
+    {"question": "XMM-牛顿卫星上搭载了几台掠射式X射线望远镜？", "answer": "3台"},
+    {"question": "XMM-牛顿卫星上的EPIC工作能段是什么？", "answer": "0.2-12keV"}
+]
+```

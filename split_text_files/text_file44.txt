@@ -1,0 +1,580 @@
+physical unit of 
+array values 
+str 
+ 
+CMIRRPOS 
+FALSE 
+position of 
+calibration 
+switch mirror 
+bool 
+ 
+FLAMP 
+0 
+status of flat 
+lamp 
+int 
+ 
+ALAMP 
+0 
+status of flat 
+atomic 
+emission line 
+lamp 
+int 
+ 
+IFSMODE 
+0 
+IFS working 
+mode 
+int 
+ 
+IFSTEMP 
+0 
+IFS 
+components 
+temperature in 
+degC 
+float 
+ 
+IFSSTAT 
+0 
+IFS 
+components 
+status 
+parameter 
+int 
+ 
+CAMERA 
+All 
+the range of 
+spectra 
+str 
+ 
+ 
+ 
+144 
+DETSNB 
+CCD231-c4-00 
+B: detector 
+serial number 
+str 
+ 
+DETSNR 
+CCD231-c6-00 
+R: detector 
+serial number 
+str 
+ 
+DETNAMEB 
+blue 
+B: detector 
+name 
+str 
+ 
+DETNAMER 
+red 
+R: detector 
+name 
+str 
+ 
+DETSIZEB 
+2048*4096 
+B: detector size 
+str 
+ 
+DETSIZER 
+3072*6144 
+R: detector size 
+str 
+ 
+DATASECT 
+data-section 
+data section 
+str 
+ 
+PXSCAL1B 
+1344 
+B: pixel scale 
+for axis 1 
+float 
+ 
+PXSCAL1R 
+1856 
+R: pixel scale 
+for axis 1 
+float 
+ 
+PXSCAL2B 
+9672 
+B: pixel scale 
+for axis 2 
+float 
+ 
+PXSCAL2R 
+13768 
+R: pixel scale 
+for axis 2 
+float 
+ 
+PXSIZE1B 
+15 
+B: pixel size for 
+axis 1 (micron) 
+float 
+ 
+PXSIZE1R 
+15 
+R: pixel size for 
+axis 1 (micron) 
+float 
+ 
+PXSIZE2B 
+15 
+B: pixel size for 
+axis 2 (micron) 
+float 
+ 
+PXSIZE2R 
+15 
+R: pixel size for 
+axis 2 (micron) 
+float 
+ 
+NCHANB 
+4 
+B: number of 
+readout 
+channels 
+int 
+ 
+NCHANR 
+4 
+R: number of 
+readout 
+channels 
+int 
+ 
+PSCAN1B 
+50 
+B: horizontal 
+prescan width 
+int 
+ 
+ 
+ 
+145 
+PSCAN1R 
+50 
+R: horizontal 
+prescan width 
+int 
+ 
+PSCAN2B 
+0 
+B: vertical 
+prescan height 
+int 
+ 
+PSCAN2R 
+0 
+R: vertical 
+prescan height 
+int 
+ 
+OSCAN1B 
+320 
+B: horizontal 
+overscan width 
+int 
+ 
+OSCAN1R 
+320 
+R: horizontal 
+overscan width 
+int 
+ 
+OSCAN2B 
+320 
+B: vertical 
+overscan height 
+int 
+ 
+OSCAN2R 
+320 
+R: vertical 
+overscan height 
+int 
+ 
+EXPT0_1B 
+2024-03-
+18T13:35:41.9 
+B: exp. start 
+time of the 1st 
+frame (UTC) 
+str21 
+ 
+EXPT0_1R 
+2024-03-
+18T13:35:41.9 
+R: exp. start 
+time of the 1st 
+frame (UTC) 
+str21 
+ 
+EXPT1_1B 
+2024-03-
+18T13:40:41.9 
+B: exp. end 
+time of the 1st 
+frame (UTC) 
+str21 
+ 
+EXPT1_1R 
+2024-03-
+18T13:40:41.9 
+R: exp. end 
+time of the 1st 
+frame (UTC) 
+str21 
+ 
+EXPT0_2B 
+2024-03-
+18T13:40:42.0 
+B: exp. start 
+time of the 2nd 
+frame (UTC) 
+str21 
+ 
+EXPT0_2R 
+2024-03-
+18T13:40:42.0 
+R: exp. start 
+time of the 2nd 
+frame (UTC) 
+str21 
+ 
+EXPT1_2B 
+2024-03-
+18T13:45:42.0 
+B: exp. end 
+time of the 2nd 
+frame (UTC) 
+str21 
+ 
+EXPT1_2R 
+2024-03-
+18T13:45:42.0 
+R: exp. end 
+time of the 2nd 
+frame (UTC) 
+str21 
+ 
+ 
+ 
+146 
+EXPT0_3B 
+2024-03-
+18T13:45:42.1 
+B: exp. start 
+time of the 3rd 
+frame (UTC) 
+str21 
+ 
+EXPT0_3R 
+2024-03-
+18T13:45:42.1 
+R: exp. start 
+time of the 3rd 
+frame (UTC) 
+str21 
+ 
+EXPT1_3B 
+2024-03-
+18T13:50:42.1 
+B: exp. end 
+time of the 3rd 
+frame (UTC) 
+str21 
+ 
+EXPT1_3R 
+2024-03-
+18T13:50:42.1 
+R: exp. end 
+time of the 3rd 
+frame (UTC) 
+str21 
+ 
+DETTEM0B 
+0 
+B: detector 
+temperature at 
+EXPT0_1 (K) 
+float 
+ 
+DETTEM0R 
+0 
+R: detector 
+temperature at 
+EXPT0_1 (K) 
+float 
+ 
+DETTEM1B 
+0 
+B: detector 
+temperature at 
+EXPT1_3 (K) 
+float 
+ 
+DETTEM1R 
+0 
+R: detector 
+temperature at 
+EXPT1_3 (K) 
+float 
+ 
+BIN_XB 
+1 
+B: bin number 
+in X 
+(wavelength) 
+int 
+ 
+BIN_XR 
+1 
+R: bin number 
+in X 
+(wavelength) 
+int 
+ 
+BIN_YB 
+1 
+B: bin number 
+in Y (spatial) 
+int 
+ 
+BIN_YR 
+1 
+R: bin number 
+in Y (spatial) 
+int 
+ 
+GAIN1B 
+1.50999999 
+B: CCD gain 
+(e-/ADU, 
+channel 1) 
+float 
+ 
+ 
+ 
+147 
+GAIN1R 
+1.51999999 
+R: CCD gain 
+(e-/ADU, 
+channel 1) 
+ 
+ 
+GAIN2B 
+1.580000043 
+B: CCD gain 
+(e-/ADU, 
+channel 2) 
+float 
+ 
+GAIN2R 
+1.549999952 
+R: CCD gain 
+(e-/ADU, 
+channel 2) 
+float 
+ 
+GAIN3B 
+1.480000019 
+B: CCD gain 
+(e-/ADU, 
+channel 3) 
+float 
+ 
+GAIN3R 
+1.490000009 
+R: CCD gain 
+(e-/ADU, 
+channel 3) 
+float 
+ 
+GAIN4B 
+1.549999952 
+B: CCD gain 
+(e-/ADU, 
+channel 4) 
+float 
+ 
+GAIN4R 
+1.529999971 
+R: CCD gain 
+(e-/ADU, 
+channel 4) 
+float 
+ 
+DARK1B 
+0.0008 
+B: CCD dark 
+(e-/s, channel 
+1) 
+float 
+ 
+DARK1R 
+0.0008 
+R: CCD dark 
+(e-/s, channel 
+1) 
+float 
+ 
+DARK2B 
+0.00085 
+B: CCD dark 
+(e-/s, channel 
+2) 
+float 
+ 
+DARK2R 
+0.00084 
+R: CCD dark 
+(e-/s, channel 
+2) 
+float 
+ 
+DARK3B 
+0.00088 
+B: CCD dark 
+(e-/s, channel 
+3) 
+float 
+ 
+DARK3R 
+0.00086 
+R: CCD dark 
+(e-/s, channel 
+3) 
+float 
+ 
+ 
+ 
+148 
+DARK4B 
+0.00083 
+B: CCD dark 
+(e-/s, channel 
+4) 
+float 
+ 
+DARK4R 
+0.00085 
+R: CCD dark 
+(e-/s, channel 
+4) 
+float 
+ 
+RON1B 
+4 
+B: read noise 
+(e-, channel 1) 
+float 
+ 
+RON1R 
+4 
+R: read noise 
+(e-, channel 1) 
+float 
+ 
+RON2B 
+3.5 
+B: read noise 
+(e-, channel 2) 
+float 
+ 
+RON2R 
+3.9 
+R: read noise 
+(e-, channel 2) 
+float 
+ 
+RON3B 
+4.5 
+B: read noise 
+(e-, channel 3) 
+float 
+ 
+RON3R 
+4.8 
+R: read noise 
+(e-, channel 3) 
+float 
+ 
+RON4B 
+4.800000191 
+B: read noise 
+(e-, channel 4) 
+float 
+ 
+RON4R 
+4.9 
+R: read noise 
+(e-, channel 4) 
+float 
+ 
+DETBIA1B 
+500 
+B: amplifier 
+bias voltage 
+(ADU, 
+channel1) 
+float 
+ 
+DETBIA1R 
+510 
+R: amplifier 
+bias voltage 
+(ADU, 
+channel1) 
+float 
+ 
+DETBIA2B 
+525 
+B: amplifier 
+bias voltage 
+(ADU, 
+channel2) 
+float 
+ 
+DETBIA2R 
+515 
+R: amplifier 
+bias voltage 
+(ADU, 
+channel2) 
+float 
+ 
+ 
+ 
+149 
+DETBIA3B 
+485 
+B: amplifier 
+bias voltage 
+(ADU, 
+channel3) 
+float 
+ 
+DETBIA3R 
+495 
+R: amplifier 
+bias voltage 
+(ADU, 
+channel3) 
+float 
+ 
+DETBIA4B 
+515

@@ -1,0 +1,634 @@
+status flag for 
+dark frame 
+correction 
+int 
+ 
+STA_FLAT 
+0 
+status flag for 
+flat frame 
+correction 
+int 
+ 
+SKY_BKG 
+0.032387921 
+estimated sky 
+background (e-
+/s per pixel) 
+float 
+ 
+SKY_RMS 
+0.018825366 
+standard dev of 
+frame 
+background 
+(ADU)-> e-/s 
+float 
+ 
+SATURATE 
+300 
+flux limit of 
+saturated pixel 
+(e-/s) 
+float 
+ 
+ 
+ 
+131 
+STA_CTE 
+1 
+status flag for 
+CTE correction 
+int 
+ 
+STA_SAT 
+1 
+status flag for 
+satellite 
+correction 
+int 
+ 
+STA_CRS 
+1 
+status flag for 
+cosmic rays 
+mask 
+int 
+ 
+CRCOUNT 
+-9999 
+cosmic rays 
+counts 
+int 
+ 
+STA_NLIN 
+0 
+status flag for 
+non-linearity 
+int 
+ 
+STA_SHUT 
+0 
+status flag for 
+shutter effect 
+correction 
+int 
+ 
+STA_FRNG 
+1 
+status flag for 
+fringing effect 
+correction 
+int 
+ 
+STA_AST 
+0 
+completion 
+degree of MCI 
+astrometric 
+solution 
+int 
+ 
+VER_AST 
+v2023.01 
+version of MCI 
+astrometry soft 
+str 
+ 
+STM_AST 
+ 
+time stamp of 
+MCI astrometry 
+str 
+ 
+RADESYS 
+ICRS 
+astrometric 
+system 
+str 
+ 
+CUNIT1 
+deg 
+axis unit 
+str 
+ 
+CUNIT2 
+deg 
+axis unit 
+str 
+ 
+PV1_0 
+1.41E-05 
+projection 
+distortion 
+parameter 1_0 
+float 
+ 
+PV1_1 
+0.999351806 
+projection 
+distortion 
+parameter 1_1 
+float 
+ 
+ 
+ 
+132 
+PV1_2 
+5.04E-05 
+projection 
+distortion 
+parameter 1_2 
+float 
+ 
+PV1_4 
+-0.008989772 
+projection 
+distortion 
+parameter 1_4 
+float 
+ 
+PV1_5 
+-0.003683228 
+projection 
+distortion 
+parameter 1_5 
+float 
+ 
+PV1_6 
+-0.011975965 
+projection 
+distortion 
+parameter 1_6 
+float 
+ 
+PV1_7 
+0.20286007 
+projection 
+distortion 
+parameter 1_7 
+float 
+ 
+PV1_8 
+-0.026544072 
+projection 
+distortion 
+parameter 1_8 
+float 
+ 
+PV1_9 
+0.15674655 
+projection 
+distortion 
+parameter 1_9 
+float 
+ 
+PV1_10 
+-0.008972019 
+projection 
+distortion 
+parameter 1_10 
+float 
+ 
+PV1_12 
+5.078605197 
+projection 
+distortion 
+parameter 1_12 
+float 
+ 
+PV1_13 
+0.632606988 
+projection 
+distortion 
+parameter 1_13 
+float 
+ 
+PV1_14 
+-1.74066848 
+projection 
+distortion 
+parameter 1_14 
+float 
+ 
+PV1_15 
+0.57559164 
+projection 
+distortion 
+parameter 1_15 
+float 
+ 
+PV1_16 
+4.498540917 
+projection 
+distortion 
+parameter 1_16 
+float 
+ 
+ 
+ 
+133 
+PV2_0 
+8.22E-05 
+projection 
+distortion 
+parameter 2_0 
+float 
+ 
+PV2_1 
+1.000053182 
+projection 
+distortion 
+parameter 2_1 
+float 
+ 
+PV2_2 
+3.10E-05 
+projection 
+distortion 
+parameter 2_2 
+float 
+ 
+PV2_4 
+-0.059758437 
+projection 
+distortion 
+parameter 2_4 
+float 
+ 
+PV2_5 
+0.009598596 
+projection 
+distortion 
+parameter 2_5 
+float 
+ 
+PV2_6 
+-0.012692948 
+projection 
+distortion 
+parameter 2_6 
+float 
+ 
+PV2_7 
+0.061356166 
+projection 
+distortion 
+parameter 2_7 
+float 
+ 
+PV2_8 
+0.14482046 
+projection 
+distortion 
+parameter 2_8 
+float 
+ 
+PV2_9 
+-0.318493006 
+projection 
+distortion 
+parameter 2_9 
+float 
+ 
+PV2_10 
+0.05088614 
+projection 
+distortion 
+parameter 2_10 
+float 
+ 
+PV2_12 
+9.178757575 
+projection 
+distortion 
+parameter 2_12 
+float 
+ 
+PV2_13 
+-2.551576669 
+projection 
+distortion 
+parameter 2_13 
+float 
+ 
+PV2_14 
+11.94022013 
+projection 
+distortion 
+parameter 2_14 
+float 
+ 
+ 
+ 
+134 
+PV2_15 
+-2.770645494 
+projection 
+distortion 
+parameter 2_15 
+float 
+ 
+PV2_16 
+-1.395705043 
+projection 
+distortion 
+parameter 2_16 
+float 
+ 
+ASTIRMS1 
+0.053421501 
+astrom. 
+Dispersion 
+RMS (intern., 
+high S/N) 
+float 
+ 
+ASTIRMS2 
+0.107067612 
+astrom. 
+dispersion 
+RMS (intern., 
+high S/N) 
+float 
+ 
+ASTRRMS1 
+0.053421501 
+astrom. 
+dispersion 
+RMS (ref., high 
+S/N) 
+float 
+ 
+ASTRRMS2 
+0.107067612 
+astrom. 
+dispersion 
+RMS (ref., high 
+S/N) 
+float 
+ 
+ASTSIM 
+normal 
+image 
+classification 
+for MCI 
+Astrometry 
+str 
+ 
+ASTREF 
+Gaia dr3 v01 
+reference 
+catalogue for 
+MCI 
+Astrometry 
+str 
+ 
+DELT_RA 
+-0.00352068 
+change in 
+central RA 
+float 
+ 
+DELT_DEC 
+-0.034931729 
+change in 
+central DEC 
+float 
+ 
+DELT_PS 
+-0.034931729 
+change in 
+pixelscale 
+float 
+ 
+PHOTFLAM 
+1.20E-19 
+flux density per 
+unit wavelength 
+float 
+ 
+ 
+ 
+135 
+ZP 
+25.898 
+photometric 
+zero point in 
+magnitude 
+float 
+ 
+HISTORY 
+FLUXCORR 
+complete 
+flux calibration 
+status 
+str 
+ 
+TRANSWV 
+1.0.0 
+TransFinder 
+software 
+version 
+str 
+ 
+REFIMG 
+CSST_MCI_C
+1_EXDF_u_20
+100000001_RE
+F 
+Subtraction 
+reference 
+str 
+ 
+ 
+ 
+（IV）积分视场光谱仪1 级数据关键字 
+表31：IFS RSS 蓝端或红端相机单次曝光1 级数据⽂件中HDU1 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+3 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+32 
+ 
+int 
+ 
+NAXIS2 
+32 
+ 
+int 
+ 
+NAXIS3 
+1429 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+FLUX 
+ 
+str4 
+ 
+EXTVER 
+1 
+ 
+int 
+ 
+ 
+ 
+136 
+BUNIT 
+1E-17 
+erg/cm2/s/arcse
+c2 
+physical unit of 
+array values 
+str 
+ 
+CMIRRPOS 
+FALSE 
+position of 
+calibration 
+switch mirror 
+bool 
+ 
+FLAMP 
+0 
+status of flat 
+lamp 
+int 
+ 
+ALAMP 
+0 
+status of flat 
+atomic 
+emission line 
+lamp 
+int 
+ 
+IFSMODE 
+0 
+IFS working 
+mode 
+int 
+ 
+IFSTEMP 
+0 
+IFS 
+components 
+temperature in 
+degC 
+float 
+ 
+IFSSTAT 
+0 
+IFS 
+components 
+status 
+parameter 
+int 
+ 
+CAMERA 
+Blue 
+the range of 
+spectra 
+str 
+ 
+DETSN 
+CCD231-c4-00 
+detector serial 
+number 
+str 
+ 
+DETNAME 
+blue 
+detector name 
+str 
+ 
+DETSIZE 
+2048*4096 
+detector size 
+str 
+ 
+DATASECT 
+data-section 
+data section 
+str 
+ 
+PIXSCAL1 
+1344 
+pixel scale for 
+axis 1 
+float 
+ 
+PIXSCAL2 
+9672 
+pixel scale for 
+axis 2 
+float 
+ 
+PIXSIZE1 
+15 
+pixel size for 
+axis 1 (micron) 
+float 
+ 
+PIXSIZE2 
+15 
+pixel size for 
+axis 2 (micron) 
+float 
+ 
+ 
+ 
+137 
+NCHAN 
+4 
+number of 
+readout 
+channels 
+int 
+ 
+PSCAN1 
+50 
+horizontal 
+prescan width, 
+per readout 
+channel 
+int 
+ 
+PSCAN2 
+0 
+vertical prescan 
+height, per

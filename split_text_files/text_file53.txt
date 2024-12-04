@@ -1,0 +1,13 @@
+float64 
+[] 
+mag 
+difference between 
+predicted and 
+actual apparent 
+magnitude 
+neo_pro 
+float64 
+[] 
+ 
+probability of 
+being neos

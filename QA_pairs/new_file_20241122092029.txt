@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "CSST主巡天模块中的光学相机有多少个探测器？", "answer": "CSST主巡天焦面光学相机总共有31个9216×9232的探测器。"},
+    {"question": "CSST主巡天模块的红外相机用于无缝光谱的探测器数量是多少？", "answer": "CSST主巡天模块的红外相机用于无缝光谱的探测器数量是4个，每个探测器大小为640×512。"},
+    {"question": "CSST主巡天模块0级数据文件的命名规则是什么？", "answer": "CSST主巡天模块0级数据文件的命名规则为CSST_MSC_CAMERA_TYPE_YYYYMMDDhhmmss_YYYYMMDDhhmmss_OBSID_MM_L0_VER.fits，其中CAMERA为相机名称, MS表示光学相机，IR表示红外相机；TYPE表示目标类型；YYYYMMDD是八位数观测日期；hhmmss是六位数UTC观测时间；OBSID是观测编号；MM为数据对应的两位数的探测器编号；L0表示文件为0级科学观测数据；VER是版本号。"},
+    {"question": "MCI模块的文件名中\"CHANNEL\"代表什么？", "answer": "MCI模块的文件名中\"CHANNEL\"代表通道编号，2位字符串，C1，C2，C3代表3个通道。"},
+    {"question": "MCI模块的滤光片总数是多少？", "answer": "MCI模块采用滤光轮设计，总共携带30个滤光片（紫外通道10个细分波段，可见光通道20个细分波段）。"},
+    {"question": "IFS终端的蓝端和红端探测器大小分别是多少？", "answer": "IFS终端的蓝端探测器大小为4kx4k，红端探测器大小为6kx6k。"},
+    {"question": "IFS模块0级数据文件名中的\"CAMERA\"指的是什么？", "answer": "IFS模块0级数据文件名中的\"CAMERA\"为光谱仪编号，1位字符串，红端为“R”，蓝端为“B”。"},
+    {"question": "CPIC模块的相机包括哪两种？", "answer": "CPIC模块的相机包括可见光相机和近红外相机。"},
+    {"question": "CPIC模块0级数据文件名中的\"TYPE\"包含哪些目标类型？", "answer": "CPIC模块0级数据文件名中的\"TYPE\"表示目标类型，共有8种类型，包括5种定标模式BIAS（本底）/ DARK（暗场）/ FLAT（平场）/ BKG（天空背景定标）/ LASER（内部激光器定标）和3种科学目标模式SCI（科学观测）/ DSF（密集星场观测）/ CALS（定标星观测）。"},
+    {"question": "CSST各模块0级数据对象通常存储在哪个文件夹中？", "answer": "从文档中找不到答案"}
+]
+```

@@ -1,0 +1,487 @@
+str
+表8. 0 级数据头文件关键字（CPIC）
+RAW EXTENSION HEADER KEYWORDS
+keyword
+example
+comment
+dtype
+GENERAL KEYWORDS
+XTENSION
+IMAGE
+extension type
+str
+47
+BITPIX
+16
+array data type
+int
+NAXIS
+2
+number of array dimensions
+int
+NAXIS1
+1088
+int
+NAXIS2
+1050
+int
+BSCALE
+1
+int
+BZERO
+32768
+int
+EXTNAME
+IMAGE
+str
+EXTVER
+1
+int
+BUNIT
+ADU
+physical unit of array values
+str
+FILTER INFORMATION
+FILTER
+f661
+filter band
+str4
+CHIP INFORMATION
+DETSN
+0
+detector serial number
+str11
+DETNAME
+CCD201-
+20-EM
+detector name
+str12
+CHIPLAB
+EMCCD
+chip label
+str5
+CHIPTEMP
+173.0
+chip temperature (K)
+float
+DEWTEMP
+173.0
+dewer temperature (K)
+float
+DETSIZE
+1080 * 1050
+detector size
+str11
+IMGINDEX
+1
+index of image
+int
+IMG_EXPT
+2023-05-
+19T09:08:15
+image frame exposure start time
+str19
+IMG_CABT
+2023-05-
+19T09:08:15
+image frame cabin start time
+str19
+IMG_DUR
+1.0
+image frame exposure duration (s)
+float
+48
+IMG_PA
+120.0
+position angle at IMG_CABT (deg)
+float
+IMG_RA
+40.0
+RA of pointing at IMG_CABT (deg)
+float
+IMG_DEC
+0.0
+DEC of pointing at IMG_CABT (deg)
+float
+DATASECT
+1024 * 1024
+data section
+str11
+PIXSCAL
+0.016153
+pixel scale
+float
+PIXSIZE
+13
+pixel size (um)
+float
+NCHAN
+1
+number of readout channels
+int
+PSCAN1
+8
+horizontal prescan width
+int
+PSCAN2
+0
+vertical prescan height
+int
+OSCAN1
+16
+horizontal overscan width
+int
+OSCAN2
+18
+vertical overscan width
+int
+UDARK
+6
+height of upside dark reference region
+int
+BDARK
+2
+height
+of
+downside
+dark
+reference
+region
+int
+LDARK
+16
+width of leftside dark reference region
+int
+RDARK
+16
+width of rightside dark reference region
+int
+WORLD COORDINATE SYSTEM INFORMATION
+WCSAXES
+2
+number of World Coordinate System
+axes
+int
+CRPIX1
+536.5
+x-coordinate of reference pixel
+float
+CRPIX2
+518.5
+y-coordinate of reference pixel
+float
+CRVAL1
+120.0
+first axis value at reference pixel
+float
+CRVAL2
+40.0
+second axis value at reference pixel
+float
+CTYPE1
+RA---TAN
+the coordinate type for the first axis
+str8
+CTYPE2
+DEC--TAN
+the coordinate type for the second axis
+str8
+CD1_1
+1.0
+partial of first axis coordinate w.r.t. x
+float
+49
+CD1_2
+0.0
+partial of first axis coordinate w.r.t. y
+float
+CD2_1
+0.0
+partial of second axis coordinate w.r.t. x
+float
+CD2_2
+1.0
+partial of second axis coordinate w.r.t. y
+float
+READOUT INFORMATION
+EMGAIN
+30.0
+EMgain for EMCCD
+float
+GAIN
+8.0
+gain (e-/ADU)
+float
+DET_BIAS
+30.0
+bias voltage (mV)
+float
+RON
+40.0
+readout noise (e-)
+float
+READTIME
+0.7
+readout time (s)
+float
+ROSPEED
+10000.0
+readout speed (MHz)
+float
+CPIC INFORMATION
+LS_STAT
+OFF
+lazer status
+str3
+IWA
+0.2
+inner working angle of CPIC (deg)
+float
+WFSINFO1
+0.0
+x-direction residuals of WFS of CPIC
+float
+WFSINFO2
+0.0
+y-direction residuals of WFS of CPIC
+float
+CHECKSUM
+U5EIa3BH
+W3BHa3BH
+HDU
+checksum
+updated
+2023-05-
+19T09:08:15
+str16
+DATASUM
+303311844
+9
+data unit checksum updated 2023-05-
+19T09:08:15
+str10
+表9. 0 级数据头文件关键字（HSTDM）
+RAW EXTENSION HEADER KEYWORDS
+keyword
+example
+comment
+dtype
+GENERAL KEYWORDS
+50
+XTENSION
+IMAGE
+Image extension
+str5
+BITPIX
+-64
+array data type
+int
+NAXIS
+3
+number of array dimensions
+int
+NAXIS1
+16384
+lenth of the first data axis (spectrum in
+channel number)
+int
+NAXIS2
+1
+length of second data axis (RA)
+int
+NAXIS3
+1
+length of second data axis (DEC)
+int
+PCOUNT
+0
+number of parameters
+int
+GCOUNT
+1
+number of groups
+int
+EXTNAME
+SCI
+extension name (SCI or BLK or CAL)
+str3
+EXTVER
+1
+extension version
+int
+BUNIT
+adu
+physical unit of array value
+str3
+REST_FRQ
+1.5
+static observed frequency(GHz)
+float
+V_LSR
+0.1
+source velocity in LSR(km/s)
+float
+LINE
+CO
+spectral line name
+str2
+SIDEBAND
+1
+side band indicator (-1 lower, 1 upper)
+int
+INT_STAR
+2459767
+integration start time (MJD)
+float
+INT_REP
+150
+integration repeat times
+float
+INT_INTE
+1
+integration slot time (sec)
+float
+RECEIVER INFORMATION
+DETSN
+T001
+detector serial number
+str4
+DETNAME
+sis1
+detctor name
+str4
+CTYPE1
+FREQ
+data type for first axis
+str4
+CRVAL1
+0
+center frequency with respct with LO
+float
+CDELT1
+73.24666
+frency interval 73(KHz)
+float
+CRPIX1
+0
+reference index
+int
+51
+BEAM_AT1
+0
+beam offset and direct cosine
+float
+BEAM_AT2
+0
+beam offset and direct cosine
+float
+BEAM_AT3
+0
+beam offset and direct cosine
+float
+BEAM_AT4
+0
+beam offset and direct cosine
+float
+BEAM_AT5
+0
+beam offset and direct cosine
+float
+LO_FRQ
+461.084832
+oscillator frequency(GHz)
+float
+LO_LOCK
+TRUE
+oscillator lock state
+bool
+LO_MVOLT
+0
+multiplier voltage in raw form(int)
+int
+LO_TCURR
+0
+oscillator current in raw form(int)
+int
+IF_TP
+1
+intermediate detector voltage (v)
+float
+TCAL
+260
+blackbody temperature (K)
+float
+MOT_POS
+5
+current motor position()
+float
+MOT_STA
+0
+current motor state (in int value)
+int
+DET_8K
+8.5
+8K detector temperature (in K)
+float
+DET_V
+793
+detector voltage (in mV)
+float
+DET_I
+129
+detector current (in mA)
+float
+LNA_V
+543
+LNA current (in V)
+float
+LNA_I
+146
+LNA current (in mA)
+float
+SYN_VOL
+0
+synchronous adjustment voltage (in ?)
+float
+ASYN_VOL
+0
+Asynchronous adjustment voltage (in ?)
+float
+SPE_TIME
+0
+internal time of spectralmeter (in? )
+float
+CHECKSUM
+fF6QfD3Of
+D3OfD3O
+HDU
+checksum
+updated
+2023-05-
+22T17:30:21
+str16
+DATASUM
+1259160870
+data unit checksum updated 2023-05-
+22T17:30:21
+str10
+52
+5.4.3.
+数据元素与设施下传数据对应表
+参见附件《0 级数据元素与设施下传数据对应表》
+6. 导星仪0 级图像数据结构
+6.1. 导星数据需求概述
+根据《初步技术要求》，导星数据属于0 级数据的组成部分，由科学
+数据系统接收，用于科学数据处理和科学数据质量检验工作。
+精细导星仪是中国巡天空间望远镜（CSST）上的重要器件，属于精
+密稳像系统的一部分。精密稳像系统的主要工作原理是根据精细导星仪
+探测到入射光轴与目标光轴的偏差，控制大口径快摆镜组件在一定角度
+范围内做极高精度的摆动控制，使得最终偏差在系统要求以内从而实现
+高精度稳像。精细导星仪（FGS）可为光学设施实现精密稳像提供高精度、
+高速精确的星像位置和角度信息。其采用先进的超大规模面阵探测器，
+以及高速硬件处理技术，利用光学设施28m 焦距优势，在保证等星亮度、
+视场范围、采样频率，以及有效的导星数量的前提下，进行高精度的导
+星检测。精密稳像系统通过驱动大口径快摆镜组件，与高频采样的精细
+导星仪的星像位置信息相结合实现光闭环实时控制，有效补偿振动抑制
+和飞行器姿态控制系统的扰动残余进而确保光学设施稳像性能。
+FGS 的原始图像数据和与之相关姿态数据的处理结果，可以高精度、

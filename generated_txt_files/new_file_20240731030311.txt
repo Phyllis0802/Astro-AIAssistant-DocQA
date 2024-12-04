@@ -1,0 +1,44 @@
+```json
+[
+    {
+        "content": "CPIC的LAZER STATUS是什么？",
+        "summary": "CPIC的LAZER STATUS是OFF，表示激光状态为关闭。"
+    },
+    {
+        "content": "HSTDM的BUNIT关键字表示什么？",
+        "summary": "HSTDM的BUNIT关键字表示数组值的物理单位，样例值为adu，即模数转换单位。"
+    },
+    {
+        "content": "IMAGE类型的扩展名是什么？",
+        "summary": "IMAGE类型的扩展名通常是IMAGE，用于表示这是一个图像类型的扩展。"
+    },
+    {
+        "content": "EMCCD的EMGAIN是多少？",
+        "summary": "EMCCD的EMGAIN是30.0，表示电子倍增电荷耦合器件（EMCCD）的增益。"
+    },
+    {
+        "content": "CPIC的WFSINFO1表示什么？",
+        "summary": "CPIC的WFSINFO1表示CPIC的波前传感器（WFS）在x方向上的残差。"
+    },
+    {
+        "content": "HSTDM数据的NAXIS3的长度是多少？",
+        "summary": "HSTDM数据的NAXIS3的长度是1，表示数据轴的第三个维度长度为1。"
+    },
+    {
+        "content": "精细导星仪(FGS)的主要工作原理是什么？",
+        "summary": "精细导星仪(FGS)的主要工作原理是根据探测到的入射光轴与目标光轴的偏差，通过控制大口径快摆镜组件在一定角度范围内进行极高精度的摆动控制，从而实现高精度稳像。"
+    },
+    {
+        "content": "主巡天模块需要哪些类型的姿态数据？",
+        "summary": "主巡天模块需要包括平台或设施姿态数据、GPS定位数据等，用于提高星场缝合的位置定位精度。"
+    },
+    {
+        "content": "HSTDM数据中的CTYPE1代表什么？",
+        "summary": "HSTDM数据中的CTYPE1表示第一个轴的数据类型，样例值为FREQ，表示频率。"
+    },
+    {
+        "content": "快摆镜的角度数据采样频率是多少？",
+        "summary": "从文档中找不到关于快摆镜角度数据采样频率的具体值，但提到了在曝光期间会进行采样，并且采样数据的频率对于图像的点扩散函数变化分析是重要的。"
+    }
+]
+```

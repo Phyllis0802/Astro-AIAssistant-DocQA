@@ -1,0 +1,64 @@
+```json
+[
+    {
+        "content": "PSCAN2 是什么？",
+        "summary": "PSCAN2 是表示垂直预扫描高度的一个关键字，每个读出通道都有。"
+    },
+    {
+        "content": "OSCAN1 的值是多少？",
+        "summary": "OSCAN1 的值是 320，表示每个读出通道的水平过扫描宽度。"
+    },
+    {
+        "content": "哪两个关键字表示读取开始和结束的时间？",
+        "summary": "READT0 和 READT1 这两个关键字分别表示读取开始和结束的时间（UTC）。"
+    },
+    {
+        "content": "DETTEMP0 指的是什么？",
+        "summary": "DETTEMP0 表示在 READT0 时刻的探测器温度。"
+    },
+    {
+        "content": "BIN_X 和 BIN_Y 分别代表什么？",
+        "summary": "BIN_X 和 BIN_Y 分别代表在 X（波长）方向和 Y（空间）方向的 bin 数目。"
+    },
+    {
+        "content": "GAIN1 到 GAIN4 是什么的增益？",
+        "summary": "GAIN1 到 GAIN4 分别表示 CCD 的四个通道（1到4）的增益。"
+    },
+    {
+        "content": "RON1 指的是什么？",
+        "summary": "RON1 表示 CCD 第一个通道（channel 1）的读取噪声。"
+    },
+    {
+        "content": "DETBIA1 到 DETBIA4 是什么的电压？",
+        "summary": "DETBIA1 到 DETBIA4 分别表示四个通道（channel 1 到 4）的放大器偏置电压。"
+    },
+    {
+        "content": "ROSPEED 的单位是什么？",
+        "summary": "ROSPEED 的单位是 MHz，表示读出速度。"
+    },
+    {
+        "content": "CHECKSUM 和 DATASUM 分别代表什么？",
+        "summary": "CHECKSUM 和 DATASUM 分别表示 HDU 校验和和数据单元校验和，用于数据完整性检查。"
+    },
+    {
+        "content": "BIAS_MAS 指的是哪个文件？",
+        "summary": "BIAS_MAS 指的是偏差主文件的文件名，用于图像处理中的偏差校正。"
+    },
+    {
+        "content": "PROCESS 表示什么？",
+        "summary": "PROCESS 表示已经完成的处理步骤或流程的字符串表示。"
+    },
+    {
+        "content": "RSS_VER 指的是什么版本？",
+        "summary": "RSS_VER 表示 RSS（可能是某种软件或系统）的当前版本。"
+    },
+    {
+        "content": "CRPIX1 和 CRPIX2 分别是什么的坐标？",
+        "summary": "CRPIX1 和 CRPIX2 分别表示参考点的像素坐标。"
+    },
+    {
+        "content": "CRVAL1 和 CRVAL2 分别表示什么的坐标值？",
+        "summary": "CRVAL1 和 CRVAL2 分别表示参考点在指定坐标系统中的坐标值。"
+    }
+]
+```

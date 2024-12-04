@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "CSST主巡天0级数据经过哪些改正操作？", "answer": "CSST主巡天0级数据经过oversan改正，bias改正，平场改正等操作，矩阵数值发生改变（暂定流量单位变为e-/s），并按照空间排布说明完成拼接。"},
+    {"question": "CSST数据中的ERROR数据初始值如何计算？", "answer": "CSST数据中的ERROR数据初始值对于常规观测曝光，计算公式为：!\"\"# = &(()* −,-./) + 23.456-/37；对于Bias曝光，计算公式为：!\"\"# = 23.456-/3。"},
+    {"question": "CSST数据中的FLAG数据用于标定哪些类型的像元？", "answer": "CSST数据中的FLAG数据用于标定合格像元，坏像元，宇宙线，卫星拖尾，饱和亮星等类型的像元。"},
+    {"question": "CAL_WCS星表数据包含哪些信息？", "answer": "CAL_WCS星表数据包含点源位置信息（x_image, y_image, ra_image, dec_image）和对应参考星表天球坐标信息（ra_ref, dec_ref）和星等信息（mag_ref）等。"},
+    {"question": "主巡天模块天体测量的一级数据产品包括哪些文件对象？", "answer": "主巡天模块天体测量的一级数据产品包括单帧图像相对定位解算信息文件、单帧图像相对定位星表、以及近地天体一级星表，均为FITS格式且遵守标准FITS定义规范。"},
+    {"question": "MCI的1级数据中的图像文件对象与0级数据有何关系？", "answer": "MCI的1级数据中的图像文件对象与0级数据一致，且每个图像文件对象有对应的权重文件对象和特征位文件对象，这些对象的结构和接口也与图像文件对象一致。1级数据中的图像文件对象继承了0级数据的望远镜观测信息，且经过了oversan改正，bias改正，平场改正等操作。"},
+    {"question": "IFS RSS数据的第一层HDU扩展包含什么信息？", "answer": "IFS RSS数据的第一层HDU扩展包含三维光谱datacube矩阵，其数值为经过一级RSS数据处理流水线后获得的在给定空间和波长spaxel上的流量值（单位为1E-17 erg/s/cm2/Å/arcsec2）。其中，空间维度大小为32*32，波长维度采样数取决于波长采样方式（LIN或者LOG）。该HDU扩展header包含IFS设备相关信息、WCS相关数据等内容，大部分关键字继承自0级数据header中的信息，并增添了数据处理过程的相关header关键字。"},
+    {"question": "IFS CUBE数据的HDU3中MASK标记位如何描述合格像元？", "answer": "IFS CUBE数据的HDU3中MASK标记位用32位二进制数进行特征标定，合格像元的标记位为0。"},
+    {"question": "IFS CUBE数据的HDU5存储什么信息？", "answer": "IFS CUBE数据的HDU5存储LSF矩阵，矩阵大小为3*谱线数*CUBE空间大小，3中分别保存LSF的σ，线心波长，误差。"},
+    {"question": "系外行星成像星冕仪(CPIC)的DR文件对象的primary HDU包含什么信息？", "answer": "系外行星成像星冕仪(CPIC)的DR文件对象的primary HDU只包含望远镜的观测信息，且继承自0级数据，不进行任何改动。"}
+]
+```

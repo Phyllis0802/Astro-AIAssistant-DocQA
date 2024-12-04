@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "Spektr-R的NSSDC ID是什么？", "answer": "2011-037A"},
+    {"question": "Spektr-R是由哪个组织机构负责的？", "answer": "俄罗斯天文航天中心"},
+    {"question": "Spektr-R的主要制造商是谁？", "answer": "拉沃契金设计局"},
+    {"question": "Spektr-R是在哪一天发射的？", "answer": "2011年7月18日02:31 UTC"},
+    {"question": "Spektr-R的发射地点是哪里？", "answer": "拜科努尔航天发射场45号发射台"},
+    {"question": "Spektr-R的任务时长原计划是多少年？", "answer": "5年（已运行了13年零3日）"},
+    {"question": "Spektr-R望远镜的口径有多大？", "answer": "10m"},
+    {"question": "Spektr-R的主要目标是什么？", "answer": "以只有百万分之几角分的超高角分辨度研究天体"},
+    {"question": "Spektr-R的观测波长有哪些？", "answer": "1.35–6.0、18.0 和 92.0 公分"},
+    {"question": "Spektr-R进入太空后，它的天线多久能够完全展开？", "answer": "30分钟内"}
+]
+```

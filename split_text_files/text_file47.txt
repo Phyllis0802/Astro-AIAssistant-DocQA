@@ -1,0 +1,672 @@
+NAXIS1 
+70 
+ 
+int 
+ 
+NAXIS2 
+72 
+ 
+int 
+ 
+NAXIS3 
+3658 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+EXP_NUM 
+extension name 
+str7 
+ 
+CHECKSUM 
+Zo57bl47Zl47bl47 
+HDU checksum 
+updated 2024-
+03-14T16:08:04 
+str 
+ 
+DATASUM 
+2266225114 
+data unit 
+checksum 
+updated 2024-
+03-14T16:08:04 
+str 
+ 
+ 
+表40: IFS CUBE HDU5 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+4 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+3 
+ 
+int 
+ 
+NAXIS2 
+27 
+ 
+int 
+ 
+ 
+ 
+163 
+NAXIS3 
+70 
+ 
+int 
+ 
+NAXIS4 
+72 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+LSF 
+extension 
+name 
+str3 
+ 
+CHECKSUM 
+LLegLKZfLKbfLKZf 
+HDU 
+checksum 
+updated 2024-
+03-
+14T16:08:09 
+str 
+ 
+DATASUM 
+3260821808 
+data unit 
+checksum 
+updated 2024-
+03-
+14T16:08:09 
+str 
+ 
+ 
+表41: IFS CUBE HDU6 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+4 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+5040 
+ 
+int 
+ 
+NAXIS2 
+32 
+ 
+int 
+ 
+NAXIS3 
+32 
+ 
+int 
+ 
+NAXIS4 
+20 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+ 
+ 
+164 
+EXTNAME 
+WEIGHT_MARTIX 
+extension 
+name 
+str13 
+ 
+CHECKSUM 
+8CUW89SU8CSU89SU 
+HDU 
+checksum 
+updated 2024-
+03-
+14T16:08:14 
+str 
+ 
+DATASUM 
+2450975460 
+data unit 
+checksum 
+updated 2024-
+03-
+14T16:08:14 
+str 
+ 
+ 
+表42: IFS CUBE HDU7 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+BINTABLE 
+binary table 
+extension 
+str8 
+ 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+119 
+length of 
+dimension 1 
+int 
+ 
+NAXIS2 
+20 
+length of 
+dimension 2 
+int 
+ 
+PCOUNT 
+0 
+number of 
+group 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+TFIELDS 
+1 
+number of 
+table fields 
+int 
+ 
+EXTNAME 
+RSS_FILE 
+extension 
+name 
+str8 
+ 
+TTYPE1 
+FILENAME 
+ 
+str8 
+ 
+TFORM1 
+119A 
+ 
+str4 
+ 
+ 
+ 
+165 
+CHECKSUM 
+ZGEGaD9FTDEFZD9F 
+HDU 
+checksum 
+updated 2024-
+03-
+14T16:08:15 
+str 
+ 
+DATASUM 
+4074958581 
+data unit 
+checksum 
+updated 2024-
+03-
+14T16:08:15 
+str 
+ 
+ 
+（V）系外⾏星星冕仪⼀级数据关键字 
+表43：CPIC DR 的HDU1 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+extension type 
+str 
+ 
+BITPIX 
+16 
+array data type 
+int 
+ 
+NAXIS 
+3 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+1088 
+ 
+int 
+ 
+NAXIS2 
+1050 
+ 
+int 
+ 
+NAXIS3 
+3 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+BSCALE 
+1 
+ 
+int 
+ 
+BZERO 
+32768 
+ 
+int 
+ 
+EXTNAME 
+IMAGE 
+ 
+str 
+ 
+EXTVER 
+1 
+ 
+int 
+ 
+BUNIT 
+ADU 
+physical unit of 
+array values 
+str 
+ 
+FILTER 
+f661 
+filter band 
+str4 
+ 
+ 
+ 
+166 
+DETSN 
+0 
+detector serial 
+number 
+str11 
+ 
+DETNAME 
+CCD201-20-
+EM 
+detector name 
+str12 
+ 
+CHIPLAB 
+EMCCD 
+chip label 
+str5 
+ 
+CHIPTEMP 
+173 
+chip 
+temperature (K) 
+float 
+ 
+DEWTEMP 
+173 
+dewer 
+temperature (K) 
+float 
+ 
+DETSIZE 
+1080 * 1050 
+detector size 
+str11 
+ 
+IMGINDEX 
+1 
+index of image 
+int 
+ 
+IMG_EXPT 
+2023-05-
+19T09:08:15 
+image frame 
+exposure start 
+time 
+str19 
+ 
+IMG_CABT 
+2023-05-
+19T09:08:15 
+image frame 
+cabin start time 
+str19 
+ 
+IMG_DUR 
+1 
+image frame 
+exposure 
+duration (s) 
+float 
+ 
+IMG_PA 
+120 
+position angle 
+at IMG_CABT 
+(deg) 
+float 
+ 
+IMG_RA 
+40 
+RA of pointing 
+at IMG_CABT 
+(deg) 
+float 
+ 
+IMG_DEC 
+0 
+DEC of 
+pointing at 
+IMG_CABT 
+(deg) 
+float 
+ 
+DATASECT 
+1024 * 1024 
+data section 
+str11 
+ 
+PIXSCAL 
+0.016153 
+pixel scale 
+float 
+ 
+PIXSIZE 
+13 
+pixel size (um) 
+float 
+ 
+NCHAN 
+1 
+number of 
+readout 
+channels 
+int 
+ 
+ 
+ 
+167 
+PSCAN1 
+8 
+horizontal 
+prescan width 
+int 
+ 
+PSCAN2 
+0 
+vertical prescan 
+height 
+int 
+ 
+OSCAN1 
+16 
+horizontal 
+overscan width 
+int 
+ 
+OSCAN2 
+18 
+vertical 
+overscan width 
+int 
+ 
+UDARK 
+6 
+height of 
+upside dark 
+reference 
+region 
+int 
+ 
+BDARK 
+2 
+height of 
+downside dark 
+reference 
+region 
+int 
+ 
+LDARK 
+16 
+width of 
+leftside dark 
+reference 
+region 
+int 
+ 
+RDARK 
+16 
+width of 
+rightside dark 
+reference 
+region 
+int 
+ 
+WCSAXES 
+2 
+number of 
+World 
+Coordinate 
+System axes 
+int 
+ 
+CRPIX1 
+536.5 
+x-coordinate of 
+reference pixel 
+float 
+ 
+CRPIX2 
+518.5 
+y-coordinate of 
+reference pixel 
+float 
+ 
+CRVAL1 
+120 
+first axis value 
+at reference 
+pixel 
+float 
+ 
+CRVAL2 
+40 
+second axis 
+value at 
+reference pixel 
+float 
+ 
+ 
+ 
+168 
+CTYPE1 
+RA---TAN 
+the coordinate 
+type for the 
+first axis 
+str8 
+ 
+CTYPE2 
+DEC--TAN 
+the coordinate 
+type for the 
+second axis 
+str8 
+ 
+CD1_1 
+1 
+partial of first 
+axis coordinate 
+w.r.t. x 
+float 
+ 
+CD1_2 
+0 
+partial of first 
+axis coordinate 
+w.r.t. y 
+float 
+ 
+CD2_1 
+0 
+partial of 
+second axis 
+coordinate 
+w.r.t. x 
+float 
+ 
+CD2_2 
+1 
+partial of 
+second axis 
+coordinate 
+w.r.t. y 
+float 
+ 
+EMGAIN 
+30 
+EMgain for 
+EMCCD 
+float 
+ 
+GAIN 
+8 
+gain (e-/ADU) 
+float 
+ 
+DET_BIAS 
+30 
+bias voltage 
+(mV) 
+float 
+ 
+RON 
+40 
+readout noise 
+(e-) 
+float 
+ 
+READTIME 
+0.7 
+readout time (s) 
+float 
+ 
+ROSPEED 
+10000 
+readout speed 
+(MHz) 
+float

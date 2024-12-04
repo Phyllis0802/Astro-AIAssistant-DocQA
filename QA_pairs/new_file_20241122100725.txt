@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "SKA6是哪个国家联合开展的项目？", "answer": "SKA6是澳大利亚和南非联合开展的项目。"},
+    {"question": "Sloan 数字巡天四期包括哪些子项目？", "answer": "Sloan 数字巡天四期包括eBOSS, MaNGA, APOGEE-II 三个子项目。"},
+    {"question": "Dark Energy Survey是什么时候开始运行的？", "answer": "Dark Energy Survey是2013年开始运行的。"},
+    {"question": "Large Synoptic Survey Telescope预计何时开始运行？", "answer": "Large Synoptic Survey Telescope预计2021年左右开始运行。"},
+    {"question": "CSST具有哪些优势？", "answer": "CSST具有多波段、高分辨率的优势，与其它大型观测形成互补，可以提供除CMB外的所有高精度观测量，为暗能量本质的研究提供重要的观测支持。"},
+    {"question": "暗能量的状态方程w决定了什么？", "answer": "暗能量的状态方程w决定了暗能量的物理性质，即其压强P与能量密度ρ的比值。"},
+    {"question": "非参数化方法与参数化方法相比有什么优点？", "answer": "非参数化方法由于不需要事先假设w(z)的函数形式，因此会给出更准确的结果。"},
+    {"question": "CSST弱引力透镜观测的主要科学目标是什么？", "answer": "CSST成像观测以高精度弱引力透镜测量为主要科学目标，其高分辨率、多波段观测将为剪切信号测量、测光红移测量提供优质数据。"},
+    {"question": "弱引力透镜峰值统计与剪切两点统计有什么关系？", "answer": "弱引力透镜峰值统计集中于高信号非线性区域，与剪切两点统计高度互补。"},
+    {"question": "CSST的测光红移测量需要达到什么样的精度？", "answer": "CSST的测光红移测量需要达到红移偏袒因子精度为千分之一，弥散为百分之一的精度。"}
+]
+```

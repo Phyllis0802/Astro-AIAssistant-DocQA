@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "T_QC1的时间戳是什么时候？", "answer": "T_QC1的时间戳是2024-03-11T06:37:52.39。"},
+    {"question": "S_QC1的状态值0代表什么？", "answer": "S_QC1的状态值0代表QC1的某种状态（具体含义可能需要根据上下文或文档进一步解释），其中状态值可以是0/1/2。"},
+    {"question": "QC1_FLAG的数值是如何表示的？", "answer": "QC1_FLAG的数值是在bitmask中以2**n（n>2）的形式表示的。"},
+    {"question": "HDU的CHECKSUM是如何更新的？", "answer": "HDU的CHECKSUM是在2023-06-30T16:11:52更新的。"},
+    {"question": "无缝光谱1级数据HDU2中的BITPIX值是多少？", "answer": "无缝光谱1级数据HDU2中的BITPIX值是-32。"},
+    {"question": "无缝光谱1级数据HDU3的物理单位是什么？", "answer": "无缝光谱1级数据HDU3的物理单位是UNITLESS。"},
+    {"question": "无缝光谱1级数据HDU4中有多少个表字段？", "answer": "无缝光谱1级数据HDU4中有8个表字段。"},
+    {"question": "MCI一级数据HDU1的扩展名是什么？", "answer": "MCI一级数据HDU1的扩展名是IMAGE。"},
+    {"question": "MCI数据中DIFFUSER的状态TRUE表示什么？", "answer": "MCI数据中DIFFUSER的状态TRUE表示插入了用于平面校准的漫射器。"},
+    {"question": "观测目标名称TARGET的格式是什么样的？", "answer": "观测目标名称TARGET的格式是hhmmss.s+ddmmss（例如：074443.0+392523）。"}
+]
+```

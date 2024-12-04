@@ -1,0 +1,44 @@
+```json
+[
+    {
+        "content": "RON02, RON03等参数在地面测试阶段提供，主要写入哪个文件？",
+        "summary": "RON02, RON03等参数在地面测试阶段提供，主要写入配置文件。"
+    },
+    {
+        "content": "DETBIA01到DETBIA16在地面测试阶段提供时，主要写入什么文件？",
+        "summary": "DETBIA01到DETBIA16在地面测试阶段提供时，主要写入配置文件。"
+    },
+    {
+        "content": "READT0和READT1分别表示什么，在IFS多通道成像仪辅助数据包中有什么作用？",
+        "summary": "READT0表示读出开始时刻（积分结束时刻+时间间隔约20μs），READT1表示READT0加上读出时长，在读出时长在地面测试阶段提供，并写入配置文件。两者在IFS多通道成像仪辅助数据包中用于描述读出时间信息。"
+    },
+    {
+        "content": "IFS的辅助数据包中，DETTEMP0和DETTEMP1各表示什么？",
+        "summary": "在IFS的辅助数据包中，DETTEMP0和DETTEMP1分别表示在READT0和READT1时刻，二极管1、2、3的粗测温度（具体二极管编号依据设备设计而定），这些温度值用于描述在不同读出时间点的探测器温度状态。"
+    },
+    {
+        "content": "在IFS辅助数据包中，ROSPEED参数的范围是多少？",
+        "summary": "在IFS辅助数据包中，ROSPEED参数的范围是0.05MHz(39D)到1MHz(1D)，表示CCD读出速率。"
+    },
+    {
+        "content": "IFS的工作模式是如何通过IFSMODE关键字来定义的？",
+        "summary": "IFS的工作模式通过IFSMODE关键字来定义，IFSMODE是一个3位的工程参数，不同的二进制值组合代表不同的工作模式，如常温待机模式、低温待机模式、成像模式、光谱定标模式和辐射定标模式等。"
+    },
+    {
+        "content": "IFSMODE的不同值分别代表IFS的哪些工作模式？",
+        "summary": "IFSMODE的不同值代表IFS的不同工作模式，如000代表常温待机模式，001代表低温待机模式，010代表成像模式（自动流程），011代表光谱定标模式（自动流程），100代表辐射定标模式（自动流程）等。"
+    },
+    {
+        "content": "CPIC的0级数据头文件中，FILTER关键字是如何用来表示星冕仪的数字量遥测的？",
+        "summary": "在CPIC的0级数据头文件中，FILTER关键字用来表示星冕仪的数字量遥测，具体的遥测值如DMYj188、DMYj189等通过OBSID查找上注文件获取。"
+    },
+    {
+        "content": "在HSTDM的0级数据头文件中，REST_FRQ、V_LSR和LINE关键字的数据来源于哪里？",
+        "summary": "在HSTDM的0级数据头文件中，REST_FRQ、V_LSR和LINE关键字的数据来源于根据OBSID查找上注文件获取。"
+    },
+    {
+        "content": "SIDEBAND关键字在太赫兹频谱数据包中用来表示什么？",
+        "summary": "SIDEBAND关键字在太赫兹频谱数据包中用来表示观测边带参数，具体值为0x00时表示低边带（高本振LO），为0x11时表示高边带（低本振LO）。"
+    }
+]
+```

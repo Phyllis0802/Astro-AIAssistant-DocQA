@@ -1,0 +1,24 @@
+此条目可参照英语维基百科相应条目来扩充。 (2019年12月19日)若您熟悉来源语言和主题，请协助参考外语维基百科扩充条目。请勿直接提交机械翻译，也不要翻译不可靠、低品质内容。依版权协议，译文需在编辑摘要注明来源，或于讨论页顶部标记{{Translated page}}标签。
+此条目需要更新。 (2019年12月19日)请更新本文以反映近况和新增内容。完成修改后请移除本模板。
+Characterising Exoplanets Satellite名称CHEOPS运营方瑞士太空局ESA国际卫星标识符2019-092B卫星目录序号44874网站cheops.unibe.ch/任务时长3.5年 (预计)
+航天器属性有效载荷质量58千克（128磅）
+任务开始发射日期2019年12月18日[1]运载火箭联合系列运载火箭发射场圭亚那太空中心
+轨道参数参照系地心轨道轨域太阳同步轨道 6 am/pm近gee点650 km（400 mi）[2]远gee点800 km（500 mi）[2]
+主类型里奇-克莱琴望远镜frame-transfer back-side illuminated CCD口径32 cm（13英寸）[2]焦距F/8波长400-1100 nm
+ 
+系外行星特性探测卫星（CHaracterising ExOPlanets Satellite）是欧洲空间局一台太空望远镜，目的是研究太阳系外行星形成。
+系外行星特性探测卫星在2019年12月18日发射升空，任务目的是让一座安装在标准卫星平台上的里奇-克莱琴望远镜进入太阳同步轨道（约800公里）[3]。在3.5年执行任务时间，系外行星特性探测卫星将检测地球附近已知的太阳系外行星[4]。
+
+参考资料[编辑]
+
+
+^ CHEOPS exoplanet mission meets key milestones en route to 2017 launch （页面存档备份，存于互联网档案馆）. ESA, 11 July 2014
+
+^ 2.0 2.1 2.2 CHEOPS - Mission Status & Summary.   [2016-08-02]. （原始内容存档于2015-09-22）. 
+
+^ Cheops satellite lifts off to study planets beyond solar system. 卫报. 2019-12-18  [2019-12-19]. （原始内容存档于2019-12-19）. 
+
+^ ESA Science Programme's new small satellite will study super-Earths. ESA press release. 19 October 2012  [19 October 2012]. （原始内容存档于2012-11-24）. 
+
+
+

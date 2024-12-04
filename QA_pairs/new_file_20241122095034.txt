@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "DETBIA4B代表什么？", "answer": "DETBIA4B代表B: amplifier bias voltage (ADU, channel4) float，即B通道的放大器偏置电压。"},
+    {"question": "ROSPEEDB的值是多少？", "answer": "ROSPEEDB的值为100，表示B: readout speed (MHz) float，即B通道的读出速度为100 MHz。"},
+    {"question": "CHECKSUM的数据类型是什么？", "answer": "CHECKSUM的数据类型是str，表示HDU checksum。"},
+    {"question": "RSS_VER表示什么？", "answer": "RSS_VER表示the version of RSS pipeline str，即RSS管道的版本。"},
+    {"question": "MERGMETB的值代表什么？", "answer": "MERGMETB的值为median，表示B: L0 data merging method str，即B通道的L0数据合并方法为中位数合并。"},
+    {"question": "PROCESS字段包含什么信息？", "answer": "PROCESS字段包含processes that have done str，即已经完成的处理过程。"},
+    {"question": "BIASFILB是哪个文件的名称？", "answer": "BIASFILB是CSST_IFS_B_BIASMS_C7202_20231114.fits，表示B: the bias master file str，即B通道的偏置主文件名。"},
+    {"question": "CRPIX3代表什么坐标？", "answer": "CRPIX3代表pixel coordinate of reference point int，即参考点的像素坐标。"},
+    {"question": "WCSCAL_S的值为1表示什么？", "answer": "WCSCAL_S的值为1表示WCS calibration completed? int，即WCS校准已完成。"},
+    {"question": "CUBE 数据HDU0中的FILENAME示例是什么？", "answer": "CUBE 数据HDU0中的FILENAME示例是CSST_IFS_CUBE_104742.3+135908_C9101_LIN_0.fits，表示cube文件的名称。"}
+]
+```

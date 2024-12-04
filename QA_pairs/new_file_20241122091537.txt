@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "ASTIRMS1代表什么含义？", "answer": "ASTIRMS1代表astrometric dispersion RMS (intern., high S/N)，是一个浮点数类型的关键字，用于表示内部、高信噪比下的天体测量色散均方根。"},
+    {"question": "ASTSIM关键字的作用是什么？", "answer": "ASTSIM关键字表示用于MCI天体测量的正常图像分类，其数据类型为字符串。"},
+    {"question": "DELT_RA代表什么变化？", "answer": "DELT_RA代表中心赤经(RA)的变化，其数据类型为浮点数。"},
+    {"question": "ZP的关键字含义是什么？", "answer": "ZP的关键字含义是光度测量的零点值，以星等值表示，其数据类型为浮点数。"},
+    {"question": "MCI subtraction数据文件HDU0头文件中SIMPLE的值是什么？", "answer": "MCI subtraction数据文件HDU0头文件中SIMPLE的值为TRUE，表示符合FITS标准。"},
+    {"question": "FILENAME的关键字数据类型是什么？", "answer": "FILENAME的关键字数据类型是字符串(str)。"},
+    {"question": "OBJECT关键字的数据长度是多少？", "answer": "从文档中找不到答案"},
+    {"question": "RA_OBJ的取值范围是多少？", "answer": "RA_OBJ的取值范围应该是0.0到360.0度之间。"},
+    {"question": "SUNANGL0代表什么角度？", "answer": "SUNANGL0代表在CABSTART时刻太阳与光学轴之间的角度，其值应在0.0到180.0度之间。"},
+    {"question": "EXPTIME的值通常代表什么？", "answer": "EXPTIME的值通常代表曝光时间，单位是秒(s)。"}
+]
+```

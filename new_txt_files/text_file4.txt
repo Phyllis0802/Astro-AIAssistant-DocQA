@@ -1,0 +1,421 @@
+快门读出等内容，image data 部分为从探测器读出后未经任何修改的0
+级数据。主巡天相机和定标组件的image data 数据应该为一个2 维的
+datacube 矩阵，以探测器选型使用CCD 为例，如果按照计划的16 通道
+读出，需要将16 通道数据按照读出先后次序，顺序排列为一个2 维矩
+阵（如图7 所示）。
+图6. CSST 主巡天光学相机0 级数据结构示意图
+图7. CSST 主巡天0 级数据image data 结构示意图，其中数字表示不同的读出通
+道，通道间的分隔用黑色边框表示。橙色为data 区域，蓝色为over (pre) scan 区
+域，（0，0）在左上角。
+15
+红外数据文件对象接口如图8 所示：
+文件对象包含两个HDU，其中primary HDU（图中的global header）
+只包含望远镜的位置姿态信息。同一次观测所有波段测光和无缝光谱图
+像global header 内容基本一致。在主巡天单次曝光150s 时间内，会多次
+读出，产生多帧图像（最多可产生256 帧，其中每一帧累积前面的数
+据），形成一个三维的datacube，存于图像扩展中（图中的raw image）。
+raw image 的header 包含探测器相关信息、WCS 相关数据、曝光相关信
+息，image data 部分为从探测器读出后未经任何修改的0 级数据。
+5.3.2.
+多通道成像仪模块（MCI）
+文件对象（不包含导星数据和工程信息数据）接口如图9 所示：
+图8. CSST 主巡天红外相机0 级数据结构示意图
+图9. MCI 0 级数据结构示意图
+16
+文件对象包含两个HDU，其中primary HDU（图中的global header）
+只包含望远镜的位置姿态信息。同一次观测所有波段测光图像global
+header 内容基本一致。对象有一个图像扩展（图中的raw image），raw
+image 的header 包含CCD 相关信息、WCS 相关数据、快门读出等内容，
+image data 部分为从探测器读出后未经任何修改的0 级数据。MCI 和定标
+组件的image data 数据应该为一个2 维的datacube 矩阵，以探测器选型使
+用CCD 为例，需要按照通道号从小到大的顺序将16 通道数据从左到右
+排列为一个二维矩阵（如图10 所示）。
+5.3.3.
+积分视场光谱仪模块（IFS）
+文件对象（不包含导星数据和工程信息数据）接口如图11 所示：
+图10. MCI 0 级数据image data 结构示意图，其中OS1-OS16 表示不同的读出通道，
+16 个输出通道（OS1-OS16）中，每个通道输出各自物理区域（如上图）共计1499
+（列）×4936（行）（pixels），其中，1499=27（prescan）+1152（physical pixels）
++320（virtual overscan），4936=4616（physical pixels）+320（virtual overscan）；一
+帧0 级数据image data 输出像元尺寸：23984（列）×4936（行）（pixels）；（0，
+0）在左上角。
+图11. IFS 0 级数据结构示意图
+17
+文件对象包含两个HDU，其中primary HDU (图中的global header)只
+包含望远镜的位置姿态信息。Raw image 的header 包含CCD 相关信息，
+image data 部分为从探测器读出后未经任何修改的0 级数据。IFS 的
+image data 数据应该为一个3 维的datacube 矩阵，以探测器选型使用CCD
+为例，如果按照计划的4 通道读出，需要将4 通道数据按照读出先后次
+序，顺序排列为一个2 维矩阵, 在此2 维矩阵的基础上，第三维为在相同
+曝光、指向、跟踪、obsid 下，一次采集的帧数n（如图12 所示）。
+图12. IFS 0 级数据image data 结构示意图，其中数字表示不同的读出通道，通道间的
+分隔用黑色边框表示。橙色为data 区域，蓝色为over (pre) scan 区域，（0，0）在左上
+角。1, 2, 3, 4 表示同一个探测器不同的读出通道（门）。共有4 个输出通道, 每个通道
+都含有50 列prescan, 320 行及320 列overscan。其中，蓝端探测器CCD 每个读出通道
+（门）的物理区域如上图所示，1344（行）* 2418（列）（pixels），一帧紫外图像数
+据，需要传输1344 次。其中，1344 = 1024（physical pixels）+ 320（virtual overscan）;
+18
+5.3.4.
+系外行星成像星冕仪（CPIC）
+文件对象接口如图13 所示：
+文件对象包含若干个HDU，其中primary HDU（图中的global
+header）只包含望远镜的位置姿态信息。其余HDU 为图像HDU（图中
+的raw image），raw image 的header 包含CCD 相关信息、WCS 相关
+数据、曝光相关信息，image data 部分为从探测器读出后未经任何修改
+的0 级图像数据。星冕仪模块可见光图像数据像素为1080*1050，红外
+为640*512。数据类型为无符号16 位整形，如果相机读出的数据不足
+2418 = 50（prescan）+ 2048（physical pixels）+ 320（virtual overscan）；一帧0 级数
+据image data 输出像元尺寸：1344（行）× 9672（列）（pixels）。红端探测器CCD
+每个读出通道（门）的物理区域如上图所示，1856（行）* 3442（列）（pixels），一
+帧可见光图像数据，需要传输1856 次。其中，1856 = 1536（physical pixels）+320
+（virtual overscan ）；3442 = 50 （prescan ）+3072（physical pixels ）+320 （virtual
+overscan）；一帧0 级数据image data 输出像元尺寸：1856（行）×13768（列）
+（pixels）。
+图13. CPIC 0 级数据结构示意图
+19
+16 位，在高位进行补零。
+5.3.5.
+高灵敏度太赫兹模块（HSTDM）
+文件对象接口如图14 所示：
+太赫兹模块0 级数据按照建议文件夹自动存储后，由数据库自动检
+索入库。文件对象包含两个HDU，其中primary HDU（图中的global
+header）只包含望远镜的位置姿态信息。对象有一个图像扩展（图中的
+raw image），raw image 的header 包含接收机相关信息，image data 部分
+为从探测器读出后未经任何修改的0 级数据，为二进制文件，数据的状
+态字为ASCII 码固定格式。
+5.4. 接口名称和项目识别号
+5.4.1.
+接口需求
+数据对象在模块间传递应同时允许文件传递和数据流传递。
+5.4.2.
+数据元素
+对象头关键字见表3（global header），表4 和表5（主巡天模块raw
+image 中header），表6（MCI 模块raw image 中header），表7（IFS 模
+图14.HSTDM 0 级数据结构示意图
+20
+块raw image 中header），表8（星冕仪模块raw image 中header），表9
+（太赫兹模块raw image 中header）。其中：
+第一列keyword 为元素唯一识别号，也是FITS 格式头文件的关键字，
+关键字由大写字母和数字组成，其中数字不可作为关键字的首字符，最
+多8 个字符。
+第二列给出元素可能的值。
+第三列为元素的描述，也是FITS 头文件每个关键字的注释。元素的
+物理单位也包含在第三列的注释中。
+第三列为元素的数据类型，其中bool 表示为布尔型，可以是T 或F；
+int 是整型，float 是浮点型，strxx，其中xx 表示字符串的最大长度。
+21
+表3.全局头文件关键字
+GLOBAL HEADER KEYWORDS
+keyword
+example
+comment
+dtype
+GENERAL KEYWORDS
+SIMPLE
+TRUE
+conforms to FITS standard
+bool
+BITPIX
+8
+array data type
+int
+NAXIS
+0
+number of array dimensions
+int
+EXTEND
+TRUE
+bool
+NEXTEND
+1
+number of array dimensions
+int
+DATE
+2024-08-
+17T06:05:12.0
+written date (yyyy-mm-ddThh:mm:ss.s)
+str21
+FILENAME
+CSST_MSC_
+MS_SCI_2024
+0817060512_2
+024081706074
+2_1016010000
+0_09_L0_V01
+str
+FILETYPE
+SCI
+observation type
+str
+TELESCOP
+CSST
+telescope name
+str4
+INSTRUME
+MSC
+instrument name
+str3
+RADECSYS
+ICRS
+coordinate system of the object
+str
+EQUINOX
+2000.0
+float
+FITSSWV
+2.1.0_202312
+08_wcl-5
+FITS creating software version
+str
+COMMENT
+==========
+str72
+22
+===========
+===========
+===========
+===========
+===========
+=======
+OBJECT INFORMATION
+OBJECT
+60000000
+object name
+str
+TARGET
+161953.0+39
+5345
+target name (hhmmss.s+ddmmss)
+str15
+OBSID
+10160100066
+observation ID
+str
+RA_OBJ
+244.972773
+object RA (deg)
+float
+DEC_OBJ
+39.895901
+object Dec (deg)
+float
+TELESCOPE INFORMATION
+REFFRAME
+CSSTGSC-
+1.0
+guiding catalog version
+str
+DATE-OBS
+2024-08-
+17T06:05:12.0
+observation
+date
+(yyyy-mm-
+ddThh:mm:ss.s)
+str21
+SATESWV
+1
+satellite software version
+str
+EXPSTART
+60539.25361
+exposure start time (MJD)
+float
+CABSTART
+60539.25361
+first cabin time after exposure start
+(MJD)
+float
+SUNANGL0
+50.0
+angle between the Sun and opt axis at
+CABSTART
+float
+23
+MOONANG0
+30.0
+angle between the Moon and opt axis at
+CABSTART
+float
+TEL_ALT0
+20.0
+angle between opt axis and Elimb at
+CABSTART
+float
+POS_ANG0
+20.0
+angle between y axis and North Pole at
+CABSTART
+float
+POSI0_X
+-2218.3663
+orbital position in X at CABSTART
+(km)
+float
+POSI0_Y
+-5817.8559
+orbital position in Y at CABSTART
+(km)
+float
+POSI0_Z
+2597.9467
+orbital position in Z at CABSTART
+(km)
+float
+VELO0_X
+5.058199026
+orbital velocity in X at CABSTART
+(km/s)
+float
+VELO0_Y
+-3.858187999
+orbital velocity in Y at CABSTART
+(km/s)
+float
+VELO0_Z
+-4.322908628
+orbital velocity in Z at CABSTART
+(km/s)
+float
+EULER0_1
+0.0
+Euler angle 1 at CABSTART (deg)
+float
+EULER0_2
+0.0
+Euler angle 2 at CABSTART (deg)
+float
+EULER0_3
+0.0
+Euler angle 3 at CABSTART (deg)
+float
+RA_PNT0
+244.972773
+pointing RA at CABSTART (deg)
+float
+DEC_PNT0
+39.895901
+pointing Dec at CABSTART (deg)
+float
+EXPEND
+60539.25535
+exposure end time (MJD)
+float
+CABEND
+60539.25535
+first
+cabin
+time
+after
+exposure
+end
+float
+24
+(MJD)
+SUNANGL1
+50.0
+angle between the Sun and opt axis at
+CABEND
+float
+MOONANG1
+30.0
+angle between the Moon and opt axis at
+CABEND
+float
+TEL_ALT1
+20.0
+angle between opt axis and Elimb at
+CABEND
+float
+POS_ANG1
+20.0
+angle between y axis and North Pole at
+CABEND
+float
+POSI1_X
+0.0
+orbital position in X at CABEND (km)
+float
+POSI1_Y
+0.0
+orbital position in Y at CABEND (km)
+float
+POSI1_Z
+0.0
+orbital position in Z at CABEND (km)
+float
+VELO1_X
+0.0
+orbital velocity in X at CABEND (km/s)
+float
+VELO1_Y
+0.0
+orbital velocity in Y at CABEND (km/s)
+float
+VELO1_Z
+0.0
+orbital velocity in Z at CABEND (km/s)
+float
+EULER1_1
+0.0
+Euler angle 1 at CABEND (deg)
+float
+EULER1_2
+0.0
+Euler angle 2 at CABEND (deg)
+float
+EULER1_3
+0.0
+Euler angle 3 at CABEND (deg)
+float
+RA_PNT1
+244.972773
+pointing RA at CABEND (deg)
+float
+DEC_PNT1
+39.895901
+pointing Dec at CABEND (deg)
+float
+EPOCH
+2024.6
+equinox of pointing RA and Dec
+float
+25
+表4. 0 级数据头文件关键字（MSC_MS）
+EXPTIME
+150.0
+exposure time (s)
+float
+VERIFICATION INFORMATION
+CHECKSUM
+QAWaQ8TX
+QATaQ7TU
+HDU
+checksum
+updated
+2024-03-
+07T08:52:11
+str
+DATASUM
+0
+data unit checksum updated 2024-03-
+07T08:52:11
+str
+RAW EXTENSION HEADER KEYWORDS
+keyword
+example
+comment
+dtype
+GENERAL KEYWORDS
+XTENSION
+IMAGE
+image extension
+str
+BITPIX
+16
+array data type
+int
+NAXIS
+2
+number of array dimensions
+int

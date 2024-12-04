@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "XRISM任务的运营方是谁？", "answer": "XRISM任务的运营方是日本宇宙航空研究开发机构（JAXA）。"},
+    {"question": "XRISM任务的发射日期是什么时候？", "answer": "XRISM任务的发射日期是2023年9月7日。"},
+    {"question": "XRISM任务计划持续多长时间？", "answer": "XRISM任务计划持续3年。"},
+    {"question": "XRISM航天器的发射质量是多少？", "answer": "XRISM航天器的发射质量是2,300千克（5,100磅）。"},
+    {"question": "XRISM主望远镜的口径有多大？", "answer": "XRISM主望远镜的口径是45 cm（18英寸）。"},
+    {"question": "XRISM任务的前身是什么？", "answer": "XRISM任务的前身是X射线天文恢复任务（XARM），也被称为\" ASTRO-H继任者\"或\"ASTRO-H2\"。"},
+    {"question": "XRISM任务的主要目标是什么？", "answer": "XRISM任务的主要目标是研究宇宙的形成结构，和来自星系与活跃星系核流出物与暗物质方面提供突破。同时，该任务也将作为欧洲先进高能天体物理学望远镜（雅典娜号）望远镜的科技演示器。"},
+    {"question": "XRISM任务将携带哪两台仪表？", "answer": "XRISM任务将携带Resolve（软X射线光谱仪）和Xtend（软X射线成像仪）两台仪表。"},
+    {"question": "Resolve仪表是由哪个机构开发的？", "answer": "Resolve仪表是由美国国家航空航天局和戈达德太空飞行中心开发的。"},
+    {"question": "Xtend与XRISM的前任任务中的哪个仪器相似？", "answer": "Xtend与XRISM的前任任务Hitomi中的SXI仪器相似，但其能量分辨率有所改进。"}
+]
+```

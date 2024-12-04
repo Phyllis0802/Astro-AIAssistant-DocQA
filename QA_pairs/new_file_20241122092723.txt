@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "SATESWV关键字在哪个数据包中？", "answer": "从文档中找不到答案"},
+    {"question": "EXPSTART关键字表示什么？", "answer": "EXPSTART关键字表示时间码（积分开始时刻），主巡天短波红外和星冕仪采用cube模式，积分开始时刻为第一帧图像的积分开始时刻。"},
+    {"question": "太赫兹积分开始时刻的参考是哪个参数？", "answer": "太赫兹积分开始时刻的参考是0级数据头文件关键字（HSTDM）中的INT_STAR参数。"},
+    {"question": "SUNANGL0关键字提供哪些太阳方位信息？", "answer": "SUNANGL0关键字提供太阳方位SOX，太阳方位SOY，太阳方位SOZ。曝光开始后，最近一次绝对定位时间对应的太阳方位（广播光学舱GNC数据），由此进行转换。"},
+    {"question": "POSI0_X、POSI0_Y、POSI0_Z分别代表什么？", "answer": "POSI0_X代表PX，即曝光开始后，最近一次绝对定位时间对应的PX（广播光学舱定位数据）；POSI0_Y代表PY，同上；POSI0_Z代表PZ，同上。"},
+    {"question": "EXPEND关键字是如何计算的？", "answer": "EXPEND关键字是通过EXPSTART+EXPTIME（积分时间）来计算的。"},
+    {"question": "TEL_ALT0是如何获取的？", "answer": "从文档中找不到答案，但TEL_ALT1关键字是通过地面解算获取的，可以推测TEL_ALT0可能也是通过类似方式获取。"},
+    {"question": "EXPTIME关键字在哪个数据包中？", "answer": "EXPTIME关键字在巡天模块图像辅助数据包／短波红外图像数据包中。"},
+    {"question": "CHECKSUM和DATASUM在0级数据中的作用是什么？", "answer": "从文档中找不到答案，但这两个关键字通常用于数据完整性和准确性验证。"},
+    {"question": "DETTEMP1、DETTEMP2、DETTEMP3分别记录什么时刻的温度？", "answer": "DETTEMP1记录曝光开始时刻，主焦面温度；DETTEMP2记录曝光结束时刻，主焦面温度；DETTEMP3记录读出结束时刻，主焦面温度。"}
+]
+```

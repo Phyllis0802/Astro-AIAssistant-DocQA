@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "日出号SOLAR-B / Hinode由哪些组织联合研制？", "answer": "日出号SOLAR-B / Hinode由JAXA / NASA / PPARC联合研制。"},
+    {"question": "日出号SOLAR-B / Hinode的主制造商是谁？", "answer": "日出号SOLAR-B / Hinode的主制造商是三菱电机。"},
+    {"question": "日出号SOLAR-B / Hinode的任务类型是什么？", "answer": "日出号SOLAR-B / Hinode的任务类型是太阳观测。"},
+    {"question": "日出号SOLAR-B / Hinode是在哪一年发射的？", "answer": "日出号SOLAR-B / Hinode是在2006年发射的。"},
+    {"question": "日出号SOLAR-B / Hinode的发射地点是哪里？", "answer": "日出号SOLAR-B / Hinode的发射地点是内之浦宇宙空间观测所。"},
+    {"question": "日出号SOLAR-B / Hinode的任务原定时长是多少？", "answer": "日出号SOLAR-B / Hinode的任务原定时长是3年。"},
+    {"question": "日出号SOLAR-B / Hinode目前已运作了多久？", "answer": "日出号SOLAR-B / Hinode目前已运作了17年10个月。"},
+    {"question": "日出号（Hinode）的卫星全长是多少（太阳能板展开时）？", "answer": "日出号（Hinode）的卫星全长是10 m（太阳能板展开时）。"},
+    {"question": "日出号（Hinode）卫星的主要目的是什么？", "answer": "日出号（Hinode）卫星的主要目的是观测太阳磁场的精细结构，研究太阳耀斑等剧烈的爆发活动，拍摄高质量的太阳图片。"},
+    {"question": "日出卫星上搭载的主要科学仪器有哪些？", "answer": "日出卫星上搭载的主要科学仪器有太阳光学望远镜（SOT）、X射线望远镜（XRT）和极紫外线成像光谱仪（EIS）。"}
+]
+```

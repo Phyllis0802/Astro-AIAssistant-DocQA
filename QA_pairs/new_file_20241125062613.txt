@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "广域红外线巡天探测卫星的英文简称是什么？", "answer": "Wide-field Infrared Survey Explorer, WISE"},
+    {"question": "广域红外线巡天探测卫星是由哪些组织机构负责的？", "answer": "NASA/ESA"},
+    {"question": "广域红外线巡天探测卫星的发射日期是什么时候？", "answer": "2009年12月14日 14:09:33 UTC"},
+    {"question": "广域红外线巡天探测卫星的发射地点在哪里？", "answer": "美国加州范登堡空军基地"},
+    {"question": "广域红外线巡天探测卫星的质量是多少？", "answer": "750 公斤 (1650 磅)"},
+    {"question": "WISE的红外线侦测器比之前的红外线巡天太空望远镜灵敏多少倍？", "answer": "WISE的红外线侦测器比之前的红外线巡天太空望远镜，如IRAS、AKARI、COBE灵敏一千倍以上"},
+    {"question": "WISE预计每天可以发现多少颗小行星？", "answer": "一般预期WISE一天可以发现数十颗小行星，但实际上WISE每天可探测1000个小行星带天体和1-3个近地天体。"},
+    {"question": "WISE的主要任务时长是多少？", "answer": "WISE的主要任务时长是10个月。"},
+    {"question": "2010年10月后，WISE的哪个任务开始执行？", "answer": "2010年10月后，WISE的近地天体观测（NEOWISE）任务开始执行。"},
+    {"question": "WISE重新激活后的新名称是什么？", "answer": "WISE重新激活后的新名称是NEOWISE。"}
+]
+```

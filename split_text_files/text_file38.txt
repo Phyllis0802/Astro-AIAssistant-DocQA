@@ -1,0 +1,608 @@
+POSI0_X 
+-4803.159637 
+orbital position 
+in X at 
+CABSTART 
+(km) 
+float 
+ 
+POSI0_Y 
+-1227.091939 
+orbital position 
+in Y at 
+CABSTART 
+(km) 
+float 
+ 
+POSI0_Z 
+4607.171613 
+orbital position 
+in Z at 
+CABSTART 
+(km) 
+float 
+ 
+VELO0_X 
+1.778552 
+orbital velocity 
+in X at 
+CABSTART 
+(km/s) 
+float 
+ 
+VELO0_Y 
+-7.465439 
+orbital velocity 
+in Y at 
+CABSTART 
+(km/s) 
+float 
+ 
+VELO0_Z 
+-0.127291 
+orbital velocity 
+in Z at 
+float 
+ 
+ 
+ 
+106 
+CABSTART 
+(km/s) 
+EULER0_1 
+0.1 
+Euler angle 1 at 
+CABSTART 
+(deg) 
+float 
+ 
+EULER0_2 
+0.1 
+Euler angle 2 at 
+CABSTART 
+(deg) 
+float 
+ 
+EULER0_3 
+0.1 
+Euler angle 3 at 
+CABSTART 
+(deg) 
+float 
+ 
+RA_PNT0 
+116.1808154 
+pointing RA at 
+CABSTART 
+(deg) 
+float 
+ 
+DEC_PNT0 
+39.42316681 
+pointing Dec at 
+CABSTART 
+(deg) 
+float 
+ 
+CABEND 
+2460297.096 
+first cabin time 
+after exposure 
+end (MJD) 
+float 
+ 
+SUNANGL1 
+0.1 
+angle between 
+the Sun and opt 
+axis at 
+CABEND 
+float 
+ 
+MOONANG1 
+0.1 
+angle between 
+the Moon and 
+opt axis at 
+CABEND 
+float 
+ 
+TEL_ALT1 
+0.1 
+angle between 
+opt axis and 
+Elimb at 
+CABEND 
+float 
+ 
+POS_ANG1 
+0.1 
+angle between 
+y axis and 
+North Pole at 
+CABEND 
+float 
+ 
+POSI1_X 
+-3995.852031 
+orbital position 
+in X at 
+CABEND (km) 
+float 
+ 
+ 
+ 
+107 
+POSI1_Y 
+-3345.938338 
+orbital position 
+in Y at 
+CABEND (km) 
+float 
+ 
+POSI1_Z 
+4295.494649 
+orbital position 
+in Z at 
+CABEND (km) 
+float 
+ 
+VELO1_X 
+3.482398 
+orbital velocity 
+in X at 
+CABEND 
+(km/s) 
+float 
+ 
+VELO1_Y 
+-6.5599855 
+orbital velocity 
+in Y at 
+CABEND 
+(km/s) 
+float 
+ 
+VELO1_Z 
+-1.8602305 
+orbital velocity 
+in Z at 
+CABEND 
+(km/s) 
+float 
+ 
+EULER1_1 
+0.1 
+Euler angle 1 at 
+CABEND 
+(deg) 
+float 
+ 
+EULER1_2 
+0.1 
+Euler angle 2 at 
+CABEND 
+(deg) 
+float 
+ 
+EULER1_3 
+0.1 
+Euler angle 3 at 
+CABEND 
+(deg) 
+float 
+ 
+RA_PNT1 
+116.1808154 
+pointing RA at 
+CABEND 
+(deg) 
+float 
+ 
+DEC_PNT1 
+39.42316681 
+pointing Dec at 
+CABEND 
+(deg) 
+float 
+ 
+EPOCH 
+2024.6 
+equinox of 
+pointing RA 
+and Dec 
+float 
+ 
+CHECKSUM 
+ZgDLdZ9IZdC
+IbZ9I 
+HDU checksum 
+updated 2024-
+03-
+07T08:52:11 
+str 
+ 
+ 
+ 
+108 
+DATASUM 
+4200979813 
+data unit 
+checksum 
+updated 2024-
+03-
+07T08:52:11 
+str 
+ 
+VER_INST 
+0.0.1 
+version of 
+instrument 
+processing 
+str 
+ 
+STM_INST 
+Wed Jul 26 
+15:56:12 2023 
+time stamp of 
+instrument 
+processing 
+str 
+ 
+STA_BIAS 
+0 
+status flag for 
+bias frame 
+correction 
+int 
+ 
+STA_OSCN 
+1 
+status flag for 
+overscan bias 
+correction 
+int 
+ 
+STA_DARK 
+0 
+status flag for 
+dark frame 
+correction 
+int 
+ 
+STA_FLAT 
+0 
+status flag for 
+flat frame 
+correction 
+int 
+ 
+SKY_BKG 
+0.032387921 
+estimated sky 
+background (e-
+/s per pixel) 
+float 
+ 
+SKY_RMS 
+0.018825366 
+standard dev of 
+frame 
+background 
+(ADU)-> e-/s 
+float 
+ 
+SATURATE 
+300 
+flux limit of 
+saturated pixel 
+(e-/s) 
+float 
+ 
+STA_CTE 
+1 
+status flag for 
+CTE correction 
+int 
+ 
+STA_SAT 
+1 
+status flag for 
+satellite 
+correction 
+int 
+ 
+ 
+ 
+109 
+STA_CRS 
+1 
+status flag for 
+cosmic rays 
+mask 
+int 
+ 
+CRCOUNT 
+-9999 
+cosmic rays 
+counts 
+int 
+ 
+STA_NLIN 
+0 
+status flag for 
+non-linearity 
+int 
+ 
+STA_SHUT 
+0 
+status flag for 
+shutter effect 
+correction 
+int 
+ 
+STA_FRNG 
+1 
+status flag for 
+fringing effect 
+correction 
+int 
+ 
+STA_AST 
+0 
+completion 
+degree of MCI 
+astrometric 
+solution 
+int 
+ 
+VER_AST 
+v2023.01 
+version of MCI 
+astrometry soft 
+str 
+ 
+STM_AST 
+ 
+time stamp of 
+MCI astrometry 
+str 
+ 
+RADESYS 
+ICRS 
+astrometric 
+system 
+str 
+ 
+CUNIT1 
+deg 
+axis unit 
+str 
+ 
+CUNIT2 
+deg 
+axis unit 
+str 
+ 
+PV1_0 
+1.41E-05 
+projection 
+distortion 
+parameter 1_0 
+float 
+ 
+PV1_1 
+0.999351806 
+projection 
+distortion 
+parameter 1_1 
+float 
+ 
+PV1_2 
+5.04E-05 
+projection 
+distortion 
+parameter 1_2 
+float 
+ 
+PV1_4 
+-0.008989772 
+projection 
+distortion 
+parameter 1_4 
+float 
+ 
+ 
+ 
+110 
+PV1_5 
+-0.003683228 
+projection 
+distortion 
+parameter 1_5 
+float 
+ 
+PV1_6 
+-0.011975965 
+projection 
+distortion 
+parameter 1_6 
+float 
+ 
+PV1_7 
+0.20286007 
+projection 
+distortion 
+parameter 1_7 
+float 
+ 
+PV1_8 
+-0.026544072 
+projection 
+distortion 
+parameter 1_8 
+float 
+ 
+PV1_9 
+0.15674655 
+projection 
+distortion 
+parameter 1_9 
+float 
+ 
+PV1_10 
+-0.008972019 
+projection 
+distortion 
+parameter 1_10 
+float 
+ 
+PV1_12 
+5.078605197 
+projection 
+distortion 
+parameter 1_12 
+float 
+ 
+PV1_13 
+0.632606988 
+projection 
+distortion 
+parameter 1_13 
+float 
+ 
+PV1_14 
+-1.74066848 
+projection 
+distortion 
+parameter 1_14 
+float 
+ 
+PV1_15 
+0.57559164 
+projection 
+distortion 
+parameter 1_15 
+float 
+ 
+PV1_16 
+4.498540917 
+projection 
+distortion 
+parameter 1_16 
+float 
+ 
+PV2_0 
+8.22E-05 
+projection 
+distortion 
+parameter 2_0 
+float 
+ 
+PV2_1 
+1.000053182 
+projection 
+distortion 
+parameter 2_1 
+float 
+ 
+ 
+ 
+111 
+PV2_2 
+3.10E-05 
+projection 
+distortion 
+parameter 2_2 
+float 
+ 
+PV2_4 
+-0.059758437 
+projection 
+distortion 
+parameter 2_4 
+float 
+ 
+PV2_5 
+0.009598596 
+projection 
+distortion 
+parameter 2_5 
+float 
+ 
+PV2_6 
+-0.012692948 
+projection 
+distortion 
+parameter 2_6 
+float 
+ 
+PV2_7 
+0.061356166 
+projection 
+distortion 
+parameter 2_7 
+float 
+ 
+PV2_8 
+0.14482046 
+projection 
+distortion 
+parameter 2_8 
+float 
+ 
+PV2_9 
+-0.318493006 
+projection 
+distortion 
+parameter 2_9 
+float 
+ 
+PV2_10 
+0.05088614 
+projection 
+distortion 
+parameter 2_10 
+float 
+ 
+PV2_12 
+9.178757575 
+projection 
+distortion 
+parameter 2_12 
+float 
+ 
+PV2_13 
+-2.551576669 
+projection 
+distortion 
+parameter 2_13 
+float 
+ 
+PV2_14 
+11.94022013 
+projection 
+distortion 
+parameter 2_14 
+float 
+ 
+PV2_15 
+-2.770645494 
+projection 
+distortion 
+parameter 2_15 
+float 
+ 
+PV2_16 
+-1.395705043 
+projection 
+distortion 
+parameter 2_16 
+float 
+ 
+ 
+ 
+112 
+ASTIRMS1 
+0.053421501 
+astrom.

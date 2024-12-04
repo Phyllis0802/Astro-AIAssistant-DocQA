@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "NCHANNEL代表的是什么？", "answer": "NCHANNEL代表的是读出通道的数量，数据类型为int。"},
+    {"question": "PSCAN1的含义是什么？", "answer": "PSCAN1表示每个读出通道的水平预扫描宽度，数据类型为int。"},
+    {"question": "OSCAN1的单位是什么？", "answer": "从文档中找不到答案（因为文档中没有直接提及OSCAN1的单位，但根据上下文可以推测为像素或类似的无量纲单位，因为这是一个宽度值）。不过，可以确认OSCAN1表示的是水平过扫描宽度，数据类型为int。"},
+    {"question": "CRPIX1和CRPIX2分别代表什么？", "answer": "CRPIX1代表参考像素的x坐标，CRPIX2代表参考像素的y坐标，数据类型都为float。"},
+    {"question": "CTYPE1和CTYPE2分别代表哪种WCS投影？", "answer": "CTYPE1代表RA的WCS投影类型，为'RA---TAN'；CTYPE2代表Dec的WCS投影类型，为'DEC--TAN'。"},
+    {"question": "GAINLVL的数据类型是什么？", "answer": "GAINLVL的数据类型是float，表示增益水平（电子/ADU）。"},
+    {"question": "RON01代表的是哪个通道的读出噪声？", "answer": "RON01代表的是第1个通道的读出噪声，单位为电子(e-)。"},
+    {"question": "DETBIA01的单位是什么？", "answer": "DETBIA01的单位是ADU，表示第1个通道的放大器偏置灰度值。"},
+    {"question": "EXPTIME的数据类型是什么？", "answer": "EXPTIME的数据类型是float，表示曝光时间（秒）。"},
+    {"question": "CABSTART代表的是何时？", "answer": "CABSTART代表的是曝光开始后的第一次舱门时间（Modified Julian Date，MJD）。"}
+]
+```

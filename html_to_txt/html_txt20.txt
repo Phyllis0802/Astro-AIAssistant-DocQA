@@ -1,0 +1,322 @@
+太阳神-L1号探测器Aditya-L1太阳神-L1号探测器任务类型太阳观测运营方印度空间研究组织国际卫星标识符2023-132A卫星目录序号57754网站isro.gov.in/Aditya_L1.html任务时长5.2年（计划）[1]
+航天器属性航天器PSLV-XL/C-57航天器类型极轨卫星运载火箭制造方印度空间研究组织 / 印度校际天文与天体物理中心（英语：Inter-University Centre for Astronomy and Astrophysics） / 印度天体物理研究所（英语：Indian Institute of Astrophysics）发射质量1,475千克（3,252磅）[2]有效载荷质量244千克（538磅）[1]
+任务开始发射日期2023年9月2日 (2023-09-02), 11:50 IST (06:20 UTC) [3][4]运载火箭PSLV-XL发射场萨迪什·达万航天中心承包方印度空间研究组织
+轨道参数参照系拉格朗日点#L1点轨域晕轮轨道周期177.86天[5]
+
+
+已隐藏部分未翻译内容，欢迎参与翻译。VELCVisible Emission Line CoronagraphSUITSolar Ultraviolet Imaging TelescopeASPEXAditya Solar wind Particle ExperimentPAPAPlasma Analyser Package for AdityaSoLEXSSolar Low Energy X-ray SpectrometerHEL1OSHigh Energy L1 Orbiting X-ray SpectrometerMagnetometerMagnetometer 
+太阳神-L1号探测器（英语：Aditya-L1）是印度于2023年9月2日发射用于研究太阳的天基天文台[6]。本次任务由极轨卫星运载火箭PSLV-C57搭载太阳神L1于印度时间2023年9月2日11时50分左右在萨迪什·达万航天中心发射升空[7]。太阳神L1探测器需要飞行约4个月以抵达距地球150万公里的拉格朗日L1点，在不受日食等干扰下，持续观测太阳[8][9]。
+
+
+命名[编辑]
+本次探测任务与探测器以印度教太阳神命名，“Aditya”在梵语中意为“太阳神”，L1的意思是指探测器的工作轨道位于拉格朗日L1点的晕轨道[10]。
+
+有效载荷[编辑]
+太阳神-L1号探测器搭载有可见发射线日冕仪、紫外望远镜等七个有效载荷，以观察太阳的光球层、色球层和日冕，研究日冕加热、日冕物质抛射、太空天气的形成因素等[7][9]。
+
+航天主题
+参考来源[编辑]
+
+
+^ 1.0 1.1 Somasundaram, Seetha; Megala, S. Aditya-L1 mission (PDF). Current Science. 2017-08-25, 113 (4): 610  [2017-08-25]. Bibcode:2017CSci..113..610S. doi:10.18520/cs/v113/i04/610-612. （原始内容 (PDF)存档于2017-08-25）. 
+
+^ International Space Conference and Exhibition – DAY 3 (video). Confederation of Indian Industry.  事件发生在 2:07:36–2:08:38. 2021-09-15  [2021-09-18]. （原始内容存档于2023-09-12） –通过YouTube. 
+
+^ Moon mission done, ISRO aims for the Sun with Aditya-L1 launch on September 2. The Indian Express. 2023-08-28  [2023-08-28]. （原始内容存档于2023-08-28）. 
+
+^ Pandey, Geeta. Aditya-L1: India launches its first mission to Sun. BBC News. 2023-09-02  [2023-09-02]. （原始内容存档于2023-09-02）. 
+
+^ Sreekumar, P. Indian Space Science & Exploration : Global Perspective (PDF). UNOOSA: 8. 2019-06-19  [2019-06-30]. （原始内容存档 (PDF)于2019-06-30）. 
+
+^ 庄婷婷. 印度发射首个用于太阳研究的探测器“太阳神-L1”号. 海峡网. 2023-09-02  [2023-09-02]. （原始内容存档于2023-09-02） （中文（中国大陆））. 
+
+^ 7.0 7.1 印度上周才登月大成功 明天再发射太阳探测器 | 国际. 东方网 马来西亚东方日报. 2023-09-01  [2023-09-02]. （原始内容存档于2023-09-02） （中文（简体））. 
+
+^ 林泽宇. 印媒：搭载印度“太阳神-L1号”运载火箭成功发射升空. 环球网. 2023-09-02  [2023-09-02]. （原始内容存档于2023-09-02） （中文（中国大陆））. 
+
+^ 9.0 9.1 印度拟周六发射首个太阳探测器. 澳门广播电视股份有限公司. 2023-08-29  [2023-09-02]. 
+
+^ 齐倩. 印度首个太阳探测器“太阳神-L1号”发射升空. 观察者网. 2023-09-02  [2023-09-02]. （原始内容存档于2023-09-02）. 
+
+
+
+查论编 印度太空计划印度航天 · 印度空间研究组织（ISRO）组织
+航天部（英语：Department of Space）（DOS）
+安得利公司（英语：Antrix Corporation）
+印度空间科学技术研究所（IIST）
+印度遥感理工学院（英语：Indian Institute of Remote Sensing）（IIRS）
+光电系统实验室（英语：Laboratory for Electro-Optics Systems）（LEOS）
+国家大气研究实验室（英语：National Atmospheric Research Laboratory）（NARL）
+物理研究实验室（英语：Physical Research Laboratory）（PRL）
+发展与教育交流单位（英语：Development and Educational Communication Unit）（DECU）
+印度新空间有限公司（NSIL）
+计划
+卜哈斯卡瑞卫星（英语：Bhaskara (satellite)）
+GPS辅助型静地轨道增强导航（GAGAN）
+GSAT系列通讯卫星（英语：GSAT）（GSAT）
+印度国家卫星系统（英语：Indian National Satellite System）（INSAT）
+印度区域导航卫星系统（IRNSS）
+印度遥感卫星计划（英语：Indian Remote Sensing）（IRS）
+Cartosat
+雷达成像卫星系列（英语：RISAT）（RISAT）
+罗希尼 (卫星)（英语：Rohini (satellite)）（Rohini）
+罗希尼加强系列 (卫星)（英语：Stretched Rohini Satellite Series）（SROSS）
+月船计划（英语：Chandrayaan programme）（Chandrayaan）
+印度载人航天计划
+加冈扬载人飞船
+太空飞行器一次性任务
+阿丽亚娜载荷试验（英语：Ariane Passenger Payload Experiment）（APPLE）
+太阳神-L1号探测器（Aditya-L1）
+阿耶波多 (卫星)（英语：Aryabhata (satellite)）（Aryabhata）
+Astrosat
+亨思特 (卫星)（英语：HAMSAT）（HAMSAT）
+IMS-1（英语：IMS-1）
+热带云 (卫星)（英语：Megha-Tropiques）
+尼萨尔 (卫星)（英语：NISAR (satellite)）（NISAR）
+SARAL（英语：SARAL）（SARAL）
+南亚区域合作联盟卫星（英语：SAARC Satellite）（SAARC）
+太空舱返回实验（SRE）
+卡尔帕纳-1（英语：Kalpana-1）（Kalpana-1）
+模拟载人太空舱返回大气实验（英语：Crew Module Atmospheric Re-entry Experiment）（CARE）
+行星任务
+月船1号（Chandrayaan-1）
+月船2号（Chandrayaan-2）
+月船3号（Chandrayaan-3）
+火星轨道探测器（Mangalyaan 1）
+火星飞行器（英语：Mangalyaan 2）（Mangalyaan 2）
+金星轨道器任务（英语：Venus orbiter mission）
+航天飞机
+阿凡达航天飞机（AVATAR-RLV）
+火箭轨道
+卫星运载火箭（SLV）
+加强卫星运载火箭（ASLV）
+极轨卫星运载火箭（PSLV）
+地球同步卫星运载火箭（GSLV）
+地球同步卫星运载火箭3型号（GSLV-III）
+亚轨道
+罗希尼运载火箭（英语：Rohini (rocket family)）（Rohini）
+先进技术试验器（英语：Advanced Technology Vehicle）（ATV）
+概念
+统一运载火箭（ULV）
+开发中
+可重复使用发射技术验证器（RLV-TD）
+设施
+印度深空网（英语：Indian Deep Space Network）（IDSN）
+印度空间研究组织卫星中心（英语：Indian Space Research Organisation Satellite Centre）（ISAC）
+印度空间研究组织遥测、跟踪和指挥网络（英语：ISRO Telemetry, Tracking and Command Network）（ISTRAC）
+主控设备工厂（英语：Master Control Facility）（MCF）
+萨迪什·达万航天中心（SDSC）
+顿巴赤道火箭发射站（TERLS）
+其他
+SAGA-220超级电脑（英语：SAGA-220）
+
+印度卫星的列表（英语：List of Indian satellites）
+印度运载火箭发射列表
+印度空间研究组织任务列表（英语：List of ISRO missions）
+
+查论编太阳探测计划现在
+风（1994）
+太阳和太阳圈探测器（1995）
+先进成分探测器（1997）
+日出号卫星（2006）
+日地关系天文台（2006）
+太阳动力学天文台（2010）
+太阳过渡层成像光谱仪卫星（2013）
+深太空气候天文台（英语：Deep Space Climate Observatory）（2015）
+派克太阳探测器（2018）
+太阳轨道载具（2020）
+羲和号（羲和号）（2021）
+夸父计划（夸父1号）（2022）
+太阳神-L1号探测器（2023）
+过去
+先驱者5号、6、7、8和9号
+轨道太阳天文台
+OSO 1
+OSO 2/OSO B
+OSO 3（英语：OSO 3）
+OSO 4
+OSO 5
+OSO 6
+OSO 7（英语：OSO 7）
+OSO 8
+太阳风卫星（英语：Solwind）
+ESRO 2B（英语：ESRO 2B）
+阿波罗望远镜装置（英语：Apollo Telescope Mount）
+太阳神号
+ISEE-1（英语：ISEE-1）
+ISEE-2（英语：ISEE-2）
+ICE/ISEE-3（英语：International Cometary Explorer）
+太阳极大期任务卫星（1980）
+火鸟卫星（英语：Hinotori (satellite)）
+尤利西斯号（1990-2009）
+EURECA（英语：European Retrievable Carrier）
+阳光号卫星（1991-2001）
+太阳过渡区与日冕探测器（1998）
+GOES 13（英语：GOES 13）
+拉马第高能太阳光谱成像探测器（2002）
+日出号卫星 （2006）
+SOLAR（英语：SOLAR (ISS)）  （2008）
+日冕-光子卫星（英语：Koronas-Foton）
+PROBA-2（英语：PROBA-2） （2009）
+皮卡德卫星（英语：Picard (satellite)） （2010）
+MinXSS1/MinXSS2（英语：Miniature X-ray Solar Spectrometer CubeSat）（2015）
+斯巴达-201
+样本取回起源号（2001）未来计划
+PROBA-3（英语：PROBA-3）（2024）
+日冕和日球层联系偏振探测立方星座（英语：Polarimeter to Unify the Corona and Heliosphere）（2025）
+太阳物理学的科学支持技术（英语：Science-Enabling Technologies for Heliophysics）（2024）
+太阳帆卫星（英语：Sundiver (space mission)）
+串联重联和尖点电动力学勘测卫星（英语：Tandem Reconnection and Cusp Electrodynamics Reconnaissance Satellites）（2024）
+SWFO-L1（英语：Space Weather Follow On-Lagrange 1）（2025）
+太阳巡洋舰卫星（英语：Solar Cruiser）（2025）
+拉格朗日计划（英语：Lagrange (spacecraft)）
+ADAHELI（英语：ADAHELI）
+太阳警戒卫星
+已取消计划
+先驱者H号
+轨道太阳天文台（AOSO/OSO J/OSO-K）
+太阳哨兵
+空间太阳望远镜（英语：Space Solar Telescope）
+太阳-地球
+SORCE（英语：Solar Radiation and Climate Experiment）
+SXI（英语：Solar X-ray Imager）
+ACRIMSAT（英语：ACRIMSAT）
+括号内为发射年份，未来时间为预估发射年份
+查论编空间望远镜现役中
+哈勃空间望远镜(1990年起)
+风(1994年起)
+太阳和太阳圈探测器(1995年起)
+先进成分探测器(1997年起)
+钱德拉X射线天文台(1999年起)
+国际伽玛射线天体物理实验室(2002年起)
+伽玛射线暴快速探测器(2004年起)
+AGILE(2007年起)
+费米伽玛射线空间望远镜(2008年起)
+星际边界探测器(2008年起)
+太阳动力学天文台(2010年起)
+AMS-02(2011年起)
+核光谱望远镜阵列(2012年起)
+盖亚任务 (2013年起)
+广域红外线巡天探测卫星
+XMM-牛顿卫星
+硬X射线调制望远镜
+IRIS
+UFFO
+暗物质粒子探测卫星
+Astrosat
+凌日系外行星巡天卫星
+SPRINT-A（英语：Hisaki (satellite)）
+日出卫星
+量子电子望远镜（英语：Calorimetric Electron Telescope）
+近地天体监测卫星（英语：Near Earth Object Surveillance Satellite）
+奥丁卫星（英语：Odin (satellite)）
+帕克太阳探测器(2018年起)
+系外行星特性探测卫星(2019年起)
+Spektr-RG（英语：Spektr-RG）(2019年起)
+引力波暴高能电磁对应体全天监测器(2020年起)
+太阳轨道载具(2020年起)
+X射线偏振探测器（英语：Imaging X-ray Polarimetry Explorer）(2021年起)
+詹姆斯·韦伯空间望远镜(2021年起)
+先进天基太阳天文台(2023年起)
+欧几里得太空望远镜(2023年起)
+太阳神-L1号探测器(2023年起)
+X射线成像和光谱任务（2023年起）
+爱因斯坦探针卫星 （2024年起）
+天基多波段空间变源监视器 （2024年起）
+计划中
+国际月球天文台（英语：International Lunar Observatory） （2024）
+巡天号光学舱 （2024~2026+）
+增强型X射线时变与偏振空间天文台 （2027）
+罗曼太空望远镜 （2027）
+LiteBIRD(2028)
+SPICA （2032）
+先进高能天体物理学望远镜 （2034）
+激光干涉空间天线 （2034）
+环绕双黑洞探测卫星（英语：Orbiting Binary Black Hole Investigation Satellite） （未定）
+天琴计划
+太极计划
+提议中
+新世界任务
+Arcus（英语：Arcus (satellite)）
+系外星周盘环境探索者（英语：Exoplanetary Circumstellar Environments and Disk Explorer）
+菲涅耳成像器（英语：Fresnel Imager）
+极端宇宙太空天文台（英语：JEM-EUSO）
+起源太空望远镜（英语：Origins Space Telescope）
+THESEUS（英语：THESEUS (spacecraft)）
+大型紫外线、光学与红外线巡天望远镜（英语：Large UV Optical Infrared Surveyor）（先进大孔径太空望远镜（英语：Advanced Technology Large-Aperture Space Telescope）、高分辨率太空望远镜（英语：High-Definition Space Telescope））
+适居系外行星成像任务（英语：Habitable Exoplanet Imaging Mission）
+日本天体测量奈米卫星红外线探测任务（英语：Nano-JASMINE）
+月球紫外线成像仪（英语：Lunar Ultraviolet Cosmic Imager）
+堤亚任务（英语：Telescope for Habitable Exoplanets and Interstellar/Intergalactic Astronomy）
+分赫兹干涉引力波天文台
+已结束
+宇宙学和天体物理学进阶卫星（英语：Advanced Satellite for Cosmology and Astrophysics）（1993～2000）
+低能量X射线成像传感器阵列（英语：Array of Low Energy X-ray Imaging Sensors）（1993～2005）
+Astro 2（1995）
+Astron（英语：Astron (spacecraft)）（1983～1989）
+荷兰天文卫星（英语：Astronomical Netherlands Satellite）（1974～1976）
+BeppoSAX（1996～2003）
+Broad Band X-ray Telescope（英语：多頻帶X射線望遠鏡）（1996）
+Cos-B（1975～1982）
+欧洲X射线卫星（英语：EXOSAT）（1983～1996）
+银河卫星（英语：Ginga (satellite)）（1987～1991）
+国际太空天文台（英语：Granat）（1989～1998）
+天鹅卫星（英语：Hakucho）（1979～1985）
+HALCA（英语：HALCA）（1997～2005）
+高能天文观测站1号（英语：High Energy Astronomy Observatory 1）（1977～1979）
+高能天文观测站3号（英语：High Energy Astronomy Observatory 3）（1979～1981）
+RELIKT-1（英语：RELIKT-1）（1983～1984）
+乌呼鲁卫星（小型天文卫星1号）（1970～1973）
+Small Astronomy Satellite 2（英语：小型天文衛星2號）（1972～1973）
+Small Astronomy Satellite 3（英语：小型天文衛星3號）（1975～1979）
+天马卫星（英语：Tenma）（1983～1985）
+爱因斯坦卫星（高能天文观测站2号 HEAO-2）（1978～1982）
+轨道天文台2号（1968～1973）
+轨道天文台3号（哥白尼）（1972～1981）
+国际紫外线探测卫星（International Ultraviolet Explorer)（1978～1996）
+红外线太空天文台（Infrared Space Observatory）（1996～1998）
+红外线天文卫星（IRAS）（1983）
+极紫外探测器（1992～2001）
+康普顿伽玛射线天文台（CGRO）（1991～2000）
+伦琴卫星（ROSAT）（1990～1999）
+罗西X射线计时探测器（1995～2012）
+太空中途红外实验（英语：Midcourse Space Experiment）（MSX）（1996～1997）
+阳光卫星（Yohkoh）（1991～2001）
+依巴谷卫星（Hipparcos）（1989～1993）
+宇宙背景探测者（COBE）（1989～1993）
+低能量伽玛射线成像装置（英语：LEGRI）（1997～2002）
+亚毫米波天文卫星（1998～2004, 2004～2005）
+远紫外分光探测器（1999～2007）
+高能瞬态探测器2号（英语：High Energy Transient Explorer）（2000～2008）
+太阳过渡区与日冕探测器（1998～2010）
+威尔金森微波各向异性探测器（2001～2010）
+AKARI（2006～2011）
+星系演化探测器（2003～2013）
+CoRoT（2006～2013）
+赫雪尔太空望远镜（2009～2013）
+普朗克卫星（2009～2013）
+朱雀卫星（2005–2015）
+PAMELA（2006～2016）
+激光干涉空间天线开路者号（2015～2017）
+开普勒任务（2009～2018）
+恒星微变和振荡望远镜（英语：MOST (satellite)）（2003～2019）
+Spektr-R（2011～2019）
+斯皮策空间望远镜（2003–2020）
+失联
+轨道天文台（1966）
+高能瞬态探测器（英语：High Energy Transient Explorer）（HETE）（1996）
+全天宽带成像X射线卫星（英语：ABRIXAS）（1999）
+广角红外线探测器（英语：Wide Field Infrared Explorer）（1999）
+瞳（2016）
+被取消
+爱丁顿任务（英语：Eddington (spacecraft)）
+达尔文任务（英语：Darwin (spacecraft)）
+类地行星发现者
+太空干涉测量任务
+星座-X天文台
+联合暗能量任务（英语：Joint Dark Energy Mission）
+特拉维夫大学紫外线望远镜（英语：TAUVEX）
+ASTRO-G（英语：ASTRO-G）
+XEUS（英语：XEUS）
+空间太阳望远镜（英语：Space Solar Telescope）
+

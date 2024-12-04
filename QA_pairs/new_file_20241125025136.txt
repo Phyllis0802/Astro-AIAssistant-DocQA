@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "载人空间站工程巡天空间望远镜科学数据处理系统主要完成哪三项功能？", "answer": "载人空间站工程巡天空间望远镜科学数据处理系统主要完成三项功能：科学观测需求编排、数据处理和观测数据仿真。"},
+    {"question": "巡天空间望远镜科学数据处理系统同哪个中心存在接口关系？", "answer": "巡天空间望远镜科学数据处理系统同有效载荷运行管理中心存在接口关系。"},
+    {"question": "AB星等是什么？", "answer": "AB星等是一种天文学常用的星等定义，流量零点定义为3631央斯基。"},
+    {"question": "CCD的全称是什么？", "answer": "CCD的全称是Charge-Coupled Device，即电子耦合元件。"},
+    {"question": "CSST是哪个望远镜的简称？", "answer": "CSST是中国空间站巡天空间望远镜的简称。"},
+    {"question": "FITS代表什么？", "answer": "FITS代表Flexible Image Transport System，即普适图像传输系统（天文数据格式标准）。"},
+    {"question": "Gaia是什么项目？", "answer": "Gaia是欧洲空间局天体测量卫星项目。"},
+    {"question": "IFS代表什么仪器？", "answer": "IFS代表积分视场光谱仪。"},
+    {"question": "多扩展普适图像传输系统的英文缩写是什么？", "answer": "多扩展普适图像传输系统的英文缩写是MEF（Multi Extension Fits）。"},
+    {"question": "QC在科学数据处理系统中专指什么？", "answer": "QC在科学数据处理系统中专指科学可用性标记模块。"}
+]
+```

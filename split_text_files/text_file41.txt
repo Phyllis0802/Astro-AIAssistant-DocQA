@@ -1,0 +1,599 @@
+(e-) 
+float 
+ 
+RON03 
+4.550000191 
+readout noise 
+[channel 03] 
+(e-) 
+float 
+ 
+RON04 
+4.53000021 
+readout noise 
+[channel 04] 
+(e-) 
+float 
+ 
+RON05 
+4.510000229 
+readout noise 
+[channel 05] 
+(e-) 
+float 
+ 
+RON06 
+4.559999943 
+readout noise 
+[channel 06] 
+(e-) 
+float 
+ 
+RON07 
+4.579999924 
+readout noise 
+[channel 07] 
+(e-) 
+float 
+ 
+RON08 
+4.53000021 
+readout noise 
+[channel 08] 
+(e-) 
+float 
+ 
+RON09 
+4.539999962 
+readout noise 
+[channel 09] 
+(e-) 
+float 
+ 
+RON10 
+4.570000172 
+readout noise 
+[channel 10] 
+(e-) 
+float 
+ 
+RON11 
+4.510000229 
+readout noise 
+[channel 11] 
+(e-) 
+float 
+ 
+RON12 
+4.53000021 
+readout noise 
+[channel 12] 
+(e-) 
+float 
+ 
+RON13 
+4.550000191 
+readout noise 
+[channel 13] 
+(e-) 
+float 
+ 
+RON14 
+4.570000172 
+readout noise 
+[channel 14] 
+(e-) 
+float 
+ 
+ 
+ 
+125 
+RON15 
+4.53000021 
+readout noise 
+[channel 15] 
+(e-) 
+float 
+ 
+RON16 
+4.519999981 
+readout noise 
+[channel 16] 
+(e-) 
+float 
+ 
+DETBIA01 
+500.1 
+amplifier bias 
+grey value 
+[channel 1] 
+(ADU) 
+float 
+ 
+DETBIA02 
+510.1 
+amplifier bias 
+grey value 
+[channel 2] 
+(ADU) 
+float 
+ 
+DETBIA03 
+514.1 
+amplifier bias 
+grey value 
+[channel 3] 
+(ADU) 
+float 
+ 
+DETBIA04 
+520.1 
+amplifier bias 
+grey value 
+[channel 4] 
+(ADU) 
+float 
+ 
+DETBIA05 
+524.1 
+amplifier bias 
+grey value 
+[channel 5] 
+(ADU) 
+float 
+ 
+DETBIA06 
+540.1 
+amplifier bias 
+grey value 
+[channel 6] 
+(ADU) 
+float 
+ 
+DETBIA07 
+530.1 
+amplifier bias 
+grey value 
+[channel 7] 
+(ADU) 
+float 
+ 
+DETBIA08 
+532.1 
+amplifier bias 
+grey value 
+[channel 8] 
+(ADU) 
+float 
+ 
+DETBIA09 
+534.1 
+amplifier bias 
+grey value 
+float 
+ 
+ 
+ 
+126 
+[channel 9] 
+(ADU) 
+DETBIA10 
+526.1 
+amplifier bias 
+grey value 
+[channel 10] 
+(ADU) 
+float 
+ 
+DETBIA11 
+532.1 
+amplifier bias 
+grey value 
+[channel 11] 
+(ADU) 
+float 
+ 
+DETBIA12 
+516.1 
+amplifier bias 
+grey value 
+[channel 12] 
+(ADU) 
+float 
+ 
+DETBIA13 
+540.1 
+amplifier bias 
+grey value 
+[channel 13] 
+(ADU) 
+float 
+ 
+DETBIA14 
+560.1 
+amplifier bias 
+grey value 
+[channel 14] 
+(ADU) 
+float 
+ 
+DETBIA15 
+536.1 
+amplifier bias 
+grey value 
+[channel 15] 
+(ADU) 
+float 
+ 
+DETBIA16 
+528.1 
+amplifier bias 
+grey value 
+[channel 16] 
+(ADU) 
+float 
+ 
+ROSPEED 
+100.1 
+readout speed 
+(MHz) 
+float 
+ 
+EXPSTART 
+60296.59285 
+exposure start 
+time (MJD) 
+float 
+ 
+EXPEND 
+60296.59632 
+exposure end 
+time (MJD) 
+float 
+ 
+EXPTIME 
+150 
+exposure time 
+(s) 
+float 
+ 
+DARKTIME 
+300.100002 
+dark current 
+time (s) 
+float 
+ 
+ 
+ 
+127 
+SHTSTAT 
+TRUE 
+shutter status 
+bool 
+ 
+REFFRAME 
+CSSTGSC-1.0 
+guiding catalog 
+version 
+str 
+ 
+SATESWV 
+softwave-1.0 
+satellite 
+software 
+version 
+str 
+ 
+CABSTART 
+2460297.093 
+first cabin time 
+after exposure 
+start (MJD) 
+float 
+ 
+SUNANGL0 
+0.1 
+angle between 
+the Sun and opt 
+axis at 
+CABSTART 
+float 
+ 
+MOONANG0 
+0.1 
+angle between 
+the Moon and 
+opt axis at 
+CABSTART 
+float 
+ 
+TEL_ALT0 
+0.1 
+angle between 
+opt axis and 
+Elimb at 
+CABSTART 
+float 
+ 
+POS_ANG0 
+0.1 
+angle between 
+y axis and 
+North Pole at 
+CABSTART 
+float 
+ 
+POSI0_X 
+-4803.159637 
+orbital position 
+in X at 
+CABSTART 
+(km) 
+float 
+ 
+POSI0_Y 
+-1227.091939 
+orbital position 
+in Y at 
+CABSTART 
+(km) 
+float 
+ 
+POSI0_Z 
+4607.171613 
+orbital position 
+in Z at 
+CABSTART 
+(km) 
+float 
+ 
+VELO0_X 
+1.778552 
+orbital velocity 
+in X at 
+float 
+ 
+ 
+ 
+128 
+CABSTART 
+(km/s) 
+VELO0_Y 
+-7.465439 
+orbital velocity 
+in Y at 
+CABSTART 
+(km/s) 
+float 
+ 
+VELO0_Z 
+-0.127291 
+orbital velocity 
+in Z at 
+CABSTART 
+(km/s) 
+float 
+ 
+EULER0_1 
+0.1 
+Euler angle 1 at 
+CABSTART 
+(deg) 
+float 
+ 
+EULER0_2 
+0.1 
+Euler angle 2 at 
+CABSTART 
+(deg) 
+float 
+ 
+EULER0_3 
+0.1 
+Euler angle 3 at 
+CABSTART 
+(deg) 
+float 
+ 
+RA_PNT0 
+116.1808154 
+pointing RA at 
+CABSTART 
+(deg) 
+float 
+ 
+DEC_PNT0 
+39.42316681 
+pointing Dec at 
+CABSTART 
+(deg) 
+float 
+ 
+CABEND 
+2460297.096 
+first cabin time 
+after exposure 
+end (MJD) 
+float 
+ 
+SUNANGL1 
+0.1 
+angle between 
+the Sun and opt 
+axis at 
+CABEND 
+float 
+ 
+MOONANG1 
+0.1 
+angle between 
+the Moon and 
+opt axis at 
+CABEND 
+float 
+ 
+TEL_ALT1 
+0.1 
+angle between 
+opt axis and 
+Elimb at 
+CABEND 
+float 
+ 
+ 
+ 
+129 
+POS_ANG1 
+0.1 
+angle between 
+y axis and 
+North Pole at 
+CABEND 
+float 
+ 
+POSI1_X 
+-3995.852031 
+orbital position 
+in X at 
+CABEND (km) 
+float 
+ 
+POSI1_Y 
+-3345.938338 
+orbital position 
+in Y at 
+CABEND (km) 
+float 
+ 
+POSI1_Z 
+4295.494649 
+orbital position 
+in Z at 
+CABEND (km) 
+float 
+ 
+VELO1_X 
+3.482398 
+orbital velocity 
+in X at 
+CABEND 
+(km/s) 
+float 
+ 
+VELO1_Y 
+-6.5599855 
+orbital velocity 
+in Y at 
+CABEND 
+(km/s) 
+float 
+ 
+VELO1_Z 
+-1.8602305 
+orbital velocity 
+in Z at 
+CABEND 
+(km/s) 
+float 
+ 
+EULER1_1 
+0.1 
+Euler angle 1 at 
+CABEND 
+(deg) 
+float 
+ 
+EULER1_2 
+0.1 
+Euler angle 2 at 
+CABEND 
+(deg) 
+float 
+ 
+EULER1_3 
+0.1 
+Euler angle 3 at 
+CABEND 
+(deg) 
+float 
+ 
+RA_PNT1 
+116.1808154 
+pointing RA at 
+CABEND 
+(deg) 
+float 
+ 
+DEC_PNT1 
+39.42316681 
+pointing Dec at 
+CABEND 
+(deg) 
+float 
+ 
+ 
+ 
+130 
+EPOCH 
+2024.6 
+equinox of 
+pointing RA 
+and Dec 
+float 
+ 
+CHECKSUM 
+ZgDLdZ9IZdC
+IbZ9I 
+HDU checksum 
+updated 2024-
+03-
+07T08:52:11 
+str 
+ 
+DATASUM 
+4200979813 
+data unit 
+checksum 
+updated 2024-
+03-
+07T08:52:11 
+str 
+ 
+VER_INST 
+0.0.1 
+version of 
+instrument 
+processing 
+str 
+ 
+STM_INST 
+Wed Jul 26 
+15:56:12 2023 
+time stamp of 
+instrument 
+processing 
+str 
+ 
+STA_BIAS 
+0 
+status flag for 
+bias frame 
+correction 
+int 
+ 
+STA_OSCN 
+1 
+status flag for 
+overscan bias 
+correction 
+int 
+ 
+STA_DARK 
+0 
+status flag for 
+dark frame 
+correction 
+int 
+ 
+STA_FLAT 
+0

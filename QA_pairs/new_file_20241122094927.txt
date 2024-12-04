@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "channel的数据类型是什么？", "answer": "int"},
+    {"question": "OSCAN1代表什么？", "answer": "horizontal overscan width, per readout channel，其数据类型为int"},
+    {"question": "EXPT0_1表示什么时间？", "answer": "exposure start time of the 1st frame (UTC)"},
+    {"question": "DETTEMP0的数值代表什么？", "answer": "detector temperature at EXPT0_1 (K)"},
+    {"question": "GAIN1是哪个通道的增益？", "answer": "GAIN1是channel 1的增益，单位为e-/ADU"},
+    {"question": "RON2表示哪个通道的读噪声？", "answer": "RON2表示channel 2的读噪声，单位为e-"},
+    {"question": "RSS_VER代表什么信息？", "answer": "RSS_VER代表RSS pipeline的版本"},
+    {"question": "MERGNUM的值表示什么？", "answer": "MERGNUM的值表示L0数据中层的数量"},
+    {"question": "CRPIX3的含义是什么？", "answer": "CRPIX3表示参考点的像素坐标"},
+    {"question": "CTYPE1表示什么投影类型？", "answer": "CTYPE1表示right ascension, gnomonic projection，即赤经的天体坐标，正切投影"}
+]
+```

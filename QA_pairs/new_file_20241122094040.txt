@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "快门关闭的开始时间是什么？", "answer": "2024-08-17T06:07:42.1"},
+    {"question": "LEDFLAG的主要和备份值是什么？", "answer": "main/backup"},
+    {"question": "LED01的闪光时间是多少毫秒？", "answer": "0"},
+    {"question": "LED的温度是多少开尔文？", "answer": "173"},
+    {"question": "QC0的版本是什么？", "answer": "0.0.4"},
+    {"question": "仪器校正的状态是什么？", "answer": "0"},
+    {"question": "参考暗帧校正的文件名是什么？", "answer": "从文档中找不到答案"},
+    {"question": "非线性校正的状态是什么？", "answer": "1"},
+    {"question": "宇宙射线掩码的方法是什么？", "answer": "deepCR_model"},
+    {"question": "参考快门效应的文件名是什么？", "answer": "从文档中找不到答案"}
+]
+```

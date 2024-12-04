@@ -1,0 +1,64 @@
+```json
+[
+    {
+        "content": "dark current time是什么类型的数据？",
+        "summary": "dark current time是float类型的数据。"
+    },
+    {
+        "content": "SHTSTAT的默认值是什么？",
+        "summary": "从文档中找不到答案。"
+    },
+    {
+        "content": "哪个关键字表示快门状态？",
+        "summary": "关键字shutter status表示快门状态。"
+    },
+    {
+        "content": "CHECKSUM的关键字是什么类型的？",
+        "summary": "CHECKSUM的关键字是str16类型的，表示HDU checksum updated yyyy-mm-ddTHH:MM:SS。"
+    },
+    {
+        "content": "DATASUM是何时更新的？",
+        "summary": "DATASUM是在yyyy-mm-ddTHH:MM:SS这个时间点更新的，表示data unit checksum updated。"
+    },
+    {
+        "content": "VER_INST的值是什么？",
+        "summary": "VER_INST的值是字符串类型，表示仪器处理的版本，例如'0.0.1'。"
+    },
+    {
+        "content": "STM_INST代表什么？",
+        "summary": "STM_INST代表仪器处理的时间戳。"
+    },
+    {
+        "content": "STA_BIAS是什么的标志？",
+        "summary": "STA_BIAS是偏置帧校正状态的标志。"
+    },
+    {
+        "content": "哪个关键字表示暗帧校正的状态？",
+        "summary": "关键字STA_DARK表示暗帧校正的状态。"
+    },
+    {
+        "content": "SKY_BKG的默认值是多少？",
+        "summary": "SKY_BKG的默认值是0.3，表示估计的天空背景（e-/s per pixel）。"
+    },
+    {
+        "content": "SATURATE的通量限制是多少？",
+        "summary": "SATURATE的通量限制是300.0 e-/s。"
+    },
+    {
+        "content": "STA_CTE表示哪种校正的状态？",
+        "summary": "STA_CTE表示CTE校正的状态。"
+    },
+    {
+        "content": "SIMPLE关键字与什么标准有关？",
+        "summary": "SIMPLE关键字表示该数据符合FITS标准。"
+    },
+    {
+        "content": "ASTIRMS1的默认值是什么？",
+        "summary": "ASTIRMS1的默认值是-9999。"
+    },
+    {
+        "content": "EQUINOX的值代表什么？",
+        "summary": "EQUINOX的值代表平均平赤道，例如2000.0表示J2000.0。"
+    }
+]
+```

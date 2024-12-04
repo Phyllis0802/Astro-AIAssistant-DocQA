@@ -1,0 +1,500 @@
+CRPIX1
+不需要地面临时解算，但
+需要在地面测试阶段提前设
+定，写入给数据中心的配置
+文件
+CRPIX2
+同上
+CRVAL1
+需要根据指向以及焦面板
+的几何参数进行估算，提供
+给数据中心还是我们的预处
+理完成？
+CRVAL2
+同上
+CTYPE1
+TAN
+CTYPE2
+同上
+CD1_1
+同上
+CD1_2
+同上
+CD2_1
+同上
+CD2_2
+同上
+GAIN01
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+由指令上传（出现在
+#27.2IDS 中），在#32 中添
+加此参数
+GAIN02
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+同上
+85
+益
+GAIN03
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN04
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN05
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN06
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN07
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN08
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN09
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN10
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN11
+32
+巡天模块辅助数据
+探测器#
+同上
+86
+通道# 增
+益
+GAIN12
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN13
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN14
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN15
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+GAIN16
+32
+巡天模块辅助数据
+探测器#
+通道# 增
+益
+同上
+RON01
+地面测试阶段提供，写入
+配置文件
+RON02
+同上
+RON03
+同上
+RON04
+同上
+RON05
+同上
+RON06
+同上
+RON07
+同上
+RON08
+同上
+87
+RON09
+同上
+RON10
+同上
+RON11
+同上
+RON12
+同上
+RON13
+同上
+RON14
+同上
+RON15
+同上
+RON16
+同上
+READT0
+同上
+READT1
+同上
+ROSPEED
+同上
+EXPTIME
+同全局头文件关键字
+EXPTIME
+DARKTIME
+EXPTIME+DELAY,
+DELAY 由地面测试阶段提
+供，写入配置文件
+SHTSTAT
+32
+巡天模块辅助数据
+快门状
+态（打开
+／关闭）
+由指令上传（出现在
+#27.2IDS 中），在#32 中添
+加此参数
+SHTOPEN0
+32
+巡天模块快门运
+动参数
+全部
+从下传的“巡天模块快门
+运动参数”提取
+SHTOPEN1
+32
+巡天模块快门运
+动参数
+同上
+同上
+SHTCLOS0
+32
+巡天模块快门运
+动参数
+同上
+同上
+SHTCLOS1
+32
+巡天模块快门运
+同上
+同上
+88
+动参数
+LEDFLAG
+LEDSTAT
+32
+巡天模块辅助数据
+LED 灯
+工作状态
+由指令上传（出现在
+#27.2IDS 中），在#32 中添
+加此参数
+LEDEXPT
+32
+巡天模块辅助数据
+LED 灯
+工作时间
+同上
+LEDTEMP
+32
+巡天模块辅助数据
+LED 灯
+工作温度
+在#32 中添加此参数
+CHECKSUM
+DATASUM
+表18. 0 级数据头文件关键字（MSC_IR）
+关键字
+IDS
+单号
+包名称
+参数名称
+备注
+XTENSION
+BITPIX
+NAXIS
+NAXIS1
+NAXIS2
+EXTNAME
+EXTVER
+BSCALE
+BZERO
+BUNIT
+CAMERA
+‘IR’
+89
+DETSN
+根据CCDCHIP 查询配置
+文件给出
+DETNAME
+根据CCDCHIP 查询配置
+文件给出
+DETTEMP1
+32
+巡天模块图像辅
+助数据包
+主焦面
+温度
+曝光开始时刻，主焦面温
+度
+DETTEMP2
+32
+巡天模块图像辅
+助数据包
+主焦面
+温度
+曝光结束时刻，主焦面温
+度
+DETTEMP3
+32
+巡天模块图像辅
+助数据包
+主焦面
+温度
+读出结束时刻，主焦面温
+度
+DEWTEMP
+29
+巡
+天
+模
+块
+（1553B 消息块
+ICD 表12）
+50-51 短
+波红外杜
+瓦外壳测
+温
+DETSIZE
+根据CCDCHIP 查询配置
+文件给出
+DATASECT
+根据CCDCHIP 查询配置
+文件给出
+PIXSCAL
+根据CCDCHIP 查询配置
+文件给出
+PIXSIZE
+根据CCDCHIP 查询配置
+文件给出
+CHIPID
+32
+短波红外图像数
+据包
+探测器
+编号
+00、11、22、33、44、
+55、66、77
+CHIPLAB
+根据CCDCHIP 查询配置
+文件给出
+90
+FILTER
+根据CCDCHIP 查询配置
+文件给出
+NCHAN
+根据CCDCHIP 查询配置
+文件给出
+WCSAXES
+WCS 同MSC_MS
+CRPIX1
+同上
+CRPIX2
+同上
+CRVAL1
+同上
+CRVAL2
+同上
+CTYPE1
+同上
+CTYPE2
+同上
+CD1_1
+同上
+CD1_2
+同上
+CD2_1
+同上
+CD2_2
+同上
+IMGNUM
+32
+短波红外图像数
+据包
+帧序号
+最后一帧图像的帧序号
+EXPTIR
+32
+短波红外图像数
+据包
+积分时
+间
+前后两帧图像的时间间隔
+GAINIR
+32
+短波红外辅助数
+据包
+模块1-8
+增益
+由指令上传（出现在
+#27.2IDS 中），并下传
+（出现在#32 中）
+RONIR
+地面测试阶段提供，写入
+配置文件
+ROSPDIR
+地面测试阶段提供，写入
+配置文件
+91
+CHECKSUM
+DATASUM
+表19. 0 级数据头文件关键字（MCI）
+关键字
+IDS
+单号
+包名称
+参数名称
+备注
+XTENSION
+BITPIX
+NAXIS
+NAXIS1
+NAXIS2
+PCOUNT
+GCOUNT
+EXTNAME
+EXTVER
+BSCALE
+BZERO
+BUNIT
+DIFFUSER
+32
+多通道成像
+仪辅助数据包
+挡板开合信息
+FLAMP
+32
+多通道成像
+仪辅助数据包
+DMYh007(A1/MCI-
+SSZKX/01/11-11)
+灯1：D5D4
+灯2：D7D6
+MCITEMP
+32
+多通道成像
+仪辅助数据包
+A1/MCI-
+SSZKX/01/30-30
+A1/MCI-
+SSZKX/02/07-07
+92
+MCISTAT
+32
+多通道成像
+仪辅助数据包
+DMYh001
+DMYh002
+DMYh003
+DMYh004
+DMYh005
+DMYh006
+DMYh007
+详见30, 32 号表单有
+若干工作状态参数
+BAND
+32
+多通道成像
+仪辅助数据包
+DMYh005
+（
+A1/MCI-
+SSZKX/01/09-09）
+DMYh006
+（
+A1/MCI-
+SSZKX/01/10-10）
+可见光通道005
+紫外近红外006
+DETSN
+根据DETNAME 查
+询配置文件给出
+DETNAME
+UV, opt-blue, opt-red
+detector on 3 channels。
+根据BAND 查找
+DETNAME
+DETSIZE
+根据DETNAME 查
+询配置文件给出
+DATASECT
+根据DETNAME 查
+询配置文件给出
+PIXSCAL1
+根据DETNAME 查
+询配置文件给出
+93
+PIXSCAL2
+根据DETNAME 查
+询配置文件给出
+PIXSIZE1
+根据DETNAME 查
+询配置文件给出
+PIXSIZE2
+根据DETNAME 查
+询配置文件给出
+NCHAN
+根据DETNAME 查
+询配置文件给出
+PSCAN1
+根据DETNAME 查
+询配置文件给出
+PSCAN2
+根据DETNAME 查
+询配置文件给出
+OSCAN1
+根据DETNAME 查
+询配置文件给出
+OSCAN2

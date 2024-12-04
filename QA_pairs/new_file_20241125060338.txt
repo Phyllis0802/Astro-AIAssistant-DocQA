@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "太阳动力学天文台（SDO）是哪个组织的项目？", "answer": "太阳动力学天文台（SDO）是NASA / 戈达德太空飞行中心的项目。"},
+    {"question": "SDO的环绕对象是什么？", "answer": "SDO的环绕对象是地球。"},
+    {"question": "SDO是在哪一年发射的？", "answer": "SDO是在2010年发射的。"},
+    {"question": "SDO使用的运载火箭是什么？", "answer": "SDO使用的运载火箭是擎天神五号401。"},
+    {"question": "SDO的发射地点在哪里？", "answer": "SDO的发射地点是卡纳维拉尔角空军基地41号航天发射复合体。"},
+    {"question": "SDO的任务时长预计是多少年？", "answer": "SDO的任务时长预计是5 - 10年。"},
+    {"question": "SDO的总重是多少？", "answer": "SDO的总重是3,100千克（6,800磅）。"},
+    {"question": "SDO位于哪个地球同步轨道的静止经度？", "answer": "SDO位于地球同步轨道的静止经度102° W。"},
+    {"question": "SDO携带了哪些科学仪器？", "answer": "SDO携带了以下科学仪器：日震与磁成像仪（Helioseismic and Magnetic Imager, HMI），极紫外线变化实验仪（Extreme Ultraviolet Variability Experiment, EVE），大气成像组件（Atmospheric Imaging Assembly, AIA）。"},
+    {"question": "极紫外线变化实验仪（EVE）是由哪个实验室制造的？", "answer": "极紫外线变化实验仪（EVE）是由科罗拉多大学博尔德分校的大气太空物理实验室（Laboratory for Atmospheric and Space Physics, LASP）制造的。"}
+]
+```

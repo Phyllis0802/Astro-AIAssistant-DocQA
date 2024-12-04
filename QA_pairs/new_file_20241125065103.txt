@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "开普勒空间天文台的任务类型是什么？", "answer": "空间天文台"},
+    {"question": "开普勒空间天文台的运营方是谁？", "answer": "NASA大气及太空物理实验室（英语：Laboratory for Atmospheric and Space Physics）（LASP）"},
+    {"question": "开普勒空间天文台的制造方是谁？", "answer": "Ball Aerospace & Technologies（英语：Ball Aerospace & Technologies）"},
+    {"question": "开普勒空间天文台的发射日期是什么时候？", "answer": "2009年3月7日3时49分57.465秒 UTC"},
+    {"question": "开普勒空间天文台的发射场在哪里？", "answer": "卡纳维拉尔角空军基地 SLC-17B"},
+    {"question": "开普勒望远镜的主镜尺寸是多少？", "answer": "0.95米（3.1英尺）"},
+    {"question": "开普勒任务的主要科学目标是什么？", "answer": "探索各种不同行星系的构造"},
+    {"question": "开普勒任务使用什么方法来检测行星？", "answer": "凌日法"},
+    {"question": "开普勒空间天文台已经确认了多少颗系外行星？", "answer": "开普勒空间天文台已经确认了130多个系外行星，发现了超过2700颗候选行星。截至2018年，天文学家发现超过18,000颗系外行星候选者，大约3,800颗已被确认，2,325颗由开普勒空间天文台所发现。"},
+    {"question": "开普勒-452b距离地球多少光年？", "answer": "1400光年"}
+]
+```

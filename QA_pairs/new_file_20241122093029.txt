@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "太赫兹频谱数据包中的CLNA1电压是多少？", "answer": "32"},
+    {"question": "FPGA_TEM的遥测参数值是多少？", "answer": "25"},
+    {"question": "频谱主板的电压5V对应的参数名是什么？", "answer": "FFT_5V"},
+    {"question": "综合电控ADC同源校准电压的参数名是什么？", "answer": "ASYN_VOL"},
+    {"question": "频谱内部校时信息中的DATASUM值是多少？", "answer": "112"},
+    {"question": "OBSID中的后端模块是如何表示的？", "answer": "3bit表示后端模块，其中1=主巡天，2=MCI，3=IFS，4=CPIC，5=HSTDM"},
+    {"question": "主巡天观测类型中，01代表什么？", "answer": "SCI主巡天宽场"},
+    {"question": "MCI观测类型中，定标星对应的编号是多少？", "answer": "10"},
+    {"question": "IFS观测类型中的平场观测编号是多少？", "answer": "22"},
+    {"question": "0级数据定义中，obsid的格式是如何更改的？", "answer": "obsid的格式从4byte，3bit表示后端模块，4bit表示观测类型，25bit表示曝光编号更改为4byte，3bit表示后端模块，5bit表示观测类型，24bit表示曝光编号。"}
+]
+```

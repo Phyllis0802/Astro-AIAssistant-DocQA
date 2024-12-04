@@ -1,0 +1,998 @@
+-12.14574527740480
+float
+Minmum signal to noise of good
+pixels
+SNRMAX
+211.5733642578130
+float
+Maxmum signal to noise of good
+pixels
+SNRMEAN
+4.410942077636720
+float
+Mean value of signal to noise of
+good pixels
+MEANDARK
+3.267071106660310
+float
+Average of the dark values
+subtracted
+CRCOUNT
+275522
+int
+Cosmic ray counts
+VER_POS
+1.0
+str3
+version of distortion
+STM_POS
+2023-06-
+19T03:20:31.178551
+str26 Time of last modification
+STA_POS
+1
+int
+0 is done, 1 is failure
+CRPIX1
+4600.552601654730
+float
+Coordinate reference pixel of x
+CRPIX2
+4630.400982774000
+float
+Coordinate reference pixel of y
+CRVAL1
+244.3493820322690
+float
+Coordinate reference value of x
+CRVAL2
+39.32763496965590
+float
+Coordinate reference value of y
+CTYPE1
+RA---TAN
+str8
+Type of ra
+CTYPE2
+DEC--TAN
+str8
+Type of dec
+CD1_1_L0
+-7.0095068415693E-06
+float
+Partial of first axis coordinate of x
+from L0
+CD2_1_L0
+-1.9321118214008E-05
+float
+Partial of first axis coordinate of y
+from L0
+CD1_2_L0
+1.93209824700092E-05
+float
+Partial of second axis coordinate of
+x from L0
+CD2_2_L0
+-7.010879642406E-06
+float
+Partial of second axis coordinate of
+y from L0
+CD1_1
+-7.0095068415693E-06
+float
+Partial of first axis coordinate of x
+CD2_1
+-1.9321118214008E-05
+float
+Partial of first axis coordinate of y
+CD1_2
+1.93209824700092E-05
+float
+Partial of second axis coordinate of
+x
+42
+CD2_2
+-7.010879642406E-06
+float
+Partial of second axis coordinate of
+y
+CUNIT1
+deg
+str3
+Unit of ra
+CUNIT2
+deg
+str3
+Unit of dec
+RADESYS
+ICRS
+str4
+International celestial reference
+system
+PV1_0
+-9999.0
+float
+PV coefficients
+PV1_1
+-9999.0
+float
+PV coefficients
+PV1_2
+-9999.0
+float
+PV coefficients
+PV1_3
+-9999.0
+float
+PV coefficients
+PV1_4
+-9999.0
+float
+PV coefficients
+PV1_5
+-9999.0
+float
+PV coefficients
+PV1_6
+-9999.0
+float
+PV coefficients
+PV2_0
+-9999.0
+float
+PV coefficients
+PV2_1
+-9999.0
+float
+PV coefficients
+PV2_2
+-9999.0
+float
+PV coefficients
+PV2_3
+-9999.0
+float
+PV coefficients
+PV2_4
+-9999.0
+float
+PV coefficients
+PV2_5
+-9999.0
+float
+PV coefficients
+PV2_6
+-9999.0
+float
+PV coefficients
+NS_POS
+int
+Number of the stars used to fit
+RA_OFF
+-9999
+int
+Mas in unit
+DEC_OFF
+-9999
+int
+Mas in unit
+RA_RMS
+-9999
+int
+Mas in unit
+43
+DEC_RMS
+-9999
+int
+Mas in unit
+RA_CEN
+-9999
+int
+Center of detector in ra
+DEC_CEN
+-9999
+int
+Center of detector in dec
+VER_QC0
+0.0.2
+str5
+Pipeline version
+STM_QC0
+2023-06-
+19T03:15:05.073581
+str26 QC0 operation time
+STA_QC0
+int
+QC0 Status (0/1/2)
+Q_CHKSUM
+1
+int
+CRC checksum
+F_TELSCP
+int
+Telescope flag (0/bit)
+Q_SHUTTR
+int
+indicating shutter status
+Q_COOLNG
+int
+indicating system cooling status
+F_GUIDER
+int
+Guider flag (0/bit)
+F_DETECT
+int
+Detector flag (0/bit)
+Q_DTDEAD
+int
+indicating dead detector
+Q_DTNOIS
+int
+indicating higher detector noise
+level
+Q_DIFPAT
+int
+indicating image diffraction pattern
+Q_XTALK
+int
+indicating significant image
+crosstalk
+Q_BADPIX
+int
+CCD bad pixel fraction larger than
+50%
+Q_BRIBKG
+int
+Significant stray light effect in this
+field
+Q_DTTEMP
+int
+Large CCD temperature variation in
+this field
+VER_QC1
+0.0.1
+str5
+QC1 pipeline processing time
+STM_QC1
+2023-06-
+19T03:21:44.834651
+str26
+STA_QC1
+3
+int
+QC1 Status(0/non-zero)
+44
+FLG_QC1
+31
+int
+quality flags
+表19：无缝光谱1 级数据HDU2 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str5
+Image extension
+BITPIX
+-32
+int
+array data type
+NAXIS
+2
+int
+number of array dimensions
+NAXIS1
+2
+int
+NAXIS2
+2
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+ERR
+str3
+Extension name
+EXTVER
+1
+int
+Extension version number
+BUNIT
+e-/s
+str4
+Physical unit
+表20：无缝光谱1 级数据HDU3 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str5
+Image extension
+BITPIX
+16
+int
+array data type
+NAXIS
+2
+int
+number of array dimensions
+NAXIS1
+2
+int
+NAXIS2
+2
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+45
+BSCALE
+1
+int
+BZERO
+32768
+int
+EXTNAME
+DQ
+str2
+Extension name
+EXTVER
+1
+int
+Extension version number
+BUNIT
+UNITLESS
+str8
+Physical unit
+（III）多通道成像仪1 级数据关键字
+表21：多通道成像仪HDU0 数据关键字
+key
+example
+fmt
+comment
+fill_value
+SIMPLE
+TRUE
+bool conforms to FITS
+standard
+BITPIX
+16
+int
+array data type
+NAXIS
+2
+int
+number of array
+dimensions
+EXTEND
+TRUE
+bool
+NEXTEND
+1
+int
+number of array
+dimensions
+DATE
+2024-08-17T06:05:12
+str
+date file was
+written(yyyy-mm-
+ddThh:mm:ss)
+FILENAME
+CSST_MSC_MS_SCI_
+20240817060512_20240817060742
+_10160000000_06_L0_V01
+str67
+FILETYPE
+SCIE
+str4
+type of data found in
+data file
+TELESCOP
+CSST
+str6
+telescope used to
+acquire data
+INSTRUME
+MCI
+str
+instrument used to
+acquire data
+RADECSYS
+ICRS
+str4
+frame of reference of
+coordinates
+EQUINOX
+2000.0
+float
+FITSCREA
+4.2.1
+str5
+FITS create software
+version
+46
+OBJECT
+MCI_obj
+str8
+object name
+TARGET
+161953+395345
+str13 target name
+(hhmmss+ddmmss)
+OBSID
+20200000001
+str11 observation ID
+OBJ_RA
+244.972773
+float RA of the object
+(degrees)
+OBJ_DEC
+39.895901
+float DEC of the object
+(degrees)
+REFFRAME
+CSSTGSC-1.0
+str11 guide star catalog
+version
+DATE-OBS
+2024-08-17T06:05:12
+str19 date of the observation
+(yyyy-mm-
+ddThh:mm:ss)
+SATESWV
+1
+str4
+software version in the
+satellite
+EXPSTART
+60539.25361
+float exposure start time
+(MJD)
+CABSTART
+2460075.79976852
+float
+SUNANGL0
+50.0
+float angle between sun and
+optical axis at
+CABSTART
+MOONANG0 30.0
+float angle between moon
+and optical axis at
+CABSTART
+TEL_ALT0
+20.0
+float angle between opt axis
+and Earth's limb
+POS_ANG0
+20.0
+float angle between y axis
+and the North Pole
+POSI0_X
+-2218.3663
+float the orbital position in X
+at CABSTART
+POSI0_Y
+-5817.8559
+float the orbital position in Y
+at CABSTART
+POSI0_Z
+2597.9467
+float the orbital position in Z
+at CABSTART
+VELO0_X
+5.058199026407240
+float the orbital velocity in X
+at CABSTART
+VELO0_Y
+-3.85818799871231
+float the orbital velocity in Y
+at CABSTART
+VELO0_Z
+-4.322908628205370
+float the orbital velocity in Z
+at CABSTART
+47
+EULER0_1
+float Euler angle 1 at
+CABSTART
+EULER0_2
+float Euler angle 2 at
+CABSTART
+EULER0_3
+float Euler angle 3 at
+CABSTART
+RA_PNT0
+244.972773
+float RA of the pointing
+(degrees) at
+CABSTART
+DEC_PNT0
+39.895901
+float DEC of the pointing
+(degrees) at
+CABSTART
+EXPEND
+60539.25535
+float exposure end time
+(MJD)
+CABEND
+60539.25535
+float
+SUNANGL1
+50.0
+float angle between sun and
+opt axis at CABEND
+MOONANG1 30.0
+float angle between moon
+and opt axis
+TEL_ALT1
+20.0
+float angle between opt axis
+and Earth's limb
+POS_ANG1
+20.0
+float angle between y axis
+and the North Pole
+POSI1_X
+float the orbital position in X
+at CABEND
+POSI1_Y
+float the orbital position in Y
+at CABEND
+POSI1_Z
+float the orbital position in Z
+at CABEND
+VELO1_X
+float the orbital velocity in X
+at CABEND
+VELO1_Y
+float the orbital velocity in Y
+at CABEND
+VELO1_Z
+float the orbital velocity in Z
+at CABEND
+EULER1_1
+float Euler angle 1 at
+CABEND
+EULER1_2
+float Euler angle 2 at
+CABEND
+EULER1_3
+float Euler angle 3 at
+CABEND
+RA_PNT1
+244.972773
+float RA of the pointing
+48
+(degrees) at CABEND
+DEC_PNT1
+39.895901
+float DEC of the pointing
+(degrees) at CABEND
+EXPTIME
+150.0
+float exposure duration
+EPOCH
+2000.0
+float coordinate epoch
+CHECKSUM hagEhSg9hYgEhYg9
+str
+HDU checksum updated
+yyyy-mm-
+ddTHH:MM:SS
+DATASUM
+0
+str
+data unit checksum
+updated yyyy-mm-
+ddTHH:MM:SS
+表22：MCI 一级数据HDU1 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str
+Image extension
+BITPIX
+8
+int
+array data type
+NAXIS
+2
+int
+number of array dimensions
+NAXIS1
+32
+int
+NAXIS2
+32
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+SCI
+str
+EXTVER
+1
+int
+BUNIT
+e/s
+str
+physical unit of array values
+DIFFUSER
+TRUE
+bool
+insert diffuser for flat calibration
+FLAMP
+int
+status of flat lamp
+MCITEMP
+float
+MCI components temperature
+49
+MCISTAT
+int
+MCI components status parameter
+FILTER
+u
+str
+filter band
+DETSN
+CCD231-c4-00
+str
+detector serial number
+DETNAME
+blue
+str
+detector name
+DETTEMP
+float
+detector temperature
+DETSIZE
+2048*4096
+str
+detector size
+DATASECT
+9232*9216
+str
+data section
+PIXSCAL1
+0.074
+float
+pixel scale for axis 1
+PIXSCAL2
+0.074
+float
+pixel scale for axis 2
+PIXSIZE1
+15.0
+float
+pixel size for axis 1
+PIXSIZE2
+15.0
+float
+pixel size for axis 2
+NCHAN
+16
+int
+number of readout channels
+PSCAN1
+27
+int
+horizontal prescan width, per readout
+channel
+PSCAN2
+8
+int
+vertical prescan height, per readout
+channel
+OSCAN1
+16
+int
+horizontal overscan width, per readout
+channel
+OSCAN2
+16
+int
+vertical overscan width, per readout
+channel
+BIN_X
+1
+int
+bin number in X (wavelength)
+BIN_Y
+1
+int
+bin number in Y (spatial)
+WCSAXES
+2
+int
+number of World Coordinate System
+axes
+CRPIX1
+-10017.0
+float
+Reference pixel on this axis
+CRPIX2
+24876.0
+float
+Reference pixel on this axis
+CRVAL1
+244.972773
+float
+World coordinate on this axis
+50
+CRVAL2
+39.895901
+float
+World coordinate on this axis
+CTYPE1
+RA---TAN
+str8
+WCS projection type for this axis
+CTYPE2
+DEC--TAN
+str8
+WCS projection type for this axis
+CD1_1
+-6.8935412473829E-06
+float
+Linear projection matrix
+CD1_2
+-1.936517372161E-05
+float
+Linear projection matrix
+CD2_1
+1.93651737216106E-05
+float
+Linear projection matrix
+CD2_2
+-6.8935412473829E-06
+float
+Linear projection matrix
+OTHERS
+str0
+GAIN01
+1.1
+float
+CCD gain (channel 1)
+GAIN02
+1.1
+float
+CCD gain (channel 2)
+GAIN03
+1.1
+float
+CCD gain (channel 3)
+GAIN04
+1.1
+float
+CCD gain (channel 4)
+GAIN05
+1.1
+float
+CCD gain (channel 5)
+GAIN06
+1.1
+float
+CCD gain (channel 6)
+GAIN07
+1.1
+float
+CCD gain (channel 7)
+GAIN08
+1.1
+float
+CCD gain (channel 8)
+GAIN09
+1.1
+float
+CCD gain (channel 9)
+GAIN10
+1.1
+float
+CCD gain (channel 10)
+GAIN11
+1.1
+float
+CCD gain (channel 11)
+GAIN12
+1.1
+float
+CCD gain (channel 12)
+GAIN13
+1.1
+float
+CCD gain (channel 13)
+GAIN14
+1.1
+float
+CCD gain (channel 14)
+51
+GAIN15
+1.1
+float
+CCD gain (channel 15)
+GAIN16
+1.1
+float
+CCD gain (channel 16)
+RON01
+5.0
+float
+read noise (channel 1)
+RON02
+5.0
+float
+read noise (channel 2)
+RON03
+5.0
+float
+read noise (channel 3)
+RON04
+5.0
+float
+read noise (channel 4)
+RON05
+5.0
+float
+read noise (channel 5)
+RON06
+5.0
+float
+read noise (channel 6)
+RON07
+5.0
+float
+read noise (channel 7)
+RON08
+5.0
+float
+read noise (channel 8)
+RON09
+5.0
+float
+read noise (channel 9)
+RON10
+5.0
+float
+read noise (channel 10)
+RON11
+5.0
+float
+read noise (channel 11)
+RON12
+5.0
+float
+read noise (channel 12)
+RON13
+5.0
+float
+read noise (channel 13)
+RON14
+5.0
+float
+read noise (channel 14)
+RON15
+5.0
+float
+read noise (channel 15)
+RON16
+5.0
+float
+read noise (channel 16)
+DETBIA01
+640.0
+float
+amplifier bias voltage (channel 1)
+DETBIA02
+640.0
+float
+amplifier bias voltage (channel 2)
+DETBIA03
+640.0
+float
+amplifier bias voltage (channel 3)
+DETBIA04
+640.0
+float
+amplifier bias voltage (channel 4)
+52
+DETBIA05
+640.0
+float
+amplifier bias voltage (channel 5)
+DETBIA06
+640.0
+float
+amplifier bias voltage (channel 6)
+DETBIA07
+640.0
+float
+amplifier bias voltage (channel 7)
+DETBIA08
+640.0
+float
+amplifier bias voltage (channel 8)
+DETBIA09
+640.0
+float
+amplifier bias voltage (channel 9)
+DETBIA10
+640.0
+float
+amplifier bias voltage (channel 10)
+DETBIA11
+640.0
+float
+amplifier bias voltage (channel 11)
+DETBIA12
+640.0
+float
+amplifier bias voltage (channel 12)
+DETBIA13
+640.0
+float
+amplifier bias voltage (channel 13)
+DETBIA14
+640.0
+float
+amplifier bias voltage (channel 14)
+DETBIA15
+640.0
+float
+amplifier bias voltage (channel 15)
+DETBIA16
+640.0
+float
+amplifier bias voltage (channel 16)
+READT0
+2460075.800462960
+str
+read start time (UTC)
+READT1
+2460075.8005092600
+str
+read end time (UTC)
+DETTEMP0
+173.0
+float
+detector temperature at READT0
+DETTEMP1
+173.0
+float
+detector temperature at READT1
+RDSPEED
+10.0
+float
+read speed (in MHz)
+EXPTIME
+150.0
+float
+exposure duration
+DARKTIME

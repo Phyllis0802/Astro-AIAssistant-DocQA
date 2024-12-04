@@ -1,0 +1,64 @@
+```json
+[
+    {
+        "content": "本文档主要阐述的是什么工程的数据处理系统输入数据的内容和格式需求？",
+        "summary": "本文档主要阐述的是载人航天工程巡天空间望远镜（China Space Station Telescope, CSST）数据处理系统对输入数据的内容和格式需求。"
+    },
+    {
+        "content": "CSST的全称是什么？",
+        "summary": "CSST的全称是China Space Station Telescope，即中国巡天空间望远镜。"
+    },
+    {
+        "content": "什么是MSC（Main Survey Camera）？",
+        "summary": "MSC代表主巡天相机（Main Survey Camera），是CSST中的一个重要组成部分。"
+    },
+    {
+        "content": "多通道成像仪的缩写是什么？",
+        "summary": "多通道成像仪的缩写是MCI（Multi Channel Imager）。"
+    },
+    {
+        "content": "IFS代表什么仪器？",
+        "summary": "IFS代表积分视场光谱仪（Integral Field Spectroscopy）。"
+    },
+    {
+        "content": "CPIC和HSTDM分别是什么的缩写？",
+        "summary": "CPIC是星冕仪（Cool Planet Imaging Coronagraph）的缩写，而HSTDM是高灵敏度太赫兹模块（High Sensitivity Terahz Detection Module）的缩写。"
+    },
+    {
+        "content": "什么是WFS（Wavefront Sensor）？",
+        "summary": "WFS代表波前传感器（Wavefront Sensor），用于监测和校正光学系统中的波前畸变。"
+    },
+    {
+        "content": "FGS的完整名称是什么？",
+        "summary": "FGS的完整名称是Fine Guidance Sensor，即精细导星仪。"
+    },
+    {
+        "content": "FITS和HDU分别代表什么？",
+        "summary": "FITS代表普适图像传输系统（Flexible Image Transport System），而HDU代表文件头和数据单元（Header data unit）。"
+    },
+    {
+        "content": "SHA是哪种算法的简称？",
+        "summary": "SHA是安全散列算法（Secure Hash Algorithm）的简称。"
+    },
+    {
+        "content": "科学数据处理系统主要接收哪两类数据产品？",
+        "summary": "科学数据处理系统主要接收由科学与应用数据中心提供的0级数据产品和工程辅助数据产品。"
+    },
+    {
+        "content": "0级数据产品是如何在科学数据处理系统中使用的？",
+        "summary": "0级数据产品是科学数据处理系统分析流水线的输入，数据系统在此基础上，生成1级和2级科学数据产品，供科学用户使用。"
+    },
+    {
+        "content": "工程辅助数据在科学数据处理系统中有什么作用？",
+        "summary": "工程辅助数据在科学数据处理系统中用于检验科学数据质量，检测科学仪器性能长期演化，以改进数据分析流水线，在轨定标方案并优化观测需求编排软件。"
+    },
+    {
+        "content": "文档提到的《初步技术要求》是什么？",
+        "summary": "《初步技术要求》是CSST数据处理系统的一个引用文档，规定了0级数据的主要内容和其他技术需求。"
+    },
+    {
+        "content": "CSST数据处理系统主要基于哪些引用文档？",
+        "summary": "CSST数据处理系统主要基于的引用文档包括《载人空间站多功能光学设施科学数据处理系统实施方案》、《CSST 数据处理系统初步技术要求》以及关于各个设备模块的技术文件等。"
+    }
+]
+```

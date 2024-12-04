@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "凌日系外行星巡天卫星TESS是哪个机构的太空望远镜？", "answer": "凌日系外行星巡天卫星TESS是美国国家航空航天局探索者计划中的太空望远镜。"},
+    {"question": "TESS的任务时长原计划是多少年？", "answer": "TESS的任务时长原计划是2年。"},
+    {"question": "TESS的制造方是谁？", "answer": "TESS的制造方是轨道科学公司。"},
+    {"question": "TESS的发射日期是什么时候？", "answer": "TESS的发射日期是2018年4月18日22时51分31秒 UTC。"},
+    {"question": "TESS被置于什么样的轨道上？", "answer": "TESS被置于绕地球的高度椭圆的13.7天的轨道上。"},
+    {"question": "TESS的主要任务目标是什么？", "answer": "TESS的主要任务目标是调查地球附近300光年内的恒星是否有行星存在。"},
+    {"question": "TESS首次朝哪个星系拍下影像？", "answer": "TESS首次朝大麦哲伦星系拍下影像。"},
+    {"question": "TESS任务的总耗资是多少？", "answer": "TESS任务的总耗资是$2亿美元（加上$8700万美元用于发射）。"},
+    {"question": "TESS于哪一年通过了关键设计审查？", "answer": "TESS于2015年通过了关键设计审查。"},
+    {"question": "TESS配备了多少个广角望远镜？", "answer": "TESS配备了四个广角望远镜。"}
+]
+```

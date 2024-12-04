@@ -1,0 +1,44 @@
+
+'Spektr-R'(Спектр-Р)RadioastronSpektr-R 在拉沃契金厂房测试基本资料NSSDC ID2011-037A组织机构俄罗斯天文航天中心主要制造商拉沃契金设计局发射日期2011年7月18日02:31 UTC发射地点拜科努尔航天发射场45号发射台发射载体Zenit-2SB任务时长5 年（已运行了13年零3日）质量3295kg轨道类型高椭圆地心轨道轨道周期8日7小时位置低地球轨道波段无线电波口径10m[1]焦距4.3m网站www.asc.rssi.ru/radioastron/index.html
+Spektr-R（俄语：Спектр-Р）[2]，或称为 Radioastron，是俄罗斯的太空射电望远镜，也是近年轨道上口径最大者[3]。该计划由俄罗斯科学院列别捷夫物理研究所辖下的俄罗斯天文航天中心资助，并于2011年7月18日发射进入绕地球轨道[4]。其轨道近地点是 10000 公里，远地点是  390000 公里，是哈伯太空望远镜的 700 倍[5][6]。主要目标是以只有百万分之几角分的超高角分辨度研究天体。这将以卫星和地面天文台以干涉技术达成[4]。
+
+
+概述[编辑]
+Spektr-R 是 RadioAstron 计划的一部分，该计划是一个由列别捷夫物理研究所辖下的俄罗斯天文航天中心主导的国际电波天文台网络[5]。
+该望远镜是电波天文望远镜，可以超高分辨率观测银河系外物体和近地球的行星际太空等离子。超高的角分辨率可经由和地表射电望远镜和甚长基线干涉仪共同达成。观测波长有 1.35–6.0、18.0 和 92.0 公分[7]。它和地球表面的望远镜组成的网络可以拍摄分辨率在哈伯太空望远镜 1,000 倍以上的影像[8]。当它进入太空后，像花的主碟型天线将会把它的 27 个“花瓣”在 30 分钟内展开[8]。
+
+发射[编辑]
+该卫星的发射质量大约是 5000 公斤。于莫斯科时间2011年7月18日06:31于哈萨克拜科努尔航天发射场使用搭载“弗雷盖特”多级火箭的Zenit-3M发射[9]。
+
+图集[编辑]
+
+
+
+
+
+
+影片连结（页面存档备份，存于互联网档案馆）
+
+参考资料[编辑]
+
+
+^ RadioAstron User Handbook (PDF). RadioAstron Science Operation Group. July 2, 2010  [2011-09-21]. （原始内容存档 (PDF)于2011-10-03）. 
+
+^ Zak, Anatoly. Spektr-R Radioastron. RussianSpaceWeb.   [15 August 2011]. （原始内容存档于2011-08-21）. 
+
+^ Russia launches 'biggest-ever' space telescope. TG Daily. 19 July 2011  [19 July 2011]. （原始内容存档于2018-07-15）. 
+
+^ 4.0 4.1 Russian satellite on mission to peer inside black holes. SpaceFlight. 18 July 2011  [18 July 2011]. （原始内容存档于2011-10-20）. 
+
+^ 5.0 5.1 Description of the RadioAstron project.   [2008-02-28]. （原始内容存档于2018-01-15）. 
+
+^ Description of the RadioAstron project - Orbit. Russian Space Research Institute.   [2008-02-28]. （原始内容存档于2016-05-06）. 
+
+^ Radioastron. Roscosmos.   [2011-09-21]. （原始内容存档于2013-08-15）. 
+
+^ 8.0 8.1 Traveling space telescope to stretch limits of human knowledge. RT.   [2011-09-21]. （原始内容存档于2011-08-26）. 
+
+^ Russian Scientific Spacecraft Spectrum-R Successfully Launched from Baikonur. Roscosmos PAO.   [2011-07-18]. （原始内容存档于2011-07-23）. 
+
+
+

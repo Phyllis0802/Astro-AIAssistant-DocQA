@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "第5.4.2章中，表4删除了哪个关键字？", "answer": "LEDEXPT"},
+    {"question": "第5.4.2章中，表4增加了哪些关键字？", "answer": "LEDT01，LEDT02...LEDT14"},
+    {"question": "MCI模块的文件名中包含哪些关键信息？", "answer": "从文档中找不到答案"},
+    {"question": "CSST_MCI_C1_STAR文件名示例中，表示观测时间的部分是什么？", "answer": "20240101120000_20240101120230"},
+    {"question": "IFS的目标类型有几种科学观测模式？", "answer": "2种，分别为SCIE（IFS为主要观测设备时的科学观测目标）和COMB（IFS为辅助观测设备时的观测目标），或SCI（IFS为主要观测设备时的科学观测目标）和COMB（IFS为辅助观测设备时的观测目标）。"},
+    {"question": "IFS的image data数据应该是几维的矩阵？", "answer": "IFS的image data数据应该为一个3维的datacube矩阵，但在某些描述中也提到了可以将其看作一个2维矩阵的排列形式。"},
+    {"question": "CPIC模块的TYPE描述中包括几种定标模式？", "answer": "5种，分别为BIAS（本底）/DARK（暗场）/ FLAT（平场）/BKGD（天空背景定标）/LASER（内部激光器定标），或BIAS（本底）/DARK（暗场）/ FLAT（平场）/BKG（天空背景定标）/LASR（内部激光器定标）。"},
+    {"question": "CPIC模块的科学目标模式有哪些？", "answer": "3种，分别为SCIE （科学观测）/DENF（密集星场观测）/CALS （定标星观测），或SCI（科学观测）/DSF（密集星场观测）/CALS（定标星观测）。"},
+    {"question": "CSST_CPIC_VIS_SCIE文件名示例中，表示观测开始和结束时间的部分是什么？", "answer": "20240101120000_20240101120230"},
+    {"question": "第5.4.2章中，表8删除了哪个关键字？", "answer": "others"}
+]
+```

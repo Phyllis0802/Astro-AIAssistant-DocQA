@@ -1,0 +1,673 @@
+status of 
+instrument 
+correction 
+int 
+ 
+S_OVSCAN 
+0 
+status of 
+overscan 
+correction 
+int 
+ 
+S_GAIN 
+0 
+status of gain 
+correction 
+int 
+ 
+R_GAIN 
+file 
+reference gain 
+str 
+ 
+R_RON 
+file 
+reference 
+readout noise 
+str 
+ 
+S_BIAS 
+0 
+status of bias 
+frame 
+correction 
+int 
+ 
+R_BIAS 
+file 
+reference bias 
+str 
+ 
+S_CROSST 
+0 
+status of 
+crosstalk 
+correction 
+int 
+ 
+R_CROSST 
+file 
+reference 
+crosstalk 
+str 
+ 
+S_CTI 
+1 
+status of CTI 
+correction 
+int 
+ 
+R_CTI 
+file 
+reference CTI 
+str 
+ 
+S_DARK 
+0 
+status of dark 
+frame 
+correction 
+int 
+ 
+R_DARK 
+file 
+reference dark 
+str 
+ 
+ 
+ 
+87 
+S_NLIN 
+1 
+status of non-
+linear 
+correction 
+int 
+ 
+R_NLIN 
+file 
+reference non-
+linear 
+str 
+ 
+S_FLAT 
+0 
+status of flat 
+frame 
+correction 
+int 
+ 
+R_FLAT 
+file 
+reference flat 
+str 
+ 
+S_CRS 
+1 
+status of 
+cosmic rays 
+mask 
+int 
+ 
+R_CRS 
+deepCR_model 
+method and 
+config of 
+cosmic rays 
+mask 
+str 
+ 
+CRCOUNT 
+240466 
+cosmic rays 
+pixel counts 
+int 
+ 
+S_SAT 
+1 
+status of 
+satellite 
+correction 
+int 
+ 
+R_SAT 
+file 
+reference 
+satellite 
+correction 
+str 
+ 
+S_FRINGE 
+1 
+status of fringe 
+correction 
+int 
+ 
+R_FRINGE 
+file 
+reference fringe 
+str 
+ 
+SATURATE 
+365.9759 
+flux limit of 
+saturated pixel 
+(e-/s) 
+float 
+ 
+V_WCS 
+1.3 
+version of 
+WCS 
+calibration 
+str 
+ 
+T_WCS 
+2023-12-
+29T04:55:46.52
+0 
+timestamp of 
+WCS 
+calibration 
+str23 
+ 
+S_WCS 
+0 
+status of WCS 
+calibration 
+int 
+ 
+ 
+ 
+88 
+WCSDIM 
+2 
+number of 
+WCS axes 
+float 
+ 
+CTYPE1 
+RA---TPV 
+type of RA 
+WCS 
+projection 
+str8 
+ 
+CTYPE2 
+DEC--TPV 
+type of Dec 
+WCS 
+projection 
+str8 
+ 
+CUNIT1 
+deg 
+axis unit 
+str 
+ 
+CUNIT2 
+deg 
+axis unit 
+str 
+ 
+CRVAL1 
+265.1950933 
+value of 
+reference pixel 
+on axis 1 
+float 
+ 
+CRVAL2 
+-54.23074811 
+value of 
+reference pixel 
+on axis 2 
+float 
+ 
+CRPIX1 
+-20542 
+x-coordinate of 
+reference pixel 
+float 
+ 
+CRPIX2 
+14746 
+y-coordinate of 
+reference pixel 
+float 
+ 
+CD1_1 
+-8.17E-06 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+CD1_2 
+-1.89E-05 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+CD2_1 
+1.89E-05 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+CD2_2 
+-8.17E-06 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+PV1_0 
+0.001196057 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_1 
+0.944409275 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+89 
+PV1_2 
+0.525125217 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_3 
+-0.532762621 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_4 
+1.000947027 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_5 
+0.183471014 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_6 
+0.015648219 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_7 
+1.510999478 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_8 
+-16.7758259 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_9 
+-0.165402907 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_10 
+-10.6956969 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_11 
+10.68387474 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_12 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_13 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_14 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+90 
+PV1_15 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_16 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_17 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_18 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_19 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_20 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_21 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_22 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV1_23 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_0 
+0.002090825 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_1 
+1.072699546 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_2 
+-0.013002786 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_3 
+-0.088620333 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+91 
+PV2_4 
+0.014960299 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_5 
+0.045908523 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_6 
+0.169231941 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_7 
+-0.226523293 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_8 
+-0.041146529 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_9 
+-0.492084011 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_10 
+0.011704667 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_11 
+0.222738919 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_12 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_13 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_14 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_15 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_16 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+92 
+PV2_17 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_18 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_19 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_20 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_21 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_22 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_23 
+0 
+projection 
+distortion 
+parameter 
+float 
+ 
+RA_CEN 
+265.1702617 
+center of field 
+in RA (deg) 
+float 
+ 
+DEC_CEN 
+-53.6764018 
+center of field 
+in Dec (deg) 
+float 
+ 
+ASTRMED1 
+-0.621821318 
+astrom. median 
+for RA (arcsec) 
+float 
+ 
+ASTRMED2 
+-0.631014626 
+astrom. median 
+for Dec 
+(arcsec) 
+float 
+ 
+ASTRRMS1 
+21.05490505 
+astrom. 
+dispersion for 
+RA (arcsec) 
+float 
+ 
+ASTRRMS2 
+22.57765928 
+astrom. 
+dispersion for 
+Dec (arcsec) 
+float 
+ 
+NS_WCS 
+100 
+number of 
+WCS 
+calibration stars 
+int 
+ 
+ 
+ 
+93 
+V_QC1 
+0.0.4 
+version of QC1 
+str 
+ 
+T_QC1 
+2024-03-
+11T06:37:52.39
+2

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "PV2_6的数据类型是什么？", "answer": "float"},
+    {"question": "RA_CEN代表什么？", "answer": "center of field in RA (deg)"},
+    {"question": "ASTRRMS1的单位是什么？", "answer": "arcsec"},
+    {"question": "V_FLUX表示什么信息？", "answer": "version of flux calibration"},
+    {"question": "ZP的数值是多少？", "answer": "23.882"},
+    {"question": "HDU2中的BITPIX的example值是多少？", "answer": "-32"},
+    {"question": "HDU3的BSCALE值是多少？", "answer": "1"},
+    {"question": "表18中的TFIELDS表示什么？", "answer": "number of table fields"},
+    {"question": "TTYPE2在表18中对应的str值是多少？", "answer": "v"},
+    {"question": "UV_RESIDUAL是哪个HDU的扩展名？", "answer": "HDU4"}
+]
+```

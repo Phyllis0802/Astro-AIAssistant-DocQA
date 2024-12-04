@@ -1,0 +1,977 @@
+150.0
+float
+dark current time
+SHTSTAT
+TRUE
+bool
+shutter status
+CHECKSUM
+92QKE0PH90PHC0PH
+str16 HDU checksum updated yyyy-mm-
+ddTHH:MM:SS
+DATASUM
+2867455927
+str10 data unit checksum updated yyyy-mm-
+ddTHH:MM:SS
+53
+VER_INST
+0.0.1
+str
+Version of instrument processing
+STM_INST
+str
+Time stamp of instrument processing
+STA_BIAS
+int
+Status flag for bias frame correction
+STA_OSCN
+1
+int
+Status flag for overscan bias
+correction
+STA_DARK
+int
+Status flag for dark frame correction
+STA_FLAT
+int
+Status flag for flat frame correction
+SKY_BKG
+0.3
+float
+Estimated sky background (e-/s per
+pixel)
+SKY_RMS
+float
+Standard dev of frame background
+(ADU)-> e-/s
+SATURATE
+300.0
+float
+Flux limit of saturated pixel (e-/s)
+STA_CTE
+int
+Status flag for CTE correction
+STA_SAT
+int
+Status flag for satellite correction
+STA_CRS
+int
+Status flag for cosmic rays mask
+CRCOUNT
+-9999
+int
+Cosmic rays counts
+STA_NLIN
+int
+Status flag for non-linear correction
+STA_SHUT
+int
+Status flag for shutter effect correction
+STA_FRNG
+1
+int
+Status flag for fringing effect
+correction
+SIMPLE
+TRUE
+bool
+conforms to FITS standard
+STA_AST
+1
+int
+Completion degree of MCI astrometric
+solution
+VER_AST
+v2023.01
+str
+Version of MCI Astrometry soft
+STM_AST
+0
+str
+Time of last MCI Astrometry
+EQUINOX
+2000.0
+float
+Mean equinox
+RADESYS
+ICRS
+str
+Astrometric system
+54
+CUNIT1
+deg
+str
+Axis unit
+CUNIT2
+deg
+str
+Axis unit
+PV1_0
+int
+Projection distortion parameter
+PV1_1
+1
+int
+Projection distortion parameter
+PV1_2
+int
+Projection distortion parameter
+PV1_4
+int
+Projection distortion parameter
+PV1_5
+int
+Projection distortion parameter
+PV1_6
+int
+Projection distortion parameter
+PV1_7
+int
+Projection distortion parameter
+PV1_8
+int
+Projection distortion parameter
+PV1_9
+int
+Projection distortion parameter
+PV1_10
+int
+Projection distortion parameter
+PV1_12
+int
+Projection distortion parameter
+PV1_13
+int
+Projection distortion parameter
+PV1_14
+int
+Projection distortion parameter
+PV1_15
+int
+Projection distortion parameter
+PV1_16
+int
+Projection distortion parameter
+PV2_0
+int
+Projection distortion parameter
+PV2_1
+1
+int
+Projection distortion parameter
+PV2_2
+int
+Projection distortion parameter
+PV2_4
+int
+Projection distortion parameter
+PV2_5
+int
+Projection distortion parameter
+55
+PV2_6
+int
+Projection distortion parameter
+PV2_7
+int
+Projection distortion parameter
+PV2_8
+int
+Projection distortion parameter
+PV2_9
+int
+Projection distortion parameter
+PV2_10
+int
+Projection distortion parameter
+PV2_12
+int
+Projection distortion parameter
+PV2_13
+int
+Projection distortion parameter
+PV2_14
+int
+Projection distortion parameter
+PV2_15
+int
+Projection distortion parameter
+PV2_16
+int
+Projection distortion parameter
+ASTIRMS1
+-9999
+int
+Astrom. dispersion RMS (intern., high
+S/N)
+ASTIRMS2
+-9999
+int
+Astrom. dispersion RMS (intern., high
+S/N)
+ASTRRMS1
+-9999
+int
+Astrom. dispersion RMS (ref., high
+S/N)
+ASTRRMS2
+-9999
+int
+Astrom. dispersion RMS (ref., high
+S/N)
+ASTGATE
+str
+Camera shutter information
+ASTCONF
+str
+Configuration file for astrometry
+ASTSIM
+normal
+str
+Image classification for MCI
+Astrometry
+GCRSREF
+Gaia dr3 v01
+str
+Reference Catalogue for MCI
+Astrometry
+ASTHIS
+1
+int
+Astrometric solution Record for MCI
+Astrometry
+DELT_RA
+-9999
+int
+Change in central RA
+DELT_DEC
+-9999
+int
+Change in central DEC
+DELT_PS
+-9999
+int
+Change in pixelscale
+56
+（IV）积分场光谱仪1 级数据关键字
+表23：IFS RSS 数据文件中HDU0 头文件关键字。
+key
+example
+fmt
+comment
+fill_value
+SIMPLE
+TRUE
+bool conforms to FITS
+standard
+BITPIX
+8
+int
+array data type
+NAXIS
+int
+number of array
+dimensions
+EXTEND
+TRUE
+bool
+NEXTEND
+1
+int
+number of array
+dimensions
+DATE
+2024-08-17T06:05:12
+str
+date file was
+written(yyyy-mm-
+ddThh:mm:ss)
+FILENAME
+CSST_IFS_SCIE_20230626075140
+_20230626075640_30100000001_A_L1_R7202
+str
+FILETYPE
+SCIE
+str
+type of data found
+in data file
+TELESCOP
+CSST
+str
+telescope used to
+acquire data
+INSTRUME
+IFS
+str
+instrument used to
+acquire data
+RADECSYS
+ICRS
+str
+frame of reference
+of coordinates
+EQUINOX
+2000.0
+float
+FITSCREA
+4.2.1
+str5
+FITS create
+software version
+OBJECT
+NGC3359
+str
+object name
+TARGET
+161953+395345
+str13 target name
+(hhmmss+ddmmss)
+OBSID
+20200000001
+str11 observation ID
+OBJ_RA
+244.972773
+float RA of the object
+(degrees)
+OBJ_DEC
+39.895901
+float DEC of the object
+(degrees)
+57
+RA_PNT0
+244.972773
+float RA of the pointing
+(degrees) at
+CABSTART
+DEC_PNT0
+39.895901
+float DEC of the
+pointing (degrees)
+at CABSTART
+REFFRAME
+CSSTGSC-1.0
+str11 guide star catalog
+version
+DATE-OBS
+2024-08-17T06:05:12
+str
+date of the
+observation (yyyy-
+mm-ddThh:mm:ss)
+SATESWV
+1
+str
+software version in
+the satellite
+EXPSTART
+60539.25361
+float exposure start time
+(MJD)
+CABSTART
+2460075.79976852
+float
+SUNANGL0
+50.0
+float angle between sun
+and optical axis at
+CABSTART
+MOONANG0 30.0
+float angle between
+moon and optical
+axis at
+CABSTART
+TEL_ALT0
+20.0
+float angle between opt
+axis and Earth's
+limb
+POS_ANG0
+20.0
+float angle between y
+axis and the North
+Pole
+POSI0_X
+-2218.3663
+float the orbital position
+in X at
+CABSTART
+POSI0_Y
+-5817.8559
+float the orbital position
+in Y at
+CABSTART
+POSI0_Z
+2597.9467
+float the orbital position
+in Z at
+CABSTART
+VELO0_X
+5.058199026407240
+float the orbital velocity
+in X at
+CABSTART
+VELO0_Y
+-3.85818799871231
+float the orbital velocity
+in Y at
+CABSTART
+58
+VELO0_Z
+-4.322908628205370
+float the orbital velocity
+in Z at
+CABSTART
+EULER0_1
+float Euler angle 1 at
+CABSTART
+EULER0_2
+float Euler angle 2 at
+CABSTART
+EULER0_3
+float Euler angle 3 at
+CABSTART
+EXPEND
+60539.25535
+float exposure end time
+(MJD)
+CABEND
+60539.25535
+float
+SUNANGL1
+50.0
+float angle between sun
+and opt axis at
+CABEND
+MOONANG1 30.0
+float angle between
+moon and opt axis
+TEL_ALT1
+20.0
+float angle between opt
+axis and Earth's
+limb
+POS_ANG1
+20.0
+float angle between y
+axis and the North
+Pole
+POSI1_X
+float the orbital position
+in X at CABEND
+POSI1_Y
+float the orbital position
+in Y at CABEND
+POSI1_Z
+float the orbital position
+in Z at CABEND
+VELO1_X
+float the orbital velocity
+of in X at
+CABEND
+VELO1_Y
+float the orbital velocity
+of in Y at
+CABEND
+VELO1_Z
+float the orbital velocity
+of in Z at
+CABEND
+EULER1_1
+float Euler angle 1 at
+CABEND
+EULER1_2
+float Euler angle 2 at
+CABEND
+EULER1_3
+float Euler angle 3 at
+CABEND
+59
+RA_PNT1
+244.972773
+float RA of the pointing
+(degrees) at
+CABEND
+DEC_PNT1
+39.895901
+float DEC of the
+pointing (degrees)
+at CABEND
+EXPTIME
+150.0
+float exposure duration
+EPOCH
+2000.0
+float coordinate epoch
+CHECKSUM 2023-06-26T09:25:34
+str
+HDU checksum
+updated yyyy-mm-
+ddTHH:MM:SS
+DATASUM
+2023-06-26T09:25:34
+str
+data unit checksum
+updated yyyy-mm-
+ddTHH:MM:SS
+表24：IFS RSS 数据文件中HDU1 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str
+Image extension
+BITPIX
+64
+int
+array data type
+NAXIS
+2
+int
+number of array
+dimensions
+NAXIS1
+32
+int
+NAXIS2
+32
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+SCI
+str
+CMIRRPOS TRUE
+bool position of calibration
+switch mirror
+EXTVER
+1
+int
+BUNIT
+ADU
+str
+physical unit of array
+values
+FLAMP
+int
+status of flat lamp
+ALAMP
+int
+status of flat atomic
+emission line lamp
+IFSMODE
+int
+IFS working mode
+IFSTEMP
+float IFS components
+temperature in degC
+IFSSTAT
+int
+IFS components status
+parameter
+CAMERA
+Blue
+str
+camera of IFS
+60
+DETSN
+CCD231-c4-00
+str
+detector serial number
+DETNAME
+blue
+str
+detector name
+DETSIZE
+2048*4096
+str
+detector size
+DATASEC
+data-section
+str
+data section
+PIXSCAL1
+0.074
+float pixel scale for axis 1
+PIXSCAL2
+0.074
+float pixel scale for axis 2
+PIXSIZE1
+15.0
+float pixel size for axis 1
+PIXSIZE2
+15.0
+float pixel size for axis 2
+NCHAN
+16
+int
+number of readout
+channels
+PSCAN1
+27
+int
+horizontal prescan width,
+per readout channel
+PSCAN2
+int
+vertical prescan height, per
+readout channel
+OSCAN1
+320
+int
+horizontal overscan width,
+per readout channel
+OSCAN2
+320
+int
+vertical overscan height,
+per readout channel
+READT0
+2460075.800462960
+str
+read start time (UTC)
+READT1
+2460075.8005092600
+str
+read end time (UTC)
+DETTEMP0 173.0
+float detector temperature at
+READT0
+DETTEMP1 173.0
+float detector temperature at
+READT1
+BIN_X
+1
+int
+bin number in X
+(wavelength)
+BIN_Y
+1
+int
+bin number in Y (spatial)
+GAIN1
+1.1
+float CCD gain (channel 1)
+GAIN2
+1.1
+float CCD gain (channel 2)
+GAIN3
+1.1
+float CCD gain (channel 3)
+GAIN4
+1.1
+float CCD gain (channel 4)
+DARK1
+float CCD dark (channel 1)
+DARK2
+float CCD dark (channel 2)
+DARK3
+float CCD dark (channel 3)
+DARK4
+float CCD dark (channel 4)
+RON1
+5.0
+float read noise (channel 1)
+RON2
+5.0
+float read noise (channel 2)
+RON3
+5.0
+float read noise (channel 3)
+61
+RON4
+5.0
+float read noise (channel 4)
+DETBIA1
+500.0
+float amplifier bias voltage
+(channel1)
+DETBIA2
+500.0
+float amplifier bias voltage
+(channel2)
+DETBIA3
+500.0
+float amplifier bias voltage
+(channel3)
+DETBIA4
+500.0
+float amplifier bias voltage
+(channel4)
+ROSPEED
+float readout speed (in MHz)
+CHECKSUM 2023-05-11T07:08:28
+str
+HDU checksum updated
+yyyy-mm-ddTHH:MM:SS
+DATASUM
+2023-05-11T07:08:28
+str
+data unit checksum
+updated yyyy-mm-
+ddTHH:MM:SS
+BIAS_MAS
+CSST_IFS_BIAS_MASTER
+_20230518_B_L1_R7201.fits
+str
+PROCESS
+bewnrfcg
+str
+PROCESSES that have
+done
+RSS_VER
+R7202
+str
+Present version of RSS
+QCFLUX
+1
+int
+Total Number of NAN and
+INF in Flux HDU
+QCIV
+int
+Total Number of NAN and
+INF in IV HDU
+QC
+1
+int
+# of NAN+INF
+TRAC_MAS CSST_IFS_FLAT_MASTER
+_20230518_B_L1_R7201_trace.dat
+str
+CRPIX1
+16.5
+float Pixel coordinate of
+reference point
+CRPIX2
+16.5
+float Pixel coordinate of
+reference point
+CRPIX3
+1
+int
+CRVAL3
+3500.0
+float
+CD3_3
+1.75
+float
+PTOW_MAS CSST_IFS_LAMP_MASTER
+_20230518_B_L1_R7201_ptow.dat
+str
+FLATNORM CSST_IFS_FLAT_MASTER
+_20230518_B_L1_R7201_bew_____.fits
+str
+STARFILE
+CSST_IFS_FLAT_MASTER
+_20230518_B_L1_R7201_bew_____.fits
+str
+WCSCAL_S 1
+int
+Is the WCS calibration
+completed?
+62
+WCS_VER
+A6101
+str
+Version of WCS
+calibration Code
+WCSCAL_P
+str
+WCS Calibration
+configuration file name
+WCS_TLM
+2023-07-16 20:37:14
+str
+Last WCS Calibration time
+EQUINOX
+2000
+int
+always 2000.0
+RADESYS
+ICRS
+str
+Coordinate system
+CUNIT1
+deg
+str
+Units of coordinate
+increment and value
+CUNIT2
+deg
+str
+Units of coordinate
+increment and value
+CTYPE1
+DEC--TAN
+str
+Right ascension, gnomonic
+projection
+CTYPE2
+RA---TAN
+str
+Declination, gnomonic
+projection
+CRVAL1
+3500.0
+float RA of reference point
+CRVAL2
+3500.0
+float DEC of reference point
+CD1_1
+-5.554970485225E-05
+float Coordinate transformation
+matrix element
+CD1_2
+8.0
+float Coordinate transformation
+matrix element
+CD2_1
+9.0
+float Coordinate transformation
+matrix element
+CD2_2
+8.0
+float Coordinate transformation
+matrix element
+CTYPE3
+AWAV
+str
+Wavelength Direction
+CUNIT3
+Angstrom
+str
+Unit of Wavelength
+IGUIFILE
+CSST_IFS_slicer_IGUI_ASTM
+_yyyymmddHHMMSS
+_obsid _L1_VER_process.fit
+str
+GGUIFILE
+CSST_IFS_slicer_GGUI_ASTM
+_yyyymmddHHMMSS
+_obsid _L1_VER_process.fit
+str
+IMCIFILE
+CSST_IFS_slicer_IMCI_ASTM
+_yyyymmddHHMMSS
+_obsid _L1_VER_process.fit
+str
+GMCIFILE
+CSST_IFS_slicer_GMCI_ASTM
+_yyyymmddHHMMSS
+_obsid _L1_VER_process.fit
+str
+表25：IFS RSS HDU2 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+63
+XTENSION
+IMAGE
+str
+Image extension
+BITPIX
+64
+int
+array data type
+NAXIS
+2
+int
+number of array
+dimensions
+NAXIS1
+32
+int
+NAXIS2
+32
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+SCI
+str
+CMIRRPOS TRUE
+bool position of calibration
+switch mirror
+EXTVER
+1
+int
+BUNIT
+ADU
+str
+physical unit of array
+values
+FLAMP
+int
+status of flat lamp
+ALAMP
+int
+status of flat atomic
+emission line lamp
+IFSMODE
+int
+IFS working mode
+IFSTEMP
+float IFS components
+temperature in degC
+IFSSTAT
+int
+IFS components status
+parameter
+CAMERA
+Blue
+str
+camera of IFS
+DETSN
+CCD231-c4-00
+str
+detector serial number
+DETNAME
+blue
+str
+detector name
+DETSIZE
+2048*4096
+str
+detector size
+DATASEC
+data-section
+str
+data section
+PIXSCAL1
+0.074
+float pixel scale for axis 1
+PIXSCAL2
+0.074
+float pixel scale for axis 2
+PIXSIZE1
+15.0
+float pixel size for axis 1
+PIXSIZE2
+15.0
+float pixel size for axis 2
+NCHAN
+16
+int
+number of readout
+channels
+PSCAN1
+27
+int
+horizontal prescan width,
+per readout channel

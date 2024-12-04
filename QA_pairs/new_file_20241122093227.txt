@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "第5.4.2章表8中删除了哪个关键字？", "answer": "第5.4.2章表8中删除了关键字others。"},
+    {"question": "HSTDM是什么的缩写或术语？", "answer": "从文档中找不到答案（因为只给出了'HSTDM'这个术语，没有提供具体的解释或背景信息）。"},
+    {"question": "地面发出一次观测指令对应什么ID？", "answer": "地面发出一次观测指令对应一个OBSID。"},
+    {"question": "每个探测器的读出数据包含哪两部分数据？", "answer": "每个探测器的读出数据包含两部分：对目标源进行观测时产生的目标源的观测数据（ONS_SCI 或 ON_SCI）和黑体校准数据（ONS_BLK 或 ON_BLK）。注意：文档中同时提到了ONS_SCI/ONS_BLK和ON_SCI/ON_BLK，可能存在版本或上下文差异。"},
+    {"question": "目标源的观测数据的关键字是什么？", "answer": "目标源的观测数据的关键字是ONS_SCI或ON_SCI。"},
+    {"question": "黑体校准数据的关键字是什么？", "answer": "黑体校准数据的关键字是ONS_BLK或ON_BLK。"},
+    {"question": "第5.2.5章中提到的探测器读出数据有几种类型？", "answer": "第5.2.5章中提到的探测器读出数据有4种类型（根据修正后的信息）：对目标源进行观测时产生的目标源的观测数据（ON_SCI）和黑体校准数据（ON_BLK），但原文中可能由于笔误或版本差异，先提到了ONS_SCI和ONS_BLK，后又更正为ON_SCI和ON_BLK，因此这里以4种类型和ON_SCI/ON_BLK为准。"},
+    {"question": "第5.4.2章表9增加了哪些新的关键字？", "answer": "第5.4.2章表9增加了以下新的关键字：NAXIS2，NAXIS3，PCOUNT，GCOUNT，BEAM_AT1，BEAM_AT2，BEAM_AT3，BEAM_AT4，BEAM_AT5。"},
+    {"question": "在表9中被删除的关键字有哪些？（列举一个）", "answer": "在表9中被删除的关键字有DEW_8K，FPGA_TEM，FFT_5V，FFT_3V等（这里列举了一个FFT_3V）。"},
+    {"question": "FFT_3V是在哪个表格的哪个章节中被删除的关键字？", "answer": "FFT_3V是在第5.4.2章的表9中被删除的关键字。"}
+]
+```

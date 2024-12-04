@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "曝光时间的关键字是什么？", "answer": "曝光时间的关键字是EXPTIME。"},
+    {"question": "TransFinder软件版本的关键字和数据类型分别是什么？", "answer": "TransFinder软件版本的关键字是TRANSWV，数据类型是str。"},
+    {"question": "MCI subtraction数据文件中HDU1的扩展类型是什么？", "answer": "MCI subtraction数据文件中HDU1的扩展类型是IMAGE。"},
+    {"question": "SCI扩展的版本号数据类型是什么？", "answer": "SCI扩展的版本号（EXTVER）数据类型是int。"},
+    {"question": "观测数据的物理单位是什么？", "answer": "观测数据的物理单位是ADU（模数转换单元）。"},
+    {"question": "文件名CSST_MCI_C1_EXDF_20231218141341_20231218141841_20100000001_07_L0_V01中的文件类型是什么？", "answer": "文件名中的文件类型是EXDF。"},
+    {"question": "天区坐标系统的关键字是什么？", "answer": "天区坐标系统的关键字是RADECSYS。"},
+    {"question": "望远镜名称的关键字和数据类型分别是什么？", "answer": "望远镜名称的关键字是TELESCOP，数据类型是str4。"},
+    {"question": "目标名称的关键字以及它的格式是什么？", "answer": "目标名称的关键字是TARGET，它的格式是(hhmmss.s+ddmmss)的字符串，总长度为15个字符。"},
+    {"question": "第1通道的CCD增益是多少？", "answer": "第1通道的CCD增益是1.529999971 e-/ADU。"}
+]
+```

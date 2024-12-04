@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "普朗克巡天者的NSSDC ID是什么？", "answer": "2009-026B"},
+    {"question": "普朗克巡天者是由哪些组织机构负责的？", "answer": "ESA,泰雷兹阿莱尼亚宇航公司"},
+    {"question": "普朗克巡天者的发射日期是什么时候？", "answer": "2009年5月14日 13:12:02 UTC"},
+    {"question": "普朗克巡天者在哪被发射升空？", "answer": "圭亚那太空中心,法属圭亚那"},
+    {"question": "普朗克巡天者使用的发射载体是什么？", "answer": "亚利安五号运载火箭"},
+    {"question": "普朗克巡天者的任务时长是多久？", "answer": "从2009-5-14 到 2013-10-23"},
+    {"question": "普朗克巡天者的质量是多少？", "answer": "1,950千克（4,300磅）"},
+    {"question": "普朗克巡天者的轨道位置在哪里？", "answer": "离地球1.5×106 km(L2 拉格朗日点)"},
+    {"question": "普朗克巡天者的设计目标是什么？", "answer": "以史无前例的高灵敏的角解析力获取宇宙微波背景辐射在整个天空的各向异性图。普朗克巡天者将提供几个宇宙学和天体物理学的主要讯息，例如，测试早期宇宙的理论和宇宙结构的起源。"},
+    {"question": "普朗克巡天者之前的企画案名称是什么？", "answer": "宇宙背景辐射各向异性卫星和背景各向异性测量（Cosmic Background Radiation Anisotropy Satellite and Satellite for Measurement of Background Anisotropies.，缩写为COBRAS/SAMBA）"}
+]
+```

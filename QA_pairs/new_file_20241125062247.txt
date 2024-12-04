@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "IBEX是哪个组织的项目？", "answer": "IBEX是美国国家航空航天局的项目。"},
+    {"question": "IBEX的发射时间是什么时候（UTC）？", "answer": "IBEX的发射时间是2008年10月19日17:47:23（UTC）。"},
+    {"question": "IBEX的主要任务是什么？", "answer": "IBEX的主要任务是绘制太阳系和星际空间边界的地图。"},
+    {"question": "IBEX已经工作了多少年？", "answer": "IBEX已经工作了15年9个月5日。"},
+    {"question": "IBEX的质量是多少？", "answer": "IBEX的质量是110千克（240磅）。"},
+    {"question": "IBEX的功耗是多少？", "answer": "IBEX的功耗是85W。"},
+    {"question": "IBEX的轨道周期是多少？", "answer": "IBEX的轨道周期是13,004.6分钟（9.03天）。"},
+    {"question": "IBEX携带的主要仪器有哪些？", "answer": "IBEX携带的主要仪器有IBEX-Hi和IBEX-Lo。"},
+    {"question": "IBEX-Hi和IBEX-Lo的主要区别是什么？", "answer": "IBEX-Hi仪器所记录的离子相比IBEX-Lo所记录的能量要高一些。"},
+    {"question": "IBEX的远地点距离地球大约多少千米？", "answer": "IBEX的远地点距离地球大约310,042.9千米（192,651.7英里）。"}
+]
+```

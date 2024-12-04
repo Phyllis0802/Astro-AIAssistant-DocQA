@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "PAMELA是哪个研究机构的项目？", "answer": "PAMELA group"},
+    {"question": "PAMELA的任务类型是什么？", "answer": "宇宙射线"},
+    {"question": "PAMELA的主体卫星是什么？", "answer": "资源号-DK1（英语：Resurs-DK1）"},
+    {"question": "PAMELA的发射日期是什么时候？", "answer": "2006年6月15日"},
+    {"question": "PAMELA的发射载具是什么？", "answer": "联合号-FG"},
+    {"question": "PAMELA的发射位置在哪里？", "answer": "白寇奴尔太空发射场"},
+    {"question": "PAMELA的任务时间多长？", "answer": "3年（实际运行时间超过5年）"},
+    {"question": "PAMELA的质量是多少？", "answer": "470公斤"},
+    {"question": "PAMELA的最大长度是多少？", "answer": "1300毫米"},
+    {"question": "PAMELA的功率是多少瓦？", "answer": "335瓦"}
+]
+```

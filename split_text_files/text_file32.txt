@@ -1,0 +1,673 @@
+LSST_z_PSFmag 
+ 
+str13 
+ 
+TFORM52 
+D 
+ 
+str1 
+ 
+TUNIT52 
+mag 
+ 
+str3 
+ 
+TDISP52 
+F12.3 
+ 
+str5 
+ 
+TTYPE53 
+LSST_z_PSFmagErr 
+ 
+str16 
+ 
+TFORM53 
+D 
+ 
+str1 
+ 
+TUNIT53 
+mag 
+ 
+str3 
+ 
+TDISP53 
+F12.3 
+ 
+str5 
+ 
+TTYPE54 
+LSST_y_PSFmag 
+ 
+str13 
+ 
+TFORM54 
+D 
+ 
+str1 
+ 
+TUNIT54 
+mag 
+ 
+str3 
+ 
+TDISP54 
+F12.3 
+ 
+str5 
+ 
+TTYPE55 
+LSST_y_PSFmagErr 
+ 
+str16 
+ 
+TFORM55 
+D 
+ 
+str1 
+ 
+TUNIT55 
+mag 
+ 
+str3 
+ 
+TDISP55 
+F12.3 
+ 
+str5 
+ 
+TTYPE56 
+LSST_uFlags 
+ 
+str11 
+ 
+TFORM56 
+K 
+ 
+str1 
+ 
+TUNIT56 
+ 
+ 
+str0 
+ 
+TDISP56 
+I2 
+ 
+str2 
+ 
+TTYPE57 
+LSST_gFlags 
+ 
+str11 
+ 
+TFORM57 
+K 
+ 
+str1 
+ 
+ 
+ 
+69 
+TUNIT57 
+ 
+ 
+str0 
+ 
+TDISP57 
+I2 
+ 
+str2 
+ 
+TTYPE58 
+LSST_rFlags 
+ 
+str11 
+ 
+TFORM58 
+K 
+ 
+str1 
+ 
+TUNIT58 
+ 
+ 
+str0 
+ 
+TDISP58 
+I2 
+ 
+str2 
+ 
+TTYPE59 
+LSST_iFlags 
+ 
+str11 
+ 
+TFORM59 
+K 
+ 
+str1 
+ 
+TUNIT59 
+ 
+ 
+str0 
+ 
+TDISP59 
+I2 
+ 
+str2 
+ 
+TTYPE60 
+LSST_zFlags 
+ 
+str11 
+ 
+TFORM60 
+K 
+ 
+str1 
+ 
+TUNIT60 
+ 
+ 
+str0 
+ 
+TDISP60 
+I2 
+ 
+str2 
+ 
+TTYPE61 
+LSST_yFlags 
+ 
+str11 
+ 
+TFORM61 
+K 
+ 
+str1 
+ 
+TUNIT61 
+ 
+ 
+str0 
+ 
+TDISP61 
+I2 
+ 
+str2 
+ 
+TTYPE62 
+j_m 
+ 
+str3 
+ 
+TFORM62 
+D 
+ 
+str1 
+ 
+TUNIT62 
+mag 
+ 
+str3 
+ 
+TDISP62 
+F12.3 
+ 
+str5 
+ 
+TTYPE63 
+j_msigcom 
+ 
+str9 
+ 
+TFORM63 
+D 
+ 
+str1 
+ 
+TUNIT63 
+mag 
+ 
+str3 
+ 
+TDISP63 
+F12.3 
+ 
+str5 
+ 
+TTYPE64 
+h_m 
+ 
+str3 
+ 
+TFORM64 
+D 
+ 
+str1 
+ 
+ 
+ 
+70 
+TUNIT64 
+mag 
+ 
+str3 
+ 
+TDISP64 
+F12.3 
+ 
+str5 
+ 
+TTYPE65 
+h_msigcom 
+ 
+str9 
+ 
+TFORM65 
+D 
+ 
+str1 
+ 
+TUNIT65 
+mag 
+ 
+str3 
+ 
+TDISP65 
+F12.3 
+ 
+str5 
+ 
+TTYPE66 
+k_m 
+ 
+str3 
+ 
+TFORM66 
+D 
+ 
+str1 
+ 
+TUNIT66 
+mag 
+ 
+str3 
+ 
+TDISP66 
+F12.3 
+ 
+str5 
+ 
+TTYPE67 
+k_msigcom 
+ 
+str9 
+ 
+TFORM67 
+D 
+ 
+str1 
+ 
+TUNIT67 
+mag 
+ 
+str3 
+ 
+TDISP67 
+F12.3 
+ 
+str5 
+ 
+EXTNAME 
+CAL_FLUX 
+extension 
+name 
+str8 
+ 
+CHECKSUM 
+9UHdASEZ2SEb9SEZ 
+HDU 
+checksum 
+updated 2024-
+03-
+11T15:01:30 
+str16 
+ 
+DATASUM 
+3395342191 
+data unit 
+checksum 
+updated 2024-
+03-
+11T15:01:30 
+str10 
+ 
+COMMENT 
+--END-ASTROPY-
+SERIALIZED-COLUMNS-- 
+ 
+str34 
+ 
+ 
+表21: 多⾊成像1 级数据关键字（HDU7） 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+image 
+extension 
+str 
+ 
+ 
+ 
+71 
+BITPIX 
+-32 
+array data 
+type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+24 
+ 
+int 
+ 
+NAXIS2 
+24 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+SKY_ALGO 
+Mean 
+algorithm of 
+sky estimator 
+str 
+ 
+BOX_SIZE 
+400 
+box size along 
+each axis 
+int 
+ 
+GRI_MODE 
+TRUE 
+if True, 
+distance 
+including the 
+full pixel ext 
+bool 
+ 
+ORDER 
+3 
+order of the 
+spline 
+interpolation 
+int 
+ 
+MODE 
+reflect 
+points outside 
+the 
+boundaries of 
+the input are 
+str 
+ 
+BKG_MED 
+0.037008287 
+median of the 
+sky 
+background 
+(e-/s) 
+float 
+ 
+EXTNAME 
+SKY 
+extension 
+name 
+str 
+ 
+BUNIT 
+electron/s 
+physical unit 
+of array 
+values 
+str 
+ 
+CHECKSUM 
+XNgXYNgXXNgXXNgX 
+HDU 
+checksum 
+updated 2024-
+str 
+ 
+ 
+ 
+72 
+03-
+11T15:01:30 
+DATASUM 
+1965136643 
+data unit 
+checksum 
+updated 2024-
+03-
+11T15:01:30 
+str 
+ 
+ 
+表22: 多⾊成像1 级数据关键字（HDU8） 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+BINTABLE 
+binary table 
+extension 
+str 
+ 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of array 
+dimensions 
+int 
+ 
+NAXIS1 
+201640 
+length of 
+dimension 1 
+int 
+ 
+NAXIS2 
+1 
+length of 
+dimension 2 
+int 
+ 
+PCOUNT 
+0 
+number of group 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of groups 
+int 
+ 
+TFIELDS 
+1 
+number of table 
+fields 
+int 
+ 
+LOADED 
+375 
+number of loaded 
+sources 
+int 
+ 
+ACCEPTED 
+371 
+number of 
+accepted sources 
+int 
+ 
+CHI2 
+0.9603276 
+final chi2 
+float 
+ 
+POLNAXIS 
+2 
+number of 
+context 
+parameters 
+int 
+ 
+POLGRP1 
+1 
+polynom group 
+for this context 
+parameter 
+int 
+ 
+ 
+ 
+73 
+POLNAME1 
+XWIN_IMAGE 
+name of this 
+context 
+parameter 
+str10 
+ 
+POLZERO1 
+4614.304904 
+offset value for 
+this context 
+parameter 
+float 
+ 
+POLSCAL1 
+9178.944633 
+scale value for 
+this context 
+parameter 
+float 
+ 
+POLGRP2 
+1 
+polynom group 
+for this context 
+parameter 
+int 
+ 
+POLNAME2 
+YWIN_IMAGE 
+name of this 
+context 
+parameter 
+str10 
+ 
+POLZERO2 
+4611.896574 
+offset value for 
+this context 
+parameter 
+float 
+ 
+POLSCAL2 
+9150.193456 
+scale value for 
+this context 
+parameter 
+float 
+ 
+POLNGRP 
+1 
+number of 
+context groups 
+int 
+ 
+POLDEG1 
+3 
+polynom degree 
+for this context 
+group 
+int 
+ 
+PSF_FWHM 
+2.33210993 
+PSF FWHM 
+(pix) 
+float 
+ 
+PSF_SAMP 
+0.49619359 
+sampling step of 
+the PSF data 
+float 
+ 
+PSFNAXIS 
+3 
+dimensionality of 
+the PSF data 
+int 
+ 
+PSFAXIS1 
+71 
+number of 
+element along 
+this axis 
+int 
+ 
+PSFAXIS2 
+71 
+number of 
+element along 
+this axis 
+int 
+ 
+ 
+ 
+74 
+PSFAXIS3 
+10 
+number of 
+element along 
+this axis 
+int

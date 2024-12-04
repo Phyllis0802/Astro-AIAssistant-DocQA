@@ -1,0 +1,651 @@
+file name of 
+cube 
+str 
+ 
+FILETYPE 
+SCI 
+observation 
+type 
+str 
+ 
+TELESCOP 
+CSST 
+telescope name 
+str4 
+ 
+INSTRUME 
+IFS 
+instrument 
+name 
+str3 
+ 
+COMMENT 
+===========
+===========
+===========
+===========
+===========
+===========
+====== 
+ 
+str72 
+ 
+OBJECT 
+104742.3+1359
+08 
+object name 
+str 
+ 
+RA_OBJ 
+161.92625 
+object RA 
+(deg) 
+float 
+ 
+DEC_OBJ 
+13.9858 
+object Dec 
+(deg) 
+float 
+ 
+RSS_VER 
+R8001 
+version of RSS 
+code 
+str 
+ 
+ 
+ 
+156 
+CUBE_VER 
+C9101 
+version of cube 
+code 
+str 
+ 
+COV_VER 
+C9101 
+version of COV 
+code 
+str 
+ 
+LSF_VER 
+C9101 
+version of LSF 
+code 
+str 
+ 
+NEXP 
+20 
+number of 
+science 
+exposures 
+combined 
+int 
+ 
+TOTEXPT 
+24000 
+total exposure 
+time (s) 
+float 
+ 
+MJDMIN 
+60262.05257 
+minimum OBS 
+MJD across all 
+exposures 
+(MJD) 
+float 
+ 
+MJDMAX 
+60262.48312 
+maximum OBS 
+MJD across all 
+exposures 
+(MJD) 
+float 
+ 
+MJDMED 
+60262.29076 
+median OBS 
+MJD across all 
+exposures 
+(MJD) 
+float 
+ 
+F_UNIT 
+1E-17 
+erg/s/cm^2/A/a
+rcsec^2 
+unit of flux 
+str27 
+ 
+FSCALE 
+1 
+intensity unit 
+scaling 
+int 
+ 
+F_ZERO 
+0 
+intensity 
+zeropoint 
+int 
+ 
+EBVGAL 
+0 
+galactic 
+reddening E(B-
+V) 
+int 
+ 
+QC_CUBE 
+0 
+quality check 
+for cube 
+int 
+ 
+WCS_VER 
+A0101 
+Version of 
+WCS 
+str 
+ 
+ 
+ 
+157 
+calibration 
+Code 
+WCS_P 
+csst_ifs_wcs.to
+ml 
+WCS 
+Calibration 
+configuration 
+file name 
+str 
+ 
+RA_CEN 
+161.9263073 
+plate center RA 
+(deg) 
+float 
+ 
+DEC_CEN 
+13.98577222 
+plate center 
+Dec (deg) 
+float 
+ 
+CRDER3 
+0 
+random error in 
+spectral 
+coordinate 
+int 
+ 
+WCSAXES 
+3 
+number of 
+coordinate axes 
+int 
+ 
+CRPIX1 
+38 
+pixel 
+coordinate of 
+reference point 
+float 
+ 
+CRPIX2 
+38 
+pixel 
+coordinate of 
+reference point 
+float 
+ 
+CRPIX3 
+1 
+pixel 
+coordinate of 
+reference point 
+float 
+ 
+PC1_1 
+-2.78E-05 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+PC2_2 
+2.78E-05 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+PC3_3 
+1.75 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+CDELT1 
+1 
+coordinate 
+increment at 
+reference point 
+(deg) 
+float 
+ 
+CDELT2 
+1 
+coordinate 
+increment at 
+float 
+ 
+ 
+ 
+158 
+reference point 
+(deg) 
+CDELT3 
+1 
+coordinate 
+increment at 
+reference point 
+(ang) 
+float 
+ 
+CUNIT1 
+deg 
+units of 
+coordinate 
+increment and 
+value 
+str3 
+ 
+CUNIT2 
+deg 
+units of 
+coordinate 
+increment and 
+value 
+str3 
+ 
+CUNIT3 
+Angstrom 
+units of 
+coordinate 
+increment and 
+value 
+str 
+ 
+CTYPE1 
+RA---TAN 
+right ascension, 
+gnomonic 
+projection 
+str 
+ 
+CTYPE2 
+DEC--TAN 
+declination, 
+gnomonic 
+projection 
+str 
+ 
+CTYPE3 
+LIN 
+coordinate type 
+code 
+str 
+ 
+CRVAL1 
+161.92625 
+coordinate 
+value at 
+reference point 
+(deg) 
+float 
+ 
+CRVAL2 
+13.9858 
+coordinate 
+value at 
+reference point 
+(deg) 
+float 
+ 
+CRVAL3 
+3500 
+coordinate 
+value at 
+reference point 
+(ang) 
+float 
+ 
+LONPOLE 
+180 
+native 
+longitude of 
+float 
+ 
+ 
+ 
+159 
+celestial pole 
+(deg) 
+LATPOLE 
+13.9858 
+native latitude 
+of celestial pole 
+(deg) 
+float 
+ 
+MJDREF 
+0 
+MJD of fiducial 
+time (d) 
+float 
+ 
+RADESYS 
+FK5 
+equatorial 
+coordinate 
+system 
+str 
+ 
+EQUINOX 
+2000 
+equinox of 
+equatorial 
+coordinates (yr) 
+float 
+ 
+CHECKSUM 
+3TEAAS983SE
+AAS97 
+HDU checksum 
+updated 2024-
+03-
+14T16:07:53 
+str 
+ 
+DATASUM 
+0 
+data unit 
+checksum 
+updated 2024-
+03-
+14T16:07:53 
+str 
+ 
+ 
+表36: IFS CUBE HDU1 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+3 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+70 
+ 
+int 
+ 
+NAXIS2 
+72 
+ 
+int 
+ 
+NAXIS3 
+3658 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+ 
+ 
+160 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+FLUX 
+extension name 
+str4 
+ 
+CHECKSUM 
+ndecqbZbnbdbnbZb 
+HDU 
+checksum 
+updated 2024-
+03-
+14T16:07:54 
+str 
+ 
+DATASUM 
+4086052030 
+data unit 
+checksum 
+updated 2024-
+03-
+14T16:07:54 
+str 
+ 
+ 
+表37: IFS CUBE HDU2 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+3 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+70 
+ 
+int 
+ 
+NAXIS2 
+72 
+ 
+int 
+ 
+NAXIS3 
+3658 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+IVAR 
+extension 
+name 
+str4 
+ 
+CHECKSUM 
+Zha9aZY7Tfa7ZZW7 
+HDU 
+checksum 
+updated 2024-
+03-
+14T16:07:56 
+str 
+ 
+ 
+ 
+161 
+DATASUM 
+3886408205 
+data unit 
+checksum 
+updated 2024-
+03-
+14T16:07:56 
+str 
+ 
+ 
+ 
+表 38: IFS CUBE HDU3 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+3 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+70 
+ 
+int 
+ 
+NAXIS2 
+72 
+ 
+int 
+ 
+NAXIS3 
+3658 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+MASK 
+extension name 
+str4 
+ 
+CHECKSUM 
+95ceA5aZ95abA5aZ 
+HDU 
+checksum 
+updated 2024-
+03-
+14T16:08:00 
+str 
+ 
+DATASUM 
+3313847944 
+data unit 
+checksum 
+updated 2024-
+03-
+14T16:08:00 
+str 
+ 
+ 
+ 
+ 
+162 
+表 39: IFS CUBE HDU4 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+3 
+number of array 
+dimensions 
+int 
+ 
+NAXIS1 
+70 
+ 
+int 
+ 
+NAXIS2

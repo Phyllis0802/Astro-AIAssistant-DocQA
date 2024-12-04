@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "原始数据经过0-1级流水线后生成什么？", "answer": "原始数据经过0-1级流水线后生成的是对应结果图像以及相对应的MASK图像，其结构为[[结果图像]， [MASK 图像]]。"},
+    {"question": "MASK图像的二进制位具体数值与什么相关？", "answer": "MASK图像的二进制位具体数值与对应的特征见《CSST 科学数据处理系统定标参考数据结构设计说明》(KSC-00-JK-0004-01.01)中9.2 节关于 DQ Flags 的定义相关。"},
+    {"question": "HSTDM 1级数据产品文件包括哪些类型？", "answer": "HSTDM 1级数据产品文件包括科学数据SCI，处理过程中采用的辅助信息AUX，质量检查与控制数据QC这三类文件。"},
+    {"question": "SCI文件的primaryHDU数据部分包含什么？", "answer": "SCI文件的primaryHDU数据部分为空，primaryHDU header部分完全继承自0级ONS类型数据信息。"},
+    {"question": "AUX文件保存了什么信息？", "answer": "AUX文件对象包含1层HDU，数据部分保存着处理过程中采用的具体辅助信息（包括了BLK、OFF点数据点选择处理参数，定标数据文件信息等）。"},
+    {"question": "全局头文件关键字从哪里继承？", "answer": "全局头文件关键字完全继承自0级数据，原则上不再进行改动。"},
+    {"question": "FITS头文件的关键字由什么组成？", "answer": "FITS头文件的关键字由大写字母和数字组成，其中数字不可作为关键字的首字符，最多8个字符。"},
+    {"question": "\"BITPIX\"关键字代表什么？", "answer": "\"BITPIX\"关键字代表数组数据类型。"},
+    {"question": "\"FILENAME\"关键字的类型是什么？", "answer": "\"FILENAME\"关键字的类型是字符串。"},
+    {"question": "\"TARGET\"关键字描述了什么信息？", "answer": "\"TARGET\"关键字描述了目标名称，格式为hhmmss.s+ddmmss。"}
+]
+```

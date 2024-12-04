@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "SOHO任务是由哪两个机构联合运营的？", "answer": "SOHO任务是由欧洲航天局（ESA）和NASA联合运营的。"},
+    {"question": "SOHO任务的国际卫星标识符是什么？", "answer": "SOHO任务的国际卫星标识符是1995-065A。"},
+    {"question": "SOHO航天器的制造方是谁？", "answer": "SOHO航天器是由以马特拉马可尼航太公司（现在的阿斯特里姆）为首的欧洲工业财团制造的。"},
+    {"question": "SOHO航天器的发射质量是多少？", "answer": "SOHO航天器的发射质量是1,850千克（4,080磅）。"},
+    {"question": "SOHO任务的开始发射日期是什么时候？", "answer": "SOHO任务的开始发射日期是1995年12月2日（UTC）。"},
+    {"question": "SOHO太空船在哪个轨道上绕着太阳公转？", "answer": "SOHO太空船是在围绕着L1点的晕轮轨道上绕着太阳公转。"},
+    {"question": "SOHO太空船与地面通讯的资料流量最高可达多少？", "answer": "SOHO太空船与地面通讯的资料流量最高可达1.25MBit/s。"},
+    {"question": "2003年SOHO天线的哪个部分失效了？", "answer": "2003年，SOHO天线的Y轴步进马达失效。"},
+    {"question": "SOHO探测器上安装了多少台主要的科学仪器？", "answer": "SOHO探测器上安装了十二台主要的科学仪器。"},
+    {"question": "SOHO探测器上的观察能否以图片形式保存下来？", "answer": "SOHO探测器上的一些仪器上的观察能够以图片的形式保存下来。"}
+]
+```

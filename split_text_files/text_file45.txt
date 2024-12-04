@@ -1,0 +1,609 @@
+(ADU, 
+channel3) 
+float 
+ 
+DETBIA4B 
+515 
+B: amplifier 
+bias voltage 
+(ADU, 
+channel4) 
+float 
+ 
+DETBIA4R 
+512 
+R: amplifier 
+bias voltage 
+(ADU, 
+channel4) 
+float 
+ 
+ROSPEEDB 
+100 
+B: readout 
+speed (MHz) 
+float 
+ 
+ROSPEEDR 
+100 
+R: readout 
+speed (MHz) 
+float 
+ 
+CHECKSUM 
+92CSG29R92C
+RE29R 
+HDU checksum 
+updated 2024-
+03-
+19T09:27:11 
+str 
+ 
+DATASUM 
+4007993317 
+data unit 
+checksum 
+updated 2024-
+03-
+19T09:27:11 
+str 
+ 
+COMMENT 
+===========
+===========
+===========
+===========
+===========
+===========
+====== 
+ 
+str72 
+ 
+RSS_VER 
+R9002 
+the version of 
+RSS pipeline 
+str 
+ 
+DATEPROC 
+2024-03-
+19T01:27:10.6 
+the time when 
+this file was 
+written (UTC) 
+str21 
+ 
+ 
+ 
+150 
+MERGMETB 
+median 
+B: L0 data 
+merging 
+method 
+str 
+ 
+MERGMETR 
+median 
+R: L0 data 
+merging 
+method 
+str 
+ 
+MERGNUMB 
+3 
+B: the number 
+of layers in L0 
+data to merge 
+int 
+ 
+MERGNUMR 
+3 
+R: the number 
+of layers in L0 
+data to merge 
+int 
+ 
+TIMEDURB 
+300 
+B: the time 
+duration of the 
+merged file 
+float 
+ 
+TIMEDURR 
+300 
+R: the time 
+duration of the 
+merged file 
+float 
+ 
+PROCESS 
+bewnrfcg 
+processes that 
+have done 
+str 
+ 
+BIASFILB 
+CSST_IFS_B_
+BIASMS_C720
+2_20231114.fit
+s 
+B: the bias 
+master file 
+str 
+ 
+BIASFILR 
+CSST_IFS_R_
+BIASMS_C720
+2_20231114.fit
+s 
+R: the bias 
+master file 
+str 
+ 
+DARKFILB 
+CSST_IFS_B_
+DARKMS_C7
+202_20231114.
+fits 
+B: the dark 
+master file 
+str 
+ 
+DARKFILR 
+CSST_IFS_R_
+DARKMS_C7
+202_20231114.
+fits 
+R: the dark 
+master file 
+str 
+ 
+TRACFILB 
+CSST_IFS_B_
+TRACE_C720
+2_20231114.fit
+s 
+B: the trace file 
+str 
+ 
+ 
+ 
+151 
+TRACFILR 
+CSST_IFS_R_
+TRACE_C720
+2_20231114.fit
+s 
+R: the trace file 
+str 
+ 
+PTOWFILB 
+CSST_IFS_B_
+PTOW_C7202
+_20231114e.fit
+s 
+B: the ptow file 
+str 
+ 
+PTOWFILR 
+CSST_IFS_R_
+PTOW_C7202
+_20231114e.fit
+s 
+R: the ptow file 
+str 
+ 
+FLATFILB 
+CSST_IFS_B_
+FLATMS_C72
+02_20231114e.
+fits 
+B: the flat 
+master file 
+str 
+ 
+FLATFILR 
+CSST_IFS_R_
+FLATMS_C72
+02_20231114e.
+fits 
+R: the flat 
+master file 
+str 
+ 
+STARFILB 
+CSST_IFS_B_
+FLATMS_C72
+02_20231114e
+w.fits 
+B: the standard 
+star file 
+str 
+ 
+STARFILR 
+CSST_IFS_R_
+FLATMS_C72
+02_20231114e
+w.fits 
+R: the standard 
+star file 
+str 
+ 
+QCFLUX 
+0 
+total number of 
+NAN and INF 
+in FLUX HDU 
+int 
+ 
+QCIV 
+0 
+total number of 
+NAN and INF 
+in IVAR HDU 
+int 
+ 
+CRPIX3 
+1 
+pixel 
+coordinate of 
+reference point 
+int 
+ 
+CRVAL3 
+3500 
+coordinate 
+value at 
+reference point 
+(angstrom) 
+float 
+ 
+ 
+ 
+152 
+CD3_3 
+1.75 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+WCSCAL_S 
+1 
+WCS 
+calibration 
+completed? 
+int 
+ 
+WCS_VER 
+A0101 
+version of 
+WCS 
+calibration code 
+str 
+ 
+WCSCAL_P 
+csst_ifs_wcs.to
+ml 
+WCS 
+calibration 
+configuration 
+file name 
+str 
+ 
+WCS_TLM 
+2024-03-
+19T01:27:10.9 
+last WCS 
+calibration time 
+str21 
+ 
+EQUINOX 
+2000 
+epoch of the 
+mean equator 
+and equinox 
+float 
+ 
+RADESYS 
+ICRS 
+frame of 
+reference of 
+coordinates 
+str 
+ 
+CUNIT1 
+deg 
+units of 
+coordinate 
+increment and 
+value 
+str 
+ 
+CUNIT2 
+deg 
+units of 
+coordinate 
+increment and 
+value 
+str 
+ 
+CTYPE1 
+RA---TAN 
+right ascension, 
+gnomonic 
+projection 
+str 
+ 
+CTYPE2 
+DEC--TAN 
+declination, 
+gnomonic 
+projection 
+str 
+ 
+CRPIX1 
+16.5 
+pixel 
+coordinate of 
+reference point 
+float 
+ 
+ 
+ 
+153 
+CRPIX2 
+16.5 
+pixel 
+coordinate of 
+reference point 
+float 
+ 
+CRVAL1 
+248.16333 
+RA of 
+reference point 
+float 
+ 
+CRVAL2 
+78.19817 
+DEC of 
+reference point 
+float 
+ 
+CD1_1 
+-5.56E-05 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+CD1_2 
+0 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+CD2_1 
+0 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+CD2_2 
+5.56E-05 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+CTYPE3 
+AWAV 
+wavelength 
+direction 
+str 
+ 
+CUNIT3 
+Angstrom 
+unit of 
+wavelength 
+str 
+ 
+QC_RSS 
+0 
+the QC of RSS 
+production 
+int 
+ 
+ 
+表33：IFS RSS HDU2 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image extension 
+str5 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+3 
+number of array 
+dimensions 
+int 
+ 
+NAXIS1 
+32 
+ 
+int 
+ 
+NAXIS2 
+32 
+ 
+int 
+ 
+NAXIS3 
+3686 
+ 
+int 
+ 
+ 
+ 
+154 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+IVAR 
+extension name 
+str4 
+ 
+CHECKSUM 
+ZebFgbZ9ZbaCdbY9 
+HDU checksum 
+updated 2024-
+03-17T20:57:55 
+str 
+ 
+DATASUM 
+3885809903 
+data unit 
+checksum 
+updated 2024-
+03-17T20:57:55 
+str 
+ 
+ 
+表34: IFS RSS HDU3 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image extension 
+str5 
+ 
+BITPIX 
+32 
+array data type 
+int 
+ 
+NAXIS 
+3 
+number of array 
+dimensions 
+int 
+ 
+NAXIS1 
+32 
+ 
+int 
+ 
+NAXIS2 
+32 
+ 
+int 
+ 
+NAXIS3 
+3686 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+MASK 
+extension name 
+str 
+ 
+CHECKSUM 
+ee7hee7eee7eee7e 
+HDU checksum 
+updated 2024-
+03-17T20:57:55 
+str 
+ 
+DATASUM 
+3622893 
+data unit 
+checksum 
+updated 2024-
+03-17T20:57:55 
+str 
+ 
+ 
+ 
+155 
+ 
+（II）IFS-CUBE 头⽂件关键字 
+表35：CUBE 数据HDU0 头⽂件包含的关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+SIMPLE 
+TRUE 
+conforms to 
+FITS standard 
+bool 
+ 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+0 
+number of 
+array 
+dimensions 
+int 
+ 
+EXTEND 
+TRUE 
+ 
+bool 
+ 
+FILENAME 
+CSST_IFS_CU
+BE_104742.3+
+135908_C9101
+_LIN_0.fits 
+file name of 
+cube 
+str 
+ 
+FILETYPE 
+SCI

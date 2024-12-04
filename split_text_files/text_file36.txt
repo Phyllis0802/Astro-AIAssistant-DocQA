@@ -1,0 +1,661 @@
+T_QC1 
+2024-03-
+11T06:37:52.39
+2 
+timestamp of 
+QC1 
+str23 
+ 
+S_QC1 
+0 
+status of QC1 
+(0/1/2) 
+int 
+ 
+QC1_FLAG 
+0 
+flag of QC1 in 
+bitmask (2**n, 
+n>2) 
+int 
+ 
+CHECKSUM 
+jEaQk9UOjEZ
+Oj9ZO 
+HDU checksum 
+updated 2023-
+06-
+30T16:11:52 
+str 
+ 
+DATASUM 
+4137663647 
+data unit 
+checksum 
+updated 2023-
+06-
+30T16:11:52 
+str 
+ 
+ 
+表25：⽆缝光谱1 级数据HDU2 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+image extension 
+str 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of array 
+dimensions 
+int 
+ 
+NAXIS1 
+9216 
+ 
+int 
+ 
+NAXIS2 
+9232 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of groups 
+int 
+ 
+EXTNAME 
+ERROR 
+extension name 
+str 
+ 
+EXTVER 
+1 
+extension version 
+number 
+int 
+ 
+BUNIT 
+electron/s 
+physical unit 
+str 
+ 
+ 
+ 
+94 
+ 
+表26：⽆缝光谱1 级数据HDU3 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+image extension 
+str 
+ 
+BITPIX 
+16 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of array 
+dimensions 
+int 
+ 
+NAXIS1 
+9216 
+ 
+int 
+ 
+NAXIS2 
+9232 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+BSCALE 
+1 
+ 
+int 
+ 
+BZERO 
+32768 
+ 
+int 
+ 
+EXTNAME 
+FLAG 
+extension name 
+str 
+ 
+EXTVER 
+1 
+extension 
+version number 
+int 
+ 
+BUNIT 
+UNITLESS 
+physical unit 
+str 
+ 
+ 
+表27: ⽆缝光谱1 级数据HDU4 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+BINTABLE 
+binary table 
+extension 
+str 
+ 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+64 
+length of 
+dimension 1 
+int 
+ 
+NAXIS2 
+100 
+length of 
+dimension 2 
+int 
+ 
+ 
+ 
+95 
+PCOUNT 
+0 
+number of 
+group 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+TFIELDS 
+8 
+number of table 
+fields 
+int 
+ 
+TTYPE1 
+id 
+ 
+str 
+ 
+TFORM1 
+K 
+ 
+str 
+ 
+TTYPE2 
+x_img 
+ 
+str 
+ 
+TFORM2 
+D 
+ 
+str 
+ 
+TUNIT2 
+pix 
+ 
+str 
+ 
+TTYPE3 
+y_img 
+ 
+str 
+ 
+TFORM3 
+D 
+ 
+str1 
+ 
+TUNIT3 
+pix 
+ 
+str 
+ 
+TTYPE4 
+ra_cal 
+ 
+str 
+ 
+TFORM4 
+D 
+ 
+str 
+ 
+TUNIT4 
+deg 
+ 
+str 
+ 
+TTYPE5 
+dec_cal 
+ 
+str 
+ 
+TFORM5 
+D 
+ 
+str 
+ 
+TUNIT5 
+deg 
+ 
+str 
+ 
+TTYPE6 
+ra_ref 
+ 
+str 
+ 
+TFORM6 
+D 
+ 
+str 
+ 
+TUNIT6 
+deg 
+ 
+str 
+ 
+TTYPE7 
+dec_ref 
+ 
+str 
+ 
+TFORM7 
+D 
+ 
+str 
+ 
+TUNIT7 
+deg 
+ 
+str 
+ 
+TTYPE8 
+mag_ref 
+ 
+str 
+ 
+TFORM8 
+D 
+ 
+str 
+ 
+TUNIT8 
+mag 
+ 
+str 
+ 
+ 
+ 
+96 
+EXTNAME 
+CAL_WCS 
+extension name 
+str 
+ 
+COMMENT 
+--END-ASTROPY-
+SERIALIZED-
+COLUMNS-- 
+ 
+str34 
+ 
+ 
+（III） 多通道成像仪1 级数据关键字 
+表28： MCI ⼀级数据HDU1 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+extension type 
+str5 
+ 
+BITPIX 
+16 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+23984 
+ 
+int 
+ 
+NAXIS2 
+4936 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+BSCALE 
+1 
+ 
+int 
+ 
+BZERO 
+32768 
+ 
+int 
+ 
+EXTNAME 
+SCI 
+ 
+str3 
+ 
+EXTVER 
+1 
+ 
+int 
+ 
+BUNIT 
+ADU 
+physical unit of 
+array values 
+str 
+ 
+COMMENT 
+===========
+===========
+===========
+===========
+===========
+===========
+====== 
+ 
+str72 
+ 
+ 
+ 
+97 
+DATE 
+2023-12-
+18T17:01:40.1 
+written date 
+(yyyy-mm-
+ddThh:mm:ss.s
+) 
+str21 
+ 
+FILENAME 
+CSST_MCI_C
+1_EXDF_2023
+1218141341_2
+023121814184
+1_2010000000
+1_07_L0_V01 
+ 
+str 
+ 
+FILETYPE 
+EXDF 
+observation 
+type 
+str 
+ 
+RADECSYS 
+ICRS 
+coordinate 
+system of the 
+object 
+str 
+ 
+EQUINOX 
+2000.1 
+ 
+float 
+ 
+FITSSWV 
+4.2.1 
+FITS creating 
+software 
+version 
+str 
+ 
+TELESCOP 
+CSST 
+telescope name 
+str4 
+ 
+INSTRUME 
+MCI 
+instrument 
+name 
+str3 
+ 
+CHANNEL 
+C1 
+channel number 
+str 
+ 
+FILTERNO 
+7 
+filter number 
+str 
+ 
+DIFFUSER 
+TRUE 
+insert diffuser 
+status for flat 
+calibration 
+bool 
+ 
+FLAMP 
+-1 
+status of flat 
+lamp 
+int 
+ 
+MCISTAT 
+-128 
+MCI 
+components 
+status 
+parameter 
+int 
+ 
+OBJECT 
+MCI_obj 
+object name 
+str 
+ 
+TARGET 
+074443.0+3925
+23 
+target name 
+(hhmmss.s+dd
+mmss) 
+str15 
+ 
+ 
+ 
+98 
+OBSID 
+20100000066 
+observation ID 
+str 
+ 
+RA_OBJ 
+116.1808154 
+object RA 
+(deg) 
+float 
+ 
+DEC_OBJ 
+39.42316681 
+object Dec 
+(deg) 
+float 
+ 
+DATE-OBS 
+2023-12-
+18T14:13:41.1 
+observation 
+date (yyyy-
+mm-
+ddThh:mm:ss.s
+) 
+str21 
+ 
+FILTER 
+u 
+filter band 
+str 
+ 
+DETSN 
+E2V-CCD-000-
+0000000 
+detector serial 
+number 
+str 
+ 
+DETNAME 
+uv 
+detector name 
+str 
+ 
+DETTEMP0 
+0.1 
+detector 
+temperature at 
+EXPSTART 
+(K) 
+float 
+ 
+DETTEMP1 
+0.1 
+detector 
+temperature at 
+EXPEND (K) 
+float 
+ 
+DETTEMP2 
+0.1 
+detector 
+temperature at 
+READT1 (K) 
+float 
+ 
+DETSIZE 
+9232*9216 
+detector size 
+str 
+ 
+DATASECT 
+4936*23984 
+data section 
+str 
+ 
+PIXSCAL1 
+0.17 
+pixel scale for 
+axis 1 
+(arcsec/pixel) 
+float 
+ 
+PIXSCAL2 
+0.17 
+pixel scale for 
+axis 2 
+(arcsec/pixel) 
+float 
+ 
+PIXSIZE1 
+10 
+pixel size for 
+axis 1 (micron) 
+int 
+ 
+PIXSIZE2 
+10 
+pixel size for 
+axis 2 (micron) 
+int 
+ 
+ 
+ 
+99 
+NCHANNEL 
+16 
+number of 
+readout 
+channels

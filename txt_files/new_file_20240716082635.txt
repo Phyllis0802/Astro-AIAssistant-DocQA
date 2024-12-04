@@ -1,0 +1,60 @@
+```json
+[
+    {
+        "content": "文件名CSST_CPIC_VIS_SCI_20240101120000_20240101120230_400000012_X_L0_1.fits表示哪一年的数据？",
+        "summary": "文件名CSST_CPIC_VIS_SCI_20240101120000_20240101120230_400000012_X_L0_1.fits表示2024年的数据。"
+    },
+    {
+        "content": "文件名CSST_CPIC_VIS_SCI_20240101120000_20240101120230_400000012_X_L0_1.fits中的'L0'代表什么？",
+        "summary": "文件名中的'L0'代表0级数据，即未经任何处理的原始数据。"
+    },
+    {
+        "content": "高灵敏度太赫兹模块的工作频率是多少？",
+        "summary": "高灵敏度太赫兹模块的工作频率有两个范围：探测器1和2为410-510 GHz，探测器3为520-630 GHz。"
+    },
+    {
+        "content": "文件名CSST_HSTDM_ON_BLK_20240101120000_20240101120230_500000012_01_L0_1.fits中的'01'指的是什么？",
+        "summary": "文件名中的'01'表示该数据文件对应的是高灵敏度太赫兹模块中编号为01的探测器的数据。"
+    },
+    {
+        "content": "数据文件名的后缀'.fits.fz'代表什么意思？",
+        "summary": "数据文件名的后缀'.fits.fz'表示该文件是使用了fpack工具进行压缩保存的FITS格式文件。"
+    },
+    {
+        "content": "什么是文件名的SHA256散列值？",
+        "summary": "文件名的SHA256散列值是通过计算文件名的SHA256哈希算法得出的唯一标识，通常用于数据完整性和安全性验证。"
+    },
+    {
+        "content": "CSST的观测数据支持哪些主流FITS格式文件读写软件？",
+        "summary": "CSST的观测数据支持至少包括astropy.io.fits和libcfitsio在内的主流FITS格式文件读写软件。"
+    },
+    {
+        "content": "文件对象包含哪些HDU？",
+        "summary": "文件对象包含至少两个HDU，其中primary HDU包含望远镜的位置姿态信息，另一个为图像扩展的raw image HDU，包含从探测器读出的原始图像数据。"
+    },
+    {
+        "content": "Raw image的header中包含了哪些信息？",
+        "summary": "Raw image的header中包含了探测器相关信息、WCS相关数据、快门读出等内容，用于描述图像的元数据。"
+    },
+    {
+        "content": "IFS的image data数据是如何排列的？",
+        "summary": "IFS的image data数据按照探测器读出的先后顺序排列为一个2维的datacube矩阵，以4通道读出为例，4通道数据顺序排列。"
+    },
+    {
+        "content": "星冕仪模块可见光图像数据的像素是多少？",
+        "summary": "星冕仪模块可见光图像数据的像素为1080*1050。"
+    },
+    {
+        "content": "全局头文件关键字中，'SIMPLE'的关键字格式是什么？",
+        "summary": "'SIMPLE'的关键字格式为布尔型（L1），表示文件是否遵循FITS标准，通常设置为T（True）。"
+    },
+    {
+        "content": "'OBSTYPE'关键字在全局头文件中表示什么？",
+        "summary": "'OBSTYPE'关键字在全局头文件中表示观测的类型，例如'raw'、'sci'等。"
+    },
+    {
+        "content": "'TELESCOP'关键字在全局头文件中代表什么？",
+        "summary": "'TELESCOP'关键字在全局头文件中代表用于获取数据的望远镜，此处始终为'CSST'。"
+    },
+    {
+        "content": "'EXPSTART'和'EXPEND'分别表示什么时刻？",

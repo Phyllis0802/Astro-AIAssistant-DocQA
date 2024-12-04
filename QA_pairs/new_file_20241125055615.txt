@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "AGILE是什么类型的天文卫星？", "answer": "AGILE是用来观测伽玛射线和X射线的天文卫星。"},
+    {"question": "AGILE是由哪个机构制造的？", "answer": "AGILE是由米兰的卡罗·加瓦兹航太公司等公司制造的。"},
+    {"question": "AGILE的发射重量是多少？", "answer": "AGILE的发射重量是352公斤。"},
+    {"question": "AGILE主要观测什么类型的射线？", "answer": "AGILE主要观测伽玛射线和X射线。"},
+    {"question": "AGILE是在哪一年被发射的？", "answer": "AGILE是在2007年被发射的。"},
+    {"question": "AGILE是由哪种火箭发射的？", "answer": "AGILE是由印度空间研究组织开发的PSLV-C8型火箭发射的。"},
+    {"question": "AGILE的地面接收站位于哪里？", "answer": "AGILE的地面接收站位于肯亚马林迪。"},
+    {"question": "AGILE地面接收站以什么模式操作？", "answer": "AGILE地面接收站以太阳指向模式操作。"},
+    {"question": "AGILE的意大利语全称是什么？", "answer": "AGILE的意大利语全称是Astro‐rivelatore Gamma a Immagini LEggero。"},
+    {"question": "参考资料中提到的以色列卫星与AGILE有什么关系？", "answer": "从文档中找不到答案。"}
+]
+```
