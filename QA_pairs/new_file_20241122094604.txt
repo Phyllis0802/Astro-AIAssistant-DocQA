@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "POSI0_X表示什么？", "answer": "POSI0_X表示在CABSTART时的轨道位置在X轴上的距离，单位是km，数据类型是float，示例值为-4803.159637。"},
+    {"question": "VELO0_Z的数据类型是什么？", "answer": "VELO0_Z的数据类型是float。"},
+    {"question": "EULER0_1在CABSTART时的值是多少？", "answer": "EULER0_1在CABSTART时的值是0.1度。"},
+    {"question": "CABEND时的第一个Euler角是多少度？", "answer": "CABEND时的第一个Euler角（EULER1_1）是0.1度。"},
+    {"question": "RA_PNT0和DEC_PNT0分别表示什么？", "answer": "RA_PNT0表示在CABSTART时的指向赤经（RA），单位是deg；DEC_PNT0表示在CABSTART时的指向赤纬（Dec），单位也是deg。"},
+    {"question": "SKY_BKG的估计值是多少？", "answer": "SKY_BKG的估计值是0.032387921 e-/s per pixel。"},
+    {"question": "SATURATE的通量限制是多少？", "answer": "SATURATE的通量限制是300 e-/s。"},
+    {"question": "STA_CRS的状态标志表示什么？", "answer": "STA_CRS的状态标志表示是否对宇宙射线进行了掩膜处理，1表示进行了处理，0表示未进行处理。"},
+    {"question": "PV1_0是哪个投影畸变参数？", "answer": "PV1_0是第一个投影畸变参数（projection distortion parameter 1_0）。"},
+    {"question": "PV2_15的值是多少？", "answer": "PV2_15的值是-2.770645494。"}
+]
+```

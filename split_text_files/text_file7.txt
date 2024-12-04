@@ -1,0 +1,487 @@
+comment
+dtype
+GENERAL KEYWORDS
+XTENSION
+IMAGE
+extension type
+str5
+BITPIX
+16
+array data type
+int
+NAXIS
+2
+number of array dimensions
+int
+NAXIS1
+23984
+int
+NAXIS2
+4936
+int
+PCOUNT
+0
+number of parameters
+int
+GCOUNT
+1
+number of groups
+int
+BSCALE
+1
+int
+BZERO
+32768
+int
+EXTNAME
+SCI
+str3
+EXTVER
+1
+int
+BUNIT
+ADU
+physical unit of array values
+str
+COMMENT
+========
+=========
+=========
+=========
+=========
+=========
+=========
+str72
+35
+=========
+=
+FILE INFORMATION
+DATE
+2023-12-
+18T17:01:40.
+1
+written date (yyyy-mm-ddThh:mm:ss.s)
+str21
+FILENAME
+CSST_MCI
+_C1_EXDF_
+20231218141
+341_2023121
+8141841_201
+00000001_07
+_L0_V01
+str
+FILETYPE
+EXDF
+observation type
+str
+RADECSYS
+ICRS
+coordinate system of the object
+str
+EQUINOX
+2000.1
+float
+FITSSWV
+4.2.1
+FITS creating software version
+str
+INSTRUMENT STATUS AND OBJECT INFORMATION
+TELESCOP
+CSST
+telescope name
+str4
+INSTRUME
+MCI
+instrument name
+str3
+CHANNEL
+C1
+channel number
+str
+FILTERNO
+07
+filter number
+str
+DIFFUSER
+TRUE
+insert diffuser status for flat calibration
+bool
+36
+FLAMP
+1
+status of flat lamp
+int
+MCISTAT
+11111
+MCI components status parameter
+int
+OBJECT
+MCI_obj
+object name
+str
+TARGET
+074443.0+
+392523
+target name (hhmmss.s+ddmmss)
+str15
+OBSID
+20100000066
+observation ID
+str
+RA_OBJ
+116.1808154
+object RA (deg)
+float
+DEC_OBJ
+39.42316681
+object Dec (deg)
+float
+DATE-OBS
+2023-12-18
+T14:13:41.1
+observation
+date
+(yyyy-mm-
+ddThh:mm:ss.s)
+str21
+DETECTOR AND FILTER INFORMATION
+FILTER
+u
+filter band
+str
+DETSN
+E2V-CCD-
+000-0000000
+detector serial number
+str
+DETNAME
+uv
+detector name
+str
+DETTEMP0
+0.1
+detector temperature at EXPSTART (K)
+float
+DETTEMP1
+0.1
+detector temperature at EXPEND (K)
+float
+DETTEMP2
+0.1
+detector temperature at READT1 (K)
+float
+DETSIZE
+9232*9216
+detector size
+str
+DATASECT
+4936*23984
+data section
+str
+PIXSCAL1
+0.17
+pixel scale for axis 1 (arcsec/pixel)
+float
+37
+PIXSCAL2
+0.17
+pixel scale for axis 2 (arcsec/pixel)
+float
+PIXSIZE1
+0.05
+pixel size for axis 1 (micron)
+int
+PIXSIZE2
+0.05
+pixel size for axis 2 (micron)
+int
+NCHANNEL
+16
+number of readout channels
+int
+PSCAN1
+27
+horizontal prescan width, per readout
+channel
+int
+PSCAN2
+0
+vertical
+prescan
+width,
+per
+readout
+channel
+int
+OSCAN1
+320
+horizontal overscan width, per readout
+channel
+int
+OSCAN2
+320
+vertical overscan width, per readout
+channel
+int
+BIN_X
+1
+bin number in X
+int
+BIN_Y
+1
+bin number in Y
+int
+WORLD COORDINATE SYSTEM INFORMATION
+WCSAXES
+2
+number of WCS axes
+int
+CRPIX1
+4607.5
+x-coordinate of reference pixel
+float
+CRPIX2
+4615.5
+y-coordinate of reference pixel
+float
+CRVAL1
+116.1808154
+value of reference pixel on axis 1
+float
+CRVAL2
+39.42316681
+value of reference pixel on axis 2
+float
+CTYPE1
+RA---TAN
+type of RA WCS projection
+str
+CTYPE2
+DEC--TAN
+type of Dec WCS projection
+str
+CD1_1
+-1.39E-05
+transformation matrix element (deg/pix)
+float
+CD1_2
+0.1
+transformation matrix element (deg/pix)
+float
+CD2_1
+0.1
+transformation matrix element (deg/pix)
+float
+CD2_2
+1.39E-05
+transformation matrix element (deg/pix)
+float
+38
+READOUT INFORMATION
+GAINLVL
+1.5
+gain level (e-/ADU)
+float
+GAIN01
+1.529999971
+CCD gain [channel 1] (e-/ADU)
+float
+GAIN02
+1.539999962
+CCD gain [channel 2] (e-/ADU)
+float
+GAIN03
+1.549999952
+CCD gain [channel 3] (e-/ADU)
+float
+GAIN04
+1.529999971
+CCD gain [channel 4] (e-/ADU)
+float
+GAIN05
+1.50999999
+CCD gain [channel 5] (e-/ADU)
+float
+GAIN06
+1.559999943
+CCD gain [channel 6] (e-/ADU)
+float
+GAIN07
+1.580000043
+CCD gain [channel 7] (e-/ADU)
+float
+GAIN08
+1.529999971
+CCD gain [channel 8] (e-/ADU)
+float
+GAIN09
+1.539999962
+CCD gain [channel 9] (e-/ADU)
+float
+GAIN10
+1.570000052
+CCD gain [channel 10] (e-/ADU)
+float
+GAIN11
+1.50999999
+CCD gain [channel 11] (e-/ADU)
+float
+GAIN12
+1.529999971
+CCD gain [channel 12] (e-/ADU)
+float
+GAIN13
+1.549999952
+CCD gain [channel 13] (e-/ADU)
+float
+GAIN14
+1.570000052
+CCD gain [channel 14] (e-/ADU)
+float
+GAIN15
+1.529999971
+CCD gain [channel 15] (e-/ADU)
+float
+GAIN16
+1.519999981
+CCD gain [channel 16] (e-/ADU)
+float
+RON01
+4.53000021
+readout noise [channel 01] (e-)
+float
+RON02
+4.539999962
+readout noise [channel 02] (e-)
+float
+RON03
+4.550000191
+readout noise [channel 03] (e-)
+float
+RON04
+4.53000021
+readout noise [channel 04] (e-)
+float
+RON05
+4.510000229
+readout noise [channel 05] (e-)
+float
+RON06
+4.559999943
+readout noise [channel 06] (e-)
+float
+RON07
+4.579999924
+readout noise [channel 07] (e-)
+float
+RON08
+4.53000021
+readout noise [channel 08] (e-)
+float
+39
+RON09
+4.539999962
+readout noise [channel 09] (e-)
+float
+RON10
+4.570000172
+readout noise [channel 10] (e-)
+float
+RON11
+4.510000229
+readout noise [channel 11] (e-)
+float
+RON12
+4.53000021
+readout noise [channel 12] (e-)
+float
+RON13
+4.550000191
+readout noise [channel 13] (e-)
+float
+RON14
+4.570000172
+readout noise [channel 14] (e-)
+float
+RON15
+4.53000021
+readout noise [channel 15] (e-)
+float
+RON16
+4.519999981
+readout noise [channel 16] (e-)
+float
+DETBIA01
+500.1
+amplifier bias grey value [channel 1]
+(ADU)
+float
+DETBIA02
+510.1
+amplifier bias grey value [channel 2]
+(ADU)
+float
+DETBIA03
+514.1
+amplifier bias grey value [channel 3]
+(ADU)
+float
+DETBIA04
+520.1
+amplifier bias grey value [channel 4]
+(ADU)
+float
+DETBIA05
+524.1
+amplifier bias grey value [channel 5]
+(ADU)
+float
+DETBIA06
+540.1
+amplifier bias grey value [channel 6]
+(ADU)
+float
+DETBIA07
+530.1
+amplifier bias grey value [channel 7]
+(ADU)
+float
+DETBIA08
+532.1
+amplifier bias grey value [channel 8]
+(ADU)
+float
+DETBIA09
+534.1
+amplifier bias grey value [channel 9]
+(ADU)
+float
+40
+DETBIA10
+526.1
+amplifier bias grey value [channel 10]
+(ADU)
+float
+DETBIA11
+532.1
+amplifier bias grey value [channel 11]
+(ADU)
+float
+DETBIA12
+516.1
+amplifier bias grey value [channel 12]
+(ADU)
+float
+DETBIA13
+540.1
+amplifier bias grey value [channel 13]
+(ADU)
+float
+DETBIA14
+560.1
+amplifier bias grey value [channel 14]
+(ADU)
+float
+DETBIA15
+536.1

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "CMIRRPOS的数据类型是什么？", "answer": "bool"},
+    {"question": "FLAMP代表什么状态？", "answer": "平场灯的状态"},
+    {"question": "IFSMODE表示什么？", "answer": "IFS工作模式"},
+    {"question": "DETNAMEB的值代表什么含义？", "answer": "B探测器名称"},
+    {"question": "PXSCAL1B是指哪个轴的像素比例？", "answer": "B探测器的轴1的像素比例"},
+    {"question": "NCHANB的值表示什么？", "answer": "B探测器的读出通道数量"},
+    {"question": "EXPT0_1B记录的是什么时间？", "answer": "B探测器的第1帧曝光开始时间（UTC）"},
+    {"question": "DETTEM0B的单位是什么？", "answer": "K（开尔文）"},
+    {"question": "GAIN1B代表哪个通道的增益？", "answer": "B探测器的通道1的增益"},
+    {"question": "RON1B的值表示什么噪声？", "answer": "B探测器的通道1的读出噪声（以电子为单位）"}
+]
+```

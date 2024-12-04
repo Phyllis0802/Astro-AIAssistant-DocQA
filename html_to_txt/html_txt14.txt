@@ -1,0 +1,285 @@
+此条目需要更新。 (2015年12月20日)请更新本文以反映近况和新增内容。完成修改后请移除本模板。
+
+演化激光干涉空间天线（Evolved Laser Interferometer Space Antenna）激光干涉空间天线构造艺术家概念示意图。所属组织欧洲空间局（ESA）任务类型天体物理学环绕对象太阳发射时间2034年 (规划中)[1][2]官方网站www.elisascience.org轨道参数半长轴1 AU周期1年
+激光干涉空间天线（Laser Interferometer Space Antenna，LISA）是一个由美国国家航空航天局（NASA）和欧洲空间局（ESA）合作的引力波探测计划，由于募款问题，美国国家航空航天局于2011年宣布终止合作关系。欧洲空间局因此修改任务概念，于2013年宣布改名为演化激光干涉空间天线（Evolved Laser Interferometer Space Antenna，eLISA），目前仍在设计阶段，计划于2034年投入运行，这将是人类第一座空间中的引力波天文台[3]。
+LISA也是美国国家航空航天局的超越爱因斯坦（英语：beyond Einstein program）项目的一部分。“超越爱因斯坦”是一组实验上验证爱因斯坦广义相对论理论的计划，其中包含两个空间天文台（HTXS——X射线天文台和LISA）和数个以宇宙学相关观测为目的的探测器。LISA将利用激光干涉的方法精确测量信号相位，从而对于来自宇宙间遥远的引力波源的低频且微弱的引力波进行探测。这将对引力波天文学的理论和实验研究，广义相对论的一些实验观测以及早期宇宙的天体物理学和宇宙学研究有重要意义[4]。
+
+LISA
+
+LISA结构[编辑]
+LISA 工作布局
+LISA由三个相同的航天器构成为一个边长为五百万千米的等边三角形，即每两个航天器之间的夹角为60°。LISA将采用的是与地球相同的日心轨道，并且LISA与太阳的连线，和地球与太阳的连线之间的夹角为20°，这种设计是为了尽可能减少地球引力造成的影响。在每一个航天器上都有两个完全相同的光学台，包含有激光光源、光学分束器、光检测器、光学镜组等组成干涉仪的光学器件，以及一系列进行数字信号处理的电子器件。由于每两个航天器之间的夹角为60°，每个航天器上的每一个光学台都会和相邻的航天器上的光学台发生干涉，激光走完这段航天器间隔的距离需要约16秒。在每个干涉仪的后面安置有一个作为“测试质量”的合金立方体（75%金和25%铂），其中一个表面被打磨成光滑的平面镜用来反射激光。理论上如果有引力波扫过测试质量，其位置的微小改变会引起干涉信号，即激光相位的改变，从这种相位变化即可推导出观测到的引力波的存在。在实际设计中，这种测量精度要求测试质量所处的环境高度稳定，其位置能够不受到外界光压和太阳风粒子的影响；并且LISA的干涉测量系统也要高度灵敏，使得真正需要的引力波信号不至于淹没在激光频率噪声等干扰的海洋中。除此之外，LISA还需要解决如何应对航天器运行对激光频率造成的多普勒效应的影响，激光长距离传输的损耗问题，等等。LISA在实际运行中将达到能够在五百万千米的长度上探测到10皮米（1皮米等于10-12米）量级的长度变化[5]。
+
+LISA探测的引力波源[编辑]
+引力波[编辑]
+广义相对论[编辑]
+1915年爱因斯坦建立了广义相对论理论，广义相对论在理论上证明，平直时空的度规在微扰下应用爱因斯坦场方程可导出时空微扰的度规以四维波的形式传播。并且对一个具有四极矩的能量-动量张量应用爱因斯坦场方程将得到推迟势的格林函数解，这和电磁学中的电磁波解是类似的[6]。这些推导都从根本上预言了引力波的存在，这与十九世纪麦克斯韦应用他的麦克斯韦方程组预言电磁波的存在十分相似。但与之不同的是，从电磁理论建立到赫兹从实验上观测到电磁波只间隔了不到三十年的时间，而引力波从广义相对论建立以来直到2015年才被直接观测到，很重要的原因是与电磁相互作用相比引力相互作用强度十分微弱，而能产生较强的引力波的引力波源距地球都十分遥远，传播到地球的应力强度大约只有10-22这个量级左右，这相当于在一百千米的长度上引起0.01皮米长度的变化，这种变化比原子核的直径还要小。
+
+PSR 1913+16[编辑]
+1975年普林斯顿大学的拉塞尔·赫尔斯（Russel Hulse）和约瑟夫·泰勒（Joseph Taylor）发现了一颗编号为PSR 1913+16的脉冲星，这是一颗高速旋转并放出方向性很强的无线电波的中子星。每当无线电信号扫过地球时，接收机上就能接收到一个脉冲信号，脉冲星的这种特性可以用作天文学上的一种“量天尺”，用于精确测量其运动状态。经过对PSR 1913+16的一段时间的测量之后，人们发现它具有一个双星系统的轨道，其伴星可能是一颗不辐射无线电波的中子星。同时，这个伴星的质量以及双星系统的轨道参数也可以大概推算出来。同样，根据广义相对论理论，可以从中子星质量和轨道参数估算这个双星系统的引力波辐射的光度，这些辐射以能量的形式损耗，反映到系统运动轨道参量的变化。拉塞尔·赫尔斯和约瑟夫·泰勒对这个双星系统的轨道在1975年至1988年间进行了长时间的观测，其结果和广义相对论的预言符合得非常好，这个事实间接上证明了双星系统引力辐射的存在。拉塞尔·赫斯和约瑟夫·泰勒因此项工作于1993年获诺贝尔物理学奖，这是广义相对论的胜利[7]。
+
+引力波探测器[编辑]
+尽管对双星系统的观测证明了引力波的存在，但人类始终没有直接观测到引力波到底是什么样，即如何用一个应力（或度规）的时间序列去描述。从二十世纪六十年代以来人类不断致力于引力波探测器的制造工作，起初的引力波探测器采用共振质量的方法但至今未获成功。[8]目前主流的引力波探测器都是基于迈克耳孙干涉仪的方法，利用激光的稳定性来获得高度灵敏稳定的干涉条件，从而达到对极度微小的引力波扰动实现观测的目的，这样的探测器包括德国的GEO600（英语：GEO600），美国的激光干涉引力波天文台（LIGO，Laser Interferometer Gravitational-wave Observatory），日本的TAMA 300（英语：TAMA 300），意大利的室女座干涉仪（VIRGO），澳大利亚的AIGO等[9]。
+
+为什么需要LISA[编辑]
+LISA探测的引力波波段范围为3×10−5赫兹至10−1赫兹，在这个波段范围内，当前基于地面观测的引力波天文台，例如美国的LIGO等探测器很大程度上受到地球上震动噪声的影响，很难达到所需要的探测灵敏度（地面引力波探测器由于干涉仪的臂长受限，无法达到能够探测低频引力波的精度），[10]因此将LISA置于空间中的原因即是能彻底消除地面震动噪声的干扰。现在已知的引力波源包括：银河系内的双星系统，以及河外星系中的极端质量比例旋（EMRI，指两个质量相差悬殊的天体组成的自旋系统）和超大质量黑洞的合并。[11]LISA如能够探测到这三类引力波源，其在3×10−3赫兹频率上可探测的应力灵敏度将达到10−21/√Hz。LISA也被寄希望于探测到大爆炸后早期宇宙的引力随机背景（stochastic background）辐射，尽管这种引力波源还没有被证实。
+
+参阅[编辑]
+激光干涉空间天线开路者号
+天琴计划
+太极计划
+参考[编辑]
+
+
+^ Selected: The gravitational universe; ESA decides on next large mission concepts. eLISA Consortium.   [2013-11-29]. （原始内容存档于2013年12月3日） （美国英语）. 
+
+^ ESA's new vision to study the invisible universe. ESA.   [2013-11-29]. （原始内容存档于2018-10-14）. 
+
+^ ESA’s new vision to study the invisible Universe.   [2016-01-07]. （原始内容存档于2018-10-14）. 
+
+^ NASA: Ripples in Space-time 互联网档案馆的存档，存档日期2007-07-05.
+
+^ NASA: How LISA works 互联网档案馆的存档，存档日期2007-07-05.
+
+^ Sean Carroll. (2003). Spacetime and Geometry: An Introduction to General Relativity. ISBN 0-8053-8732-3.
+
+^ Taylor, J.H., Weisberg, J.M., 1982, Astrophysical Journal, 253, 908. doi:10.1086/159690 NASA ADS
+
+
+^ Weber, J., 1960, Physical Review, 117, 306. doi:10.1103/PhysRev.117.306 NASA ADS
+
+
+^ W. Johnston, List of gravitational wave detectors.   [2007-06-11]. （原始内容存档于2007-07-05）. 
+
+^ A. Lazzarini and D. Shoemaker, LIGO laboratory home page for interferometer sensitivities.   [2007-06-11]. （原始内容存档于2008-04-25）. 
+
+^ S. Hughes, Listening to the universe with gravitational-wave astronomy,Annals of Physics, vol. 303, 2003.
+
+
+查论编引力波天文学探测器共振质量天线运行中
+MiniGrail（英语：MiniGrail）
+AURIGA（英语：AURIGA）
+Mario Schenberg（英语：Mario Schenberg (Gravitational Wave Detector)）
+退役
+ALLEGRO（英语：Allegro gravitational-wave detector）
+棒状引力波探测器
+地基干涉仪运行中
+AIGO（英语：AIGO）
+CLIO（英语：CLIO）
+GEO600（英语：GEO600）
+室女座干涉仪
+欧洲引力天文台
+先进激光干涉引力波天文台
+LIGO科学合作组织
+退役
+TAMA 300（英语：TAMA 300）
+建设中
+神冈引力波探测器（KAGRA）
+先进室女座探测器
+欧洲引力天文台
+提议
+AIGO（英语：AIGO）
+爱因斯坦望远镜（ET）
+LIGO-India（英语：INDIGO）
+TOBA（英语：Torsion-Bar Antenna）
+天基干涉仪退役
+激光干涉空间天线开路者号
+建设中
+天琴计划
+太极计划（太极一号）
+LISA/eLISA
+提议
+DECIGO
+Big Bang Observer（英语：Big Bang Observer）
+CMB偏振实验退役
+BICEP
+BICEP2
+Keck Array
+运行中
+BICEP3
+BICEP Array
+建设中
+阿里计划
+
+脉冲星计时阵
+EPTA
+IPTA
+NANOGrav
+PPTA
+数据分析
+Einstein@Home
+PyCBC（英语：PyCBC）
+Zooniverse（英语：Zooniverse）
+探测事件
+引力波观测列表（英语：List of gravitational wave observations）
+GW150914（首次观测事件）
+GW151012
+GW151226
+GW170104
+GW170608
+GW170729
+GW170809
+GW170814
+GW170817（首次中子星碰撞事件）
+GW170818
+GW170823
+GW190412
+GW190521
+GW190814
+方法
+广义相对论的实验验证
+引力波探测器
+干涉型引力波探测器（英语：Interferometric gravitational wave detector）
+脉冲星计时阵列
+脉冲双星
+理论
+引力波天文学
+引力波背景
+效果/属性
+红移
+啁啾质量
+引力波源
+双黑洞
+脉冲星
+引力坍缩
+极端质量比例旋
+大爆炸
+
+查论编空间望远镜现役中
+哈勃空间望远镜(1990年起)
+风(1994年起)
+太阳和太阳圈探测器(1995年起)
+先进成分探测器(1997年起)
+钱德拉X射线天文台(1999年起)
+国际伽玛射线天体物理实验室(2002年起)
+伽玛射线暴快速探测器(2004年起)
+AGILE(2007年起)
+费米伽玛射线空间望远镜(2008年起)
+星际边界探测器(2008年起)
+太阳动力学天文台(2010年起)
+AMS-02(2011年起)
+核光谱望远镜阵列(2012年起)
+盖亚任务 (2013年起)
+广域红外线巡天探测卫星
+XMM-牛顿卫星
+硬X射线调制望远镜
+IRIS
+UFFO
+暗物质粒子探测卫星
+Astrosat
+凌日系外行星巡天卫星
+SPRINT-A（英语：Hisaki (satellite)）
+日出卫星
+量子电子望远镜（英语：Calorimetric Electron Telescope）
+近地天体监测卫星（英语：Near Earth Object Surveillance Satellite）
+奥丁卫星（英语：Odin (satellite)）
+帕克太阳探测器(2018年起)
+系外行星特性探测卫星(2019年起)
+Spektr-RG（英语：Spektr-RG）(2019年起)
+引力波暴高能电磁对应体全天监测器(2020年起)
+太阳轨道载具(2020年起)
+X射线偏振探测器（英语：Imaging X-ray Polarimetry Explorer）(2021年起)
+詹姆斯·韦伯空间望远镜(2021年起)
+先进天基太阳天文台(2023年起)
+欧几里得空间天文台(2023年起)
+太阳神-L1号探测器(2023年起)
+X射线成像和光谱任务（2023年起）
+爱因斯坦探针卫星 （2024年起）
+天基多波段空间变源监视器 （2024年起）
+计划中
+国际月球天文台（英语：International Lunar Observatory） （2024）
+巡天号光学舱 （2024~2026+）
+增强型X射线时变与偏振空间天文台 （2027）
+罗曼空间望远镜 （2027）
+LiteBIRD(2028)
+SPICA （2032）
+先进高能天体物理学望远镜 （2034）
+激光干涉空间天线 （2034）
+环绕双黑洞探测卫星（英语：Orbiting Binary Black Hole Investigation Satellite） （未定）
+天琴计划
+太极计划
+提议中
+新世界任务
+Arcus（英语：Arcus (satellite)）
+系外星周盘环境探索者（英语：Exoplanetary Circumstellar Environments and Disk Explorer）
+菲涅耳成像器（英语：Fresnel Imager）
+极端宇宙空间天文台（英语：JEM-EUSO）
+起源空间天文台（英语：Origins Space Telescope）
+THESEUS（英语：THESEUS (spacecraft)）
+大型紫外线、光学与红外线巡天望远镜（英语：Large UV Optical Infrared Surveyor）（先进大孔径空间天文台（英语：Advanced Technology Large-Aperture Space Telescope）、高分辨率空间天文台（英语：High-Definition Space Telescope））
+适居系外行星成像任务（英语：Habitable Exoplanet Imaging Mission）
+日本天体测量奈米卫星红外线探测任务（英语：Nano-JASMINE）
+月球紫外线成像仪（英语：Lunar Ultraviolet Cosmic Imager）
+堤亚任务（英语：Telescope for Habitable Exoplanets and Interstellar/Intergalactic Astronomy）
+分赫兹干涉引力波天文台
+已结束
+宇宙学和天体物理学进阶卫星（英语：Advanced Satellite for Cosmology and Astrophysics）（1993～2000）
+低能量X射线成像传感器阵列（英语：Array of Low Energy X-ray Imaging Sensors）（1993～2005）
+Astro 2（1995）
+Astron（英语：Astron (spacecraft)）（1983～1989）
+荷兰天文卫星（英语：Astronomical Netherlands Satellite）（1974～1976）
+BeppoSAX（1996～2003）
+Broad Band X-ray Telescope（英语：多頻帶X射線望遠鏡）（1996）
+Cos-B（1975～1982）
+欧洲X射线卫星（英语：EXOSAT）（1983～1996）
+银河卫星（英语：Ginga (satellite)）（1987～1991）
+国际空间天文台（英语：Granat）（1989～1998）
+天鹅卫星（英语：Hakucho）（1979～1985）
+HALCA（英语：HALCA）（1997～2005）
+高能天文观测站1号（英语：High Energy Astronomy Observatory 1）（1977～1979）
+高能天文观测站3号（英语：High Energy Astronomy Observatory 3）（1979～1981）
+RELIKT-1（英语：RELIKT-1）（1983～1984）
+乌呼鲁卫星（小型天文卫星1号）（1970～1973）
+Small Astronomy Satellite 2（英语：小型天文衛星2號）（1972～1973）
+Small Astronomy Satellite 3（英语：小型天文衛星3號）（1975～1979）
+天马卫星（英语：Tenma）（1983～1985）
+爱因斯坦卫星（高能天文观测站2号 HEAO-2）（1978～1982）
+轨道天文台2号（1968～1973）
+轨道天文台3号（哥白尼）（1972～1981）
+国际紫外线探测卫星（International Ultraviolet Explorer)（1978～1996）
+红外线空间天文台（Infrared Space Observatory）（1996～1998）
+红外天文卫星（IRAS）（1983）
+极紫外探测器（1992～2001）
+康普顿伽玛射线天文台（CGRO）（1991～2000）
+伦琴卫星（ROSAT）（1990～1999）
+罗西X射线计时探测器（1995～2012）
+空间中途红外实验（英语：Midcourse Space Experiment）（MSX）（1996～1997）
+阳光卫星（Yohkoh）（1991～2001）
+依巴谷卫星（Hipparcos）（1989～1993）
+宇宙背景探测者（COBE）（1989～1993）
+低能量伽马射线成像装置（英语：LEGRI）（1997～2002）
+亚毫米波天文卫星（1998～2004, 2004～2005）
+远紫外分光探测器（1999～2007）
+高能瞬态探测器2号（英语：High Energy Transient Explorer）（2000～2008）
+太阳过渡区与日冕探测器（1998～2010）
+威尔金森微波各向异性探测器（2001～2010）
+AKARI（2006～2011）
+星系演化探测器（2003～2013）
+CoRoT（2006～2013）
+赫歇尔空间天文台（2009～2013）
+普朗克卫星（2009～2013）
+朱雀卫星（2005–2015）
+PAMELA（2006～2016）
+激光干涉空间天线开路者号（2015～2017）
+开普勒任务（2009～2018）
+恒星微变和振荡望远镜（英语：MOST (satellite)）（2003～2019）
+Spektr-R（2011～2019）
+斯皮策空间望远镜（2003–2020）
+失联
+轨道天文台（1966）
+高能瞬态探测器（英语：High Energy Transient Explorer）（HETE）（1996）
+全天宽带成像X射线卫星（英语：ABRIXAS）（1999）
+广角红外线探测器（英语：Wide Field Infrared Explorer）（1999）
+瞳（2016）
+被取消
+爱丁顿任务（英语：Eddington (spacecraft)）
+达尔文任务（英语：Darwin (spacecraft)）
+类地行星发现者
+空间干涉测量任务
+星座-X天文台
+联合暗能量任务（英语：Joint Dark Energy Mission）
+特拉维夫大学紫外线望远镜（英语：TAUVEX）
+ASTRO-G（英语：ASTRO-G）
+XEUS（英语：XEUS）
+空间太阳望远镜（英语：Space Solar Telescope）
+

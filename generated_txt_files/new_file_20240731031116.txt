@@ -1,0 +1,44 @@
+```json
+[
+    {
+        "content": "MCI数据中的TYPE有几种类型？",
+        "summary": "MCI数据中的TYPE共有9种类型，包括3种内部定标模式（BIAS/DARK/FLAT），2种外部定标模式（CALS/CALF）和4种科学目标模式（EXDF/PI/TRNS/COMB）。"
+    },
+    {
+        "content": "IFS数据文件名中TYPE字段的长度是多少？",
+        "summary": "IFS数据文件名中TYPE字段的长度是4位字符串。"
+    },
+    {
+        "content": "CSST_MCI_C1_STAR文件名中的20240101120000代表什么？",
+        "summary": "CSST_MCI_C1_STAR文件名中的20240101120000代表UTC观测时间，格式为年月日时分秒（2024年01月01日12时00分00秒）。"
+    },
+    {
+        "content": "IFS图像数据的维度是多少？",
+        "summary": "IFS图像数据的维度依赖于探测器的读出通道数量和观测的帧数。对于使用CCD探测器的IFS数据，如果计划使用4通道读出，则image data数据应该为一个三维datacube矩阵，其中前两个维度为图像尺寸（例如1344行×9672列或1856行×13768列），第三维为帧数n。"
+    },
+    {
+        "content": "CPIC数据的TYPE字段有几种类型？",
+        "summary": "CPIC数据的TYPE字段共有8种类型，包括5种定标模式（BIAS/DARK/FLAT/BKGD/LASER）和3种科学目标模式（SCIE/DENF/CALS）。"
+    },
+    {
+        "content": "HSTDM观测指令对应的数据包含哪两部分？",
+        "summary": "HSTDM观测指令对应的数据包含两部分：对目标源进行观测时产生的目标源观测数据（ONS_SCI或ON_SCI）和黑体校准数据（ONS_BLK或ON_BLK）。"
+    },
+    {
+        "content": "CSST_IFS_R_SCIE文件名中的30100000012是什么？",
+        "summary": "CSST_IFS_R_SCIE文件名中的30100000012可能是代表某种编号或序列号，具体含义可能需要根据上下文或相关文档来确定。"
+    },
+    {
+        "content": "CSST_CPIC_VIS_SCIE文件名中VIS表示什么？",
+        "summary": "CSST_CPIC_VIS_SCIE文件名中的VIS表示CPIC数据的可见光波段（Visible）部分。"
+    },
+    {
+        "content": "IFS的image data数据为什么要按照读出通道顺序排列？",
+        "summary": "IFS的image data数据按照读出通道顺序排列是为了保持数据的连续性和便于后续处理。如果探测器使用多通道读出，将不同通道的数据按照读出顺序排列可以形成一个有序的二维矩阵，从而方便进行图像重建和数据分析。"
+    },
+    {
+        "content": "表6和表7中，被删除的关键字有哪些是共同的？",
+        "summary": "在表6和表7中，共同被删除的关键字包括READT0和READT1。"
+    }
+]
+```

@@ -1,0 +1,608 @@
+channel 
+int 
+ 
+PSCAN2 
+0 
+vertical prescan 
+height, per 
+readout channel 
+int 
+ 
+OSCAN1 
+320 
+horizontal 
+overscan width, 
+per readout 
+channel 
+int 
+ 
+OSCAN2 
+320 
+vertical 
+overscan 
+height, per 
+readout channel 
+int 
+ 
+EXPT0_1 
+2024-03-
+18T13:35:41.9 
+exposure start 
+time of the 1st 
+frame (UTC) 
+str21 
+ 
+EXPT1_1 
+2024-03-
+18T13:40:41.9 
+exposure end 
+time of the 1st 
+frame (UTC) 
+str21 
+ 
+EXPT0_2 
+2024-03-
+18T13:40:42.0 
+exposure start 
+time of the 2nd 
+frame (UTC) 
+str21 
+ 
+EXPT1_2 
+2024-03-
+18T13:45:42.0 
+exposure end 
+time of the 2nd 
+frame (UTC) 
+str21 
+ 
+EXPT0_3 
+2024-03-
+18T13:45:42.1 
+exposure start 
+time of the 3rd 
+frame (UTC) 
+str21 
+ 
+EXPT1_3 
+2024-03-
+18T13:50:42.1 
+exposure end 
+time of the 3rd 
+frame (UTC) 
+str21 
+ 
+DETTEMP0 
+0 
+detector 
+temperature at 
+EXPT0_1 (K) 
+float 
+ 
+ 
+ 
+138 
+DETTEMP1 
+0 
+detector 
+temperature at 
+EXPT1_3 (K) 
+float 
+ 
+BIN_X 
+1 
+bin number in 
+X (wavelength) 
+int 
+ 
+BIN_Y 
+1 
+bin number in 
+Y (spatial) 
+int 
+ 
+GAIN1 
+1.50999999 
+CCD gain (e-
+/ADU, channel 
+1) 
+float 
+ 
+GAIN2 
+1.580000043 
+CCD gain (e-
+/ADU, channel 
+2) 
+float 
+ 
+GAIN3 
+1.480000019 
+CCD gain (e-
+/ADU, channel 
+3) 
+float 
+ 
+GAIN4 
+1.549999952 
+CCD gain (e-
+/ADU, channel 
+4) 
+float 
+ 
+DARK1 
+0.0008 
+CCD dark (e-/s, 
+channel 1) 
+float 
+ 
+DARK2 
+0.00085 
+CCD dark (e-/s, 
+channel 2) 
+float 
+ 
+DARK3 
+0.00088 
+CCD dark (e-/s, 
+channel 3) 
+float 
+ 
+DARK4 
+0.00083 
+CCD dark (e-/s, 
+channel 4) 
+float 
+ 
+RON1 
+4 
+read noise (e-, 
+channel 1) 
+float 
+ 
+RON2 
+3.5 
+read noise (e-, 
+channel 2) 
+float 
+ 
+RON3 
+4.5 
+read noise (e-, 
+channel 3) 
+float 
+ 
+RON4 
+4.800000191 
+read noise (e-, 
+channel 4) 
+float 
+ 
+ 
+ 
+139 
+DETBIA1 
+500 
+amplifier bias 
+voltage (ADU, 
+channel1) 
+float 
+ 
+DETBIA2 
+525 
+amplifier bias 
+voltage (ADU, 
+channel2) 
+float 
+ 
+DETBIA3 
+485 
+amplifier bias 
+voltage (ADU, 
+channel3) 
+float 
+ 
+DETBIA4 
+515 
+amplifier bias 
+voltage (ADU, 
+channel4) 
+float 
+ 
+ROSPEED 
+100 
+readout speed 
+(MHz) 
+float 
+ 
+CHECKSUM 
+92CSG29R92C
+RE29R 
+HDU checksum 
+updated 2024-
+03-
+19T09:27:11 
+str 
+ 
+DATASUM 
+4007993317 
+data unit 
+checksum 
+updated 2024-
+03-
+19T09:27:11 
+str 
+ 
+COMMENT 
+===========
+===========
+===========
+===========
+===========
+===========
+====== 
+ 
+str72 
+ 
+RSS_VER 
+R9002 
+the version of 
+RSS pipeline 
+str 
+ 
+DATEPROC 
+2024-03-
+19T01:27:10.6 
+the time when 
+this file was 
+written (UTC) 
+str21 
+ 
+MERGMET 
+median 
+L0 data 
+merging 
+method 
+str 
+ 
+MERGNUM 
+3 
+the number of 
+layers in L0 
+int 
+ 
+ 
+ 
+140 
+data used to 
+merge 
+TIMEDUR 
+300 
+the time 
+duration of the 
+merged file 
+float 
+ 
+PROCESS 
+bewnrfcg 
+processes that 
+have done 
+str 
+ 
+BIASFILE 
+CSST_IFS_B_
+BIASMS_C720
+2_20231114.fit
+s 
+the bias master 
+file used 
+str 
+ 
+DARKFILE 
+CSST_IFS_B_
+DARKMS_C7
+202_20231114.
+fits 
+the dark master 
+file used 
+str 
+ 
+TRACFILE 
+CSST_IFS_B_
+TRACE_C720
+2_20231114.fit
+s 
+the trace file 
+used 
+str 
+ 
+PTOWFILE 
+CSST_IFS_B_
+PTOW_C7202
+_20231114e.fit
+s 
+the ptow file 
+used 
+str 
+ 
+FLATFILE 
+CSST_IFS_B_
+FLATMS_C72
+02_20231114e.
+fits 
+the flat master 
+file used 
+str 
+ 
+STARFILE 
+CSST_IFS_B_
+FLATMS_C72
+02_20231114e
+w.fits 
+the standard 
+star file 
+str 
+ 
+QCFLUX 
+0 
+total number of 
+NAN and INF 
+in FLUX HDU 
+int 
+ 
+QCIV 
+0 
+total number of 
+NAN and INF 
+in IVAR HDU 
+int 
+ 
+CRPIX3 
+1 
+pixel 
+coordinate of 
+reference point 
+int 
+ 
+ 
+ 
+141 
+CRVAL3 
+3500 
+coordinate 
+value at 
+reference point 
+(angstrom) 
+float 
+ 
+CD3_3 
+1.75 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+WCSCAL_S 
+1 
+WCS 
+calibration 
+completed? 
+int 
+ 
+WCS_VER 
+A0101 
+version of 
+WCS 
+calibration code 
+str 
+ 
+WCSCAL_P 
+csst_ifs_wcs.to
+ml 
+WCS 
+calibration 
+configuration 
+file name 
+str 
+ 
+WCS_TLM 
+2024-03-
+19T01:27:10.9 
+last WCS 
+calibration time 
+str21 
+ 
+EQUINOX 
+2000 
+epoch of the 
+mean equator 
+and equinox 
+float 
+ 
+RADESYS 
+ICRS 
+frame of 
+reference of 
+coordinates 
+str 
+ 
+CUNIT1 
+deg 
+units of 
+coordinate 
+increment and 
+value 
+str 
+ 
+CUNIT2 
+deg 
+units of 
+coordinate 
+increment and 
+value 
+str 
+ 
+CTYPE1 
+RA---TAN 
+right ascension, 
+gnomonic 
+projection 
+str 
+ 
+CTYPE2 
+DEC--TAN 
+declination, 
+gnomonic 
+projection 
+str 
+ 
+ 
+ 
+142 
+CRPIX1 
+16.5 
+pixel 
+coordinate of 
+reference point 
+float 
+ 
+CRPIX2 
+16.5 
+pixel 
+coordinate of 
+reference point 
+float 
+ 
+CRVAL1 
+248.16333 
+RA of 
+reference point 
+float 
+ 
+CRVAL2 
+78.19817 
+DEC of 
+reference point 
+float 
+ 
+CD1_1 
+-5.56E-05 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+CD1_2 
+0 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+CD2_1 
+0 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+CD2_2 
+5.56E-05 
+coordinate 
+transformation 
+matrix element 
+float 
+ 
+CTYPE3 
+AWAV 
+wavelength 
+direction 
+str 
+ 
+CUNIT3 
+Angstrom 
+unit of 
+wavelength 
+str 
+ 
+QC_RSS 
+0 
+the QC of RSS 
+production 
+int 
+ 
+ 
+表32：IFS RSS 单次曝光波长拼接后1 级数据⽂件中HDU1 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+ 
+ 
+143 
+NAXIS 
+3 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+32 
+ 
+int 
+ 
+NAXIS2 
+32 
+ 
+int 
+ 
+NAXIS3 
+3686 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+FLUX 
+ 
+str4 
+ 
+EXTVER 
+1 
+ 
+int 
+ 
+BUNIT 
+1E-17 
+erg/cm2/s/ 
+A/arcsec2 
+physical unit of 
+array values 
+str 
+ 
+CMIRRPOS 
+FALSE 
+position of

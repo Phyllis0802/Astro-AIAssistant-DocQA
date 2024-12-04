@@ -1,0 +1,57 @@
+```json
+[
+    {
+        "content": "RSS 数据文件名的命名规则是什么？",
+        "summary": "RSS 数据文件名的命名规则形如 CSST_IFS_TYPE_yyyymmddHHMMSS_obsid_camera_L1_VER.fits，其中 CSST_IFS 为文件名前缀；TYPE 为目标类型；yyyymmdd 是八位数观测日期；HHMMSS 是六位数UT 观测时间；obsid 是CSST 统一的曝光编号；camera 为光谱仪CCD 编号；L1 表示文件为1 级科学数据；VER 为1 级RSS 处理模块版本号。"
+    },
+    {
+        "content": "RSS 数据文件名中\"yyyymmdd\"表示什么？",
+        "summary": "RSS 数据文件名中的\"yyyymmdd\"表示八位数的观测日期，例如20240101代表2024年1月1日。"
+    },
+    {
+        "content": "\"obsid\"在RSS数据文件名中代表什么？",
+        "summary": "\"obsid\"在RSS数据文件名中代表CSST统一的曝光编号，从相应0级数据继承。"
+    },
+    {
+        "content": "RSS数据文件名中\"camera\"的值有哪些可能？",
+        "summary": "RSS数据文件名中\"camera\"的值为1位字符串，表示光谱仪CCD编号，其中红端为“R”，蓝端为“B”，红蓝拼接后的全谱为“A”。"
+    },
+    {
+        "content": "什么是\"L1\"在RSS数据文件名中代表的意思？",
+        "summary": "\"L1\"在RSS数据文件名中表示文件为1级科学数据。"
+    },
+    {
+        "content": "RSS 数据生成过程中会保留哪些中间数据？",
+        "summary": "在RSS数据生成过程中将产生和保留一些中间数据，其命名方式类同RSS数据，但在结尾增加process字符串，形如CSST_IFS_TYPE_yyyymmddHHMMSS_obsid_camera_L1_VER_process.fits，process为8位字符串，代表8步基本数据处理流程。"
+    },
+    {
+        "content": "CUBE 数据是如何利用RSS 数据进行重构的？",
+        "summary": "CUBE数据是利用RSS数据中的天体测量信息，对单个科学目标的多个RSS数据对象进行空间位置叠加操作后，重构数据矩阵得到的数据对象。"
+    },
+    {
+        "content": "CUBE 数据文件名中\"W\"标记位代表什么？",
+        "summary": "CUBE数据文件名中的\"W\"标记位代表波长空间标记位，其中'LIN'表示波长维度上在线性空间等间隔排列，'LOG'表示波长维度在对数空间内等间隔排列。"
+    },
+    {
+        "content": "在星冕仪模块的1级数据处理中，哪些步骤会被执行？",
+        "summary": "在星冕仪模块的1级数据处理中，会执行包括探测器效应改正、平场矫正、背景扣除、宇宙线扣除等步骤。"
+    },
+    {
+        "content": "在星冕仪模块的数据处理中，临时文件是如何定义的？",
+        "summary": "在星冕仪模块的数据处理中，临时文件是指仅仅是程序处理需要而无需最终保存和存入数据库的文件对象。"
+    },
+    {
+        "content": "CSST-HSTDM 的工作频率是多少？",
+        "summary": "CSST-HSTDM的探测器1和2工作频率为410-510 GHz，探测器3工作频率为520-630 GHz。"
+    },
+    {
+        "content": "DPL1 处理过程中会产生哪3类数据？",
+        "summary": "DPL1处理过程中会产生3类数据：校准处理类型数据CAL、质量控制数据QCP和经DPL1处理后的1级科学数据PDP。"
+    },
+    {
+        "content": "CSST_HSTDM_CAL_type_yyyymmddHHMMSS_yyyymmddHHMMSS.fits 中的\"type\"表示什么？",
+        "summary": "CSST_HSTDM_CAL_type_yyyymmddHHMMSS_yyyymmddHHMMSS.fits 中的\"type\"表示校准类型CAL的子类型，例如baseline子类型的type为bsl，Tsys子类型的type为tsys。"
+    },
+    {
+        "content": "CSST_HSTDM_QCP_type_yyyymmddHHMMSS_yyyymmddHHMMSS.fits 中\"QF\"和\"QS\"分别代表什么？",
+        "summary": "CSST_HSTDM_QCP_type_yyyymmddHHMMSS_

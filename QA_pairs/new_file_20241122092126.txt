@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "助数据存储在哪个目录下？", "answer": "助数据（表10 和表14）存储于Params 目录下。"},
+    {"question": "CSST高灵敏度太赫兹模块有几个探测器？", "answer": "CSST高灵敏度太赫兹模块总共有3个探测器，探测器1，2工作频率为410-510 GHz，探测器3不再使用（最初设计的工作频率为520-630 GHz）。"},
+    {"question": "太赫兹模块单点观测的采样时间是多少？", "answer": "单点观测时，太赫兹模块的探测器1和2只有一个观测，采样时间是1s。"},
+    {"question": "CSST文件名中的TYPE1表示什么？", "answer": "CSST文件名中的TYPE1表示对目标源（ONS）或OFF点（OFF）或定标观测（CAL）。"},
+    {"question": "CSST文件名中的OBSID代表什么？", "answer": "CSST文件名中的OBSID代表地面发出的一次观测指令的标识。"},
+    {"question": "主巡天模块的光学数据文件对象包含几个HDU？", "answer": "主巡天模块的光学数据文件对象包含两个HDU。"},
+    {"question": "主巡天红外相机的0级数据是几维的？", "answer": "主巡天红外相机的0级数据是三维的datacube。"},
+    {"question": "MCI的0级数据image data如何排列？", "answer": "MCI的0级数据image data按照通道号从小到大的顺序将16通道数据从左到右排列为一个二维矩阵。"},
+    {"question": "IFS的0级数据image data是几维的？", "answer": "IFS的0级数据image data是一个3维的datacube矩阵。"},
+    {"question": "CPIC模块的红外图像数据像素是多少？", "answer": "CPIC模块的红外图像数据像素为640*512。"}
+]
+```

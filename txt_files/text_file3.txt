@@ -1,0 +1,534 @@
+L0 说明同上。 
+VER 说明同上。 
+举例如下：CSST_CPIC_VIS_SCI_20240101120000_20240101120230 
+_400000012_X_L0_1.fits，该文件表示CPIC 在2024 年1 月1 日UTC 时间
+12:00:00 对科学观测目标（以曝光150s 为例）的曝光编号为00000012
+的可见光波段观测的0 级数据。 
+ 
+   0 级数据对象存储于文件夹中，文件夹命名层级如图4 所示。示例文
+件名（包括路径）：CSST_L0/CPIC/SCI/60310/VIS/CSST_CPIC_VIS_SCI_ 
+20240101120000_20240101120230_400000012_X_L0_1.fits  
+  
+ 
+5.2.5. 高灵敏度太赫兹模块（HSTDM） 
+CSST 高灵敏度太赫兹模块总共有3 个探测器，探测器1，2 工作频率
+为410-510 GHz，探测器3 工作频率为520-630 GHz。 点源观测时，探
+测器1/2 和3 同时工作；OTF 观测时，1 和2 同时工作。 
+CSST_L0
+CPIC
+SCI
+MJD
+VIS
+NIR
+CAL
+MJD
+VIS
+NIR
+Params
+MJD
+图 4. CPIC 0 级数据存储文件夹结构示意图 
+12 
+ 
+地面发出一次观测指令（对应一个obsid），每个探测器的读出数据
+包含两部分：对目标源进行观测时，产生目标源的观测数据（on）和黑
+体校准数据（blk）；对目标源附近的off 点进行观测时（参考背景），产
+生off 点的观测数据（off）和黑体校准数据（blk）。on，off，blk 分别存
+储为一个fits 文件。文件名命名规则形为CSST_HSTDM_type_yyyymmdd 
+HHMMSS_yyyymmddHHMMSS _obsid_mm_L0_VER.fit，其中： 
+    type 表示目标类型，包括两部分，第一部分表示对目标源或off 点观
+测（ON/OFF ），第二部分表示科学数据（SCI ）或黑体校准数据
+（BLK），两部分用下划线相连，比如：ON_BLK，表示对目标源进行观
+测时的黑体校准数据。 
+yyyymmdd 是八位数观测日期，说明如上。 
+HHMMSS 是六位数UTC 观测时间，说明如上。 
+obsid 说明同上。  
+mm 为数据对应的探测器编号，取值为01，02，03。 
+L0 说明同上。 
+VER 说明同上。 
+举例如下：CSST_HSTDM_ON_BLK_20240101120000_20240101 
+120230_500000012_01_L0_1.fits，表示太赫兹模块在2024 年1 月1 日
+UTC 时间12:00:00 对科学观测目标（以曝光150s 为例）的曝光编号为
+00000012 的使用探测器01 观测的黑体校准0 级数据文件。 
+ 
+0 级数据对象存储于文件夹中，文件夹命名层级如图5 所示。示例文
+件名（包括路径）：CSST_L0/HSTDM/SCI/60310/ CSST_HSTDM_ON_ 
+BLK_20240101120000_20240101120230_500000012_01_L0_1.fits 
+13 
+ 
+如果对象利用fpack（https://heasarc.gsfc.nasa.gov/fitsio/fpack/  版
+本号=1.7.0）工具进行压缩保存，文件名后缀应为.fits.fz。文件索引号通
+过计算文件名的SHA256 散列值给出，取散列值的前128bit 为文件索引
+号。 
+对象数据格式遵循FITS 标准，需要保证现有的主流FITS 格式文件读
+写软件（至少应当包括astropy.io.fits 和libcfitsio）均能操作对象。 
+ 
+5.3. 接口示意图 
+5.3.1. 主巡天模块（MSC） 
+文件对象接口如图6 所示： 
+ 
+CSST_L0
+HSTDM
+SCI
+MJD
+CAL
+MJD
+Params
+MJD
+图 5. HSTDM 0 级数据存储文件夹结构示意图 
+图 6. CSST 主巡天0 级数据结构示意图 
+14 
+文件对象包含两个HDU，其中primary HDU（图中的global 
+header）只包含望远镜的位置姿态信息。同一次观测所有波段测光和
+无缝光谱图像global header 内容基本一致。对象有一个图像扩展（图
+中的raw image），raw image 的header 包含探测器相关信息、WCS 相
+关数据、快门读出等内容，image data 部分为从探测器读出后未经任何
+修改的0 级数据。主巡天相机和定标组件的image data 数据应该为一个
+2 维的datacube 矩阵，以探测器选型使用CCD 为例，如果按照计划的
+16 通道读出，需要将16 通道数据按照读出先后次序，顺序排列为一个
+2 维矩阵（如图7 所示）。 
+ 
+ 
+5.3.2. 多通道成像仪模块（MCI） 
+   文件对象（不包含导星数据和工程信息数据）接口如图8 所示： 
+       
+     
+图 7. CSST 主巡天0 级数据image data 结构示意图 
+其中数字表示不同的读出通道，通道间的分隔用黑色边框表示。橙色为
+data 区域，蓝色为over (pre) scan 区域，（0，0）在左上角。 
+图 8. MCI 0 级数据结构示意图 
+15 
+    文件对象包含两个HDU，其中primary HDU （图中的global 
+header）只包含望远镜的位置姿态信息。同一次观测所有波段测光图像
+global header 内容基本一致。对象有一个图像扩展（图中的raw 
+image），raw image 的header 包含CCD 相关信息、WCS 相关数据、快
+门读出等内容，image data 部分为从探测器读出后未经任何修改的0 级数
+据。MCI 和定标组件的image data 数据应该为一个2 维的datacube 矩阵，
+以探测器选型使用CCD 为例，如果按照计划的16 通道读出，需要将16
+通道数据按照读出先后次序，顺序排列为一个2 维矩阵（如图9 所示）。 
+         
+ 
+5.3.3. 积分视场光谱仪模块（IFS） 
+  文件对象（不包含导星数据和工程信息数据）接口如图10 所示： 
+    
+ 
+文件对象包含两个HDU，其中primary HDU (图中的global header)
+只包含望远镜的位置姿态信息。Raw image 的header 包含CCD 相关信
+图 9. MCI 0 级数据image data 结构示意图 
+其中数字表示不同的读出通道，通道间的分隔用黑色边框表示。橙色为
+data 区域，蓝色为over (pre) scan 区域，（0，0）在左上角。 
+图 10. IFS 0 级数据结构示意图 
+16 
+息，image data 部分为从探测器读出后未经任何修改的0 级数据。IFS 的
+image data 数据应该为一个2 维的datacube 矩阵，以探测器选型使用CCD
+为例，如果按照计划的4 通道读出，需要将4 通道数据按照读出先后次
+序，顺序排列为一个2 维矩阵（如图11 所示）。 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+5.3.4. 星冕仪模块（CPIC） 
+文件对象接口如图12 所示： 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+其中数字表示不同的读出通道，通道间的分隔用黑色边框表示。橙色为
+data 区域，蓝色为over (pre) scan 区域，（0，0）在左上角。 
+图 11. IFS 0 级数据image data 结构示意图 
+图 12. CPIC 0 级数据结构示意图 
+17 
+文件对象包含若干个HDU，其中primary HDU（图中的global 
+header）只包含望远镜的位置姿态信息。其余HDU 为图像HDU（图中
+的raw image），raw image 的header 包含CCD 相关信息、WCS 相关
+数据、曝光相关信息，image data 部分为从探测器读出后未经任何修改
+的0 级图像数据。星冕仪模块可见光图像数据像素为1080*1050，红外
+为640*512。数据类型为无符号16 位整形，如果相机读出的数据不足
+16 位，在高位进行补零。 
+ 
+5.3.5. 高灵敏度太赫兹模块（HSTDM） 
+文件对象接口如图13 所示： 
+       
+     
+    太赫兹模块0 级数据按照建议文件夹自动存储后，由数据库自动检索
+入库。文件对象包含两个HDU，其中primary HDU（图中的global 
+header）只包含望远镜的位置姿态信息。对象有一个图像扩展（图中的
+raw image），raw image 的header 包含接收机相关信息，image data 部
+分为从探测器读出后未经任何修改的0 级数据，为二进制文件，数据的状
+态字为ASCII 码固定格式。 
+ 
+图 13. HSTDM 0 级数据结构示意图 
+18 
+5.4. 接口名称和项目识别号 
+5.4.1. 接口需求 
+数据对象在模块间传递应同时允许文件传递和数据流传递。 
+ 
+5.4.2. 数据元素 
+对象头关键字见表2（global header），表3（主巡天模块raw image
+中header），表4（MCI 模块raw image 中header），表5（IFS 模块raw 
+image 中header），表6（星冕仪模块raw image 中header），表7（太
+赫兹模块raw image 中header）。其中： 
+第一列keyword 为元素唯一识别号，也是FITS 格式头文件的关键
+字，关键字由大写字母和数字组成，其中数字不可作为关键字的首字
+符，最多8 个字符。 
+第二列为元素的描述，也是FITS 头文件每个关键字的注释。元素的
+物理单位也包含在第二列的注释中。 
+第三列为元素的格式，其中L1（BOOL）表示为布尔型，可以是T 或
+F；I2（SMALLINT；INT16）是16bit 整型，I4（INT；INT32）是32bit
+整型；R4（FLOAT）为单精度浮点型，R8（DOUBLE）为双精度浮点
+型；Cxx（CHAR）为字符串，其中xx 表示字符串的最大长度。 
+第四列Remark 给出元素可能的值。 
+第五列为参数写入方式的标定：a. 观测／定标数据；b. 设定值 （比
+如平场灯档位）；c. 写定值；d. 工程遥测；e. 地面解算（括号中为数据
+库对应数据格式的约定数字列类型） 
+ 
+19 
+  表 4. 全局头文件关键字 
+Global header keywords 
+Keyword 
+Description 
+(FITS 
+keyword comments) 
+Format 
+Remark 
+Flag 
+General keywords 
+SIMPLE 
+ 
+L1 
+ 
+c 
+BITPIX 
+ 
+I2 
+ 
+c 
+NAXIS 
+ 
+I2 
+always 0 
+c 
+EXTEND 
+ 
+L1 
+always T 
+c 
+NEXTEND 
+number 
+of 
+array 
+dimensions 
+I2 
+always 1 
+c 
+GROUPS 
+ 
+L1 
+always F 
+c 
+DATE 
+date this file was 
+written (yyyy-mm-dd 
+hh:mm:ss) 
+C20 
+ 
+e 
+FILENAME 
+file name 
+C48 
+ 
+b 
+OBSTYPE 
+observation type 
+C12 
+‘raw’, ‘flt’, ‘mask’, ‘bias’, 
+‘dark’, ‘sci’, etc 
+b 
+TELESCOP 
+telescope 
+used 
+to 
+acquire data 
+C06 
+always ‘CSST’ 
+c 
+INSTRUME 
+instrument used to 
+acquire data 
+C06 
+‘MSC’, ‘MCI’, etc 
+b 
+RADECSYS 
+reference coordinate 
+system 
+C08 
+always ‘ICRS’ 
+c 
+EQUINOX 
+ 
+R4 
+always 2000.0 
+c 
+20 
+FITSCREA 
+FITS create software 
+version 
+ 
+ 
+c 
+Object information 
+OBJECT 
+object name 
+C30 
+主巡天可以使用天区编号 
+b 
+TARGET 
+target 
+name 
+(hhmmss+ddmmss) 
+C13 
+hhmmss+ddmmss, 作为
+目标标识记录到秒，比RA
+和DEC 精度低 
+b 
+OBSID 
+observation ID 
+C09  
+观测编号，X+8 位数字，
+X 是设备编号 
+b 
+OBJ_RA 
+RA 
+of 
+the 
+object 
+(degrees) 
+R8 
+ 
+b 
+OBJ_DEC 
+DEC of the object 
+(degrees) 
+R8 
+ 
+b 
+Telescope information 
+REFFRAME 
+guide 
+star 
+catalog 
+version 
+C16 
+e.g., CSSTGSC-1.0 
+c 
+DATE-OBS 
+date 
+of 
+the 
+observation (yyyy-mm-
+dd hh:mm:ss) 
+C20 
+地面指令设置的曝光开始
+时刻 
+b 
+EXPSTART 
+exposure start time 
+(MJD) 
+R8 
+广播给出的曝光开始时刻 
+e (1553B
+给出UTC时
+间，地面解
+算MJD) 
+SUNANGL0 
+angle between sun 
+and 
+optical 
+axis 
+at 
+EXPSTART 
+R4 
+曝光开始时刻，太阳与视
+轴的夹角 
+e 
+21 
+MOONANG0 
+angle between moon 
+and 
+optical 
+axis 
+at 
+EXPSTART 
+R4 
+曝光开始时刻，月亮与视
+轴的夹角 
+e 
+POS_ANG0 
+angle between optical 
+axis and the North Pole 
+at EXPSTART 
+R8 
+精确到角秒 
+e 
+TEL_ALT0 
+angle between optical 
+axis and the ground- 
+piston at EXPSTART 
+R8 
+精确到0.1 度 
+e 
+HOODSTA0 
+lens hood altitude at 
+EXPSTART 
+R4 
+ 
+d 
+HOODANG0 
+lens hood azimuth at 
+EXPSTART 
+R4 
+ 
+d 
+POSI0_X 
+the orbital position of 
+CSST in X direction at 
+EXPSTART 
+R8 
+R=Sqrt(X^2+Y^2+Z^2) 绝
+对误差不大于16.8 公里（单
+倍中误差） 
+ 
+d 
+POSI0_Y 
+the orbital position of 
+CSST in Y direction at 
+EXPSTART 
+R8 
+ 
+d 
+POSI0_Z 
+the orbital position of 
+CSST in Z direction at 
+EXPSTART 
+R8 
+ 
+d 
+VELO0_X 
+the orbital velocity of 
+CSST in X direction at 
+EXPSTART 
+R8 
+V=Sqrt(Vx^2+Vy^2+Vz^2
+) 误差不大于0.025 米/秒
+（单倍中误差） 
+d 
+22 
+ 
+VELO0_Y 
+the orbital velocity of 
+CSST in Y direction at 
+EXPSTART 
+R8 
+ 
+d 
+VELO0_Z 
+the orbital velocity of 
+CSST in Z direction at 
+EXPSTART 
+R8 
+ 
+d 
+Euler0_1 
+Euler 
+angle 
+1 
+at 
+EXPSTART   
+R8 
+姿态误差不大于0.05 角
+秒 
+ 
+d 
+Euler0_2 
+Euler 
+angle 
+2 
+at 
+EXPSTART 
+R8 
+ 
+d 
+Euler0_3 
+Euler 
+angle 
+3 
+at 
+EXPSTART 
+R8 
+ 
+d 
+RA_PNT0 
+RA of the pointing 
+(degrees) at EXPSTART 
+R8 
+太赫兹模块由星敏提供，
+其余模块由导星提供 
+d 
+DEC_PNT0 
+DEC of the pointing 
+(degrees) at EXPSTART 
+R8 
+太赫兹模块由星敏提供，
+其余模块由导星提供 
+d 
+EXPEND 
+exposure end 
+time 
+(MJD) 
+R8 
+广播给出的曝光结束时刻 
+e (1553B
+给出UTC时
+间，地面解
+算MJD) 
+SUNANGL1 
+angle between sun 
+and 
+optical 
+axis 
+at 
+EXPEND 
+R4 
+曝光结束时刻，太阳与视
+轴的夹角 
+e 
+23 
+MOONANG1 
+angle between moon 
+and 
+optical 
+axis 
+at 
+EXPEND 
+R4 
+曝光结束时刻，月亮与视
+轴的夹角 
+e 
+POS_ANG1 
+angle between optical 
+axis and the North Pole 
+at EXPEND 
+R8 
+精确到角秒 
+e 
+TEL_ALT1 
+angle between optical 
+axis and the ground-

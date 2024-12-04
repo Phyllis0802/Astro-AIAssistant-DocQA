@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "RSS数据的文件名命名规则是什么？", "answer": "RSS数据的文件名命名规则为：CSST_IFS_TYPE_yyyymmddHHMMSS_obsid_camera_L1_VER.fits，其中TYPE为数据类型，yyyymmdd是八位数观测日期，HHMMSS是六位数UT观测时间，obsid是CSST统一的曝光编号，camera为光谱仪CCD编号，L1表示文件为1级科学数据，VER为1级RSS处理模块版本号。"},
+    {"question": "RSS数据中process字符串代表什么？", "answer": "RSS数据中process字符串代表8步基本数据处理流程，由字母表示，包括：b（已经过仪器效应改正），e（已抽谱），w（已进行波长定标），n（已对平场归一），r（已扣除宇宙线），f（已进行流量定标），c（已生成三维数据块），g（已完成天体测量位置定标）。已进行流程由字母表示，未进行流程用“_”占位。"},
+    {"question": "CUBE数据文件名中的W代表什么？", "answer": "CUBE数据文件名中的W是波长空间标记位，为3位字符串，其中‘LIN’表示波长维度上在线性空间等间隔排列，‘LOG’表示波长维度在对数空间内等间隔排列。"},
+    {"question": "IFS一级数据对象存储在哪个文件夹中？", "answer": "IFS一级数据对象存储在CSST_L1/IFS文件夹中。"},
+    {"question": "CSST-IFS的一级数据处理过程中会产生哪四种类型的一级数据文件？", "answer": "CSST-IFS的一级数据处理过程中会产生参考数据、RSS数据、CUBE数据及数据处理过程中产生的中间数据这四种类型的一级数据文件。"},
+    {"question": "星冕仪模块的数据文件名命名规则是什么？", "answer": "星冕仪模块的数据文件名命名规则为：CSST_PREFIX_type_yyyymmddHHMMSS_obsid_L1_process.fits，其中PREFIX为文件名前缀，包括模块名称和相机名称，type表示目标类型，yyyymmdd是八位数观测日期，HHMMSS是六位数UT开始（结束）观测时间，obsid是观测编号，L1表示文件为1级科学观测数据，VER为0级数据对应的版本号，process为4位字符串，代表4步基本数据处理流程。"},
+    {"question": "星冕仪模块中的process字符串代表哪四步基本数据处理流程？", "answer": "星冕仪模块中的process字符串代表四步基本数据处理流程，由字母表示，包括：a（已经过仪器效应改正），b（已经过平场矫正），c（已扣除背景），d（已扣除宇宙线）。已进行流程由字母表示，未进行流程用“_”占位。"},
+    {"question": "星冕仪一级数据对象存储在哪个路径下？", "answer": "星冕仪一级数据对象存储在CSST_L1/CPIC文件夹中。"},
+    {"question": "CSST-HSTDM的探测器工作频率是多少？", "answer": "CSST-HSTDM的探测器工作频率为410-510 GHz。"},
+    {"question": "csst-hstdm-l1处理后产生的主要数据文件有哪些？", "answer": "csst-hstdm-l1处理后产生的主要数据文件包括：经csst-hstdm-l1处理后的1级科学数据SCI，处理过程中整合的辅助信息AUX，以及质量控制QC的数据，用于评估1级数据的数据质量。"}
+]
+```

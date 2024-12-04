@@ -1,0 +1,978 @@
+SHUTHWV 
+shutter 
+hardware 
+version 
+C16 
+ 
+c 
+SHUTSWV 
+shutter software 
+C16 
+ 
+c 
+SHUTSTAT 
+shutter status 
+L1 
+T: open, F: close 
+b 
+SHTOPEN0 
+shutter 
+open 
+time 
+(begin) 
+R8 
+快门打开开始时间 
+d 
+39 
+SHTOPEN1 
+shutter 
+open 
+time 
+(end) 
+R8 
+快门打开结束时间 
+d 
+SHTCLOS0 
+shutter 
+close 
+time 
+(begin) 
+R8 
+快门关闭开始时间 
+d 
+SHTCLOS1 
+shutter 
+close 
+time 
+(end) 
+R8 
+快门关闭结束时间 
+d 
+ 
+表 7. 0 级数据头文件关键字 （IFS） 
+ 
+Instrument information (at EXPSTART time) 
+PMIRRPOS 
+FSM pointing 
+L1 
+T: point to MCI, F: not 
+point to MCI 
+d 
+CMIRRPOS 
+position of calibration 
+switch mirror 
+L1 
+T: for calibration, F: not 
+for calibration 
+b 
+FLAMP 
+ status of flat lamp 
+I2 
+0: off, 1: 一档, 2: 二档 
+b 
+ALAMP 
+ status 
+of 
+atomic 
+emission line lamp 
+I2 
+0: off, 1: 一档, 2: 二档 
+b 
+IFSMODE 
+IFS working mode 
+I4 
+该参数可以代替以上6 个
+参数 
+b 
+IFSTEMP 
+IFS 
+components 
+temperature (degC) 
+R4 
+从工程参数获取的一组监
+控温度（精确到0.1 度）可
+以考虑为指向工程参数的文
+件名 
+d 
+IFSSTAT 
+IFS 
+components 
+status parameter 
+I4 
+从工程参数获取的一组状
+态参数（可以考虑为指向工
+程参数的文件名） 
+d 
+40 
+Detector information 
+CAMERA 
+camera of IFS 
+C06 
+Red/Blue 
+c 
+DETNAM 
+detector name 
+C16 
+ 
+c 
+DETSIZE 
+detector size 
+C20 
+ 
+c 
+DATASEC 
+data section 
+C20 
+ 
+c 
+PIXSCAL1 
+pixel scale for axis 1 
+R4 
+ 
+c 
+PIXSCAL2 
+pixel scale for axis 2 
+R4 
+ 
+c 
+PIXSIZE1 
+pixel size for axis 1 
+R4 
+ 
+c 
+PIXSIZE2 
+pixel size for axis 2 
+R4 
+ 
+c 
+NCHAN 
+number of readout 
+channels 
+I2  
+always 4 
+c 
+NCHAN1 
+number of horizontal 
+channels 
+I2 
+always 2  
+c 
+NCHAN2 
+number of vertical 
+channels 
+I2 
+always 2 
+c 
+PSCAN1 
+horizontal 
+prescan 
+width, 
+per 
+readout 
+channel 
+I4 
+ 
+c 
+PSCAN2 
+vertical 
+prescan 
+height, 
+per 
+readout 
+channel 
+I4 
+ 
+c 
+OSCAN1 
+horizontal 
+overscan 
+width, 
+per 
+readout 
+channel 
+I4 
+ 
+c 
+OSCAN2 
+vertical 
+overscan 
+I4 
+ 
+c 
+41 
+width, 
+per 
+readout 
+channel 
+Readout information 
+READT0 
+read start time (UTC) 
+R4 
+ 
+d 
+READT1 
+read end time (UTC) 
+R4 
+ 
+d 
+DETTEMP0 
+detector temperature 
+at READT0 
+R4 
+ 
+d 
+DETTEMP1 
+detector temperature 
+at READT1 
+R4 
+ 
+d 
+BIN_X 
+bin 
+number 
+in 
+X 
+(wavelength) 
+I2 
+ 
+b 
+BIN_Y 
+bin 
+number 
+in 
+Y 
+(spatial) 
+I2 
+ 
+b 
+GAIN1 
+CCD gain (channel 1) 
+R4 
+ 
+c (地面测
+试阶段提
+供) 
+GAIN2 
+CCD gain (channel 2) 
+R4 
+ 
+c  
+GAIN3 
+CCD gain (channel 3) 
+R4 
+ 
+c  
+GAIN4 
+CCD gain (channel 4) 
+R4 
+ 
+c  
+RDNOIS1 
+read noise (channel 
+1) 
+R4 
+ 
+c (地面测
+试阶段提
+供) 
+RDNOIS2 
+read noise (channel 
+2) 
+R4 
+ 
+c  
+RDNOIS3 
+read noise (channel 
+R4 
+ 
+c  
+42 
+3) 
+RDNOIS4 
+read noise (channel 
+4) 
+R4 
+ 
+c  
+DETBIA1 
+amplifier bias voltage 
+(channel1) 
+R4 
+ 
+c (地面测
+试阶段提
+供) 
+DETBIA2 
+amplifier bias voltage 
+(channel2) 
+R4 
+ 
+c  
+DETBIA3 
+amplifier bias voltage 
+(channel3) 
+R4 
+ 
+c  
+DETBIA4 
+amplifier bias voltage 
+(channel4) 
+R4 
+ 
+c  
+RDSPEED 
+read speed (in MHz) 
+R4 
+ 
+d 
+ 
+表 8. 0 级数据头文件关键字 （CPIC） 
+ 
+RAW extension header keywords 
+Keyword 
+Description 
+Format 
+Remark 
+Flag 
+General keywords 
+XTENSION 
+extension type 
+C08 
+ 
+c 
+BITPIX 
+bits 
+per 
+data 
+value 
+I2 
+always 16 for raw data 
+c 
+NAXIS 
+number of data 
+axes 
+I2 
+always 2 
+c 
+NAXIS1 
+length of first 
+data axis 
+I4 
+ 
+c 
+43 
+NAXIS2 
+length of second 
+data axis 
+I4 
+ 
+c 
+EXTNAME 
+ 
+C08 
+ 
+c 
+EXTVER 
+ 
+I2 
+always 1 
+c 
+BSCALE 
+ 
+R8 
+always 32768.0 
+c 
+BZERO 
+ 
+R8 
+always 1.0 
+c 
+BUNIT 
+physical unit of 
+array values 
+C08 
+always ‘ADU’ 
+c 
+Filter information 
+FILTER 
+filter band 
+C08 
+ 
+b 
+CCD chip information 
+CCDLABEL 
+CCD chip label 
+C08 
+EMCCD/NIR 
+c 
+CHIPTEMP 
+chip 
+temperature (in K) 
+R4 
+ 
+d 
+DEWTEMP 
+dewer 
+temperature (in K) 
+R4 
+ 
+d 
+DETSIZE 
+detector size 
+C20 
+1088*1050(EMCCD)/640*512(NIR)
+图像总大小 
+c 
+DATASEC 
+data section 
+C20 
+1024*1024(EMCCD)/640*512(NIR)
+有效图像大小 
+c 
+PIXSCAL 
+pixel scale 
+R4 
+ 
+c 
+PIXSIZE 
+pixel size 
+R4 
+ 
+c 
+NCHAN 
+number 
+of 
+readout channels 
+I2 
+always 1 
+c 
+PSCAN1 
+horizontal 
+I4 
+16(EMCCD)/0(NIR) 
+c 
+44 
+prescan width 
+PSCAN2 
+vertical prescan 
+height 
+I4 
+always 0 
+c 
+OSCAN1 
+horizontal 
+overscan width 
+I4 
+16(EMCCD)/0(NIR) 
+c 
+OSCAN2 
+vertical overscan 
+width 
+I4 
+18(EMCCD)/0(NIR) 
+c 
+UDARK 
+height of upside 
+dark 
+reference 
+region 
+I4 
+6(EMCCD)/0(NIR) 
+c 
+BDARK 
+height 
+of 
+downside 
+dark 
+reference region 
+I4 
+2(EMCCD)/0(NIR) 
+c 
+LDARK 
+width of leftside 
+dark 
+reference 
+region 
+I4 
+16(EMCCD)/0(NIR) 
+c 
+RDARK 
+width 
+of 
+rightside 
+dark 
+reference region 
+I4 
+16(EMCCD)/0(NIR) 
+c 
+World coordinate system and related parameters 
+WCSAXES 
+number of World 
+Coordinate System 
+axes 
+I2 
+always 2 
+c 
+CRPIX1 
+x-coordinate 
+of 
+reference pixel 
+R8 
+小数点后1 位有效数字 
+c ( 不
+需要地
+面临时
+45 
+解算，
+但需要
+在地面
+测试阶
+段提前
+设定) 
+CRPIX2 
+y-coordinate of 
+reference pixel 
+R8 
+小数点后1 位有效数字 
+c ( 同
+上) 
+CRVAL1 
+first axis value at 
+reference pixel 
+R8 
+ 
+c ( 同
+上) 
+CRVAL2 
+second 
+axis 
+value at reference 
+pixel 
+R8 
+ 
+c ( 同
+上) 
+CTYPE1 
+the 
+coordinate 
+type for the first 
+axis 
+C08 
+always ‘RA---TAN’ 
+c 
+(TAN 还
+是 TPV
+需要位
+置定标
+确定) 
+CTYPE2 
+the 
+coordinate 
+type for the second 
+axis 
+C08 
+always ‘DEC--TAN’ 
+c ( 同
+上) 
+CD1_1 
+partial of first 
+axis 
+coordinate 
+w.r.t. x 
+R8 
+ 
+c ( 同
+上) 
+CD1_2 
+partial of first 
+R8 
+ 
+c ( 同
+46 
+axis 
+coordinate 
+w.r.t. y 
+上) 
+CD2_1 
+partial of second 
+axis 
+coordinate 
+w.r.t. x 
+R8 
+ 
+c ( 同
+上) 
+CD2_2 
+partial of second 
+axis 
+coordinate 
+w.r.t. y 
+R8 
+ 
+c ( 同
+上) 
+others 
+ 
+ 
+other specific parameters 
+ 
+Readout information 
+EMGAIN 
+EMgain 
+for 
+EMCCD 
+R4 
+ 
+c 
+GAIN 
+CCD gain 
+R4 
+ 
+c 
+DET_BIAS 
+CCD bias voltage 
+R4 
+ 
+c 
+RDNOISE 
+read noise 
+R4 
+ 
+c 
+READTIME 
+read time 
+R4 
+ 
+e 
+(1553B
+给出开
+始读出
+和结束
+读出时
+刻，地
+面算差
+值) 
+RDSPEED 
+read speed (in 
+MHz) 
+R4 
+ 
+d 
+47 
+CPIC information 
+LS_STAT 
+lazer status 
+C04 
+on/off 
+d 
+IWA 
+inner 
+working 
+angle of CPIC 
+R4 
+ 
+c 
+OWA 
+outer 
+working 
+angle of CPIC 
+R4 
+ 
+c 
+WFSinfo1 
+x-direction 
+residuals of WFS of 
+CPIC 
+R4 
+ 
+d 
+WFSinfo2 
+y-direction 
+residuals of WFS of 
+CPIC 
+R4 
+ 
+d 
+ 
+表 9. 0 级数据头文件关键字 （HSTDM） 
+ 
+Exposure information 
+REST_FRQ 
+  static 
+observed 
+frequency (GHz) 
+R8 
+ 
+b 
+SIDEBAND 
+side band indicator (-
+1 lower, 1 upper) 
+I2 
+低边带时为高本振，高边带时
+为低本振 
+b 
+INT_STAR 
+integration start time 
+(MJD) 
+R8 
+ 
+b 
+INT_REP 
+integration 
+repeat 
+times 
+R4 
+ 
+b 
+INT_INTE 
+integration slot time 
+(sec) 
+R4 
+ 
+b 
+48 
+Receiver information 
+DET_NAME 
+detector name 
+C16 
+‘sis1, sis2, sck’ 
+c 
+LO_FRQ 
+oscillator frequency 
+R8 
+探测器对应的本振频率 
+c 
+LO_LOCK 
+oscillator lock state 
+L1 
+探测器对应的本振锁定状态 
+d 
+LO_MVOLT 
+multiplier voltage 
+I2 
+ 
+d 
+LO_TCURR 
+oscillator current 
+I2 
+ 
+d 
+IF_TP 
+intermediate detector 
+voltage 
+R8 
+对应通道中频检波电压 
+d 
+TCAL1 
+blackbody 1 
+R4 
+校准黑体温度1 
+d 
+TCAL2 
+blackbody 2 
+R4 
+校准黑体温度2 
+d 
+MOT_POS 
+current 
+motor 
+position 
+R4 
+电机当前实际位置 
+d 
+MOT_STA 
+motor state 
+I2 
+ 
+d 
+DEW_8K 
+8k 
+cold 
+head 
+temperature 
+R4 
+ 
+d 
+DET_8K 
+8k 
+detector 
+temperature 
+R4 
+ 
+d 
+DET_V 
+detector voltage 
+R4 
+ 
+d 
+DET_I 
+detector current 
+R4 
+ 
+d 
+LNA_V 
+amplifier voltage 
+R4 
+ 
+d 
+LNA_I 
+amplifier current 
+R4 
+ 
+d 
+FPGA_TEM 
+FPGA 
+core 
+temperature 
+R4 
+ 
+d 
+FFT_5V 
+5V-FFT voltage 
+R4 
+ 
+d 
+FFT_3V 
+  3.3V-FFT voltage 
+R4 
+ 
+d 
+SYN_VOL 
+synchronous 
+R4 
+ 
+d 
+49 
+adjustment voltage 
+ASYN_VOL 
+asynchronous 
+adjustment voltage 
+R4 
+ 
+d 
+ 
+6. 导星仪0 级图像数据结构 
+6.1. 导星数据需求概述 
+  根据《初步技术要求》，导星数据属于0 级数据的组成部分，由科学
+数据系统接收，用于科学数据处理和科学数据质量检验工作。 
+  精细导星仪是中国巡天空间望远镜（CSST）上的重要器件，属于精密
+稳像系统的一部分。精密稳像系统的主要工作原理是根据精细导星仪探
+测到入射光轴与目标光轴的偏差，控制大口径快摆镜组件在一定角度范
+围内做极高精度的摆动控制，使得最终偏差在系统要求以内从而实现高
+精度稳像。精细导星仪（FGS）可为光学设施实现精密稳像提供高精度、
+高速精确的星像位置和角度信息。其采用先进的超大规模面阵探测器，
+以及高速硬件处理技术，利用光学设施28m 焦距优势，在保证等星亮
+度、视场范围、采样频率，以及有效的导星数量的前提下，进行高精度
+的导星检测。精密稳像系统通过驱动大口径快摆镜组件，与高频采样的
+精细导星仪的星像位置信息相结合实现光闭环实时控制，有效补偿振动
+抑制和飞行器姿态控制系统的扰动残余进而确保光学设施稳像性能。 
+  FGS 的原始图像数据和与之相关姿态数据的处理结果，可以高精度、
+高时间分辨率的复原观测现场的情况，得到多维度的和主巡天相机
+（MSC）图像数据和无缝光谱数据、多通道成像仪（MCI）数据、积分视
+场光谱仪（IFS）数据、系外行星成像星冕仪（CPIC）数据相关的QC
+（Quality Control，数据质量控制）指标，来辅助科学数据的处理，提高
+天体测量精度，排除特殊的情况，保证各级数据及最终科学产品的质
+量。 
+50 
+6.2. 导星数据格式 
+  参见《CSST 导星仪0 级图像数据结构》 
+7. 其他工程辅助数据需求 
+7.1. 工程辅助数据需求概述 
+ 根据国际空间天文计划一般经验，科学数据质量和科学仪器在轨状
+态和在轨真实运行环境高度相关。数据处理系统在运行期需要长期观察
+CSST 仪器科学状态，以此改进数据分析流水线，优化CSST 在轨道定标方
+案。此外，科学仪器在轨真实状态也会影响到CSST 科学需求编排的具体
+实现。因此，科学数据系统需要接受和观测相关的工程辅助数据。 
+ 
+7.2. 其他工程辅助数据元素 
+  第五节、第六节已经列出了各模块和导星仪0 级数据文件中所需的工
+程辅助数据，即进入数据处理流水线分析的数据。本节将列出用于长期
+仪器科学状态分析和长期科学数据分析所需要的工程辅助数据。 
+  本节所列出的工程辅助数据单独存为辅助数据文件，格式待进一步协
+商确定。所有本节列出的数据，需要有对应的采集时间。 
+ 
+表 10. 各模块的共同需求 
+类型 
+数据来源（1553B，
+422……） 
+参数内容，单位，
+指标，是否需要绝
+对时间，时间单位 
+采样时机和频率 
+必要性分析 
+工程勤务数据产品 
+运动控制模块工程
+参数 
+主动光学上次调整
+时间 
+每次调整过后采样
+一次 
+用于标定图像点扩
+散函数可能因主动
+光学调整发生变化
+的时间点 
+工程勤务数据产品 
+稳像模块工程参数 
+快摆镜的角度 
+曝光期间所有快摆
+用于图像的点扩散
+51 
+镜位置/角度采样数
+据 
+函数的变化 
+工程勤务数据产品 
+巡天模块遥测参数
+1553B 
+总控工作模式 
+曝光时采集一次 
+用于校验观测日志 
+工程勤务数据产品 
+热控模块遥测/工控
+参数 
+各镜面各测温点温
+度 
+每次曝光前、中、
+后至少各采样一次 
+用于后期校准图像
+点扩散函数进而校
+正图像和开展数据
+质量监控使用。 
+ 
+ 
+表 11. 主巡天需求 
+类型 
+数据来源
+（1553B，
+422……） 
+参数内容，单
+位，指标，是否需
+要绝对时间，时间
+单位 
+采样时机和频率 
+必要性分析 
+工程勤务数据产
+品 
+精密稳像模块工程
+数据 
+平台或设施姿态
+1553B 广播 
+导星时序广播数
+据表 + 平台姿态数
+据表+GPS 定位数据
+表。需求：1) 卫星
+平台位置误差：不
+大于16.8 公里（单
+倍中误差） 
+2) 卫星平台速度
+误差：不大于0.025
+米/ 秒（单倍中误
+差） 
+观测模式下，从
+曝光开始到结束的
+一系列位置、姿态
+信息，数据点间隔
+时间不应大于50
+秒，数据包括曝光
+开始前最近一次和
+曝光结束后最近一
+次的位置、姿态信

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "LiteBIRD是哪个国家开发的？", "answer": "LiteBIRD由日本开发。"},
+    {"question": "LiteBIRD的主要目标是什么？", "answer": "LiteBIRD的主要目标是观测原初引力波在宇宙微波背景辐射中产生的B模偏振。"},
+    {"question": "LiteBIRD计划首次航天飞行是在什么时候？", "answer": "LiteBIRD计划首次航天飞行是在2020年代中期。"},
+    {"question": "LiteBIRD的缩写含义是什么？", "answer": "LiteBIRD缩写自：Lite (Light) satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection。"},
+    {"question": "原初引力波在宇宙微波背景辐射中会留下什么印记？", "answer": "原初引力波会在宇宙微波背景辐射偏振分布中留下特殊的印记，即B模偏振。"},
+    {"question": "LiteBIRD计划测量什么比值以高精度观测微波背景？", "answer": "LiteBIRD计划以δr<0.001的精度测量全天的微波背景，其中r指的是张量-标量功率谱密度比（tensor-to-scalar ratio），即是暴涨期间度规的张量微扰和曲率微扰功率谱密度的比值。"},
+    {"question": "LiteBIRD项目有哪些国家的科学家团队合作设计？", "answer": "LiteBIRD项目由来自日本、欧洲、加拿大和美国的科学家团队合作设计。"},
+    {"question": "LiteBIRD计划在哪一年进行首次航天飞行？", "answer": "从文档中找不到具体哪一年的答案，但知道LiteBIRD计划首次航天飞行是在2020年代中期。"},
+    {"question": "测量B模偏振可以用来探测什么？", "answer": "测量B模偏振被认为是探测原初引力波最有效的方式。"},
+    {"question": "LiteBIRD的官方网站是什么？", "answer": "LiteBIRD的官方网站是litebird.jp。"}
+]
+```

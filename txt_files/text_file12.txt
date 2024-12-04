@@ -1,0 +1,697 @@
+HDU4 为数据元加权累计曝光时间，单位为秒（s）。HDU2、3、4 数据矩阵大
+小与HDU1 一致。
+HDU5 数据文件存储LSF 矩阵，矩阵大小为3*谱线数*CUBE 大小，3 中分别保
+存LSF 的σ，线心波长，误差。
+HDU6 数据文件存储权重矩阵，供用户自行计算协方差矩阵，权重矩阵大小为
+CUBE 像素数*叠加次数。
+HDU7 以table 形式存储参与叠加的RSS 的文件名。
+HDU1-7 的头文件只包含标准头文件关键字。
+20
+CUBE 数据中的COV 类型对象文件包含两层HDU，其中primary HDU 存储头文
+件，头文件内容同SCI 对象；HDU1 存储压缩后协方差数据矩阵，矩阵大小为4*n，n
+为协方差矩阵中非0 元素数量。每一行4 个元素分别为协方差值和三维位置信息。
+表13：IFS CUBE 数据SCI 类型对象中的MASK 标记位（CUBE_MASK）及对应特征。
+特征
+特征整数
+描述
+空数据元
+1
+未在任意一个RSS 中有探测
+坏数据元
+2
+在所有RSS 中不存在有效探
+测
+图6：IFS_CUBE 数据格式
+21
+差数据元
+4
+在该数据元中，其RSS 数据
+弥散与RSS 给出误差不匹配
+5.3.5
+星冕仪（CPIC）
+DR 文件对象包含多个HDU，其中primary HDU 只包含望远镜的观测信息，且继承自
+0 级数据，不进行任何改动。
+由于CPIC 数据的原始数据就为CUBE 形式，因此HDU1 之后的data 均为原始数据经
+过0-1 级流水线后的对应结果图像以及相对应的MASK 图像，其结构为[[结果图像]，
+[MASK 图像]]；MASK 图像，数据矩阵大小与结果图像一致，每个数据元用32 位二
+进制数进行特征标定，如果数据元存在某种特征，相应二进制位标记为一个二进制数。
+MASK 图像的二进制位值与对应的特征见表14；并且HDU1 之后的header 均需继承
+原始数据中的header。同时，根据DR 数据处理过程增加部分关键字（详见5.4 节）。
+表14：DR 数据中的MASK 图像的对应特征。
+特征
+特征整数
+描述
+坏数据元
+1
+因为探测器本身原因造成的不可用于有效科学研究的数据
+元，或数据元响应随机小于5%的平场数据对应数据元。
+热数据元
+2
+因为探测器本身原因造成的影响科学研究结果的数据元。数
+据元在300 秒积分时间内，暗流计数开方后大于探测器平均
+读出噪声
+暖数据元
+4
+因为探测器本身原因造成的影响科学研究结果的数据元。数
+据元在300 秒积分时间内，暗流计数开方后大于0.5 倍读出噪
+声，但小于1 倍读出噪声
+饱和溢出数
+据元
+8
+饱和数据元
+宇宙线数据
+元
+16
+宇宙线污染的数据元
+卫星拖尾数
+据元
+32
+卫星或者人造移动天体轨迹污染的数据元
+5.3.6
+高灵敏度太赫兹模块(HSTDM)
+高灵敏度太赫兹模块1 级数据产品文件包括校准处理类型数据CAL、质量控制
+数据QCP 和经DPL1 处理后的1 级科学数据PDP，三种文件对象，均为FITS 格式，
+符合标准fits 定义规范。
+CAL 文件对象包含3 层HDU（如图8 所示），其中primaryHDU 数据为空，头
+部header 部分包含继承自0 级数据的望远镜观测信息、CAL 文件子类型的数据格式说
+明信息。第二层HDU 扩展为CAL 文件子类型
+的相关头部与bintaleHDU 数据,第三层HDU 扩展为计算CAL 文件所采用了历史任务
+信息（history tasks)，第四层HDU 扩展为计算CAL 对应数据文件所采用的历史参数
+信息（history parameters)。
+QCP 文件对象包含2 层HDU,其中primaryHDU 数据为空，头部header 部分包含
+继承自0 级数据的望远镜观测信息，第二层HDU 扩展为QCP 的相关头部与
+bintableHDU 数据，第三层HDU 扩展为计算QCP 文件所采用了历史任务信息（history
+22
+tasks)，第四层HDU 扩展为计算QCP 对应数据文件所采用的历史参数信息（histoy
+parameters)。
+PDP 文件对象包含了n(n>1)层HDU，其中，primaryHDU 数据为空，头部header
+部分包含继承自0 级数据的望远镜观测信息。从第二层HDU 开始，每一层HDU 包含
+了一次观测积分操作（一个观测点）得到的频谱数据及接收机相关的硬件参数数据，
+观测信息等。
+5.4
+接口名称和项目识别号
+5.4.1
+接口需求
+数据对象在模块间传递应同时允许文件传递和数据流传递。
+5.4.2
+数据元素
+全局头文件关键字完全继承自0 级数据，原则上不再进行改动。其中keyword 列为元
+素唯一识别号，也是FITS 格式头文件的关键字，关键字由大写字母和数字组成，其
+中数字不可作为关键字的首字符，最多8 个字符。元素的描述在表的第二列，也是
+FITS 头文件每个关键字的注释。元素的物理单位也包含在第二列的注释中。第三列为
+元素的格式，其中L1（BOOL）表示为布尔型，可以是T 或F；I2（SMALLINT；
+INT16）是16bit 整型，I4（INT；INT32）是32bit 整型；R4（FLOAT）为单精度浮点
+型，R8（DOUBLE）为双精度浮点型；Cxx（CHAR）为字符串，其中xx 表示字符串
+的最大长度。第四列Remark 给出元素可能的值。（括号中为数据库对应数据格式的
+约定数字列类型）。
+(I) 主巡天多色成像1 级数据关键字
+表15：多色成像1 级数据HDU0 关键字
+key
+example
+fmt
+comment
+fill_value
+SIMPLE
+TRUE
+bool conforms to FITS
+standard
+BITPIX
+8
+int
+array data type
+NAXIS
+int
+number of array
+dimensions
+EXTEND
+TRUE
+bool
+NEXTEND
+1
+int
+number of array
+dimensions
+DATE
+2027-07-13T22:24:17
+str19 the date on which this
+file was written
+23
+FILENAME
+CSST_MSC_MS_SCIE
+_20270713222417_20270713222647
+_10160000066_06_L0_V01
+str68
+FILETYPE
+SCIE
+str4
+observation type
+TELESCOP
+CSST
+str4
+telescope used to
+acquire data
+INSTRUME
+MSC
+str3
+instrument used to
+acquire data
+RADECSYS
+ICRS
+str4
+reference coordinates
+system
+EQUINOX
+2000.0
+float
+FITSCREA
+1.0.5
+str5
+FITS create software
+version
+OBJECT
+60000066
+str8
+object name
+TARGET
+162019+394045
+str13 target name
+(hhmmss+ddmmss)
+OBSID
+10160000066
+str11 observation ID
+OBJ_RA
+245.078792
+float R.A. of the object
+(degrees)
+OBJ_DEC
+39.679069
+float declination of the
+object (degrees)
+REFFRAME
+CSSTGSC-1.0
+str11 guide star catalog
+version
+DATE-OBS
+2027-07-13T22:24:17
+str19 date of the observation
+(yyyy-mm-dd
+hh:mm:ss)
+SATESWV
+1
+str4
+software version in the
+satellite
+EXPSTART
+61599.93353
+float exposure start time
+(MJD)
+CABSTART
+61599.93353
+float (MJD)
+SUNANGL0
+50.0
+float angle between sun and
+opt axis at
+CABSTART
+MOONANG0 30.0
+float angle between moon
+and opt axis at
+CABSTART
+TEL_ALT0
+20.0
+float angle between opt axis
+and Elimb at
+CABSTART
+24
+POS_ANG0
+20.0
+float angle between y axis
+and NP at CABSTART
+POSI0_X
+4854.9011
+float the orbital position in
+X at CABSTART
+POSI0_Y
+-1110.85
+float the orbital position in
+Y at CABSTART
+POSI0_Z
+4567.3288
+float the orbital position in
+Z at CABSTART
+VELO0_X
+1.969908919754740
+float the orbital velocity in
+X at CABSTART
+VELO0_Y
+7.424480514030170
+float the orbital velocity in
+Y at CABSTART
+VELO0_Z
+-0.2871649019743930
+float the orbital velocity in
+Z at CABSTART
+EULER0_1
+float euler angle 1 at
+CABSTART
+EULER0_2
+float euler angle 2 at
+CABSTART
+EULER0_3
+float euler angle 3 at
+CABSTART
+RA_PNT0
+245.078792
+float RA of the pointing
+(degrees) at
+CABSTART
+DEC_PNT0
+39.679069
+float DEC of the pointing
+(degrees) at
+CABSTART
+EXPEND
+61599.93527
+float exposure end time
+(MJD)
+CABEND
+61599.93527
+float (MJD)
+SUNANGL1
+50.0
+float angle between sun and
+opt axis at CABEND
+MOONANG1 30.0
+float angle between moon
+and opt axis at
+CABEND
+TEL_ALT1
+20.0
+float angle between opt axis
+and Elimb at
+CABEND
+POS_ANG1
+20.0
+float angle between y axis
+and NP at CABEND
+POSI1_X
+float the orbital position in
+X at CABEND
+POSI1_Y
+float the orbital position in
+Y at CABEND
+25
+POSI1_Z
+float the orbital position in
+Z at CABEND
+VELO1_X
+float the orbital velocity in
+X at CABEND
+VELO1_Y
+float the orbital velocity in
+Y at CABEND
+VELO1_Z
+float the orbital velocity in
+Z at CABEND
+EULER1_1
+float euler angle 1 at
+CABEND
+EULER1_2
+float euler angle 2 at
+CABEND
+EULER1_3
+float euler angle 3 at
+CABEND
+RA_PNT1
+245.078792
+float RA of the pointing
+(degrees) at CABEND
+DEC_PNT1
+39.679069
+float DEC of the pointing
+(degrees) at CABEND
+EXPTIME
+150.0
+float exposure duration
+EPOCH
+2027.5
+float coordinate epoch
+CHECKSUM TjE6WjC5TjC5TjC5
+str16 HDU checksum
+DATASUM
+0
+str1
+data unit checksum
+表16: 多色成像1 级数据HDU1 关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str5
+Image extension
+BITPIX
+16
+int
+array data type
+NAXIS
+2
+int
+number of array dimensions
+NAXIS1
+2
+int
+NAXIS2
+2
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+26
+EXTNAME
+SCI
+str3
+EXTVER
+1
+int
+BUNIT
+e/s
+str3
+physical unit of array values
+CAMERA
+MS
+str2
+camera of main survey
+DETSN
+12345678
+str8
+detector serial number
+DETNAME
+CCD
+str3
+detector type
+DETTEMP1
+173.0
+float
+detector temperature at
+EXPSTART(in Kelvin)
+DETTEMP2
+173.0
+float
+detector temperature at EXPEND(in
+Kelvin)
+DETTEMP3
+173.0
+float
+detector temperature at READT1(in
+Kelvin)
+DETSIZE
+9560x9264
+str9
+detector size
+DATASECT
+9216x9232
+str9
+data section
+PIXSCAL1
+0.074
+float
+pixel scale for axis 1
+PIXSCAL2
+0.074
+float
+pixel scale for axis 2
+PIXSIZE1
+10
+int
+pixel size for axis 1 (in um)
+PIXSIZE2
+10
+int
+pixel size for axis 2 (in um)
+CHIPID
+6
+str2
+chip ID
+CHIPLAB
+y-1
+str3
+chip label
+FILTER
+y
+str1
+filter name
+NCHAN
+16
+int
+number of readout channels
+PSCAN1
+27
+int
+horizontal prescan width, per readout
+channel
+PSCAN2
+8
+int
+vertical prescan width, per readout
+channel
+OSCAN1
+16
+int
+horizontal overscan width,per readout
+channel
+27
+OSCAN2
+16
+int
+vertical overscan width,per readout
+channel
+WCSAXES
+2
+int
+number of World Coordinate System
+axes
+OTHERS
+str0
+GAINLVL
+1
+str2
+gain level
+GAIN01
+1.1
+float
+gain (channel 01)
+GAIN02
+1.1
+float
+gain (channel 02)
+GAIN03
+1.1
+float
+gain (channel 03)
+GAIN04
+1.1
+float
+gain (channel 04)
+GAIN05
+1.1
+float
+gain (channel 05)
+GAIN06
+1.1
+float
+gain (channel 06)
+GAIN07
+1.1
+float
+gain (channel 07)
+GAIN08
+1.1
+float
+gain (channel 08)
+GAIN09
+1.1
+float
+gain (channel 09)
+GAIN10
+1.1
+float
+gain (channel 10)
+GAIN11
+1.1
+float
+gain (channel 11)
+GAIN12
+1.1
+float
+gain (channel 12)
+GAIN13
+1.1
+float
+gain (channel 13)
+GAIN14
+1.1
+float
+gain (channel 14)
+GAIN15
+1.1
+float
+gain (channel 15)
+GAIN16
+1.1
+float
+gain (channel 16)
+RON01
+5.0
+float
+read noise (channel 01)
+RON02
+5.0
+float
+read noise (channel 02)
+28
+RON03
+5.0
+float
+read noise (channel 03)
+RON04
+5.0
+float
+read noise (channel 04)
+RON05
+5.0
+float
+read noise (channel 05)
+RON06
+5.0
+float
+read noise (channel 06)
+RON07
+5.0
+float
+read noise (channel 07)
+RON08
+5.0
+float
+read noise (channel 08)
+RON09
+5.0
+float
+read noise (channel 09)
+RON10
+5.0
+float
+read noise (channel 10)
+RON11
+5.0
+float
+read noise (channel 11)
+RON12
+5.0
+float
+read noise (channel 12)
+RON13
+5.0
+float
+read noise (channel 13)
+RON14
+5.0
+float
+read noise (channel 14)
+RON15
+5.0
+float
+read noise (channel 15)
+RON16
+5.0
+float
+read noise (channel 16)
+READT0
+2024-00-00T00:00:00
+str19 readout start time(UTC)
+READT1
+2024-00-00T00:00:00
+str19 readout end time(UTC)
+ROSPEED
+10.0
+float
+readout speed (in MHz)
+EXPTIME
+150.0
+float
+exposure duration
+DARKTIME
+152.0
+float
+dark current time
+SHTSTAT
+TRUE
+bool
+shutter status
+SHTOPEN0
+float
+shutter open time (begin)
+SHTOPEN1
+float
+shutter open time (end)
+29
+SHTCLOS0
+float
+shutter close time (begin)
+SHTCLOS1
+float
+shutter close time (end)
+LEDFLAG
+int
+main/backup LED
+LEDSTAT
+0
+str14 LED status
+LEDEXPT
+float
+LED flash time (s)
+LEDTEMP
+173.0
+float
+LED temperature (in K)
+CHECKSUM
+JeGLLZDIJdDIJZDI
+str16 HDU checksum
+DATASUM
+4222011024
+str10 data unit checksum
+VER_INST
+0.0.1
+str
+version of instrument processing
+STM_INST
+2023-06-
+18T14:32:07.164386
+str
+time stamp of instrument processing
+STA_INST
+int
+0=done 1=wrong
+STA_BIAS
+int
+status flag for bias frame correction
+STA_DARK
+int
+status flag for dark frame correction
+STA_FLAT
+int
+status flag for flat frame correction
+SKY_BKG
+0.03253846234689110
+float
+estimated sky background (e-/s per
+pixel)
+SKY_RMS
+0.03761961034615820
+float

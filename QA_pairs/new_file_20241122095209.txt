@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "NAXIS1在IFS CUBE HDU5中的值是多少？", "answer": "70"},
+    {"question": "IFS CUBE HDU5中的PCOUNT关键字代表什么？", "answer": "在IFS CUBE HDU5中，PCOUNT关键字表示伴随数据的参数数组的长度，其样例值是0，表示没有伴随数据的参数数组。"},
+    {"question": "IFS CUBE HDU6的EXTNAME是什么？", "answer": "IFS CUBE HDU6的EXTNAME是WEIGHT_MARTIX。"},
+    {"question": "IFS CUBE HDU7的TFIELDS值是多少？", "answer": "IFS CUBE HDU7的TFIELDS值是1。"},
+    {"question": "CPIC DR的HDU1中，BITPIX的数据类型是什么？", "answer": "CPIC DR的HDU1中，BITPIX的数据类型是16位的整数，表示数组数据类型。"},
+    {"question": "CPIC DR的HDU1中的EXTNAME是什么？", "answer": "CPIC DR的HDU1中的EXTNAME是IMAGE。"},
+    {"question": "CPIC DR的HDU1的DETNAME是什么？", "answer": "CPIC DR的HDU1的DETNAME是CCD201-20-EM。"},
+    {"question": "IMG_EXPT代表什么信息？", "answer": "IMG_EXPT代表图像帧曝光开始时间。"},
+    {"question": "在CPIC DR的HDU1中，CD1_1的值是多少？", "answer": "在CPIC DR的HDU1中，CD1_1的值是1。"},
+    {"question": "GAIN在CPIC DR的HDU1中代表什么？", "answer": "GAIN在CPIC DR的HDU1中代表增益，单位是电子/模拟数字单位(e-/ADU)。"}
+]
+```

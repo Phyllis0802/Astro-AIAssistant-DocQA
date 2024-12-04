@@ -1,0 +1,597 @@
+(km/s) 
+float 
+ 
+VELO1_Y 
+0 
+orbital velocity 
+in Y at 
+CABEND 
+(km/s) 
+float 
+ 
+VELO1_Z 
+0 
+orbital velocity 
+in Z at 
+CABEND 
+(km/s) 
+float 
+ 
+EULER1_1 
+0 
+Euler angle 1 at 
+CABEND 
+(deg) 
+float 
+ 
+EULER1_2 
+0 
+Euler angle 2 at 
+CABEND 
+(deg) 
+float 
+ 
+EULER1_3 
+0 
+Euler angle 3 at 
+CABEND 
+(deg) 
+float 
+ 
+RA_PNT1 
+244.972773 
+pointing RA at 
+CABEND 
+(deg) 
+float 
+the same as 
+RA_PNT0 
+DEC_PNT1 
+39.895901 
+pointing Dec at 
+CABEND 
+(deg) 
+float 
+the same as 
+DEC_PNT0 
+ 
+ 
+40 
+EPOCH 
+2024.6 
+equinox of 
+pointing RA 
+and Dec 
+float 
+ 
+EXPTIME 
+150 
+exposure time 
+(s) 
+float 
+EXPTIME 
+should be no 
+less than 0.0 
+CHECKSUM 
+QAWaQ8TXQ
+ATaQ7TU 
+HDU checksum 
+updated 2024-
+03-
+07T08:52:11 
+str 
+ 
+DATASUM 
+ 
+data unit 
+checksum 
+updated 2024-
+03-
+07T08:52:11 
+str 
+ 
+ 
+(II) 主巡天多⾊成像1 级数据关键字 
+表 15： 多⾊成像1 级数据HDU1 关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+image 
+extension 
+str 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+9216 
+ 
+int 
+ 
+NAXIS2 
+9232 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+IMAGE 
+extension name 
+str 
+ 
+EXTVER 
+1 
+extension 
+version number 
+int 
+ 
+ 
+ 
+41 
+BUNIT 
+electron/s 
+physical unit of 
+array values 
+str 
+ 
+COMMENT 
+===========
+===========
+===========
+===========
+===========
+===========
+====== 
+ 
+str72 
+ 
+CAMERA 
+MS 
+camera of main 
+survey 
+str2 
+ 
+DETSN 
+12345678 
+detector serial 
+number 
+str 
+ 
+DETNAME 
+CCD 
+detector type 
+str 
+ 
+DETTEMP1 
+173 
+detector 
+temperature at 
+EXPSTART 
+(K) 
+float 
+TEMP should 
+be no less than 
+0 and no more 
+than 300 
+DETTEMP2 
+173 
+detector 
+temperature at 
+EXPEND (K) 
+float 
+TEMP should 
+be no less than 
+0 and no more 
+than 300 
+DETTEMP3 
+173 
+detector 
+temperature at 
+READT1 (K) 
+float 
+TEMP should 
+be no less than 
+0 and no more 
+than 300 
+DETSIZE 
+20000x4700 
+detector size 
+str 
+ 
+DATASECT 
+9216x9232 
+data section 
+str 
+ 
+PIXSCAL1 
+0.074 
+pixel scale for 
+axis 1 
+(arcsec/pixel) 
+float 
+ 
+PIXSCAL2 
+0.074 
+pixel scale for 
+axis 2 
+(arcsec/pixel) 
+float 
+ 
+PIXSIZE1 
+10 
+pixel size for 
+axis 1 (micron) 
+int 
+ 
+PIXSIZE2 
+10 
+pixel size for 
+axis 2 (micron) 
+int 
+ 
+ 
+ 
+42 
+CHIPID 
+9 
+chip ID 
+str2 
+ 
+CHIPLABL 
+r-1 
+chip label 
+str 
+ 
+FILTER 
+r 
+filter name 
+str 
+ 
+NCHANNEL 
+16 
+number of 
+readout 
+channels 
+int 
+NCHAN 
+should be no 
+less than 1 
+PSCAN1 
+27 
+horizontal 
+prescan width, 
+per readout 
+channel 
+int 
+PSCAN1 
+should be no 
+less than 0 
+PSCAN2 
+8 
+vertical prescan 
+width, per 
+readout channel 
+int 
+PSCAN2 
+should be no 
+less than 0 
+OSCAN1 
+16 
+horizontal 
+overscan width, 
+per readout 
+channel 
+int 
+OSCAN1 
+should be no 
+less than 0 
+OSCAN2 
+16 
+vertical 
+overscan width, 
+per readout 
+channel 
+int 
+OSCAN2 
+should be no 
+less than 0 
+GAINLVL 
+1 
+gain level 
+str2 
+ 
+GAIN01 
+1.089977689 
+gain (e-/ADU, 
+channel 01) 
+float 
+ 
+GAIN02 
+1.09917562 
+gain (e-/ADU, 
+channel 02) 
+float 
+ 
+GAIN03 
+1.107649165 
+gain (e-/ADU, 
+channel 03) 
+float 
+ 
+GAIN04 
+1.121722215 
+gain (e-/ADU, 
+channel 04) 
+float 
+ 
+GAIN05 
+1.081220798 
+gain (e-/ADU, 
+channel 05) 
+float 
+ 
+GAIN06 
+1.094562729 
+gain (e-/ADU, 
+channel 06) 
+float 
+ 
+GAIN07 
+1.111430472 
+gain (e-/ADU, 
+channel 07) 
+float 
+ 
+ 
+ 
+43 
+GAIN08 
+1.105606424 
+gain (e-/ADU, 
+channel 08) 
+float 
+ 
+GAIN09 
+1.10187497 
+gain (e-/ADU, 
+channel 09) 
+float 
+ 
+GAIN10 
+1.085064047 
+gain (e-/ADU, 
+channel 10) 
+float 
+ 
+GAIN11 
+1.122187725 
+gain (e-/ADU, 
+channel 11) 
+float 
+ 
+GAIN12 
+1.114934178 
+gain (e-/ADU, 
+channel 12) 
+float 
+ 
+GAIN13 
+1.119336505 
+gain (e-/ADU, 
+channel 13) 
+float 
+ 
+GAIN14 
+1.09303619 
+gain (e-/ADU, 
+channel 14) 
+float 
+ 
+GAIN15 
+1.084334798 
+gain (e-/ADU, 
+channel 15) 
+float 
+ 
+GAIN16 
+1.090894538 
+gain (e-/ADU, 
+channel 16) 
+float 
+ 
+RON01 
+5 
+readout noise 
+(e-, channel 01) 
+float 
+ 
+RON02 
+5 
+readout noise 
+(e-, channel 02) 
+float 
+ 
+RON03 
+5 
+readout noise 
+(e-, channel 03) 
+float 
+ 
+RON04 
+5 
+readout noise 
+(e-, channel 04) 
+float 
+ 
+RON05 
+5 
+readout noise 
+(e-, channel 05) 
+float 
+ 
+RON06 
+5 
+readout noise 
+(e-, channel 06) 
+float 
+ 
+RON07 
+5 
+readout noise 
+(e-, channel 07) 
+float 
+ 
+RON08 
+5 
+readout noise 
+(e-, channel 08) 
+float 
+ 
+RON09 
+5 
+readout noise 
+(e-, channel 09) 
+float 
+ 
+ 
+ 
+44 
+RON10 
+5 
+readout noise 
+(e-, channel 10) 
+float 
+ 
+RON11 
+5 
+readout noise 
+(e-, channel 11) 
+float 
+ 
+RON12 
+5 
+readout noise 
+(e-, channel 12) 
+float 
+ 
+RON13 
+5 
+readout noise 
+(e-, channel 13) 
+float 
+ 
+RON14 
+5 
+readout noise 
+(e-, channel 14) 
+float 
+ 
+RON15 
+5 
+readout noise 
+(e-, channel 15) 
+float 
+ 
+RON16 
+5 
+readout noise 
+(e-, channel 16) 
+float 
+ 
+ROTIME0 
+2024-08-
+17T06:07:42.1 
+readout start 
+time (UTC) 
+str21 
+ 
+ROTIME1 
+2024-08-
+17T06:08:22.1 
+readout end 
+time (UTC) 
+str21 
+ 
+ROSPEED 
+10 
+readout speed 
+(MHz) 
+float 
+ 
+EXPTIME 
+150 
+exposure time 
+(s) 
+float 
+the EXPTIME 
+should be no 
+less than 0.0 
+DARKTIME 
+152 
+dark current 
+time (s) 
+float 
+the 
+DARKTIME 
+should be no 
+less than 0.0 
+SHTSTAT 
+TRUE 
+shutter status, 
+T=open, 
+F=close 
+bool 
+ 
+SHTOPEN0 
+2024-08-
+17T06:07:42.1 
+shutter open 
+time (start, 
+UTC) 
+str21 
+ 
+SHTOPEN1 
+2024-08-
+17T06:07:42.1 
+shutter open 
+time (end, 
+UTC) 
+str21 
+ 
+ 
+ 
+45 
+SHTCLOS0 
+2024-08-
+17T06:07:42.1 
+shutter close 
+time (start, 
+UTC) 
+str21 
+ 
+SHTCLOS1 
+2024-08-

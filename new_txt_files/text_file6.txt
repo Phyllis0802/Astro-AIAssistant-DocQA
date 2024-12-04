@@ -1,0 +1,762 @@
+PSCAN1
+27
+horizontal prescan width, per readout
+channel
+int
+PSCAN2
+0
+vertical
+prescan
+width,
+per
+readout
+channel
+int
+OSCAN1
+320
+horizontal overscan width, per readout
+channel
+int
+OSCAN2
+320
+vertical overscan width, per readout
+channel
+int
+BIN_X
+1
+bin number in X
+int
+BIN_Y
+1
+bin number in Y
+int
+WORLD COORDINATE SYSTEM INFORMATION
+WCSAXES
+2
+number of WCS axes
+int
+CRPIX1
+4607.5
+x-coordinate of reference pixel
+float
+CRPIX2
+4615.5
+y-coordinate of reference pixel
+float
+CRVAL1
+116.1808154
+value of reference pixel on axis 1
+float
+CRVAL2
+39.42316681
+value of reference pixel on axis 2
+float
+CTYPE1
+RA---TAN
+type of RA WCS projection
+str
+CTYPE2
+DEC--TAN
+type of Dec WCS projection
+str
+CD1_1
+-1.39E-05
+transformation matrix element (deg/pix)
+float
+CD1_2
+0.1
+transformation matrix element (deg/pix)
+float
+CD2_1
+0.1
+transformation matrix element (deg/pix)
+float
+CD2_2
+1.39E-05
+transformation matrix element (deg/pix)
+float
+38
+READOUT INFORMATION
+GAINLVL
+1.5
+gain level (e-/ADU)
+float
+GAIN01
+1.529999971
+CCD gain [channel 1] (e-/ADU)
+float
+GAIN02
+1.539999962
+CCD gain [channel 2] (e-/ADU)
+float
+GAIN03
+1.549999952
+CCD gain [channel 3] (e-/ADU)
+float
+GAIN04
+1.529999971
+CCD gain [channel 4] (e-/ADU)
+float
+GAIN05
+1.50999999
+CCD gain [channel 5] (e-/ADU)
+float
+GAIN06
+1.559999943
+CCD gain [channel 6] (e-/ADU)
+float
+GAIN07
+1.580000043
+CCD gain [channel 7] (e-/ADU)
+float
+GAIN08
+1.529999971
+CCD gain [channel 8] (e-/ADU)
+float
+GAIN09
+1.539999962
+CCD gain [channel 9] (e-/ADU)
+float
+GAIN10
+1.570000052
+CCD gain [channel 10] (e-/ADU)
+float
+GAIN11
+1.50999999
+CCD gain [channel 11] (e-/ADU)
+float
+GAIN12
+1.529999971
+CCD gain [channel 12] (e-/ADU)
+float
+GAIN13
+1.549999952
+CCD gain [channel 13] (e-/ADU)
+float
+GAIN14
+1.570000052
+CCD gain [channel 14] (e-/ADU)
+float
+GAIN15
+1.529999971
+CCD gain [channel 15] (e-/ADU)
+float
+GAIN16
+1.519999981
+CCD gain [channel 16] (e-/ADU)
+float
+RON01
+4.53000021
+readout noise [channel 01] (e-)
+float
+RON02
+4.539999962
+readout noise [channel 02] (e-)
+float
+RON03
+4.550000191
+readout noise [channel 03] (e-)
+float
+RON04
+4.53000021
+readout noise [channel 04] (e-)
+float
+RON05
+4.510000229
+readout noise [channel 05] (e-)
+float
+RON06
+4.559999943
+readout noise [channel 06] (e-)
+float
+RON07
+4.579999924
+readout noise [channel 07] (e-)
+float
+RON08
+4.53000021
+readout noise [channel 08] (e-)
+float
+39
+RON09
+4.539999962
+readout noise [channel 09] (e-)
+float
+RON10
+4.570000172
+readout noise [channel 10] (e-)
+float
+RON11
+4.510000229
+readout noise [channel 11] (e-)
+float
+RON12
+4.53000021
+readout noise [channel 12] (e-)
+float
+RON13
+4.550000191
+readout noise [channel 13] (e-)
+float
+RON14
+4.570000172
+readout noise [channel 14] (e-)
+float
+RON15
+4.53000021
+readout noise [channel 15] (e-)
+float
+RON16
+4.519999981
+readout noise [channel 16] (e-)
+float
+DETBIA01
+500.1
+amplifier bias grey value [channel 1]
+(ADU)
+float
+DETBIA02
+510.1
+amplifier bias grey value [channel 2]
+(ADU)
+float
+DETBIA03
+514.1
+amplifier bias grey value [channel 3]
+(ADU)
+float
+DETBIA04
+520.1
+amplifier bias grey value [channel 4]
+(ADU)
+float
+DETBIA05
+524.1
+amplifier bias grey value [channel 5]
+(ADU)
+float
+DETBIA06
+540.1
+amplifier bias grey value [channel 6]
+(ADU)
+float
+DETBIA07
+530.1
+amplifier bias grey value [channel 7]
+(ADU)
+float
+DETBIA08
+532.1
+amplifier bias grey value [channel 8]
+(ADU)
+float
+DETBIA09
+534.1
+amplifier bias grey value [channel 9]
+(ADU)
+float
+40
+DETBIA10
+526.1
+amplifier bias grey value [channel 10]
+(ADU)
+float
+DETBIA11
+532.1
+amplifier bias grey value [channel 11]
+(ADU)
+float
+DETBIA12
+516.1
+amplifier bias grey value [channel 12]
+(ADU)
+float
+DETBIA13
+540.1
+amplifier bias grey value [channel 13]
+(ADU)
+float
+DETBIA14
+560.1
+amplifier bias grey value [channel 14]
+(ADU)
+float
+DETBIA15
+536.1
+amplifier bias grey value [channel 15]
+(ADU)
+float
+DETBIA16
+528.1
+amplifier bias grey value [channel 16]
+(ADU)
+float
+ROSPEED
+100.1
+readout speed (MHz)
+float
+EXPOSURE AND SHUTTER INFORMATION
+EXPSTART
+60296.59285
+exposure start time (MJD)
+float
+EXPEND
+60296.59632
+exposure end time (MJD)
+float
+EXPTIME
+150.0
+exposure time (s)
+float
+DARKTIME
+300.100002
+dark current time (s)
+float
+SHTSTAT
+TRUE
+shutter status
+bool
+SATELLITE AND ITS ATTITUDE INFORMATION
+REFFRAME
+CSSTGSC-
+1.0
+guiding catalog version
+str
+SATESWV
+softwave-1.0
+satellite software version
+str
+CABSTART
+2460297.093
+first cabin time after exposure start
+float
+41
+(MJD)
+SUNANGL0
+0.1
+angle between the Sun and opt axis at
+CABSTART
+float
+MOONANG0
+0.1
+angle between the Moon and opt axis at
+CABSTART
+float
+TEL_ALT0
+0.1
+angle between opt axis and Elimb at
+CABSTART
+float
+POS_ANG0
+0.1
+angle between y axis and North Pole at
+CABSTART
+float
+POSI0_X
+-
+4803.159637
+orbital position in X at CABSTART
+(km)
+float
+POSI0_Y
+-
+1227.091939
+orbital position in Y at CABSTART
+(km)
+float
+POSI0_Z
+4607.171613
+orbital position in Z at CABSTART
+(km)
+float
+VELO0_X
+1.778552
+orbital velocity in X at CABSTART
+(km/s)
+float
+VELO0_Y
+-7.465439
+orbital velocity in Y at CABSTART
+(km/s)
+float
+VELO0_Z
+-0.127291
+orbital velocity in Z at CABSTART
+(km/s)
+float
+EULER0_1
+0.1
+Euler angle 1 at CABSTART (deg)
+float
+EULER0_2
+0.1
+Euler angle 2 at CABSTART (deg)
+float
+EULER0_3
+0.1
+Euler angle 3 at CABSTART (deg)
+float
+RA_PNT0
+116.1808154
+pointing RA at CABSTART (deg)
+float
+DEC_PNT0
+39.42316681
+pointing Dec at CABSTART (deg)
+float
+42
+CABEND
+2460297.096
+first cabin
+time after exposure end
+(MJD)
+float
+SUNANGL1
+0.1
+angle between the Sun and opt axis at
+CABEND
+float
+MOONANG1
+0.1
+angle between the Moon and opt axis at
+CABEND
+float
+TEL_ALT1
+0.1
+angle between opt axis and Elimb at
+CABEND
+float
+POS_ANG1
+0.1
+angle between y axis and North Pole at
+CABEND
+float
+POSI1_X
+-
+3995.852031
+orbital position in X at CABEND (km)
+float
+POSI1_Y
+-
+3345.938338
+orbital position in Y at CABEND (km)
+float
+POSI1_Z
+4295.494649
+orbital position in Z at CABEND (km)
+float
+VELO1_X
+3.482398
+orbital velocity in X at CABEND (km/s)
+float
+VELO1_Y
+-6.5599855
+orbital velocity in Y at CABEND (km/s)
+float
+VELO1_Z
+-1.8602305
+orbital velocity in Z at CABEND (km/s)
+float
+EULER1_1
+0.1
+Euler angle 1 at CABEND (deg)
+float
+EULER1_2
+0.1
+Euler angle 2 at CABEND (deg)
+float
+EULER1_3
+0.1
+Euler angle 3 at CABEND (deg)
+float
+RA_PNT1
+116.1808154
+pointing RA at CABEND (deg)
+float
+DEC_PNT1
+39.42316681
+pointing Dec at CABEND (deg)
+float
+EPOCH
+2024.6
+equinox of pointing RA and Dec
+float
+VERIFICATION INFORMATION
+CHECKSUM
+ZgDLdZ9I
+HDU
+checksum
+updated
+2024-03-
+str
+43
+ZdCIbZ9I
+07T08:52:11
+DATASUM
+4200979813
+data unit checksum updated 2024-03-
+07T08:52:11
+str
+表7. 0 级数据头文件关键字（IFS）
+RAW EXTENSION HEADER KEYWORDS
+keyword
+example
+comment
+dtype
+GENERAL KEYWORDS
+XTENSION
+IMAGE
+extension type
+str5
+BITPIX
+16
+bits per data value
+int
+NAXIS
+3
+number of data axies
+int
+NAXIS1
+3
+length of first data axis
+int
+NAXIS2
+9672
+length of second data axis
+int
+NAXIS3
+1344
+length of third data axis
+int
+PCOUNT
+0
+number of parameters
+int
+GCOUNT
+1
+number of groups
+int
+BSCALE
+1
+int
+BZERO
+32768
+int
+EXTNAME
+SCI
+str3
+EXTVER
+1
+int
+BUNIT
+ADU
+physical unit of array values
+str3
+INSTRUMENT INFORMATION
+CMIRRPOS
+FALSE
+position of calibration switch mirror
+bool
+44
+FLAMP
+0
+status of flat lamp
+int
+ALAMP
+0
+status of flat atomic emission line lamp
+int
+IFSMODE
+0
+IFS working mode
+int
+IFSTEMP
+0
+IFS components temperature in degC
+float
+IFSSTAT
+0
+IFS components status parameter
+int
+DETECTOR INFORMATION
+CAMERA
+Blue
+camera of IFS
+str
+DETSN
+CCD231-
+c4-00
+detector serial number
+str12
+DETNAME
+blue
+detector name
+str
+DETSIZE
+2048*4096
+detector size
+str
+DATASECT
+1024*8192
+data section
+str
+PIXSCAL1
+1344.0
+pixel scale for axis 1
+float
+PIXSCAL2
+9672.0
+pixel scale for axis 2
+float
+PIXSIZE1
+15.0
+pixel size for axis 1 (micron)
+float
+PIXSIZE2
+15.0
+pixel size for axis 2 (micron)
+float
+NCHAN
+4
+number of readout channels
+int
+PSCAN1
+50
+horizontal prescan width, per readout
+channel
+int
+PSCAN2
+0
+vertical
+prescan
+height,
+per
+readout
+channel
+int
+OSCAN1
+320
+horizontal overscan width, per readout
+channel
+int
+45
+OSCAN2
+320
+vertical overscan height, per readout
+channel
+int
+READOUT INFORMATION
+EXPT0_1
+2024-03-06
+T08:54:41.9
+exposure start time of the 1st frame
+(UTC)
+str21
+EXPT1_1
+2024-03-06
+T08:54:41.9
+exposure end time of the 1st frame
+(UTC)
+str21
+EXPT0_2
+2024-03-06
+T08:54:41.9
+exposure start time of the 2nd frame
+(UTC)
+str21
+EXPT1_2
+2024-03-06
+T08:54:41.9
+exposure end time of the 2nd frame
+(UTC)
+str21
+EXPT0_3
+2024-03-06
+T08:54:41.9
+exposure start time of the 3rd frame
+(UTC)
+str21
+EXPT1_3
+2024-03-06
+T08:54:41.9
+exposure end time of the 3rd frame
+(UTC)
+str21
+DETTEMP0
+0.0
+detector temperature at EXPT0_1 (K)
+float
+DETTEMP1
+0.0
+detector temperature at EXPT1_3 (K)
+float
+BIN_X
+1
+bin number in X (wavelength)
+int
+BIN_Y
+1
+bin number in Y (spatial)
+int
+GAIN1
+1.50999999
+CCD gain (e-/ADU, channel 1)
+float
+GAIN2
+1.580000043
+CCD gain (e-/ADU, channel 2)
+float
+GAIN3
+1.480000019
+CCD gain (e-/ADU, channel 3)
+float
+GAIN4
+1.549999952
+CCD gain (e-/ADU, channel 4)
+float
+DARK1
+0.0008
+CCD dark (e-/s, channel 1)
+float
+46
+DARK2
+0.00085
+CCD dark (e-/s, channel 2)
+float
+DARK3
+0.00088
+CCD dark (e-/s, channel 3)
+float
+DARK4
+0.00083
+CCD dark (e-/s, channel 4)
+float
+RON1
+4
+read noise (e-, channel 1)
+float
+RON2
+3.5
+read noise (e-, channel 2)
+float
+RON3
+4.5
+read noise (e-, channel 3)
+float
+RON4
+4.800000191
+read noise (e-, channel 4)
+float
+DETBIA1
+500.0
+amplifier bias voltage (ADU, channel1)
+float
+DETBIA2
+525.0
+amplifier bias voltage (ADU, channel2)
+float
+DETBIA3
+485.0
+amplifier bias voltage (ADU, channel3)
+float
+DETBIA4

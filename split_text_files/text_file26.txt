@@ -1,0 +1,470 @@
+均为原始数据经过0-1 级流⽔线后的对应结果图像以及相对应的MASK 图
+像，其结构为[[结果图像]， [MASK 图像]]；MASK 图像，数据矩阵⼤⼩
+与结果图像⼀致，每个数据元⽤32 位⼆进制数进⾏特征标定，如果数据
+元存在某种特征，相应⼆进制位标记为⼀个⼆进制数。MASK 图像的⼆
+进制位的具体数值与对应的特征见《CSST 科学数据处理系统定标参考数
+据结构设计说明》(KSC-00-JK-0004-01.01)中9.2 节关于 DQ Flags 的定
+义。；并且HDU1 之后的header 均需继承原始数据中的header。同时，根
+据DR 数据处理过程增加部分关键字（详见5.4 节）。 
+ 
+5.3.7 ⾼灵敏度太赫兹模块 (HSTDM) 
+ 
+⾼灵敏度太赫兹模块1 级数据产品⽂件包括科学数据SCI，处理过
+程中采⽤的辅助信息AUX，质量检查与控制数据QC 这三类⽂件，均为
+FITS 格式，符合标准fits 定义规范。 
+ 
+ 
+34 
+ 
+科学数据SCI ⽂件对象包含2 层HDU，其中primaryHDU 数据为
+空，primaryHDU header 部分完全继承⾃0 级ONS 类型数据信息、第⼆层
+扩展HDU绝⼤部分也继承⾃ONS类型数据的 extended HDU的相关头部。 
+ 
+AUX ⽂件对象包含1 层HDU, 数据部分保存着处理过程中采⽤的
+具体辅助信息（包括了BLK、OFF 点数据点选择处理参数，定标数据⽂
+件信息等），QC ⽂件包含两层HDU,分别保存着0 级数据进⾏QC0 处理
+的详细信息，1 级数据进⾏QC1 处理的详细信息。每⽣成的⼀个L1 SCI
+数据伴随这⼀个AUX 和⼀个QC ⽂件。 
+ 
+5.4 
+接⼜名称和项⽬识别号 
+5.4.1 接⼜需求 
+数据对象在模块间传递应同时允许⽂件传递和数据流传递。 
+ 
+5.4.2 数据元素 
+全局头⽂件关键字完全继承⾃0 级数据，原则上不再进⾏改动。其中
+keyword 列为元素唯⼀识别号，也是FITS 格式头⽂件的关键字，关键字
+由⼤写字母和数字组成，其中数字不可作为关键字的⾸字符，最多8 个字
+符。第⼆列example 给出元素可能的值（括号中为数据库对应数据格式的
+约定数字列类型）。元素的描述在表的第三列，也是FITS 头⽂件每个关
+键字的注释。元素的物理单位也包含在第三列的注释中。第四列为元素
+的格式，可能是布尔型（BOOL），可以是T 或F；整型INT 是64bit 整
+型，FLOAT 为64bit 浮点型，STR 为字符串，其中xx 表⽰字符串的最⼤
+长度。第五列位元素的部分解释。 
+ 
+ 
+ 
+ 
+35 
+ 
+(I) 不同模块的公共HDU0 关键字 
+表14：后端模块1 级数据HDU0 关键字 （公共部分） 
+key 
+example 
+comment 
+dtype 
+notes 
+SIMPLE 
+TRUE 
+conforms to 
+FITS standard 
+bool 
+ 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+0 
+number of 
+array 
+dimensions 
+int 
+the NAXIS of 
+HDU0 should 
+be always 0 
+EXTEND 
+TRUE 
+ 
+bool 
+ 
+NEXTEND 
+1 
+number of 
+array 
+dimensions 
+int 
+ 
+DATE 
+2024-08-
+17T06:05:12.0 
+written date 
+(yyyy-mm-
+ddThh:mm:ss.s
+) 
+str21 
+ 
+FILENAME 
+CSST_MSC_M
+S_SCI_202408
+17060512_202
+40817060742_
+10160100000_
+09_L0_V01 
+ 
+str 
+ 
+FILETYPE 
+SCI 
+observation 
+type 
+str 
+ 
+TELESCOP 
+CSST 
+telescope name 
+str4 
+the TELESCOP 
+should be 
+always 'CSST' 
+INSTRUME 
+MSC 
+instrument 
+name 
+str3 
+the 
+INSTRUME 
+should be 
+always 'MSC' 
+RADECSYS 
+ICRS 
+coordinate 
+system of the 
+object 
+str 
+ 
+EQUINOX 
+2000 
+ 
+float 
+ 
+ 
+ 
+36 
+FITSSWV 
+2.1.0_2023120
+8_wcl-5 
+FITS creating 
+software 
+version 
+str 
+ 
+COMMENT 
+===========
+===========
+===========
+===========
+===========
+===========
+====== 
+ 
+str72 
+ 
+OBJECT 
+60000000 
+object name 
+str 
+ 
+TARGET 
+161953.0+3953
+45 
+target name 
+(hhmmss.s+dd
+mmss) 
+str15 
+ 
+OBSID 
+10160100066 
+observation ID 
+str 
+ 
+RA_OBJ 
+244.972773 
+object RA 
+(deg) 
+float 
+RA should be 
+no less than 0.0 
+and no more 
+than 360.0 
+DEC_OBJ 
+39.895901 
+object Dec 
+(deg) 
+float 
+Dec should be 
+no less than -
+90.0 and no 
+more than 90.0 
+REFFRAME 
+CSSTGSC-1.0 
+guiding catalog 
+version 
+str 
+ 
+DATE-OBS 
+2024-08-
+17T06:05:12.0 
+observation 
+date (yyyy-
+mm-
+ddThh:mm:ss.s
+) 
+str21 
+ 
+SATESWV 
+1 
+satellite 
+software 
+version 
+str 
+ 
+EXPSTART 
+60539.25361 
+exposure start 
+time (MJD) 
+float 
+the vmin value 
+of the MJD is 
+2023-01-01 
+CABSTART 
+60539.25361 
+first cabin time 
+after exposure 
+start (MJD) 
+float 
+the vmin value 
+of the MJD is 
+2023-01-01 
+ 
+ 
+37 
+SUNANGL0 
+50 
+angle between 
+the Sun and opt 
+axis at 
+CABSTART 
+float 
+SUNANGL0 
+should be no 
+less than 0.0 
+and no more 
+than 180.0 
+MOONANG0 
+30 
+angle between 
+the Moon and 
+opt axis at 
+CABSTART 
+float 
+MOONANG0 
+should be no 
+less than 0.0 
+and no more 
+than 180.0 
+TEL_ALT0 
+20 
+angle between 
+opt axis and 
+Elimb at 
+CABSTART 
+float 
+TEL_ALT0 
+should be no 
+less than 0.0 
+and no more 
+than 90.0 
+POS_ANG0 
+20 
+angle between 
+y axis and 
+North Pole at 
+CABSTART 
+float 
+POS_ANG0 
+should be no 
+less than 0.0 
+and no more 
+than 180.0 
+POSI0_X 
+-2218.3663 
+orbital position 
+in X at 
+CABSTART 
+(km) 
+float 
+ 
+POSI0_Y 
+-5817.8559 
+orbital position 
+in Y at 
+CABSTART 
+(km) 
+float 
+ 
+POSI0_Z 
+2597.9467 
+orbital position 
+in Z at 
+CABSTART 
+(km) 
+float 
+ 
+VELO0_X 
+5.058199026 
+orbital velocity 
+in X at 
+CABSTART 
+(km/s) 
+float 
+ 
+VELO0_Y 
+-3.858187999 
+orbital velocity 
+in Y at 
+CABSTART 
+(km/s) 
+float 
+ 
+ 
+ 
+38 
+VELO0_Z 
+-4.322908628 
+orbital velocity 
+in Z at 
+CABSTART 
+(km/s) 
+float 
+ 
+EULER0_1 
+0 
+Euler angle 1 at 
+CABSTART 
+(deg) 
+float 
+ 
+EULER0_2 
+0 
+Euler angle 2 at 
+CABSTART 
+(deg) 
+float 
+ 
+EULER0_3 
+0 
+Euler angle 3 at 
+CABSTART 
+(deg) 
+float 
+ 
+RA_PNT0 
+244.972773 
+pointing RA at 
+CABSTART 
+(deg) 
+float 
+RA should be 
+no less than 0.0 
+and no more 
+than 360.0 
+DEC_PNT0 
+39.895901 
+pointing Dec at 
+CABSTART 
+(deg) 
+float 
+DEC should be 
+no less than -
+90.0 and no 
+more than 90.0 
+EXPEND 
+60539.25535 
+exposure end 
+time (MJD) 
+float 
+the vmin value 
+of the MJD is 
+2023-01-01 
+CABEND 
+60539.25535 
+first cabin time 
+after exposure 
+end (MJD) 
+float 
+the vmin value 
+of the MJD is 
+2023-01-01 
+SUNANGL1 
+50 
+angle between 
+the Sun and opt 
+axis at 
+CABEND 
+float 
+the same as 
+SUNANGL0 
+MOONANG1 
+30 
+angle between 
+the Moon and 
+opt axis at 
+CABEND 
+float 
+the same as 
+MOONANG0 
+TEL_ALT1 
+20 
+angle between 
+opt axis and 
+Elimb at 
+CABEND 
+float 
+the same as 
+TEL_ALT0 
+ 
+ 
+39 
+POS_ANG1 
+20 
+angle between 
+y axis and 
+North Pole at 
+CABEND 
+float 
+the same as 
+POS_ANG0 
+POSI1_X 
+0 
+orbital position 
+in X at 
+CABEND (km) 
+float 
+ 
+POSI1_Y 
+0 
+orbital position 
+in Y at 
+CABEND (km) 
+float 
+ 
+POSI1_Z 
+0 
+orbital position 
+in Z at 
+CABEND (km) 
+float 
+ 
+VELO1_X 
+0 
+orbital velocity 
+in X at 
+CABEND 
+(km/s) 
+float 
+ 
+VELO1_Y 
+0 
+orbital velocity

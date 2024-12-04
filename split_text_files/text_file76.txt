@@ -1,0 +1,191 @@
+最后，
+理论上讲，
+大尺度结构的相谱也可以给出对原初非高斯性
+的限制。但是做出可靠的相谱分析是困难的，需要详细的研究。 
+ 
+ 
+参考文献： 
+Abe, S., et al., KamLAND Collaboration, 2008, Phys. Rev. Lett. 100, 
+221803 
+Ade, P. A. R., et al., Planck Collaboration, 2016, A&A 594, A13 
+Adhikari S., Sakstein J., Jain B., Dalal N., Li B., 2018, JCAP, 2018, 033 
+Aghanim, N. et al. [Planck Collaboration], 2018, arXiv: 1807.06209 
+Akrami, Y. et al. [Planck Collaboration], 2018, arXiv: 1807.06211 
+Akrami, Y. et al. [Planck Collaboration], 2019, arXiv: 1905.05697 
+An. F. P., et al.，Daya Bay Collaboration，2014, Phys. Rev. D, 90, 071101 
+Andrade, V.C.D. et al., 2000,  
+Araki, T., et al., KamLAND Collaboration ,2005, Phys. Rev. Lett. 94, 
+081801 
+Ashie, Y., et al., Super-Kamiokande Collaboration, 2005, Phys. Rev. D 71, 
+112005 
+Balantekin, A.B. G., Fuller, M., 2013, Prog. Part. Nucl. Phys. 71, 162 
+Balantekin, A.B., Haxton, W.C. , 2013, Prog. Part. Nucl. Phys. 71, 150 
+Bannister, K.W. et al., 2019, Science, 365, 565 
+Bernardeau, F. et al. 2002, Phys. Rep., 367, 1. 
+Beutler, F., et al., Mon. Not. R. 2014, Astron. Soc. 444, 3501 
+119 
+ 
+Cai, Y.F. et al., 2015, Reports on Progress in Physics, 2015, 79, 106901 
+Caldwell, R.R., 2002, Phys. Lett. B, 545, 23 
+Caminha, G.B. et al., 2017, A&A, 607, 93 
+Champion, D.J. et al., 2016, MNRAS, 460, 30 
+Chen, Y., et al., 2016, ApJ,, 829, 61 
+Chen, Y. et al. 2019, ApJ, MNRAS, 488, 3745 
+Chitov, G.Y., et al., 2011, Phys. Rev. D 83, 045033 
+Clowe, D. et al., 2006, ApJ, 648, 109 
+Cohen et al. 2006, ApJ, 639, 731 
+Collett, T.E., 2015, ApJ, 811, 20 
+Cordes, J.M. & Chatterjee, S., 2019, ARA&A, 57, 417 
+Dai, L. & Miralda-Escude, J., 2019, arXiv: 1908.01773 
+Dalal, N. et al. 2008, Phys. Rev. D., 77, 123514 
+Dawson, K. S., et al., 2016, Astron. J. 151, 44  
+Dawson, R. et al., 2012, ApJ, 474L, 42 
+de Andrade, V.C. et al., 2000, arXiv:gr-qc/0011087 
+Del Popolo, A., 2012, MNRAS, 424, 38 
+Del Popolo, A., 2014, JCAP, 07, 019 
+Ding, X.H., et al., 2017, MNRAS, 465, 4634 
+Dong, F.Y. et al, 2019, ApJ, 874, 7 
+Dong, F.Y. et al., 2019, ApJ, 883, 155  
+Elbert, O.D. et al., 2015, MNRAS, 453, 29 
+Fan, Z.H., 2018, 42nd COSPAR Scientific Assembly, E1.16-9-18 
+Fan, Z.H., et al. 2010, ApJ, 719, 1408 
+Faure, C. et al., 2008, ApJS, 176, 19 
+Feng, B. et al., 2005, Phys. Lett. B, 607, 35 
+Fogli, G.L.,et al., Prog. 2006, Part. Nucl. Phys. 57,742 
+Fu, L.P. et al., 2014, MNRAS, 441, 2725 
+Fukuda, Y., et al. Super-Kamiokande Collaboration, 1998, PhRvL, 81, 
+1562 
+Futamase, T. & Yoshida, S., 2001, Progress of Theoretical Physics, 105, 
+120 
+ 
+887 
+Gao, L. et al. 2012, MNRAS, 425, 2169 
+Goldstein, D.A., et al., 2018, ApJ, 855, 22 
+Gong, Y. et al., 2019, ApJ, 883, 203 
+Gu, P. & Bi, X.-J., 2004, Phys. Rev. D 70, 063511 
+Hallinan, G., et al. 2019, arXiv:1907.07648 
+Hannestad, S. 2005, PhRvL, 95, 221301 
+Hannestad, S., 2010, Prog. Part. Nucl. Phys. 65, 185 
+Harvey, D. et al., 2015, Science, 347, 1462 
+He, Q.H. et al., 2019, arXiv:1907.01680 
+Hildebrandt, H. et al., 2017, MNRAS, 465, 1454 
+Huang, Z. et al., 2012, JCAP, 1204, 005 
+Huterer, D. & Starkman, G., 2003, Phy. Rev. Lett., 90, 031301 
+Joudaki, S. , & Kaplinghat, M., 2012, Phys.Rev.D 86, 023526 
+Kaiser, N., 1987, MNRAS, 227, 1 
+Kamionkowski, M. ,. Kosowsky, A ., 1999, Annu. Rev. Nucl. Part. Sci. 
+49,77 
+Kaurov, A. A. et al., 2019, ApJ, 880, 58 
+Kilbinger, M. & Schneider, P., 2005, A&A, 442, 69 
+Lesgourgues, J., & Pastor, S., 2006, Phys. Rep. 429, 307 
+Laureijs R. et al., 2011, arXiv:1110.3193 
+Lesgourgues, J., & Pastor, S., 2012, Adv. High Energy Phys. 2012, 608515 
+Li, Z.X. et al., 2018, Nature Communications, 9, 3833 
+Liao, K. et al., 2015, ApJ, 800, 11 
+Liu, X.K., et al., 2015, MNRAS, 450, 2888 
+Liu, X.K. et al., 2016, Phys. Rev. Lett, 117, 051101 
+Lombriser L., Schmidt F., Baldauf T., Mandelbaum R., Seljak U., Smith 
+R. E., 2012, PhRvD, 85, 102001 
+Lorimer, D.R. et al., 2007, Science, 318, 777 
+Maltoni, M., et al., 2004, New J. Phys. 6 , 122 
+Maluf, J.W., 2013, Annalen der Physic, 2013, 525, 339 
+121 
+ 
+Markevitch, M. et al., 2004, ApJ, 606, 819 
+Martinet et al. 2019, A&A, 627， 59 
+Martizzi, D. et al., 2013, MNRAS, 432, 1947 
+Massey, R. et al., 2011, MNRAS, 413, 1709 
+Massey, R. et al., 2015, MNRAS, 449, 3393 
+Massey, R. et al., 2018, MNRAS, 477, 669 
+Mead, J.M. et al., 2010, MNRAS, 406, 434 
+Navarro, J.F. et al., 1997, ApJ, 490, 493 
+Navarro, J.F. et al., 2010, MNRAS,402, 21 
+Newman, A.B. et al., 2013, ApJ, 765, 24 
+Newman, A.B. et al., 2013, ApJ, 765, 25 
+Oguri, M., 2010, Astrophysics Source Code Library, record asci: 1010.012 
+Oguri, M., 2019, arXiv; 1907.06830 
+Palanque-Delabrouille, N., et al., 2015, J. Cosmol. Astropart. Phys. 02, 
+045 
+Peirani, S. et al., 2008, A&A, 479, 123 
+Perlmutter, S. et al. 1999, ApJ, 517, 565 
+Petroff, E. et al., 2016, PASA, 33, 45 
+Platts, E., et al., 2019, Phys. Rep., 821, 1 
+Ratra, B., & Peebles, P.J.E., 1988, 37, 3406 
+Ravi, V. et al., 2019, Nature, 572, 352 
+Riess, A. et al. 1998, AJ,116, 1009 
+Riess, A. et al., 2007, ApJ, 659, 98 
+Robertson, A. et al., 2017a, MNRAS, 465, 569 
+Robertson, A. et al., 2017b, MNRAS, 467, 4719 
+Rocha, M. et al., 2013, MNRAS, 430, 81 
+Sand, D.J. et al., 2008, ApJ, 674, 711 
+Schaller, M. et al., 2015, MNRAS, 453, 58 
+Shan, H.Y. et al. 2018, MNRAS, 474, 1116 
+Singh S., Mandelbaum R., Seljak U., Rodriguez-Torres S., Slosar A., 2020, 
+MNRAS, 491, 51 
+122 
+ 
+Sokolenko, A. et al., 2018, JCAP, 12, 038 
+Spergel, D. & Steinhardt, P.J., 2000, Phys. Rev. Lett., 84, 3760 
+Thornton, D. et al., 2013, Science, 341, 53 
+Treu, T., 2010, ARA&A, 48, 87 
+Treu, T. & Marshall, P.J., 2016, The Astronomy and Astrophysics Review, 
+24, 11 
+Weinberg, S., 1989, Rev. Mod. Phys., 61, 1 
+Wen Z. L., Han J. L., Liu F. S., 2012, ApJS, 199, 34 
+Yuan, S. et al., 2019, ApJ, 884, 164 
+Zhao, G.-B., et al., 2007, J. Cosmol. Astropart. Phys. 0707, 010 
+Zhao, G.-B., et al., 2013, MNRAS 436:2038-2053 
+Zhao, G.-B. et al., 2017, Nature Astronomy, 1, 627 
+Zhan, H., 2018, 42nd COSPAR Scientific Assembly, E1.16-4-18 
+Zhang P., Liguori M., Bean R., Dodelson S., 2007, PhRvL, 99, 141302 
+Zu Y., Weinberg D.～H., 2013, MNRAS, 431, 3319 
+Zu Y., Weinberg D.～H., Jennings E., Li B., Wyman M., 2014, MNRAS, 
+445, 1885 
+ 
+ 
+123 
+ 
+ 
+5.2. 星系和活动星系核 
+概述： 
+星系是构成宇宙的基本单元，
+也是宇宙学研究的基本元素。
+星系的形成和演化是现代天文学最核心的内容之一，
+但它同时
+又非常庞大复杂。
+另外，
+近20年来天文领域的一个重要发现是，
+证实了近邻星系中心普遍存在大质量黑洞，
+并且其质量和星系
+性质紧密相关，即协同演化。本领域将充分利用空间站望远镜
+独特性能，
+即大天区、
+多波段、
+高空间分辨率、
+无缝光谱覆盖、
+多历元观测、多台终端等，并结合当前和未来一段时间内国内
+和国际上的一些先进设备，
+去探索星系和活动星系核及其中心
+超大质量黑洞的各种性质及它们的宇宙学演化。 
+利用CSST研究星系和活动星系核的一些重要科学课题如下。
+首先利用高空间分辨率数据对大样本星系和活动星系核的结
+构和形态进行精细刻画。
+利用多色测光和无缝光谱建立完备的
+中高红移星系样本，
+以研究它们的宇宙学演化及不同尺度下环
+境对星系形成与演化的影响。联合MCI模块超深场多色成像数
+据及国际上未来空间望远镜红外数据，
+深入探讨极高红移星系
+并利用它们的性质来理解宇宙再电离过程。最后，建立庞大的
+类星体和活动星系核样本，详细刻画它们的物理性质、中心大
+质量黑洞形成和吸积、它们与寄主星系的协同演化等。 
+ 
+5.2.1. 星系形态和结构 
+1. 研究背景和意义 
+星系的形态表征着星系的内部结构以及其演化阶段，
+其与星系的
+初始状态、
+弥散程度、
+宇宙环境、
+大尺度潮汐力场、
+并合或吸积历史、

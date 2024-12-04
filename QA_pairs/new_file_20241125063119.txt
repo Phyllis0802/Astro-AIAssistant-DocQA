@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "NuSTAR的NSSDC ID是什么？", "answer": "NuSTAR"},
+    {"question": "NuSTAR是由哪个组织机构负责的？", "answer": "NASA/JPL"},
+    {"question": "NuSTAR的主要制造商是谁？", "answer": "ATK太空系统-高勒塔轨道科学公司"},
+    {"question": "NuSTAR的发射日期是什么时候？", "answer": "2012年6月13日，16:00:37（UTC）"},
+    {"question": "NuSTAR的发射地点在哪里？", "answer": "瓜加林环礁"},
+    {"question": "NuSTAR的任务时长是多少年？", "answer": "2年"},
+    {"question": "NuSTAR的望远镜类型是什么？", "answer": "近似锥形沃尔特一型望远镜（掠射望远镜）"},
+    {"question": "NuSTAR观测的波段是哪个范围？", "answer": "相当于5-80 keV"},
+    {"question": "NuSTAR计划的主持人是谁？", "answer": "加州理工学院的菲奥娜·哈里逊（Fiona Harrison）"},
+    {"question": "NuSTAR的主要科学目标是什么？", "answer": "深度探索质量超过太阳十亿倍的黑洞，并了解粒子在活动星系核如何被加速到光速的百分之几，以及研究超新星残骸以了解重元素如何在超新星中形成。"}
+]
+```

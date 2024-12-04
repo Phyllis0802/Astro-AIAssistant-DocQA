@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "全局头文件关键字中的'SIMPLE'表示什么？", "answer": "表示符合FITS标准。"},
+    {"question": "表3中的'BITPIX'关键字的数据类型是什么？", "answer": "int"},
+    {"question": "'FILENAME'关键字的示例值是什么？", "answer": "CSST_MSC_MS_SCI_20240817060512_20240817060742_10160100000_09_L0_V01"},
+    {"question": "在表3中，'TELESCOP'的含义是什么？", "answer": "望远镜名称"},
+    {"question": "'RA_OBJ'关键字的物理单位是什么？", "answer": "度(deg)"},
+    {"question": "表4中的'EXPTIME'表示什么？", "answer": "曝光时间(s)"},
+    {"question": "'CHECKSUM'关键字属于哪一类信息？", "answer": "校验和信息"},
+    {"question": "在表4的'DETECTOR INFORMATION'中，'DETNAME'的值是什么？", "answer": "CCD"},
+    {"question": "'PIXSCAL1'的含义及其单位是什么？", "answer": "表示轴1的像素比例，单位是弧秒/像素(arcsec/pixel)"},
+    {"question": "表4中的'CRPIX1'代表什么？", "answer": "表示参考像素的x坐标"}
+]
+```

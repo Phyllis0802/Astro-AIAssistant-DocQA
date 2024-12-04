@@ -1,0 +1,64 @@
+```json
+[
+    {
+        "content": "HDU4中存储的数据类型及其单位是什么？",
+        "summary": "HDU4 为数据元加权累计曝光时间，单位为秒（s）。"
+    },
+    {
+        "content": "HDU2、3、4的数据矩阵大小与哪个HDU一致？",
+        "summary": "HDU2、3、4 数据矩阵大小与HDU1 一致。"
+    },
+    {
+        "content": "HDU5中存储的LSF矩阵包含哪三个方面的信息？",
+        "summary": "HDU5 数据文件存储LSF 矩阵，矩阵大小为3*谱线数*CUBE 大小，3 中分别保存LSF 的σ，线心波长，误差。"
+    },
+    {
+        "content": "HDU6的数据文件主要存储什么类型的矩阵？",
+        "summary": "HDU6 数据文件存储权重矩阵，供用户自行计算协方差矩阵，权重矩阵大小为CUBE 像素数*叠加次数。"
+    },
+    {
+        "content": "HDU7存储了什么样的文件名？",
+        "summary": "HDU7 以table 形式存储参与叠加的RSS 的文件名。"
+    },
+    {
+        "content": "COV类型对象文件中的primary HDU存储了什么内容？",
+        "summary": "COV 类型对象文件中primary HDU 存储头文件，头文件内容同SCI 对象。"
+    },
+    {
+        "content": "HDU1在COV类型对象文件中存储了什么？",
+        "summary": "COV 类型对象文件中HDU1 存储压缩后协方差数据矩阵。"
+    },
+    {
+        "content": "表13中提到的IFS CUBE数据SCI类型对象中的MASK标记位是什么？",
+        "summary": "IFS CUBE 数据SCI 类型对象中的MASK 标记位（CUBE_MASK）用于标识不同的特征，如空数据元、坏数据元、差数据元等。"
+    },
+    {
+        "content": "表14描述了哪种数据的MASK图像的对应特征？",
+        "summary": "表14 描述了DR 数据中的MASK 图像的对应特征，包括坏数据元、热数据元、暖数据元、饱和溢出数据元、宇宙线数据元和卫星拖尾数据元等。"
+    },
+    {
+        "content": "DR文件中包含多少个HDU？",
+        "summary": "从文档中无法直接找到DR文件中包含多少个HDU的确切数字，但提到DR 文件对象包含多个HDU。"
+    },
+    {
+        "content": "在DR数据中，HDU1之后的data主要包含什么内容？",
+        "summary": "在DR 数据中，HDU1 之后的data 均为原始数据经过0-1 级流水线后的对应结果图像以及相对应的MASK 图像。"
+    },
+    {
+        "content": "HSTDM的1级数据产品文件包括哪三种文件对象？",
+        "summary": "HSTDM 的1 级数据产品文件包括校准处理类型数据CAL、质量控制数据QCP 和经DPL1 处理后的1 级科学数据PDP，三种文件对象。"
+    },
+    {
+        "content": "QCP文件对象包含几层HDU？",
+        "summary": "QCP 文件对象包含2 层HDU。"
+    },
+    {
+        "content": "表15中的\"SIMPLE\"关键字在FITS头文件中代表什么？",
+        "summary": "\"SIMPLE\" 关键字在FITS 头文件中代表该文件符合FITS 标准。"
+    },
+    {
+        "content": "HDU0的关键字\"OBJ_RA\"和\"OBJ_DEC\"分别代表了什么信息？",
+        "summary": "HDU0 的关键字\"OBJ_RA\" 和\"OBJ_DEC\" 分别代表了目标的天球赤道坐标系下的赤经（R.A.）和赤纬（declination）信息，单位为度。"
+    }
+]
+```

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "ROSPEED的值是多少？", "answer": "ROSPEED的值是10000 (MHz)。"},
+    {"question": "LS_STAT表示什么状态？", "answer": "LS_STAT表示激光状态(lazer status)，其值为OFF。"},
+    {"question": "IWA的单位是什么？", "answer": "IWA的单位是度(deg)，表示CPIC的内工作角(inner working angle)。"},
+    {"question": "WFSINFO1代表什么方向的残差？", "answer": "WFSINFO1代表x方向的残差，是CPIC波前传感器的残差。"},
+    {"question": "CHECKSUM的数据类型是什么？", "answer": "CHECKSUM的数据类型是str16，表示HDU校验和。"},
+    {"question": "V_QC0表示什么版本？", "answer": "V_QC0表示qc0的版本，数据类型为str。"},
+    {"question": "T_QC0的数据类型是什么？", "answer": "T_QC0的数据类型是str23，表示qc0操作时间。"},
+    {"question": "I_BKG代表什么值？", "answer": "I_BKG代表暗区总噪声的平均值(mean value of total noise of dark zone)，数据类型为float。"},
+    {"question": "R_GAIN指的是什么？", "answer": "R_GAIN指的是增益校正的参考图像文件的名称，数据类型为str。"},
+    {"question": "HSTDM数据文件的XTENSION关键字表示什么？", "answer": "HSTDM数据文件的XTENSION关键字表示图像扩展类型(Image extension)，数据类型为str5。"}
+]
+```

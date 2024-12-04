@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "Astrosat是由哪个组织机构发射的？", "answer": "Astrosat是由印度空间研究组织（ISRO）发射的。"},
+    {"question": "Astrosat的发射日期是什么时候？", "answer": "Astrosat的发射日期是2015年9月28日。"},
+    {"question": "Astrosat的发射地点在哪里？", "answer": "Astrosat的发射地点在印度斯里赫里戈达岛萨迪什·达万航天中心第一发射台。"},
+    {"question": "Astrosat的质量是多少？", "answer": "Astrosat的质量是1650公斤。"},
+    {"question": "Astrosat的轨道高度是多少？", "answer": "Astrosat的轨道高度是650 km（400 mi）。"},
+    {"question": "Astrosat搭载了多少项设备？", "answer": "Astrosat搭载的科学仪器总共有六项，包括UVIT紫外线成像望远镜、SXT软X射线望远镜、LAXPCX射线计时与低分辨率光谱研究设备、CZTI硬X射线成像仪、SSM扫描天空监测器和CPM带电粒子监测器。但注意，在前面的信息中提到的是五项设备，这可能是因为某些信息更新或分类方式的不同，但根据提供的详细资料，应为六项。"},
+    {"question": "Astrosat的主要科学任务有哪些？", "answer": "Astrosat的主要科学任务集中在如下领域：可同时监测宇宙中电磁辐射源在多个不同波段的强度变化；监测是否有新的X射线瞬变现象发生；硬X射线与紫外线巡天；X射线联星、活动星系核、超新星遗迹、星系团与星冕的宽波段光谱研究；X射线源期性与非周期性光度变化。"},
+    {"question": "Astrosat的科学仪器总重量是多少？", "answer": "Astrosat的科学仪器总重量为1513公斤。"},
+    {"question": "Astrosat计划的地面指令与控制中心在哪里？", "answer": "Astrosat计划的地面指令与控制中心是位于班加罗尔的印度空间研究组织遥测、跟踪和指挥网络（ISTRAC）。"},
+    {"question": "有哪些研究单位参与了Astrosat研究计划？", "answer": "参与了Astrosat研究计划的研究单位有印度空间研究组织、塔塔基础研究院（孟买）、印度天文物理研究所（班加罗尔）、拉曼研究所（班加罗尔）、校际天文及天体物理学中心（浦那）、巴巴原子研究中心（孟买）、玻色国家基础科学中心（加尔各答）、加拿大太空局和莱斯特大学。"}
+]
+```

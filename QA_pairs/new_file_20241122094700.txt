@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "ASTIRMS1代表什么测量值的RMS？", "answer": "ASTIRMS1代表内部高信噪比下的色散RMS（Root Mean Square，均方根）测量值。"},
+    {"question": "ASTRRMS1的数值是多少？", "answer": "ASTRRMS1的数值是0.053421501。"},
+    {"question": "ASTSIM的关键字表示什么？", "answer": "ASTSIM的关键字表示MCI天体测量学的正常图像分类。"},
+    {"question": "ASTREF使用的是什么参考目录？", "answer": "ASTREF使用的是Gaia dr3 v01参考目录，用于MCI天体测量学。"},
+    {"question": "DELT_RA表示什么变化？", "answer": "DELT_RA表示中心赤经（RA）的变化。"},
+    {"question": "ZP代表什么在光度学中的值？", "answer": "ZP代表光度学中的零点星等值。"},
+    {"question": "MCI subtraction数据文件HDU0头文件中SIMPLE的值是什么？", "answer": "MCI subtraction数据文件HDU0头文件中SIMPLE的值是TRUE，表示符合FITS标准。"},
+    {"question": "文件名CSST_MCI_C1_EXDF_20231218141341_20231218141841_20100000001_07_L0_V01在哪个关键字下？", "answer": "文件名CSST_MCI_C1_EXDF_20231218141341_20231218141841_20100000001_07_L0_V01在FILENAME关键字下。"},
+    {"question": "OBSID代表什么？", "answer": "OBSID代表观测ID。"},
+    {"question": "EXPTIME的数值范围有何要求？", "answer": "从文档中找不到答案"}
+]
+```

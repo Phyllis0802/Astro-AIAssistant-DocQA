@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "S_OVSCAN的状态值是多少？", "answer": "0"},
+    {"question": "R_GAIN代表什么？", "answer": "R_GAIN代表参考增益，类型为字符串(str)。"},
+    {"question": "S_CTI的状态是什么？", "answer": "1"},
+    {"question": "R_CRS代表什么方法和配置？", "answer": "R_CRS代表cosmic rays mask的方法和配置，即深度宇宙射线模型(deepCR_model)。"},
+    {"question": "SATURATE的值是多少？", "answer": "365.9759"},
+    {"question": "CTYPE1表示什么类型的WCS投影？", "answer": "CTYPE1表示RA的WCS投影类型为RA---TPV。"},
+    {"question": "CRVAL1的值是多少？", "answer": "265.1950933"},
+    {"question": "CD1_1代表什么？", "answer": "CD1_1代表转换矩阵元素，单位是度/像素(deg/pix)，值为-8.17E-06。"},
+    {"question": "PV1_0是哪个类型的参数？", "answer": "PV1_0是投影畸变参数，类型为浮点数(float)。"},
+    {"question": "ASTRRMS1的值是多少？", "answer": "21.05490505"}
+]
+```

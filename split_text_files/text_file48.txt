@@ -1,0 +1,644 @@
+ROSPEED 
+10000 
+readout speed 
+(MHz) 
+float 
+ 
+LS_STAT 
+OFF 
+lazer status 
+str3 
+ 
+IWA 
+0.2 
+inner working 
+angle of CPIC 
+(deg) 
+float 
+ 
+WFSINFO1 
+0 
+x-direction 
+residuals of 
+WFS of CPIC 
+float 
+ 
+ 
+ 
+169 
+WFSINFO2 
+0 
+y-direction 
+residuals of 
+WFS of CPIC 
+float 
+ 
+CHECKSUM 
+U5EIa3BHW3
+BHa3BH 
+HDU checksum 
+updated 2023-
+05-
+19T09:08:15 
+str16 
+ 
+DATASUM 
+3033118449 
+data unit 
+checksum 
+updated 2023-
+05-
+19T09:08:15 
+str10 
+ 
+COMMENT 
+===========
+===========
+===========
+===========
+===========
+===========
+====== 
+ 
+str72 
+ 
+V_QC0 
+0.1 
+version of qc0 
+str 
+ 
+T_QC0 
+2024-03-
+06T06:11:43.04
+2 
+qc0 operation 
+time 
+str23 
+ 
+S_QC0 
+0 
+qc0 status 
+(0/1/2) 
+int 
+ 
+QC0_FLAG 
+4106 
+qc0 status in 
+bitmask(2**n, 
+n>2) 
+int 
+ 
+V_INST 
+0.1 
+version of 
+instrument 
+correction of 
+CPIC 
+str 
+ 
+T_INST 
+2024-03-
+06T06:11:43.04
+2 
+time of last 
+instrument 
+correction 
+str23 
+ 
+S_INST 
+0 
+status of 
+instrument 
+correction 
+int 
+ 
+ 
+ 
+170 
+I_BKG 
+-1 
+mean value of 
+total noise of 
+dark zone 
+float 
+ 
+I_RMS 
+-1 
+std value of 
+total noise of 
+dark zone 
+float 
+ 
+S_OVSCAN 
+0 
+status flag for 
+overscan 
+correction 
+int 
+ 
+S_GAIN 
+0 
+status flag for 
+gain correction 
+int 
+ 
+R_GAIN 
+file 
+reference image 
+for gain 
+str 
+ 
+S_BIAS 
+0 
+status flag for 
+bias frame 
+correction 
+int 
+ 
+R_BIAS 
+sci/no_emgain/
+Bias.fits 
+reference image 
+for bias 
+str23 
+ 
+M_BIAS 
+0.019635759 
+mean value of 
+bias reference 
+image 
+float 
+ 
+STD_BIAS 
+0.507064521 
+std value of 
+bias reference 
+image 
+float 
+ 
+S_CTI 
+0 
+status flag for 
+CTI correction 
+int 
+ 
+R_CTI 
+sci/no_emgain/
+CTE.fits 
+reference image 
+for CTI 
+str22 
+ 
+V_CTI 
+-1 
+value of 
+vertical CTI 
+float 
+ 
+H_CTI 
+-1 
+value of 
+horizontal CTI 
+float 
+ 
+S_DARK 
+0 
+status flag for 
+dark frame 
+correctionn 
+int 
+ 
+R_DARK 
+sci/no_emgain/
+Dark_10s.fits 
+reference image 
+for dark 
+str27 
+ 
+ 
+ 
+171 
+M_DARK 
+-0.032445394 
+mean value of 
+dark reference 
+image 
+float 
+ 
+STD_DARK 
+0.507778347 
+std value of 
+dark reference 
+image 
+float 
+ 
+NUM_BP 
+2 
+number of bad 
+pixel 
+int 
+ 
+S_NLIN 
+0 
+status flag for 
+non-linear 
+correction 
+int 
+ 
+R_NLIN 
+sci/no_emgain/
+Nonlin.fits 
+reference table 
+for non-linear 
+str25 
+ 
+S_FLAT 
+0 
+status flag for 
+flat frame 
+correction 
+int 
+ 
+R_FLAT 
+sci/no_emgain/
+Flat.fits 
+reference image 
+for flat 
+str23 
+ 
+M_FLAT 
+0.55555 
+mean value of 
+flat reference 
+image 
+float 
+ 
+STD_FLAT 
+0.55555 
+std value of flat 
+reference image 
+float 
+ 
+S_CRS 
+0 
+status flag for 
+cosmic rays 
+mask 
+int 
+ 
+R_CRS 
+lacosmic 
+method and 
+config file for 
+cosmic rays 
+str 
+ 
+CRCOUNT 
+50 
+cosmic rays 
+pixel counts 
+int 
+ 
+S_SAT 
+0 
+status flag for 
+satellite 
+correction 
+int 
+ 
+R_SAT 
+file 
+reference image 
+for satellite 
+str4 
+ 
+ 
+ 
+172 
+R_BKG 
+sci/no_emgain/
+background.fits 
+name of 
+background 
+reference file 
+str29 
+ 
+SKY_BKG 
+0 
+estimated sky 
+background (e-
+/s per pixel) 
+float 
+ 
+SKY_RMS 
+0 
+standard dev of 
+frame 
+background (e-
+/s) 
+float 
+ 
+SATURATE 
+500 
+flux limit of 
+saturated pixel 
+(e-/s) 
+int 
+ 
+SP_NUM 
+2 
+number of 
+saturated pixels 
+int 
+ 
+V_QC1 
+0.1 
+version of qc1 
+str 
+ 
+T_QC1 
+2024-03-
+06T06:11:43.04
+2 
+qc1 operation 
+time 
+str23 
+ 
+S_QC1 
+0 
+qc1 status 
+(0/1/2) 
+int 
+ 
+FLAG1 
+0 
+normal pixels 
+int 
+ 
+FLAG2 
+1 
+bad pixels 
+int 
+ 
+FLAG3 
+2 
+hot pixels 
+int 
+ 
+FLAG4 
+4 
+warm pixels 
+int 
+ 
+FLAG5 
+8 
+saturated pixels 
+int 
+ 
+FLAG6 
+16 
+pixels 
+contaminated 
+by cosmic ray 
+int 
+ 
+FLAG7 
+32 
+pixels 
+contaminated 
+by sputnik 
+int 
+ 
+ 
+(VI) ⾼灵敏度太赫兹1 级数据关键字 
+ 
+ 
+173 
+表44: HSTDM 数据⽂件HDU1 头⽂件(header)关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+Image 
+extension 
+str5 
+ 
+BITPIX 
+-64 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+2 
+ 
+int 
+ 
+NAXIS2 
+16384 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+TELESCOP 
+CSST 
+name of 
+telescope 
+str4 
+ 
+INSTRUME 
+HSTDM 
+name of 
+module 
+str5 
+ 
+OBJECT 
+M51 
+name of target 
+str3 
+ 
+EXPTIME 
+150 
+exposure time 
+length(s) 
+int 
+ 
+EXPSTART 
+2459767 
+exposure start 
+time 
+float 
+ 
+RA_OBJ 
+13.49797167 
+Right 
+ascension(Degr
+ees) 
+float 
+ 
+DEC_OBJ 
+47.19525833 
+Declination(De
+grees) 
+float 
+ 
+DETECTOR 
+0 
+dector index 
+0,1 
+int 
+ 
+REFRA 
+0 
+Reference of 
+RA 
+float 
+ 
+REFDEC 
+0 
+Reference of 
+DEC 
+float 
+ 
+ 
+ 
+174 
+EQUINOX 
+2000 
+J2000 
+float 
+ 
+LINE 
+12CO(4-3) 
+name of 
+spectral line 
+str9 
+ 
+BUNIT 
+K 
+unit of spectral 
+line 
+str1 
+ 
+DATAMIN 
+-1000 
+min value of 
+data 
+float 
+ 
+DATAMAX 
+1000 
+max value of 
+data 
+float 
+ 
+RESTFREQ 
+46104800000 
+rest frequency 
+of signal,unit of 
+Hz 
+float 
+ 
+IMAGFREQ 
+45984800000 
+image 
+frequency of 
+signal,unit of 
+Hz 
+float 
+ 
+VLSR 
+900 
+velocity of 
+spectral line 
+refering to LSR 
+frame 
+float 
+ 
+DELTAV 
+0 
+delta velocity 
+of spectral line 
+float 
+ 
+BEAMEFF 
+1 
+Beam effection 
+of telescope 
+float 
+ 
+FORWEFF 
+1 
+Forward 
+effection of 
+telescope 
+float 
+ 
+GAINIMAG 
+1 
+Gain of 
+imaging 
+sideband 
+float 
+ 
+TCAL 
+260 
+Temperature of 
+calibrator,unit 
+of K 
+float 
+ 
+TSYS 
+200 
+Temperature of 
+receiver 
+system,unit of 
+K 
+float 
+ 
+ 
+ 
+175 
+I_SIS 
+2.5 
+Current of SIS 
+bias,unit of uA 
+float 
+ 
+V_SIS 
+3 
+Voltage of SIS 
+bias,unit of mV 
+float 
+ 
+I_LNA 
+5 
+Current of Low 
+noise 
+amplifier,unit 
+of mA 
+float 
+ 
+V_LNA 
+3 
+Voltage of Low

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "VELO1_Y的关键字表示什么？", "answer": "orbital velocity in Y at CABEND (km/s)"},
+    {"question": "EULER1_1的数据类型是什么？", "answer": "float"},
+    {"question": "RA_PNT1的值是多少度？", "answer": "244.972773度"},
+    {"question": "EXPTIME的最小值是多少秒？", "answer": "EXPTIME的最小值应不少于0.0秒，具体数值根据内容中给出的示例为150秒，但这是一个示例值，最小值仍为0.0秒。"},
+    {"question": "多⾊成像1级数据HDU1的BITPIX代表什么？", "answer": "array data type"},
+    {"question": "DETTEMP1的温度单位是什么？", "answer": "K(开尔文)"},
+    {"question": "PIXSCAL1的数值是多少？", "answer": "0.074 arcsec/pixel"},
+    {"question": "GAINLVL的增益级别有几个字符？", "answer": "2个字符"},
+    {"question": "RON01的读出噪声是多少e-？", "answer": "5 e-"},
+    {"question": "SHTSTAT为TRUE表示什么状态？", "answer": "表示快门状态为打开(T=open)"}
+]
+```

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "phot_bp_mean_mag的数据类型是什么？", "answer": "str16"},
+    {"question": "phot_rp_mean_mag的显示格式是怎样的？", "answer": "F12.3"},
+    {"question": "phot_g_mean_flux的单位是什么？", "answer": "count s-1"},
+    {"question": "phot_bp_mean_flux_error的字段长度是多少？", "answer": "从文档中找不到答案"},
+    {"question": "raMean的单位是什么？", "answer": "deg"},
+    {"question": "decMean的显示精度是多少？", "answer": "F18.9"},
+    {"question": "gMeanPSFMagErr是什么的缩写？", "answer": "从文档中找不到答案，但字段名是gMeanPSFMag的误差的缩写"},
+    {"question": "rMeanPSFMag的数据类型是什么？", "answer": "str11"},
+    {"question": "iMeanPSFMagErr的单位是什么？", "answer": "mag"},
+    {"question": "LSST_u_PSFmag的显示格式是怎样的？", "answer": "F12.3"}
+]
+```

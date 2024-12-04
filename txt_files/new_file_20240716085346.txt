@@ -1,0 +1,57 @@
+```json
+[
+    {
+        "content": "一级数据处理过程中除了释放的数据文件外还包含哪些文件？",
+        "summary": "一级数据处理过程中除了释放的数据文件以外，还包含了一系列处理过程中产生的中间文件及临时文件。"
+    },
+    {
+        "content": "数据处理释放文件的存储路径是怎样的？",
+        "summary": "数据处理的释放文件存储的文件路径为：CSST_L1/HSTDM/OBSID/SCI/子目录（CAL、QCP、或PDP）/文件名。"
+    },
+    {
+        "content": "CSST_HSTDM_CAL_context_*_*.fits文件包含哪些内容？",
+        "summary": "CSST_HSTDM_CAL_context_*_*.fits文件包含一级数据文件生成过程中涉及的所有数据文件索引表，所产生数据的时间段内太赫兹模块具体的工作模式时序列表（工作模式包括正常观测、OFF点校准，冷热负载校准），处理流程历史信息。"
+    },
+    {
+        "content": "CSST_HSTDM_PDP_*_L1_*_*_*_obsid.fits是什么类型的文件？",
+        "summary": "CSST_HSTDM_PDP_*_L1_*_*_*_obsid.fits是对科学观测任务obsid的0级数据进行一级数据处理DRP1处理后得到的频谱数据（没有经过baseline removal以及standing wave removal）的TABLE数据（存档）文件。"
+    },
+    {
+        "content": "CSST_HSTDM_QCP_*_*_*.fits文件包含哪些数据？",
+        "summary": "CSST_HSTDM_QCP_*_*_*.fits文件包含对应obsid频谱数据处理过程中的质量检测QC1数据。"
+    },
+    {
+        "content": "什么是定标参考数据，它主要用于什么？",
+        "summary": "定标参考数据是不同类型的后端模块和不同的pipeline处理步骤所使用的参考文件，它包含有记录该参考文件相关信息的关键字，如参考文件的类型，制作时间、方法、人员，使用条件关键字等，主要用于校准和修正观测数据。"
+    },
+    {
+        "content": "多色成像1级数据中的图像文件对象接口与0级数据有何关系？",
+        "summary": "多色成像1级数据中的图像文件对象接口与0级数据一致，包括图像、权重和特征位文件对象，结构和接口相同，数据来源于0级数据并经过一系列改正和拼接。"
+    },
+    {
+        "content": "图像数据(image data)在1级数据中是如何构成的？",
+        "summary": "图像数据在1级数据中通常构成二维的datacube矩阵，来源于0级数据，并经过overscan改正、bias改正、平场改正等操作，矩阵数值发生改变，并按照空间排布说明完成拼接。"
+    },
+    {
+        "content": "无缝光谱1级科学数据产品文件格式是什么？",
+        "summary": "无缝光谱1级科学数据产品文件格式为MEF格式，包含primary HDU、SCI图像、ERR数据和DQ数据三个扩展（HDU）。"
+    },
+    {
+        "content": "ERR数据中的error值是如何计算的？",
+        "summary": "ERR数据中的error值对于常规观测曝光是通过公式计算得出，其中涉及SCI图像、bias改正和平场改正等。对于Bias曝光，error值则是直接基于读出噪声给出。"
+    },
+    {
+        "content": "多通道成像仪(MCI)的1级数据中的图像文件对象接口与0级数据的关系是什么？",
+        "summary": "多通道成像仪(MCI)的1级数据中的图像文件对象接口与0级数据一致，包括图像、权重和特征位文件对象，其结构和接口相同，数据来源于0级数据并经过相应处理。"
+    },
+    {
+        "content": "积分视场光谱仪(IFS)的1级数据产品文件包括哪两组文件对象？",
+        "summary": "积分视场光谱仪(IFS)的1级数据产品文件包括RSS和CUBE两组文件对象，均为FITS格式。"
+    },
+    {
+        "content": "IFS的RSS文件对象包含多少层HDU？",
+        "summary": "IFS的RSS文件对象包含4层HDU，包括primary HDU、三维光谱datacube矩阵、噪声误差和MASK图像。"
+    },
+    {
+        "content": "IFS的RSS数据对象HDU3中的MASK标记位如何与特征对应？",
+        "summary": "IFS的RSS数据对象HDU3中的MASK标记位通过32位二进制数进行特征标定，每种特征对应一个特定的二进制位，表12列出了MASK标记位

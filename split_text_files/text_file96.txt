@@ -1,0 +1,195 @@
+5. 精确描绘近邻星系金属丰度分布函数，
+构建其年龄-金属丰度关系，
+发现近邻星系中的化学子结构，
+研究其集成与演化历史等。
+我们将细
+致分析近邻星系中不同年龄星族的金属丰度的分布，还可以结合
+LAMOST、SDSSV以及未来MSE和Subaru PFS等大型光谱深度巡天数据，
+分析近邻星系星族的运动学与金属丰度的关系，
+研究近邻星系不同组
+分的起源和化学演化历史，发现动力学过程遗迹和化学子结构等。 
+ 
+211 
+ 
+5.3.4. 银河系及其近邻星系的消光规律 
+1. 研究背景和意义 
+    星际空间充斥着总量占星系质量约10%的气体（原子、分子和离
+子）和尘埃（固体微粒）
+，遥远天体发出的电磁辐射被星际尘埃吸收
+和散射，使得星光强度减弱，便产生了我们所熟知的星际消光。对消
+光规律的研究是还原天体真实光度和色指数以及了解星际尘埃性质
+的重要手段，
+对星际尘埃颗粒模型的建立和检验以及恒星测光距离的
+测量至关重要。 
+    虽然银河系中从紫外到中红外的消光规律已经得到了大量研究，
+但由于紫外巡天数据的缺乏以及在紫外波段存在的严重消光，
+银河系
+紫外消光规律在不同视线上的变化仍缺乏细致研究，
+同时也缺乏紫外
+波段的二维/三维消光图。河外星系的距离较为遥远，除了本星系群
+内较近的LMC、SMC、M31和M33等外，从地球上观测都很难分辨出星系
+中的恒星。虽然近年来的研究为我们提供了部分较高信噪比的LMC、
+SMC的消光曲线，
+也获得了M31少数视线方向的消光规律，
+但由于消光
+探针（恒星）的缺乏，这些近邻可分辨恒星星系中不同区域的紫外-
+近红外消光规律并不完备，
+从而限制了我们对相应星系中星际尘埃分
+布的理解，
+更不清楚消光规律是如何随不同的星系环境而变化的、
+以
+及不同星系中星际尘埃的分布和性质到底有何不同。 
+ 
+图5.3.6 M31、LMC、SMC和银河系消光曲线的比较(Li et al. 2014)。 
+212 
+ 
+ 
+2. 研究内容和预言结果 
+    空间站CSST望远镜可以进行从紫外到近红外进行多波段高精度
+测光观测，深度到25等，具有非常高的空间分辨率，PSF～0.15”；
+同时可进行从紫外到近红外的R～250的无缝光谱观测，
+极限星等可达
+21-22等。光学舱天文台项目的独特优势（高空间分辨率、高测光精
+度、波段覆盖从近红外到近紫外、～R250无缝光谱数据）使得我们可
+以1）构建银河系NUV/u波段的二维/三维消光图，研究尘埃在银晕中
+的分布及性质，研究紫外消光规律在不同视线方向上的变化；2）细
+致研究LMC、SMC和M31中从NUV到y波段的消光规律及其变化，以及星
+系中的尘埃分布和尺寸特性；3）研究消光曲线在不同星系环境（金
+属丰度、星系类型、星系结构）中的不同变化，并利用尘埃颗粒模型
+来解释这些消光曲线，限制尘埃的物理、化学性质。 
+ 
+围绕上述研究内容，我们开展了一系列预研究，包括： 
+1）
+研究了结合CSST测光数据与无缝光谱数据确定恒星内秉色指数
+从而测量恒星消光的精度，
+我们预期能获得数千万颗恒星的高精度消
+光，
+精度1%左右，
+为后续研究银河系尘埃的分布与性质奠定了坚实的
+基础。 
+2）
+利用LAMOST数据研究了尘埃在银晕中的分布，
+发现银晕中存在
+非常多的尘埃，可能占银河系总尘埃含量的20%。我们预期空间站数
+据能对更大空间内银晕中尘埃云的分布、
+性质进行精细的刻画，
+结合
+其它数据对其起源提供重要约束，
+为理解星系中的物质循环提供新的
+视角。 
+3）利用LAMOST数据、GAIA和PAndASd等数据，我们结合GALEX、
+SWIFT/UVOT紫外测光数据，
+对银河系的紫外消光规律进行了预研，
+精
+确测量了GALEX的2个波段（Sun et al. 2018）
+、UVOT的3个紫外波段
+的消光系数，
+以及GALEX的2个波段的消光分布。
+我们预期未来空间站
+巡天数据能对银河系的紫外消光规律随空间、
+环境的变化情况开展系
+统地、
+高精度地刻画，
+为理解银河系尘埃的性质及变化提供关键约束。
+ 
+213 
+ 
+ 
+图5.3.7 GALEX的NUV和FUV波段消光值(Sun et al. 2018)。 
+ 
+4) 利用LAMOST数据，结合HST测光数据和紫外光谱，我们挑选O、
+B型巨星为消光探针，
+采用Tlusty恒星大气模型
+（Lanz & Hubeny 2003）
+作为恒星的内禀能谱，建立硅酸盐+石墨尘埃模型预先批量计算模型
+消光曲线，利用比对方法初步研究了M31的消光规律。这一方法能够
+同时获得对应视线方向上
+（或所在天区）
+的消光规律及星际尘埃的尺
+寸分布等信息。
+我们将利用未来空间站巡天的数据，
+同时使用这一改
+进的比对方法和内禀颜色法(Wang & Jiang, 2014)，预期将能获得
+M31等近邻可分辨星系中多个视线方向的消光规律，以及星系中的尘
+埃分布和尺寸特性。 
+ 
+ 
+参考文献： 
+Bird et al. 2019, AJ, 157,104B 
+Carney, B. W., & Seitzer, P. 1993, AJ, 105, 2127 
+Fontaine, G. , Brassard, P. , Bergeron, P. , 2001, PASP, 113, 409 
+Frebel, Anna; Norris, John E. et al. 2015, ARA&A, 53,631F 
+Garcia-Berro, E., Oswalt,T. D., 2016, New Astronomy Reviews, 72–74,1 
+Gentile, Fusillo N. P. et al., 2017, MNRAS, 469, 621 
+Grabelsky, D. A., Cohen, R. S., Bronfman, L., Thaddeus, P., & May, J. 
+1987, ApJ, 315, 122 
+Guo, Q., et al., 2019, NatAs.tmp.493 
+214 
+ 
+Harris, Hugh C., Liebert, James, Kleinman, S. J., 2003. An Initial Survey 
+of White Dwarfs in the Sloan Digital Sky Survey, 126(2), 1023-1040 
+Ibata, R. A., Gilmore, G., & Irwin, M. J. 1994, Nature, 370, 194 
+Ibata, R. A., Gilmore, G., & Irwin, M. J. 1995, MNRAS, 277, 781 
+Ishiyama et al. 2016, ApJ, 826,9 
+Ivezić, Željko et al. 2019, ApJ, 873,111 
+Kaiser, N., Burgett, W., Chambers, K., et al. 2010, Proc. SPIE, 7733, 
+77330E 
+Kerr, F. J. 1957, AJ, 62, 93 
+Lanz, T., & Hubeny, I. 2003, ApJS, 146, 417 
+Li, A., Wang, S., & Gao, J., et al. 2014, in the Local Group，Lessons from 
+the local group, eds. Kenneth Freeman, Bruce Elmegreen, David Block, 
+Springer, pp 85-103, England 
+López-Corredoira, M., Cabrera-Lavers, A., Garzón, F. et al. 2002, A&A, 
+394,883 
+López-Corredoira, M., Allende Prieto, C., Garzón, F., et al. 2018, A&A, 
+612, L8 
+Luo, Y., Kang, X., et al., 2016, MNRAS, 458, 366 
+Mackey, et al., 2019, Nature, 574, 69 
+Majewski, S. R., Skrutskie, M. F., Weinberg, M. D., & Ostheimer, J. C. 
+2003, ApJ, 599, 1082 
+Martin, N. F., Ibata, R.A., Lewis, G. F., 2016, ApJ, 833, 167 
+May, J., Alvarez, H., & Bronfman, L. 1997, A&A, 327, 325 
+McConnachie, A. W., Ibata, R., Martin, N., et al., 2018, ApJ, 868, 55 
+Mestel, L., 1952, MNRAS, 112, 583 
+Michalik, D., Lindegren, L., & Hobbs, D. 2015, A&A, 574, 115 
+Milone, A.～P., Piotto, G., Renzini, A., et al. 2017, MNRAS, 464, 3636 
+Monet, D. G., Levine, S. E., Canzian, B., et al. 2003, AJ, 125, 984 
+Newberg, H. J., Yanny, B., Cole, N., et al. 2007, ApJ, 668, 221 
+Newberg, H. J., Yanny, B., Rockosi, C., et al. 2002, ApJ, 569, 245 
+Oort, J. H., Kerr, F. J., & Westerhout, G. 1958, MNRAS, 118, 379 
+215 
+ 
+Piotto, G., Milone, A.～P., Bedin, L.～R., et al.2015, AJ, 149, 91 
+Prusti, T.; de Bruijne, J. H. J. et al. 2016, A&A, 595A, 1G 
+Roeser, S., Demleitner, M., & Schilbach, E. 2010, ApJ, 139, 2447 
+Röser, S., Schilbach, E., et al. 2008, A&A, 488, 401 
+Schmidt, M., 1959, ApJ, 129, 243 
+Skrutskie, M. F., Cutri, R. M., Stiening, R., et al. 2006, AJ, 131, 1163 
+Steinmetz, M., et al. 2006, AJ, 132, 1645 
+Sun, M.; Jiang, B. W., Zhao, H. et al. ApJ, 2018, 861:153 
+Vickers, J. J., Röser, S., & Grebel, K. E. 2016, ApJ, 151, 99 
+Wang, S., Jiang, B. W. ApJ, 2014, 788: L12 
+Xu Y., Newberg, H., Carlin, J. et al. 2015, ApJ, 801, 105X 
+Xu et al. 2018, MNRAS, 473,1244 
+Xue, X. X., Rix, H. W., Zhao, G., et al. 2008, ApJ, 684, 1143 
+Xue X.-X. et al., 2015, ApJ, 809, 144 
+Yanny, B., Rockosi, C., Newberg, H. J., et al. 2009, AJ, 137, 4377 
+York, D. G., et al. 2000, AJ, 120, 1579 
+Zacharias, N., Finch, C. T., Girard, T. M., et al. 2013, AJ, 145, 44 
+Zhao, G., et al. 2006, ChJAA, 6, 265Z 
+Zhao, G., et al. 2012, RAA,12, 723Z 
+Zennaro, M., Milone, A.～P., Marino, A.～F., et al. 2019, MNRAS, 487, 
+3239 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+216 
+ 
+ 
+5.4. 其他科学 
+5.4.1. 太阳系天体 
+5.4.1.1.

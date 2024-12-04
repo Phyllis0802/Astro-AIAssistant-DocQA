@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "XTENSION关键字在CPIC的0级数据头文件中代表什么？", "answer": "XTENSION关键字在CPIC的0级数据头文件中代表extension type，即扩展类型，其值为'IMAGE'。"},
+    {"question": "CPIC的0级数据头文件中，BITPIX关键字的数据类型是什么？", "answer": "CPIC的0级数据头文件中，BITPIX关键字的数据类型是int，表示数组数据类型。"},
+    {"question": "HSTDM的0级数据头文件中，NAXIS1的值是多少？", "answer": "HSTDM的0级数据头文件中，NAXIS1的值为16384，表示第一数据轴（光谱在通道号中）的长度。"},
+    {"question": "在HSTDM的0级数据头文件中，BUNIT代表什么？", "answer": "在HSTDM的0级数据头文件中，BUNIT代表array value的物理单位，其值为'adu'。"},
+    {"question": "HSTDM的0级数据头文件中，哪个关键字表示光谱线的名称？", "answer": "HSTDM的0级数据头文件中，LINE关键字表示光谱线的名称。"},
+    {"question": "CPIC的0级数据头文件中，IMG_EXPT表示什么信息？", "answer": "CPIC的0级数据头文件中，IMG_EXPT表示图像帧曝光开始时间。"},
+    {"question": "CPIC的0级数据头文件中，PIXSCAL表示什么？", "answer": "CPIC的0级数据头文件中，PIXSCAL表示像素尺度。"},
+    {"question": "HSTDM的0级数据头文件中，LO_LOCK的关键字是什么类型的？", "answer": "HSTDM的0级数据头文件中，LO_LOCK的关键字是bool类型，表示振荡器锁定状态。"},
+    {"question": "在HSTDM的0级数据头文件中，DET_V表示什么？", "answer": "在HSTDM的0级数据头文件中，DET_V表示探测器电压（以mV为单位）。"},
+    {"question": "精细导星仪（FGS）的主要作用是什么？", "answer": "精细导星仪（FGS）的主要作用是为光学设施实现精密稳像提供高精度、高速精确的星像位置和角度信息。"}
+]
+```

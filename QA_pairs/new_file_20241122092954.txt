@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "GAIN3的数值是多少？", "answer": "GAIN3的数值是32。"},
+    {"question": "RON1的值是如何提供的？", "answer": "RON1的值在地面测试阶段提供，并写入配置文件。"},
+    {"question": "DETBIA1的值是多少？", "answer": "DETBIA1的值是103，在地面测试阶段提供，并写入配置文件。"},
+    {"question": "ROSPEED的关键字在哪个数据包中？", "answer": "ROSPEED的关键字在IFS辅助数据包中，属于工程参数。"},
+    {"question": "CHECKSUM和DATASUM分别代表什么？", "answer": "从文档中找不到答案"},
+    {"question": "IMG_EXPT关键字在哪个数据包中？", "answer": "IMG_EXPT关键字在星冕仪图像数据包中。"},
+    {"question": "NCHAN的值对于近红外成像相机是多少？", "answer": "NCHAN的值对于近红外成像相机是29或32。"},
+    {"question": "EMGAIN关键字在哪个数据包中？", "answer": "EMGAIN关键字在数字量遥测或可见光图像数据包中。"},
+    {"question": "太赫兹频谱数据包的观测边带参数如何表示？", "answer": "太赫兹频谱数据包的观测边带参数用SIDEBAND关键字表示，值为0x00表示低边带（高本振LO），0x11表示高边带（低本振LO）。"},
+    {"question": "LO_FRQ关键字代表什么参数？", "answer": "LO_FRQ关键字代表太赫兹频谱数据包的观测频率参数，具体为SIS1观测时LO频率（低字节有效）。"}
+]
+```

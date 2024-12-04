@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "CRPIX1和CRPIX2在数据处理中需要提前设定什么？", "answer": "CRPIX1和CRPIX2不需要地面临时解算，但需要在地面测试阶段提前设定，写入给数据中心的配置文件。"},
+    {"question": "CRVAL1和CRVAL2的估算需要考虑哪些因素？", "answer": "CRVAL1和CRVAL2需要根据指向以及焦面板的几何参数进行估算，至于提供给数据中心还是预处理完成，没有具体说明。"},
+    {"question": "GAIN01到GAIN16的增益数据是如何上传的？", "answer": "GAIN01到GAIN16的增益数据由指令上传（出现在#27.2IDS中），在#32中添加此参数。"},
+    {"question": "RON01到RON16的数据在哪个阶段提供？", "answer": "RON01到RON16的数据在地面测试阶段提供，写入配置文件。"},
+    {"question": "EXPTIME和DARKTIME的关系是什么？", "answer": "DARKTIME等于EXPTIME加DELAY，DELAY由地面测试阶段提供，写入配置文件。"},
+    {"question": "SHTSTAT参数表示什么信息？", "answer": "SHTSTAT参数表示快门状态（打开／关闭），由指令上传（出现在#27.2IDS中），在#32中添加此参数。"},
+    {"question": "LEDFLAG、LEDSTAT和LEDEXPT分别表示LED灯的什么信息？", "answer": "LEDFLAG、LEDSTAT和LEDEXPT分别表示LED灯的工作状态、工作时间信息，这些信息由指令上传（出现在#27.2IDS中），在#32中添加此参数。"},
+    {"question": "CAMERA参数在MSC_IR数据中的值是什么？", "answer": "CAMERA参数在MSC_IR数据中的值是‘IR’。"},
+    {"question": "DETTEMP1、DETTEMP2和DETTEMP3分别记录什么时刻的温度？", "answer": "DETTEMP1记录曝光开始时刻，主焦面的温度；DETTEMP2记录曝光结束时刻，主焦面的温度；DETTEMP3记录读出结束时刻，主焦面的温度。"},
+    {"question": "MCI数据包中的DIFFUSER参数表示什么信息？", "answer": "MCI数据包中的DIFFUSER参数表示挡板开合信息。"}
+]
+```

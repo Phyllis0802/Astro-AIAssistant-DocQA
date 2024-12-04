@@ -1,0 +1,1259 @@
+piston at EXPEND 
+R8 
+精确到0.1 度 
+e 
+HOODSTA1 
+lens hood altitude at 
+EXPEND 
+R4 
+ 
+d 
+HOODANG1 
+lens hood azimuth at 
+EXPEND 
+R4 
+ 
+d 
+POSI1_X 
+the orbital position of 
+CSST in X direction at 
+EXPEND 
+R8 
+R=Sqrt(X^2+Y^2+Z^2) 绝
+对误差不大于16.8 公里（单
+倍中误差） 
+ 
+d 
+POSI1_Y 
+the orbital position of 
+CSST in Y direction at 
+EXPEND 
+R8 
+ 
+d 
+POSI1_Z 
+the orbital position of 
+CSST in Z direction at 
+EXPEND 
+R8 
+ 
+d 
+VELO1_X 
+the orbital velocity of 
+CSST in X direction at 
+EXPEND 
+R8 
+V=Sqrt(Vx^2+Vy^2+Vz^2
+) 误差不大于0.025 米/秒
+（单倍中误差） 
+d 
+24 
+ 
+VELO1_Y 
+the orbital velocity of 
+CSST in Y direction at 
+EXPEND 
+R8 
+ 
+d 
+VELO1_Z 
+the orbital velocity of 
+CSST in Z direction at 
+EXPEND 
+R8 
+ 
+d 
+Euler1_1 
+Euler 
+angle 
+1 
+at 
+EXPEND   
+R8 
+姿态误差不大于0.05 角
+秒 
+ 
+d 
+Euler1_2 
+Euler 
+angle 
+2 
+at 
+EXPEND 
+R8 
+ 
+d 
+Euler1_3 
+Euler 
+angle 
+3 
+at 
+EXPEND 
+R8 
+ 
+d 
+RA_PNT1 
+RA of the pointing 
+(degrees) at EXPEND 
+R8 
+太赫兹模块由星敏提供，
+其余模块由导星提供 
+d 
+DEC_PNT1 
+DEC of the pointing 
+(degrees) at EXPEND 
+R8 
+太赫兹模块由星敏提供，
+其余模块由导星提供 
+d 
+EXPTIME 
+exposure duration 
+R4 
+EXPEND-EXPSTART 
+e 
+EPOCH 
+coordinate epoch 
+R4  
+当前历元 
+e ( 根据
+1553B 给出
+的UTC时间
+解算)  
+Other information 
+CHECKSUM 
+SHA256 checksum of 
+C65 
+hdu-checksum 
+e 
+25 
+global headers 
+26 
+ 
+ 
+     表 5. 0 级数据头文件关键字 （MSC） 
+RAW extension header keywords 
+Keyword 
+Description 
+Format 
+Remark 
+Flag 
+General keywords 
+XTENSION 
+extension type 
+C08 
+always ‘IMAGE’ 
+c 
+BITPIX 
+bits per data value 
+I2 
+always 16 for raw data 
+c 
+NAXIS 
+number of data axes 
+I2 
+always 2 
+c 
+NAXIS1 
+length of first data 
+axis 
+I4 
+exposure area width + H-
+overscans 
++ 
+H-prescans, 
+always 9560 
+c 
+NAXIS2 
+length of second data 
+axis 
+I4 
+exposure area height + V-
+overscans 
++ 
+V-prescans, 
+always 9264 
+c 
+PCOUNT 
+ 
+I2 
+always 0 
+c 
+GCOUNT 
+ 
+I2 
+always 1 
+c 
+EXTNAME 
+ 
+C08 
+always ‘SCI’ 
+c 
+EXTVER 
+ 
+I2 
+always 1 
+c 
+BSCALE 
+ 
+R8 
+always 1 
+c 
+BZERO 
+ 
+R8 
+always 32768 
+c 
+BUNIT 
+physical unit of array 
+values 
+C08 
+always ‘ADU’ 
+c 
+Detector information 
+DETECTOR 
+detector name 
+C16 
+ 
+b 
+27 
+SETTEMP 
+detector set temperature 
+R4 
+ 
+b 
+DETTEMP 
+detector temperature 
+R4 
+ 
+d 
+DETSIZE 
+detector size 
+C20 
+探测器总大小，always 
+‘9560x9264’ 
+c 
+DATASEC 
+data section 
+C20 
+感光区域大小，always 
+‘9216x9232’ 
+c 
+PIXSCAL1 
+pixel scale for axis 1 
+R4 
+ 
+c 
+PIXSCAL2 
+pixel scale for axis 2 
+R4 
+ 
+c 
+PIXSIZE1 
+pixel size for axis 1 
+R4 
+ 
+c 
+PIXSIZE2 
+pixel size for axis 2 
+R4 
+ 
+c 
+CCD chip information 
+CCDCHIP 
+CCD chip ID 
+I2 
+ 
+c 
+CCDLABEL 
+CCD chip label 
+C08  
+e.g. g-1 
+c 
+FILTER 
+filter name 
+C08  
+e.g. g 
+c 
+NCHAN 
+number of readout 
+channels 
+I2  
+always 16 
+c 
+NCHAN1 
+number of horizontal 
+channels 
+I2 
+always 8  
+c 
+NCHAN2 
+number 
+of 
+vertical 
+channels 
+I2 
+always 2 
+c 
+PSCAN1 
+horizontal 
+prescan 
+width, 
+per 
+readout 
+channel 
+I4 
+always 27 
+c 
+PSCAN2 
+vertical 
+prescan 
+height, 
+per 
+readout 
+channel 
+I4 
+always 8 
+c 
+28 
+OSCAN1 
+horizontal 
+overscan 
+width, 
+per 
+readout 
+channel 
+I4 
+always 16 
+c 
+OSCAN2 
+vertical 
+overscan 
+width, 
+per 
+readout 
+channel 
+I4 
+always 8 
+c 
+World coordinate system and related parameters 
+WCSAXES 
+number 
+of 
+World 
+Coordinate System axes 
+I2 
+always 2 
+c 
+CRPIX1 
+x-coordinate 
+of 
+reference pixel 
+R8 
+小数点后1 位有效数字 
+c (不需要
+地面临时解
+算，但需要
+在地面测试
+阶段提前设
+定) 
+CRPIX2 
+y-coordinate 
+of 
+reference pixel 
+R8 
+小数点后1 位有效数字 
+c (同上) 
+CRVAL1 
+first axis value at 
+reference pixel 
+R8 
+ 
+c (同上) 
+CRVAL2 
+second axis value at 
+reference pixel 
+R8 
+ 
+c (同上) 
+CTYPE1 
+the coordinate type 
+for the first axis 
+C08 
+always ‘RA---TAN’ 
+c 
+(TAN
+还是 TPV
+需要位置定
+标确定) 
+CTYPE2 
+the coordinate type 
+C08 
+always ‘DEC--TAN’ 
+c (同上) 
+29 
+for the second axis 
+CD1_1 
+partial of first axis 
+coordinate w.r.t. x 
+R8 
+ 
+c (同上) 
+CD1_2 
+partial of first axis 
+coordinate w.r.t. y 
+R8 
+ 
+c (同上) 
+CD2_1 
+partial of second axis 
+coordinate w.r.t. x 
+R8 
+ 
+c (同上) 
+CD2_2 
+partial of second axis 
+coordinate w.r.t. y 
+R8 
+ 
+c (同上) 
+others 
+ 
+ 
+other specific parameters 
+ 
+Readout information 
+GAIN1 
+CCD gain (channel 1) 
+R4 
+ 
+c (地面测
+试阶段提
+供) 
+GAIN2 
+CCD gain (channel 2) 
+R4 
+ 
+c  
+GAIN3 
+CCD gain (channel 3) 
+R4 
+ 
+c  
+GAIN4 
+CCD gain (channel 4) 
+R4 
+ 
+c  
+GAIN5 
+CCD gain (channel 5) 
+R4 
+ 
+c  
+GAIN6 
+CCD gain (channel 6) 
+R4 
+ 
+c  
+GAIN7 
+CCD gain (channel 7) 
+R4 
+ 
+c  
+GAIN8 
+CCD gain (channel 8) 
+R4 
+ 
+c  
+GAIN9 
+CCD gain (channel 9) 
+R4 
+ 
+c  
+GAIN10 
+CCD gain (channel 10) 
+R4 
+ 
+c  
+GAIN11 
+CCD gain (channel 11) 
+R4 
+ 
+c  
+GAIN12 
+CCD gain (channel 12) 
+R4 
+ 
+c  
+30 
+GAIN13 
+CCD gain (channel 13) 
+R4 
+ 
+c  
+GAIN14 
+CCD gain (channel 14) 
+R4 
+ 
+c  
+GAIN15 
+CCD gain (channel 15) 
+R4 
+ 
+c  
+GAIN16 
+CCD gain (channel 16) 
+R4 
+ 
+c  
+RDNOIS1 
+read noise (channel 1) 
+R4 
+ 
+c (地面测
+试阶段提
+供) 
+RDNOIS2 
+read noise (channel 2) 
+R4 
+ 
+c  
+RDNOIS3 
+read noise (channel 3) 
+R4 
+ 
+c  
+RDNOIS4 
+read noise (channel 4) 
+R4 
+ 
+c  
+RDNOIS5 
+read noise (channel 5) 
+R4 
+ 
+c  
+RDNOIS6 
+read noise (channel 6) 
+R4 
+ 
+c  
+RDNOIS7 
+read noise (channel 7) 
+R4 
+ 
+c  
+RDNOIS8 
+read noise (channel 8) 
+R4 
+ 
+c  
+RDNOIS9 
+read noise (channel 9) 
+R4 
+ 
+c  
+RDNOIS10 
+read noise (channel 
+10) 
+R4 
+ 
+c  
+RDNOIS11 
+read noise (channel 
+11) 
+R4 
+ 
+c  
+RDNOIS12 
+read noise (channel 
+12) 
+R4 
+ 
+c  
+RDNOIS13 
+read noise (channel 
+13) 
+R4 
+ 
+c  
+RDNOIS14 
+read noise (channel 
+14) 
+R4 
+ 
+c  
+31 
+RDNOIS15 
+read noise (channel 
+15) 
+R4 
+ 
+c  
+RDNOIS16 
+read noise (channel 
+16) 
+R4 
+ 
+c  
+READTIME 
+read time 
+R4 
+ 
+e (1553B
+给出开始读
+出和结束读
+出时刻，地
+面算差值) 
+RDSPEED 
+read speed (in MHz) 
+R4 
+ 
+d 
+Shutter information 
+SHUTHWV 
+shutter 
+hardware 
+version 
+C16 
+ 
+c 
+SHUTSWV 
+shutter software 
+C16 
+ 
+c 
+SHUTSTAT 
+shutter status 
+L1 
+T: open, F: close 
+b 
+SHTOPEN0 
+shutter 
+open 
+time 
+(begin) 
+R8 
+快门打开开始时间 
+d 
+SHTOPEN1 
+shutter 
+open 
+time 
+(end) 
+R8 
+快门打开结束时间 
+d 
+SHTCLOS0 
+shutter 
+close 
+time 
+(begin) 
+R8 
+快门关闭开始时间 
+d 
+SHTCLOS1 
+shutter 
+close 
+time 
+(end) 
+R8 
+快门关闭结束时间 
+d 
+LED information 
+LEDSTAT1 
+main LED status 
+C28 
+28 个LED 灯的状态，0 为
+关闭，1-3 为不同流量档位 
+b 
+32 
+  
+  表 6. 0 级数据头文件关键字 （MCI） 
+ 
+Instrument information (at EXPSTART time) 
+PMIRRPOS 
+FSM pointing 
+L1 
+T: point to MCI, F: not 
+point to MCI 
+d 
+DIFFUSER 
+insert diffuser for flat 
+calibration 
+L1 
+T: insert diffuser, F: not 
+insert diffuser 
+b 
+FLAMP 
+status of flat lamp 
+I2 
+0: off, 1: 1 档, 2: 2 档, 3: 3
+档 
+b 
+MCITEMP 
+MCI 
+components 
+temperature 
+R4 
+从工程参数获取的一组监
+控温度（精度到0.1 度）可
+以考虑为指向工程参数的文
+件名 
+d 
+LEDEXP1 
+main LED flash time 
+(s) 
+R8 
+本次LED 灯点亮的持续时
+间 
+b 
+LEDSTAT2 
+backup LED status 
+C28 
+备份LED 灯的状态 
+b 
+LEDSTAT2 
+backup LED flash time 
+(s) 
+R8 
+同LEDEXP1 
+b 
+LEDTEMPA 
+LED 
+temperature 
+(main LED in K) 
+R4 
+主LED 灯温度 
+d 
+LEDTEMPB 
+LED 
+temperature 
+(backup LED in K) 
+R4 
+备份LED 灯温度 
+d 
+Other information 
+CHECKSUM 
+SHA256 checksum of 
+data 
+C65 
+data_checksum 
+c 
+33 
+MCISTAT 
+MCI 
+components 
+status parameters 
+I4 
+从工程参数获取的一组状
+态参数（可以考虑为指向工
+程参数的文件名） 
+d 
+Filter information 
+FILTER 
+filter band 
+C06 
+ 
+b 
+Detector information 
+DETTEMP 
+detector temperature 
+R4 
+ 
+d 
+DETSIZE 
+detector size 
+C20 
+ 
+c 
+DATASEC 
+data section 
+C20 
+ 
+c 
+PIXSCAL1 
+pixel scale for axis 1 
+R4 
+ 
+c 
+PIXSCAL2 
+pixel scale for axis 2 
+R4 
+ 
+c 
+PIXSIZE1 
+pixel size for axis 1 
+R4 
+ 
+c 
+PIXSIZE2 
+pixel size for axis 2 
+R4 
+ 
+c 
+NCHAN 
+number of readout 
+channels 
+I2  
+always 16 
+c 
+NCHAN1 
+number of horizontal 
+channels 
+I2 
+always 8  
+c 
+NCHAN2 
+number 
+of 
+vertical 
+channels 
+I2 
+always 2 
+c 
+PSCAN1 
+horizontal 
+prescan 
+width, 
+per 
+readout 
+channel 
+I4 
+always 27 
+c 
+PSCAN2 
+vertical 
+prescan 
+height, 
+per 
+readout 
+channel 
+I4 
+always 8 
+c 
+OSCAN1 
+horizontal 
+overscan 
+I4 
+always 16 
+c 
+34 
+width, 
+per 
+readout 
+channel 
+OSCAN2 
+vertical 
+overscan 
+width, 
+per 
+readout 
+channel 
+I4 
+always 8 
+c 
+BIN_X 
+bin 
+number 
+in 
+X 
+(wavelength) 
+I2 
+ 
+c 
+BIN_Y 
+bin 
+number 
+in 
+Y 
+(spatial) 
+I2 
+ 
+c 
+World coordinate system and related parameters 
+WCSAXES 
+number 
+of 
+World 
+Coordinate System axes 
+I2 
+always 2 
+c 
+CRPIX1 
+x-coordinate 
+of 
+reference pixel 
+R8 
+小数点后1 位有效数字 
+c (不需要
+地面临时解
+算，但需要
+在地面测试
+阶段提前设
+定) 
+CRPIX2 
+y-coordinate 
+of 
+reference pixel 
+R8 
+小数点后1 位有效数字 
+c (同上) 
+CRVAL1 
+first axis value at 
+reference pixel 
+R8 
+ 
+c (同上) 
+CRVAL2 
+second axis value at 
+reference pixel 
+R8 
+ 
+c (同上) 
+CTYPE1 
+the coordinate type 
+for the first axis 
+C08 
+always ‘RA---TAN’ 
+c 
+(TAN
+还是 TPV
+35 
+需要位置定
+标确定) 
+CTYPE2 
+the coordinate type 
+for the second axis 
+C08 
+always ‘DEC--TAN’ 
+c (同上) 
+CD1_1 
+partial of first axis 
+coordinate w.r.t. x 
+R8 
+ 
+c (同上) 
+CD1_2 
+partial of first axis 
+coordinate w.r.t. y 
+R8 
+ 
+c (同上) 
+CD2_1 
+partial of second axis 
+coordinate w.r.t. x 
+R8 
+ 
+c (同上) 
+CD2_2 
+partial of second axis 
+coordinate w.r.t. y 
+R8 
+ 
+c (同上) 
+others 
+ 
+ 
+other specific parameters 
+ 
+Readout information 
+GAIN1 
+CCD gain (channel 1) 
+R4 
+ 
+c (地面测
+试阶段提
+供) 
+GAIN2 
+CCD gain (channel 2) 
+R4 
+ 
+c  
+GAIN3 
+CCD gain (channel 3) 
+R4 
+ 
+c  
+GAIN4 
+CCD gain (channel 4) 
+R4 
+ 
+c  
+GAIN5 
+CCD gain (channel 5) 
+R4 
+ 
+c  
+GAIN6 
+CCD gain (channel 6) 
+R4 
+ 
+c  
+GAIN7 
+CCD gain (channel 7) 
+R4 
+ 
+c  
+GAIN8 
+CCD gain (channel 8) 
+R4 
+ 
+c  
+GAIN9 
+CCD gain (channel 9) 
+R4 
+ 
+c  
+GAIN10 
+CCD gain (channel 10) 
+R4 
+ 
+c  
+36 
+GAIN11 
+CCD gain (channel 11) 
+R4 
+ 
+c  
+GAIN12 
+CCD gain (channel 12) 
+R4 
+ 
+c  
+GAIN13 
+CCD gain (channel 13) 
+R4 
+ 
+c  
+GAIN14 
+CCD gain (channel 14) 
+R4 
+ 
+c  
+GAIN15 
+CCD gain (channel 15) 
+R4 
+ 
+c  
+GAIN16 
+CCD gain (channel 16) 
+R4 
+ 
+c  
+RDNOIS1 
+read noise (channel 1) 
+R4 
+ 
+c (地面测
+试阶段提
+供) 
+RDNOIS2 
+read noise (channel 2) 
+R4 
+ 
+c  
+RDNOIS3 
+read noise (channel 3) 
+R4 
+ 
+c  
+RDNOIS4 
+read noise (channel 4) 
+R4 
+ 
+c  
+RDNOIS5 
+read noise (channel 5) 
+R4 
+ 
+c  
+RDNOIS6 
+read noise (channel 6) 
+R4 
+ 
+c  
+RDNOIS7 
+read noise (channel 7) 
+R4 
+ 
+c  
+RDNOIS8 
+read noise (channel 8) 
+R4 
+ 
+c  
+RDNOIS9 
+read noise (channel 9) 
+R4 
+ 
+c  
+RDNOIS10 
+read noise (channel 
+10) 
+R4 
+ 
+c  
+RDNOIS11 
+read noise (channel 
+11) 
+R4 
+ 
+c  
+RDNOIS12 
+read noise (channel 
+12) 
+R4 
+ 
+c  
+RDNOIS13 
+read noise (channel 
+13) 
+R4 
+ 
+c  
+RDNOIS14 
+read noise (channel 
+R4 
+ 
+c  
+37 
+14) 
+RDNOIS15 
+read noise (channel 
+15) 
+R4 
+ 
+c  
+RDNOIS16 
+read noise (channel 
+16) 
+R4 
+ 
+c  
+DETBIA1 
+amplifier bias voltage 
+(channel1) 
+R4 
+ 
+c (地面测
+试阶段提
+供) 
+DETBIA2 
+amplifier bias voltage 
+(channel2) 
+R4 
+ 
+c  
+DETBIA3 
+amplifier bias voltage 
+(channel3) 
+R4 
+ 
+c  
+DETBIA4 
+amplifier bias voltage 
+(channel4) 
+R4 
+ 
+c  
+DETBIA5 
+amplifier bias voltage 
+(channel5) 
+R4 
+ 
+c  
+DETBIA6 
+amplifier bias voltage 
+(channel6) 
+R4 
+ 
+c  
+DETBIA7 
+amplifier bias voltage 
+(channel7) 
+R4 
+ 
+c  
+DETBIA8 
+amplifier bias voltage 
+(channel8) 
+R4 
+ 
+c  
+DETBIA9 
+amplifier bias voltage 
+(channel9) 
+R4 
+ 
+c  
+DETBIA10 
+amplifier bias voltage 
+(channel10) 
+R4 
+ 
+c  
+38 
+DETBIA11 
+amplifier bias voltage 
+(channel11) 
+R4 
+ 
+c  
+DETBIA12 
+amplifier bias voltage 
+(channel12) 
+R4 
+ 
+c  
+DETBIA13 
+amplifier bias voltage 
+(channel13) 
+R4 
+ 
+c  
+DETBIA14 
+amplifier bias voltage 
+(channel14) 
+R4 
+ 
+c  
+DETBIA15 
+amplifier bias voltage 
+(channel15) 
+R4 
+ 
+c  
+DETBIA16 
+amplifier bias voltage 
+(channel16) 
+R4 
+ 
+c  
+READT0 
+read start time (UTC) 
+R4 
+ 
+d 
+READT1 
+read end time (UTC) 
+R4 
+ 
+d 
+DETTEMP0 
+detector temperature 
+at READT0 
+R4 
+ 
+d 
+DETTEMP1 
+detector temperature 
+at READT1 
+R4 
+ 
+d 
+RDSPEED 
+read speed (in MHz) 
+R4 
+ 
+d 
+Shutter information

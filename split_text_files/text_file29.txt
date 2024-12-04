@@ -1,0 +1,663 @@
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_6 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_7 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_8 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+52 
+PV2_9 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_10 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_11 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_12 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_13 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_14 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_15 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_16 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_17 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_18 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_19 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_20 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_21 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+ 
+ 
+53 
+PV2_22 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+PV2_23 
+-9999 
+projection 
+distortion 
+parameter 
+float 
+ 
+RA_CEN 
+-9999 
+center of field 
+in RA (deg) 
+float 
+ 
+DEC_CEN 
+-9999 
+center of field 
+in Dec (deg) 
+float 
+ 
+ASTRMED1 
+-9999 
+astrom. median 
+for RA (arcsec) 
+float 
+ 
+ASTRMED2 
+-9999 
+astrom. median 
+for Dec 
+(arcsec) 
+float 
+ 
+ASTRRMS1 
+-9999 
+astrom. 
+dispersion for 
+RA (arcsec) 
+float 
+ 
+ASTRRMS2 
+-9999 
+astrom. 
+dispersion for 
+Dec (arcsec) 
+float 
+ 
+NS_WCS 
+-9999 
+number of 
+WCS 
+calibration stars 
+int 
+ 
+V_FLUX 
+1.3 
+version of flux 
+calibration 
+str 
+ 
+T_FLUX 
+2023-12-
+29T04:55:46.52
+0 
+timestamp of 
+flux calibration 
+str23 
+ 
+S_FLUX 
+0 
+status of flux 
+calibration 
+int 
+ 
+CAL_REF 
+Gaia DR3 
+reference 
+database for 
+calibration 
+str 
+ 
+ZP 
+23.882 
+photometric 
+zero point in 
+magnitude 
+float 
+ 
+ 
+ 
+54 
+PHRMS 
+0.0087 
+zpt rms of the 
+matched 
+objects 
+float 
+ 
+APER_R 
+10 
+photo-aperture 
+radius (pix) 
+int 
+ 
+FWHM 
+2.1735 
+FWHM (pix) 
+float 
+ 
+RA_OFF 
+0.0512 
+median RA 
+offset from 
+CAL_REF 
+(arcsec) 
+float 
+ 
+DEC_OFF 
+-0.0915 
+median Dec 
+offset from 
+CAL_REF 
+(arcsec) 
+float 
+ 
+NS_FLUX 
+370 
+total number of 
+stars detected 
+int 
+ 
+NS_MATCH 
+264 
+total number of 
+matched stars 
+in 0.5 arcsec 
+int 
+ 
+MED_CLR 
+-9999.9 
+median color of 
+matched stars 
+float 
+ 
+SKY_MAG 
+21.9735 
+estimated sky 
+background 
+(mag/arcsec^2) 
+float 
+ 
+MAG_LIM 
+22.6978 
+magnitude 
+limiting of 5-
+sigma detection 
+float 
+ 
+V_QC1 
+0.0.4 
+version of QC1 
+str 
+ 
+T_QC1 
+2024-03-
+13T06:57:12.93
+5 
+timestamp of 
+QC1 
+str23 
+ 
+S_QC1 
+0 
+status of QC1 
+(0/1/2) 
+int 
+ 
+QC1_FLAG 
+0 
+flag of QC1 in 
+bitmask (2**n, 
+n>2) 
+int 
+ 
+CHECKSUM 
+NnPfPmMZN
+mMfNmMZ 
+HDU checksum 
+updated 2024-
+str 
+ 
+ 
+ 
+55 
+03-
+11T15:01:26 
+DATASUM 
+3593639865 
+data unit 
+checksum 
+updated 2024-
+03-
+11T15:01:26 
+str 
+ 
+ 
+表16: 多⾊成像1 级数据关键字（HDU2） 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+image 
+extension 
+str 
+ 
+BITPIX 
+-32 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+9216 
+ 
+int 
+ 
+NAXIS2 
+9232 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+EXTNAME 
+IVAR 
+extension 
+name 
+str 
+ 
+BUNIT 
+s2/electron2 
+physical unit 
+of array values 
+str 
+ 
+CHECKSUM 
+FTYRITXRFTXRFTXR 
+HDU 
+checksum 
+updated 2024-
+03-
+11T15:01:28 
+str 
+ 
+DATASUM 
+2867499137 
+data unit 
+checksum 
+updated 2024-
+03-
+11T15:01:28 
+str 
+ 
+ 
+ 
+ 
+56 
+表17: 多⾊成像1 级数据关键字（HDU3） 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+IMAGE 
+image 
+extension 
+str 
+ 
+BITPIX 
+32 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+9216 
+ 
+int 
+ 
+NAXIS2 
+9232 
+ 
+int 
+ 
+PCOUNT 
+0 
+number of 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+BSCALE 
+1 
+ 
+int 
+ 
+BZERO 
+2147483648 
+ 
+int 
+ 
+EXTNAME 
+FLAG 
+extension 
+name 
+str 
+ 
+BUNIT 
+dimensionless unit 
+physical unit 
+of array values 
+str 
+ 
+CHECKSUM 
+YNcLaNZLSNbLYNZL 
+HDU 
+checksum 
+updated 2024-
+03-
+11T15:01:29 
+str 
+ 
+DATASUM 
+3304408258 
+data unit 
+checksum 
+updated 2024-
+03-
+11T15:01:29 
+str 
+ 
+ 
+表18: 多⾊成像1 级数据关键字（HDU4） 
+key 
+example 
+comment 
+dtype 
+notes 
+XTENSION 
+BINTABLE 
+binary table 
+extension 
+str 
+ 
+ 
+ 
+57 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+2 
+number of 
+array 
+dimensions 
+int 
+ 
+NAXIS1 
+32 
+length of 
+dimension 1 
+int 
+ 
+NAXIS2 
+1 
+length of 
+dimension 2 
+int 
+ 
+PCOUNT 
+0 
+number of 
+group 
+parameters 
+int 
+ 
+GCOUNT 
+1 
+number of 
+groups 
+int 
+ 
+TFIELDS 
+4 
+number of table 
+fields 
+int 
+ 
+TTYPE1 
+u 
+ 
+str1 
+ 
+TFORM1 
+D 
+ 
+str1 
+ 
+TUNIT1 
+arcsec 
+ 
+str6 
+ 
+TDISP1 
+F13.4 
+ 
+str5 
+ 
+TTYPE2 
+v 
+ 
+str1 
+ 
+TFORM2 
+D 
+ 
+str1 
+ 
+TUNIT2 
+arcsec 
+ 
+str6 
+ 
+TDISP2 
+F13.4 
+ 
+str5 
+ 
+TTYPE3 
+delta_u 
+ 
+str7 
+ 
+TFORM3 
+D 
+ 
+str1 
+ 
+TUNIT3 
+arcsec 
+ 
+str6 
+ 
+TDISP3 
+F13.4 
+ 
+str5 
+ 
+TTYPE4 
+delta_v 
+ 
+str7 
+ 
+TFORM4 
+D 
+ 
+str1 
+ 
+TUNIT4 
+arcsec 
+ 
+str6 
+ 
+TDISP4 
+F13.4 
+ 
+str5 
+ 
+EXTNAME 
+UV_RESIDUAL 
+extension name 
+str 
+ 
+ 
+ 
+58 
+CHECKSUM 
+I6AaL48UI4AZI47Z 
+HDU 
+checksum 
+updated 2024-
+03-
+11T15:01:30 
+str 
+ 
+DATASUM 
+51256835 
+data unit 
+checksum 
+updated 2024-
+03-

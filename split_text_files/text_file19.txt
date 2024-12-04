@@ -1,0 +1,25 @@
+第5.4.2 章，表8，删除关键字others
+HSTDM
+第5.2.5 章，TYPE 描述：地面发出一次观
+测指令（对应一个OBSID），每个探测器
+的读出数据包含两部分：对目标源进行观
+测时，产生目标源的观测数据
+（ONS_SCI ）和黑体校准数据
+（ONS_BLK）
+第5.2.5 章，TYPE 描述：地面发出一次
+观测指令（对应一个OBSID），每个探
+测器的读出数据包含4 个类型:对目标源
+进行观测时，产生目标源的观测数据
+（ON_SCI ）和黑体校准数据
+（ON_BLK）
+第5.4.2 章，表9，增加关键字NAXIS2，
+NAXIS3 ，PCOUNT ，GCOUNT ，
+BEAM_AT1
+，
+BEAM_AT2
+，
+BEAM_AT3，BEAM_AT4，BEAM_AT5
+第5.4.2 章，表9 ，删除关键字
+DEW_8K ，FPGA_TEM ，FFT_5V ，
+124
+FFT_3V

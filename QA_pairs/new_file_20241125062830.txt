@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "GECAM任务属于哪个探测领域？", "answer": "高能天文学探测"},
+    {"question": "GECAM的运营方是哪个机构？", "answer": "中国科学院"},
+    {"question": "GECAM的国际卫星标识符是什么？", "answer": "2020-094A/B"},
+    {"question": "GECAM的制造方包括哪些单位？", "answer": "国家空间科学中心微小卫星创新研究院高能物理研究所"},
+    {"question": "GECAM的发射质量上限是多少？", "answer": "≤ 360千克"},
+    {"question": "GECAM的发射日期是什么时候？", "answer": "2020年12月10日4时14分43.253秒"},
+    {"question": "GECAM搭载于哪个运载火箭发射？", "answer": "长征十一号运载火箭（遥九）"},
+    {"question": "GECAM的轨道参数中的近地点高度是多少？", "answer": "A星577公里，B星576公里"},
+    {"question": "GECAM的科学目标有哪些？", "answer": "探测引力波伽马暴、超长和超软的伽马暴、快速射电暴、新的磁星爆发以及地球伽马闪等"},
+    {"question": "GECAM的另一个名称是什么？", "answer": "极目或怀柔一号"}
+]
+```

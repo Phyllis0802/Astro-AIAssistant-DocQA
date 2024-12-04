@@ -1,0 +1,167 @@
+LiteBIRD国家 日本组织宇宙航空研究开发机构宇宙科学研究所目标宇宙微波背景辐射观测状态计划中网站litebird.jp航天计划信息首次航天飞行2020年代中期[1]
+LiteBIRD（缩写自：Lite (Light) satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection）是尚在计划中的小型空间探测器。LiteBIRD 由日本宇宙航空研究开发机构开发，旨在观测原初引力波在宇宙微波背景辐射中产生的B模偏振。
+
+概览[编辑]
+宇宙暴胀模型预言大爆炸后约10-38秒时有原初引力波产生。原初引力波会在宇宙微波背景辐射偏振分布中留下特殊的印记，即B模偏振。测量B模偏振被认为是探测原初引力波最有效的方式，而对后者的了解可以帮助人类更好地理解宇宙的开端[2]。随着测量精度的提高，人们将可能测试包括超弦理论在内的量子引力理论给出的预言[3]。
+LiteBIRD 的目标是以δr<0.001的精度测量全天的微波背景，其中r指的是张量-标量功率谱密度比（英语：tensor-to-scalar ratio），即是暴涨期间度规的张量微扰和曲率微扰（英语：curvature perturbation）功率谱密度的比值。项目由来自日本、欧洲、加拿大和美国的科学家团队合作设计。
+
+参考资料[编辑]
+
+
+^ 宇宙基本計画工程表 (平成２９年度改訂) (PDF). 日本内阁府. 2017年12月12日  [2017-12-29]. （原始内容存档 (PDF)于2020-11-04） （日语）. 
+
+^ LiteBIRD: Mission Overview and Focal Plane Layout （页面存档备份，存于互联网档案馆）. T. Matsumura, Y. Akiba, K. Arnold, J. Borrill, R. Chendra, etal. Journal of Low Temperature Physics. August 2016, Volume 184, Issue 3–4, pp 824–831.
+
+^ LiteBird Science （页面存档备份，存于互联网档案馆）. JAZA/ISAS. Accessed 6 October 2018.
+
+
+查论编物理宇宙学宇宙 · 大爆炸 · 宇宙的年龄 · 大爆炸年表 · 宇宙的终极命运早期宇宙
+大爆炸
+普朗克时期
+大一统时期暴胀
+夸克时期
+电弱时期 (暴胀时期、再加热、重子生成、宇宙重力波背景辐射)
+强子时期
+轻子时期
+中微子退耦（中微子背景）
+太初核合成
+复合（宇宙微波背景）
+膨胀宇宙红移 · 哈伯定律 · 哈伯体积 · 空间的度规膨胀（英语：Metric expansion of space） · 弗里德曼方程 · 弗里德曼-勒梅特-罗伯逊-沃尔克度规结构形成宇宙的形状 · 结构形成（英语：Structure formation） · 再电离 · 星系的形成和演化 · 大尺度结构 · 大尺度纤维状结构 · 红移空间畸变成分ΛCDM模型 · 暗能量（候选：真空能、第五元素、恰普雷金气体（英语：Chaplygin gas）） · 暗物质（候选：大质量弱相互作用粒子、惰性中微子、轴子、恰普雷金气体（英语：Chaplygin gas））时间表宇宙学年表 · 大爆炸年表 · 膨胀宇宙的未来实验观测宇宙学 · 2度视场星系红移巡天 · 斯隆数字化巡天 · 宇宙背景探测者 · 毫米波段气球观天计划 · 威尔金森微波各向异性探测器 · 普朗克卫星 · 2016年2月引力波探测 · 暗能量巡天 · 罗曼太空望远镜 · 平方千米阵 · 欧几里得卫星宇宙的终极命运大挤压 · 大撕裂 · 热寂 · 大反弹科学家牛顿 · 爱因斯坦 · 德西特 · 弗里德曼 · 勒梅特 · 哈伯 · 彭齐亚斯 · 威尔逊 · 伽莫夫 · 迪克 · 霍金 · 里斯 · 泽尔多维奇 · 苏尼亚耶夫 · 鲁宾 · 彭罗斯 · 阿尔文 · 斯穆特 · 马瑟 · 怀特 · 弗伦克 · 埃夫斯塔希欧 · 戴维斯 · 冈恩 · 布塞哈基 · 珀尔马特 · 里斯 · 施密特 · 古斯 · 林德 · 斯泰恩哈特 · 佩奇 · 皮布尔斯 · 约瑟夫·西尔克 · 皮考克 · 特纳 · 爱森斯坦 · 科尔 · 弗里德曼 · 泰格马克 · 胡 · 尼克·凯泽物理宇宙学分类  · 天文学主题
+查论编空间望远镜现役中
+哈勃空间望远镜(1990年起)
+风(1994年起)
+太阳和太阳圈探测器(1995年起)
+先进成分探测器(1997年起)
+钱德拉X射线天文台(1999年起)
+国际伽玛射线天体物理实验室(2002年起)
+伽玛射线暴快速探测器(2004年起)
+AGILE(2007年起)
+费米伽玛射线空间望远镜(2008年起)
+星际边界探测器(2008年起)
+太阳动力学天文台(2010年起)
+AMS-02(2011年起)
+核光谱望远镜阵列(2012年起)
+盖亚任务 (2013年起)
+广域红外线巡天探测卫星
+XMM-牛顿卫星
+硬X射线调制望远镜
+IRIS
+UFFO
+暗物质粒子探测卫星
+Astrosat
+凌日系外行星巡天卫星
+SPRINT-A（英语：Hisaki (satellite)）
+日出卫星
+量子电子望远镜（英语：Calorimetric Electron Telescope）
+近地天体监测卫星（英语：Near Earth Object Surveillance Satellite）
+奥丁卫星（英语：Odin (satellite)）
+帕克太阳探测器(2018年起)
+系外行星特性探测卫星(2019年起)
+Spektr-RG（英语：Spektr-RG）(2019年起)
+引力波暴高能电磁对应体全天监测器(2020年起)
+太阳轨道载具(2020年起)
+X射线偏振探测器（英语：Imaging X-ray Polarimetry Explorer）(2021年起)
+詹姆斯·韦伯空间望远镜(2021年起)
+先进天基太阳天文台(2023年起)
+欧几里得太空望远镜(2023年起)
+太阳神-L1号探测器(2023年起)
+X射线成像和光谱任务（2023年起）
+爱因斯坦探针卫星 （2024年起）
+天基多波段空间变源监视器 （2024年起）
+计划中
+国际月球天文台（英语：International Lunar Observatory） （2024）
+巡天号光学舱 （2024~2026+）
+增强型X射线时变与偏振空间天文台 （2027）
+罗曼太空望远镜 （2027）
+LiteBIRD(2028)
+SPICA （2032）
+先进高能天体物理学望远镜 （2034）
+激光干涉空间天线 （2034）
+环绕双黑洞探测卫星（英语：Orbiting Binary Black Hole Investigation Satellite） （未定）
+天琴计划
+太极计划
+提议中
+新世界任务
+Arcus（英语：Arcus (satellite)）
+系外星周盘环境探索者（英语：Exoplanetary Circumstellar Environments and Disk Explorer）
+菲涅耳成像器（英语：Fresnel Imager）
+极端宇宙太空天文台（英语：JEM-EUSO）
+起源太空望远镜（英语：Origins Space Telescope）
+THESEUS（英语：THESEUS (spacecraft)）
+大型紫外线、光学与红外线巡天望远镜（英语：Large UV Optical Infrared Surveyor）（先进大孔径太空望远镜（英语：Advanced Technology Large-Aperture Space Telescope）、高分辨率太空望远镜（英语：High-Definition Space Telescope））
+适居系外行星成像任务（英语：Habitable Exoplanet Imaging Mission）
+日本天体测量奈米卫星红外线探测任务（英语：Nano-JASMINE）
+月球紫外线成像仪（英语：Lunar Ultraviolet Cosmic Imager）
+堤亚任务（英语：Telescope for Habitable Exoplanets and Interstellar/Intergalactic Astronomy）
+分赫兹干涉引力波天文台
+已结束
+宇宙学和天体物理学进阶卫星（英语：Advanced Satellite for Cosmology and Astrophysics）（1993～2000）
+低能量X射线成像传感器阵列（英语：Array of Low Energy X-ray Imaging Sensors）（1993～2005）
+Astro 2（1995）
+Astron（英语：Astron (spacecraft)）（1983～1989）
+荷兰天文卫星（英语：Astronomical Netherlands Satellite）（1974～1976）
+BeppoSAX（1996～2003）
+Broad Band X-ray Telescope（英语：多頻帶X射線望遠鏡）（1996）
+Cos-B（1975～1982）
+欧洲X射线卫星（英语：EXOSAT）（1983～1996）
+银河卫星（英语：Ginga (satellite)）（1987～1991）
+国际太空天文台（英语：Granat）（1989～1998）
+天鹅卫星（英语：Hakucho）（1979～1985）
+HALCA（英语：HALCA）（1997～2005）
+高能天文观测站1号（英语：High Energy Astronomy Observatory 1）（1977～1979）
+高能天文观测站3号（英语：High Energy Astronomy Observatory 3）（1979～1981）
+RELIKT-1（英语：RELIKT-1）（1983～1984）
+乌呼鲁卫星（小型天文卫星1号）（1970～1973）
+Small Astronomy Satellite 2（英语：小型天文衛星2號）（1972～1973）
+Small Astronomy Satellite 3（英语：小型天文衛星3號）（1975～1979）
+天马卫星（英语：Tenma）（1983～1985）
+爱因斯坦卫星（高能天文观测站2号 HEAO-2）（1978～1982）
+轨道天文台2号（1968～1973）
+轨道天文台3号（哥白尼）（1972～1981）
+国际紫外线探测卫星（International Ultraviolet Explorer)（1978～1996）
+红外线太空天文台（Infrared Space Observatory）（1996～1998）
+红外线天文卫星（IRAS）（1983）
+极紫外探测器（1992～2001）
+康普顿伽玛射线天文台（CGRO）（1991～2000）
+伦琴卫星（ROSAT）（1990～1999）
+罗西X射线计时探测器（1995～2012）
+太空中途红外实验（英语：Midcourse Space Experiment）（MSX）（1996～1997）
+阳光卫星（Yohkoh）（1991～2001）
+依巴谷卫星（Hipparcos）（1989～1993）
+宇宙背景探测者（COBE）（1989～1993）
+低能量伽玛射线成像装置（英语：LEGRI）（1997～2002）
+亚毫米波天文卫星（1998～2004, 2004～2005）
+远紫外分光探测器（1999～2007）
+高能瞬态探测器2号（英语：High Energy Transient Explorer）（2000～2008）
+太阳过渡区与日冕探测器（1998～2010）
+威尔金森微波各向异性探测器（2001～2010）
+AKARI（2006～2011）
+星系演化探测器（2003～2013）
+CoRoT（2006～2013）
+赫雪尔太空望远镜（2009～2013）
+普朗克卫星（2009～2013）
+朱雀卫星（2005–2015）
+PAMELA（2006～2016）
+激光干涉空间天线开路者号（2015～2017）
+开普勒任务（2009～2018）
+恒星微变和振荡望远镜（英语：MOST (satellite)）（2003～2019）
+Spektr-R（2011～2019）
+斯皮策空间望远镜（2003–2020）
+失联
+轨道天文台（1966）
+高能瞬态探测器（英语：High Energy Transient Explorer）（HETE）（1996）
+全天宽带成像X射线卫星（英语：ABRIXAS）（1999）
+广角红外线探测器（英语：Wide Field Infrared Explorer）（1999）
+瞳（2016）
+被取消
+爱丁顿任务（英语：Eddington (spacecraft)）
+达尔文任务（英语：Darwin (spacecraft)）
+类地行星发现者
+太空干涉测量任务
+星座-X天文台
+联合暗能量任务（英语：Joint Dark Energy Mission）
+特拉维夫大学紫外线望远镜（英语：TAUVEX）
+ASTRO-G（英语：ASTRO-G）
+XEUS（英语：XEUS）
+空间太阳望远镜（英语：Space Solar Telescope）
+

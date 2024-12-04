@@ -1,0 +1,482 @@
+数据元素
+对象头关键字见表3（global header），表4 和表5（主巡天模块raw
+image 中header），表6（MCI 模块raw image 中header），表7（IFS 模
+图14.HSTDM 0 级数据结构示意图
+20
+块raw image 中header），表8（星冕仪模块raw image 中header），表9
+（太赫兹模块raw image 中header）。其中：
+第一列keyword 为元素唯一识别号，也是FITS 格式头文件的关键字，
+关键字由大写字母和数字组成，其中数字不可作为关键字的首字符，最
+多8 个字符。
+第二列给出元素可能的值。
+第三列为元素的描述，也是FITS 头文件每个关键字的注释。元素的
+物理单位也包含在第三列的注释中。
+第三列为元素的数据类型，其中bool 表示为布尔型，可以是T 或F；
+int 是整型，float 是浮点型，strxx，其中xx 表示字符串的最大长度。
+21
+表3.全局头文件关键字
+GLOBAL HEADER KEYWORDS
+keyword
+example
+comment
+dtype
+GENERAL KEYWORDS
+SIMPLE
+TRUE
+conforms to FITS standard
+bool
+BITPIX
+8
+array data type
+int
+NAXIS
+0
+number of array dimensions
+int
+EXTEND
+TRUE
+bool
+NEXTEND
+1
+number of array dimensions
+int
+DATE
+2024-08-
+17T06:05:12.0
+written date (yyyy-mm-ddThh:mm:ss.s)
+str21
+FILENAME
+CSST_MSC_
+MS_SCI_2024
+0817060512_2
+024081706074
+2_1016010000
+0_09_L0_V01
+str
+FILETYPE
+SCI
+observation type
+str
+TELESCOP
+CSST
+telescope name
+str4
+INSTRUME
+MSC
+instrument name
+str3
+RADECSYS
+ICRS
+coordinate system of the object
+str
+EQUINOX
+2000.0
+float
+FITSSWV
+2.1.0_202312
+08_wcl-5
+FITS creating software version
+str
+COMMENT
+==========
+str72
+22
+===========
+===========
+===========
+===========
+===========
+=======
+OBJECT INFORMATION
+OBJECT
+60000000
+object name
+str
+TARGET
+161953.0+39
+5345
+target name (hhmmss.s+ddmmss)
+str15
+OBSID
+10160100066
+observation ID
+str
+RA_OBJ
+244.972773
+object RA (deg)
+float
+DEC_OBJ
+39.895901
+object Dec (deg)
+float
+TELESCOPE INFORMATION
+REFFRAME
+CSSTGSC-
+1.0
+guiding catalog version
+str
+DATE-OBS
+2024-08-
+17T06:05:12.0
+observation
+date
+(yyyy-mm-
+ddThh:mm:ss.s)
+str21
+SATESWV
+1
+satellite software version
+str
+EXPSTART
+60539.25361
+exposure start time (MJD)
+float
+CABSTART
+60539.25361
+first cabin time after exposure start
+(MJD)
+float
+SUNANGL0
+50.0
+angle between the Sun and opt axis at
+CABSTART
+float
+23
+MOONANG0
+30.0
+angle between the Moon and opt axis at
+CABSTART
+float
+TEL_ALT0
+20.0
+angle between opt axis and Elimb at
+CABSTART
+float
+POS_ANG0
+20.0
+angle between y axis and North Pole at
+CABSTART
+float
+POSI0_X
+-2218.3663
+orbital position in X at CABSTART
+(km)
+float
+POSI0_Y
+-5817.8559
+orbital position in Y at CABSTART
+(km)
+float
+POSI0_Z
+2597.9467
+orbital position in Z at CABSTART
+(km)
+float
+VELO0_X
+5.058199026
+orbital velocity in X at CABSTART
+(km/s)
+float
+VELO0_Y
+-3.858187999
+orbital velocity in Y at CABSTART
+(km/s)
+float
+VELO0_Z
+-4.322908628
+orbital velocity in Z at CABSTART
+(km/s)
+float
+EULER0_1
+0.0
+Euler angle 1 at CABSTART (deg)
+float
+EULER0_2
+0.0
+Euler angle 2 at CABSTART (deg)
+float
+EULER0_3
+0.0
+Euler angle 3 at CABSTART (deg)
+float
+RA_PNT0
+244.972773
+pointing RA at CABSTART (deg)
+float
+DEC_PNT0
+39.895901
+pointing Dec at CABSTART (deg)
+float
+EXPEND
+60539.25535
+exposure end time (MJD)
+float
+CABEND
+60539.25535
+first
+cabin
+time
+after
+exposure
+end
+float
+24
+(MJD)
+SUNANGL1
+50.0
+angle between the Sun and opt axis at
+CABEND
+float
+MOONANG1
+30.0
+angle between the Moon and opt axis at
+CABEND
+float
+TEL_ALT1
+20.0
+angle between opt axis and Elimb at
+CABEND
+float
+POS_ANG1
+20.0
+angle between y axis and North Pole at
+CABEND
+float
+POSI1_X
+0.0
+orbital position in X at CABEND (km)
+float
+POSI1_Y
+0.0
+orbital position in Y at CABEND (km)
+float
+POSI1_Z
+0.0
+orbital position in Z at CABEND (km)
+float
+VELO1_X
+0.0
+orbital velocity in X at CABEND (km/s)
+float
+VELO1_Y
+0.0
+orbital velocity in Y at CABEND (km/s)
+float
+VELO1_Z
+0.0
+orbital velocity in Z at CABEND (km/s)
+float
+EULER1_1
+0.0
+Euler angle 1 at CABEND (deg)
+float
+EULER1_2
+0.0
+Euler angle 2 at CABEND (deg)
+float
+EULER1_3
+0.0
+Euler angle 3 at CABEND (deg)
+float
+RA_PNT1
+244.972773
+pointing RA at CABEND (deg)
+float
+DEC_PNT1
+39.895901
+pointing Dec at CABEND (deg)
+float
+EPOCH
+2024.6
+equinox of pointing RA and Dec
+float
+25
+表4. 0 级数据头文件关键字（MSC_MS）
+EXPTIME
+150.0
+exposure time (s)
+float
+VERIFICATION INFORMATION
+CHECKSUM
+QAWaQ8TX
+QATaQ7TU
+HDU
+checksum
+updated
+2024-03-
+07T08:52:11
+str
+DATASUM
+0
+data unit checksum updated 2024-03-
+07T08:52:11
+str
+RAW EXTENSION HEADER KEYWORDS
+keyword
+example
+comment
+dtype
+GENERAL KEYWORDS
+XTENSION
+IMAGE
+image extension
+str
+BITPIX
+16
+array data type
+int
+NAXIS
+2
+number of array dimensions
+int
+NAXIS1
+20000
+int
+NAXIS2
+4700
+int
+PCOUNT
+0
+number of parameters
+int
+GCOUNT
+1
+number of groups
+int
+BSCALE
+1
+int
+BZERO
+32768
+int
+EXTNAME
+IMAGE
+extension name
+str
+EXTVER
+1
+extension version number
+int
+BUNIT
+ADU
+physical unit of array values
+str
+COMMENT
+=========
+str72
+26
+===========
+===========
+===========
+===========
+===========
+========
+DETECTOR INFORMATION
+CAMERA
+MS
+camera of main survey
+str2
+DETSN
+12345678
+detector serial number
+str
+DETNAME
+CCD
+detector type
+str
+DETTEMP1
+173
+detector temperature at EXPSTART (K)
+float
+DETTEMP2
+173
+detector temperature at EXPEND (K)
+float
+DETTEMP3
+173
+detector temperature at ROTIME1 (K)
+float
+DETSIZE
+20000x4700
+detector size
+str
+DATASECT
+9216x9232
+data section
+str
+PIXSCAL1
+0.074
+pixel scale for axis 1 (arcsec/pixel)
+float
+PIXSCAL2
+0.074
+pixel scale for axis 2 (arcsec/pixel)
+float
+PIXSIZE1
+10
+pixel size for axis 1 (micron)
+int
+PIXSIZE2
+10
+pixel size for axis 2 (micron)
+int
+CHIPID
+9
+chip ID
+str2
+CHIPLABL
+r-1
+chip label
+str
+FILTER
+r
+filter name
+str
+NCHANNEL
+16
+number of readout channels
+int
+PSCAN1
+27
+horizontal prescan width, per readout
+channel
+int
+27
+PSCAN2
+8
+vertical
+prescan
+width,
+per
+readout
+channel
+int
+OSCAN1
+16
+horizontal overscan width, per readout
+channel
+int
+OSCAN2
+16
+vertical overscan width, per readout
+channel
+int
+WORLD COORDINATE SYSTEM INFORMATION
+WCSAXES
+2
+number of WCS axes
+int
+CRPIX1
+4600.69465
+x-coordinate of reference pixel
+float
+CRPIX2
+4604.383757
+y-coordinate of reference pixel
+float
+CRVAL1
+244.5872723
+value of reference pixel on axis 1
+float
+CRVAL2
+39.68195466

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "系外行星特性探测卫星的英文全称是什么？", "answer": "系外行星特性探测卫星的英文全称是CHaracterising ExOPlanets Satellite（CHEOPS）"},
+    {"question": "CHEOPS的运营方有哪些？", "answer": "CHEOPS的运营方有瑞士太空局和ESA"},
+    {"question": "CHEOPS的卫星目录序号是多少？", "answer": "CHEOPS的卫星目录序号是44874"},
+    {"question": "CHEOPS的任务预计时长是多久？", "answer": "CHEOPS的任务预计时长是3.5年"},
+    {"question": "CHEOPS的有效载荷质量是多少？", "answer": "CHEOPS的有效载荷质量是58千克（128磅）"},
+    {"question": "CHEOPS是在哪一天发射的？", "answer": "CHEOPS是在2019年12月18日发射的"},
+    {"question": "CHEOPS使用的运载火箭是什么？", "answer": "CHEOPS使用的运载火箭是联合系列运载火箭"},
+    {"question": "CHEOPS的发射场在哪里？", "answer": "CHEOPS的发射场在圭亚那太空中心"},
+    {"question": "CHEOPS的望远镜是什么类型的？", "answer": "CHEOPS的望远镜是里奇-克莱琴望远镜"},
+    {"question": "CHEOPS望远镜的波长范围是多少？", "answer": "CHEOPS望远镜的波长范围是400-1100 nm"}
+]
+```

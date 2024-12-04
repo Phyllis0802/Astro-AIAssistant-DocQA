@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "IFS CUBE的文件名数据类型是什么？", "answer": "str"},
+    {"question": "IFS CUBE的观测类型关键字是什么？", "answer": "FILETYPE，其数据类型为str"},
+    {"question": "望远镜名称（TELESCOP）的数据类型是什么？", "answer": "str4"},
+    {"question": "IFS CUBE中OBJECT关键字的示例值是什么？", "answer": "104742.3+135908"},
+    {"question": "RA_OBJ代表的是什么？", "answer": "目标的天赤经（RA），数据类型为float，单位是度(deg)"},
+    {"question": "CUBE_VER表示的是什么版本的代码？", "answer": "表示cube版本的代码，数据类型为str"},
+    {"question": "NEXP关键字表示什么？", "answer": "表示合并的科学曝光次数，数据类型为int"},
+    {"question": "F_UNIT代表什么单位？", "answer": "表示流量的单位，是str27类型，示例值为'1E-17 erg/s/cm^2/A/arcsec^2'"},
+    {"question": "WCS_VER表示的是什么的版本？", "answer": "表示WCS（World Coordinate System）的版本，数据类型为str"},
+    {"question": "IFS CUBE HDU1的XTENSION关键字值是什么？", "answer": "IMAGE"}
+]
+```

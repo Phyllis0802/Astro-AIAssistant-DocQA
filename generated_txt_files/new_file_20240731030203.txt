@@ -1,0 +1,44 @@
+```json
+[
+    {
+        "content": "PSCAN1表示什么，数据类型是什么？",
+        "summary": "PSCAN1表示每个读出通道的水平预扫描宽度，数据类型是int。"
+    },
+    {
+        "content": "WCSAXES的值代表什么，它的数据类型是什么？",
+        "summary": "WCSAXES的值代表WCS轴的数量，数据类型是int。"
+    },
+    {
+        "content": "GAINLVL的含义和数据类型是什么？",
+        "summary": "GAINLVL表示增益水平（e-/ADU），数据类型是float。"
+    },
+    {
+        "content": "哪个关键字表示CCD增益的数值，其数据类型是什么？",
+        "summary": "关键字GAIN01至GAIN16表示不同通道的CCD增益（e-/ADU），数据类型是float。"
+    },
+    {
+        "content": "DETBIA01表示什么，数据类型是什么？",
+        "summary": "DETBIA01表示放大器偏置灰度值（ADU，通道1），数据类型是float。"
+    },
+    {
+        "content": "EXPTIME的单位是什么，它的数据类型是什么？",
+        "summary": "EXPTIME的单位是秒（s），数据类型是float。"
+    },
+    {
+        "content": "RA_PNT0和DEC_PNT0分别代表什么，它们的数据类型是什么？",
+        "summary": "RA_PNT0表示观测开始时指向的赤经（deg），DEC_PNT0表示观测开始时指向的赤纬（deg），它们的数据类型都是float。"
+    },
+    {
+        "content": "XTENSION的值表示什么，数据类型是什么？",
+        "summary": "XTENSION的值表示扩展类型（如IMAGE），数据类型是str5。"
+    },
+    {
+        "content": "哪个关键字提供了图像的曝光开始时间，它的数据类型是什么？",
+        "summary": "EXPSTART关键字提供了图像的曝光开始时间（MJD），数据类型是float。"
+    },
+    {
+        "content": "DETTEMP0表示什么，其数据类型是什么？",
+        "summary": "DETTEMP0表示在EXPT0_1时的探测器温度（K），数据类型是float。"
+    }
+]
+```

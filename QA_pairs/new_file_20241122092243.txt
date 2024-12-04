@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "\"XTENSION\"的extension type是什么？", "answer": "IMAGE"},
+    {"question": "BITPIX的数据类型是什么？", "answer": "int"},
+    {"question": "NAXIS1的值是多少？", "answer": "23984"},
+    {"question": "BUNIT表示什么？", "answer": "物理单位（physical unit）of array values，即ADU"},
+    {"question": "望远镜的名称是什么？", "answer": "CSST"},
+    {"question": "FILTERNO表示哪个参数？", "answer": "filter number"},
+    {"question": "OBJECT的关键字对应的值是什么？", "answer": "MCI_obj"},
+    {"question": "DETSIZE的值是多少？", "answer": "9232*9216"},
+    {"question": "CRPIX1表示什么坐标？", "answer": "x-coordinate of reference pixel"},
+    {"question": "GAINLVL的值是多少？", "answer": "1.5"}
+]
+```

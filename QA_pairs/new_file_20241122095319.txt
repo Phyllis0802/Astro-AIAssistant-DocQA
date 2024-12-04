@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "amplifier的单位是什么？", "answer": "amplifier的单位是mA"},
+    {"question": "V_LNA代表什么电压？", "answer": "V_LNA代表低噪声放大器（Low noise amplifier）的电压，单位为V。"},
+    {"question": "OBSTIME的单位是什么？", "answer": "OBSTIME的单位是秒（sec），表示观测积累时间。"},
+    {"question": "SCAN-NUM的数据类型是什么？", "answer": "SCAN-NUM的数据类型是int，表示观测中的扫描编号。"},
+    {"question": "OBSERVER字段存储什么信息？", "answer": "OBSERVER字段存储观测者的名字，数据类型为str5。"},
+    {"question": "DATE-OBS的格式是什么？", "answer": "DATE-OBS的格式是str10，通常为'yyyy/mm/dd'的形式。"},
+    {"question": "POSI0_X代表什么位置信息？", "answer": "POSI0_X代表卫星在J2000坐标系下x轴方向的位置信息，单位为km，数据类型为float。"},
+    {"question": "OBSID代表什么？", "answer": "OBSID代表观测ID，是一个整数（int）。"},
+    {"question": "FILENAME字段的最大长度是多少？", "answer": "FILENAME字段的最大长度是80个字符（str80）。"},
+    {"question": "QC0PARM字段存储什么信息？", "answer": "从文档中找不到答案"}
+]
+```

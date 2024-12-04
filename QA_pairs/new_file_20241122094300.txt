@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "LSST_z_PSFmag的数据类型是什么？", "answer": "str13"},
+    {"question": "LSST_y_PSFmagErr的单位是什么？", "answer": "mag"},
+    {"question": "LSST_uFlags的显示格式是什么？", "answer": "I2"},
+    {"question": "TFORM59代表的是哪个数据关键字的数据类型？", "answer": "LSST_iFlags的数据类型，为K"},
+    {"question": "j_m的数据是如何显示的？", "answer": "F12.3"},
+    {"question": "h_msigcom的单位是什么？", "answer": "mag"},
+    {"question": "HDU7中的BITPIX关键字的值是多少？", "answer": "-32"},
+    {"question": "SKY_ALGO关键字代表什么？", "answer": "天空估计器的算法"},
+    {"question": "HDU8中有多少个表字段？", "answer": "1"},
+    {"question": "PSF_FWHM表示的是什么？", "answer": "PSF的全宽半高（FWHM），单位为像素(pix)"}
+]
+```

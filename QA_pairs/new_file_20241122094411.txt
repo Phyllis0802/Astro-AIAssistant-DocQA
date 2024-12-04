@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "BUNIT的数据类型是什么？", "answer": "str"},
+    {"question": "CAMERA代表的含义是什么？", "answer": "camera of main survey，即主调查相机"},
+    {"question": "DETNAME的值是什么？", "answer": "CCD"},
+    {"question": "DETTEMP1的温度范围是多少？", "answer": "0到300K"},
+    {"question": "PIXSCAL1的单位是什么？", "answer": "arcsec/pixel"},
+    {"question": "CHIPID的数据类型是什么？", "answer": "str2"},
+    {"question": "NCHANNEL表示什么？", "answer": "number of readout channels，即读出通道的数量"},
+    {"question": "GAINLVL的值有哪些可能的选项？", "answer": "从文档中找不到答案（注意：此问题可能依赖于具体的仪器配置和设置，因此没有给出具体的选项）"},
+    {"question": "RON01代表什么？", "answer": "readout noise (e-, channel 01)，即通道01的读出噪声"},
+    {"question": "SHTSTAT中TRUE代表什么状态？", "answer": "快门打开状态"}
+]
+```

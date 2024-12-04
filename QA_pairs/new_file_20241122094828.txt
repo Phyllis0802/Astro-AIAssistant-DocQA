@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "RON03代表什么通道的读出噪声？", "answer": "RON03代表channel 03的读出噪声。"},
+    {"question": "DETBIA01的数据类型是什么？", "answer": "DETBIA01的数据类型是float，表示grey value，单位为ADU。"},
+    {"question": "曝光开始时间的关键字是什么？", "answer": "曝光开始时间的关键字是EXPSTART。"},
+    {"question": "曝光时间是多少秒？", "answer": "曝光时间是150秒。"},
+    {"question": "快门状态的关键字及其布尔值是什么？", "answer": "快门状态的关键字是SHTSTAT，其布尔值是TRUE。"},
+    {"question": "卫星软件版本的关键字是什么？", "answer": "卫星软件版本的关键字是SATESWV。"},
+    {"question": "CABSTART代表的含义是什么？", "answer": "CABSTART代表曝光开始后的第一个cabin时间（MJD）。"},
+    {"question": "指向赤经在CABSTART时的值是多少？", "answer": "指向赤经在CABSTART时的值是116.1808154度。"},
+    {"question": "CABEND后的第一个欧拉角1是多少度？", "answer": "从文档中找不到答案，因为只提供了CABEND时Euler angle 1的占位符值0.1，没有具体数值。"},
+    {"question": "数据单元校验和的关键字是什么？", "answer": "数据单元校验和的关键字是DATASUM。"}
+]
+```

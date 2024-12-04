@@ -1,0 +1,579 @@
+112 
+ASTIRMS1 
+0.053421501 
+astrom. 
+Dispersion 
+RMS (intern., 
+high S/N) 
+float 
+ 
+ASTIRMS2 
+0.107067612 
+astrom. 
+dispersion 
+RMS (intern., 
+high S/N) 
+float 
+ 
+ASTRRMS1 
+0.053421501 
+astrom. 
+dispersion 
+RMS (ref., high 
+S/N) 
+float 
+ 
+ASTRRMS2 
+0.107067612 
+astrom. 
+dispersion 
+RMS (ref., high 
+S/N) 
+float 
+ 
+ASTSIM 
+normal 
+image 
+classification 
+for MCI 
+Astrometry 
+str 
+ 
+ASTREF 
+Gaia dr3 v01 
+reference 
+catalogue for 
+MCI 
+Astrometry 
+str 
+ 
+DELT_RA 
+-0.00352068 
+change in 
+central RA 
+float 
+ 
+DELT_DEC 
+-0.034931729 
+change in 
+central DEC 
+float 
+ 
+DELT_PS 
+-0.034931729 
+change in 
+pixelscale 
+float 
+ 
+PHOTFLAM 
+1.20E-19 
+flux density per 
+unit wavelength 
+float 
+ 
+ZP 
+25.898 
+photometric 
+zero point in 
+magnitude 
+float 
+ 
+HISTORY 
+FLUXCORR 
+complete 
+flux calibration 
+status 
+str 
+ 
+ 
+ 
+ 
+ 
+113 
+表29：MCI subtraction 数据⽂件中HDU0 头⽂件关键字 
+key 
+example 
+comment 
+dtype 
+notes 
+SIMPLE 
+TRUE 
+conforms to 
+FITS standard 
+bool 
+ 
+BITPIX 
+8 
+array data type 
+int 
+ 
+NAXIS 
+0 
+number of 
+array 
+dimensions 
+int 
+the NAXIS of 
+HDU0 should 
+be always 0 
+EXTEND 
+TRUE 
+ 
+bool 
+ 
+NEXTEND 
+1 
+number of 
+array 
+dimensions 
+int 
+ 
+DATE 
+2024-08-
+17T06:05:12.0 
+written date 
+(yyyy-mm-
+ddThh:mm:ss.s
+) 
+str21 
+ 
+FILENAME 
+CSST_MCI_C
+1_EXDF_2023
+1218141341_2
+023121814184
+1_2010000000
+1_07_L0_V01 
+ 
+str 
+ 
+FILETYPE 
+EXDF 
+observation 
+type 
+str 
+ 
+TELESCOP 
+CSST 
+telescope name 
+str4 
+the TELESCOP 
+should be 
+always 'CSST' 
+INSTRUME 
+MCI 
+instrument 
+name 
+str3 
+the 
+INSTRUME 
+should be 
+always 'MCI' 
+RADECSYS 
+ICRS 
+coordinate 
+system of the 
+object 
+str 
+ 
+EQUINOX 
+2000 
+ 
+float 
+ 
+FITSSWV 
+2.1.0_2023120
+8_wcl-5 
+FITS creating 
+software 
+version 
+str 
+ 
+ 
+ 
+114 
+COMMENT 
+===========
+===========
+===========
+===========
+===========
+===========
+====== 
+ 
+str72 
+ 
+OBJECT 
+60000000 
+object name 
+str 
+ 
+TARGET 
+161953.0+3953
+45 
+target name 
+(hhmmss.s+dd
+mmss) 
+str15 
+ 
+OBSID 
+20100000066 
+observation ID 
+str 
+ 
+RA_OBJ 
+244.972773 
+object RA 
+(deg) 
+float 
+RA should be 
+no less than 0.0 
+and no more 
+than 360.0 
+DEC_OBJ 
+39.895901 
+object Dec 
+(deg) 
+float 
+Dec should be 
+no less than -
+90.0 and no 
+more than 90.0 
+REFFRAME 
+CSSTGSC-1.0 
+guiding catalog 
+version 
+str 
+ 
+DATE-OBS 
+2024-08-
+17T06:05:12.0 
+observation 
+date (yyyy-
+mm-
+ddThh:mm:ss.s
+) 
+str21 
+ 
+SATESWV 
+1 
+satellite 
+software 
+version 
+str 
+ 
+EXPSTART 
+60539.25361 
+exposure start 
+time (MJD) 
+float 
+the vmin value 
+of the MJD is 
+2023-01-01 
+CABSTART 
+60539.25361 
+first cabin time 
+after exposure 
+start (MJD) 
+float 
+the vmin value 
+of the MJD is 
+2023-01-01 
+SUNANGL0 
+50 
+angle between 
+the Sun and opt 
+axis at 
+CABSTART 
+float 
+SUNANGL0 
+should be no 
+less than 0.0 
+ 
+ 
+115 
+and no more 
+than 180.0 
+MOONANG0 
+30 
+angle between 
+the Moon and 
+opt axis at 
+CABSTART 
+float 
+MOONANG0 
+should be no 
+less than 0.0 
+and no more 
+than 180.0 
+TEL_ALT0 
+20 
+angle between 
+opt axis and 
+Elimb at 
+CABSTART 
+float 
+TEL_ALT0 
+should be no 
+less than 0.0 
+and no more 
+than 90.0 
+POS_ANG0 
+20 
+angle between 
+y axis and 
+North Pole at 
+CABSTART 
+float 
+POS_ANG0 
+should be no 
+less than 0.0 
+and no more 
+than 180.0 
+POSI0_X 
+-2218.3663 
+orbital position 
+in X at 
+CABSTART 
+(km) 
+float 
+ 
+POSI0_Y 
+-5817.8559 
+orbital position 
+in Y at 
+CABSTART 
+(km) 
+float 
+ 
+POSI0_Z 
+2597.9467 
+orbital position 
+in Z at 
+CABSTART 
+(km) 
+float 
+ 
+VELO0_X 
+5.058199026 
+orbital velocity 
+in X at 
+CABSTART 
+(km/s) 
+float 
+ 
+VELO0_Y 
+-3.858187999 
+orbital velocity 
+in Y at 
+CABSTART 
+(km/s) 
+float 
+ 
+VELO0_Z 
+-4.322908628 
+orbital velocity 
+in Z at 
+CABSTART 
+(km/s) 
+float 
+ 
+ 
+ 
+116 
+EULER0_1 
+0 
+Euler angle 1 at 
+CABSTART 
+(deg) 
+float 
+ 
+EULER0_2 
+0 
+Euler angle 2 at 
+CABSTART 
+(deg) 
+float 
+ 
+EULER0_3 
+0 
+Euler angle 3 at 
+CABSTART 
+(deg) 
+float 
+ 
+RA_PNT0 
+244.972773 
+pointing RA at 
+CABSTART 
+(deg) 
+float 
+RA should be 
+no less than 0.0 
+and no more 
+than 360.0 
+DEC_PNT0 
+39.895901 
+pointing Dec at 
+CABSTART 
+(deg) 
+float 
+DEC should be 
+no less than -
+90.0 and no 
+more than 90.0 
+EXPEND 
+60539.25535 
+exposure end 
+time (MJD) 
+float 
+the vmin value 
+of the MJD is 
+2023-01-01 
+CABEND 
+60539.25535 
+first cabin time 
+after exposure 
+end (MJD) 
+float 
+the vmin value 
+of the MJD is 
+2023-01-01 
+SUNANGL1 
+50 
+angle between 
+the Sun and opt 
+axis at 
+CABEND 
+float 
+the same as 
+SUNANGL0 
+MOONANG1 
+30 
+angle between 
+the Moon and 
+opt axis at 
+CABEND 
+float 
+the same as 
+MOONANG0 
+TEL_ALT1 
+20 
+angle between 
+opt axis and 
+Elimb at 
+CABEND 
+float 
+the same as 
+TEL_ALT0 
+POS_ANG1 
+20 
+angle between 
+y axis and 
+North Pole at 
+CABEND 
+float 
+the same as 
+POS_ANG0 
+ 
+ 
+117 
+POSI1_X 
+0 
+orbital position 
+in X at 
+CABEND (km) 
+float 
+ 
+POSI1_Y 
+0 
+orbital position 
+in Y at 
+CABEND (km) 
+float 
+ 
+POSI1_Z 
+0 
+orbital position 
+in Z at 
+CABEND (km) 
+float 
+ 
+VELO1_X 
+0 
+orbital velocity 
+in X at 
+CABEND 
+(km/s) 
+float 
+ 
+VELO1_Y 
+0 
+orbital velocity 
+in Y at 
+CABEND 
+(km/s) 
+float 
+ 
+VELO1_Z 
+0 
+orbital velocity 
+in Z at 
+CABEND 
+(km/s) 
+float 
+ 
+EULER1_1 
+0 
+Euler angle 1 at 
+CABEND 
+(deg) 
+float 
+ 
+EULER1_2 
+0 
+Euler angle 2 at 
+CABEND 
+(deg) 
+float 
+ 
+EULER1_3 
+0 
+Euler angle 3 at 
+CABEND 
+(deg) 
+float 
+ 
+RA_PNT1 
+244.972773 
+pointing RA at 
+CABEND 
+(deg) 
+float 
+the same as 
+RA_PNT0 
+DEC_PNT1 
+39.895901 
+pointing Dec at 
+CABEND 
+(deg) 
+float 
+the same as 
+DEC_PNT0 
+EPOCH 
+2024.6 
+equinox of 
+pointing RA 
+and Dec 
+float 
+ 
+ 
+ 
+118 
+EXPTIME 
+150 
+exposure time 
+(s) 
+float 
+EXPTIME 
+should be no

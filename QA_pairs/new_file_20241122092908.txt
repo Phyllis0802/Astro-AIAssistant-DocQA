@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "OSCAN1是根据什么查询配置文件给出的？", "answer": "OSCAN1是根据DETNAME查询配置文件给出的。"},
+    {"question": "BIN_X的值是如何确定的？", "answer": "BIN_X的值是根据DETNAME查询配置文件给出的，表示紫外／可见合并行数的高字节。"},
+    {"question": "WCSAXES与MSC_MS的哪个属性相同？", "answer": "WCSAXES与MSC_MS的WCS属性相同。"},
+    {"question": "GAIN01到GAIN16的值都是多少？", "answer": "GAIN01到GAIN16的值都是32。"},
+    {"question": "RON01到RON16的值是如何获得的？", "answer": "RON01到RON16的值是在地面测试阶段提供，然后写入配置文件的。"},
+    {"question": "READT1的读出时长在哪里提供？", "answer": "READT1的读出时长在地面测试阶段提供，然后写入配置文件。"},
+    {"question": "DETTEMP0和DETTEMP1分别对应哪个二极管的测量？", "answer": "DETTEMP0和DETTEMP1都对应二极管1的精测，但可能是不同时间或不同条件下的测量值。"},
+    {"question": "IFS的工作模式有哪些？", "answer": "IFS的工作模式包括常温待机模式、低温待机模式、成像模式（自动流程）、光谱定标模式（自动流程）和辐射定标模式（自动流程）。"},
+    {"question": "IFSMODE中010代表什么模式？", "answer": "IFSMODE中010代表成像模式（自动流程）。"},
+    {"question": "GAIN1和GAIN2的增益范围是多少？", "answer": "GAIN1和GAIN2的增益范围是1x（全0）~5.8x（全1）。"}
+]
+```

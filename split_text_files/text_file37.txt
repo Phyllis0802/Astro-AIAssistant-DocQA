@@ -1,0 +1,593 @@
+99 
+NCHANNEL 
+16 
+number of 
+readout 
+channels 
+int 
+ 
+PSCAN1 
+27 
+horizontal 
+prescan width, 
+per readout 
+channel 
+int 
+ 
+PSCAN2 
+0 
+vertical prescan 
+width, per 
+readout channel 
+int 
+ 
+OSCAN1 
+320 
+horizontal 
+overscan width, 
+per readout 
+channel 
+int 
+ 
+OSCAN2 
+320 
+vertical 
+overscan width, 
+per readout 
+channel 
+int 
+ 
+BIN_X 
+1 
+bin number in 
+X 
+int 
+ 
+BIN_Y 
+1 
+bin number in 
+Y 
+int 
+ 
+WCSAXES 
+2 
+number of 
+WCS axes 
+int 
+ 
+CRPIX1 
+4607.5 
+x-coordinate of 
+reference pixel 
+float 
+ 
+CRPIX2 
+4615.5 
+y-coordinate of 
+reference pixel 
+float 
+ 
+CRVAL1 
+116.1808154 
+value of 
+reference pixel 
+on axis 1 
+float 
+ 
+CRVAL2 
+39.42316681 
+value of 
+reference pixel 
+on axis 2 
+float 
+ 
+CTYPE1 
+RA---TAN 
+type of RA 
+WCS 
+projection 
+str 
+ 
+ 
+ 
+100 
+CTYPE2 
+DEC--TAN 
+type of Dec 
+WCS 
+projection 
+str 
+ 
+CD1_1 
+-1.39E-05 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+CD1_2 
+0.1 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+CD2_1 
+0.1 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+CD2_2 
+1.39E-05 
+transformation 
+matrix element 
+(deg/pix) 
+float 
+ 
+GAINLVL 
+1.5 
+gain level (e-
+/ADU) 
+float 
+ 
+GAIN01 
+1.529999971 
+CCD gain 
+[channel 1] (e-
+/ADU) 
+float 
+ 
+GAIN02 
+1.539999962 
+CCD gain 
+[channel 2] (e-
+/ADU) 
+float 
+ 
+GAIN03 
+1.549999952 
+CCD gain 
+[channel 3] (e-
+/ADU) 
+float 
+ 
+GAIN04 
+1.529999971 
+CCD gain 
+[channel 4] (e-
+/ADU) 
+float 
+ 
+GAIN05 
+1.50999999 
+CCD gain 
+[channel 5] (e-
+/ADU) 
+float 
+ 
+GAIN06 
+1.559999943 
+CCD gain 
+[channel 6] (e-
+/ADU) 
+float 
+ 
+GAIN07 
+1.580000043 
+CCD gain 
+[channel 7] (e-
+/ADU) 
+float 
+ 
+ 
+ 
+101 
+GAIN08 
+1.529999971 
+CCD gain 
+[channel 8] (e-
+/ADU) 
+float 
+ 
+GAIN09 
+1.539999962 
+CCD gain 
+[channel 9] (e-
+/ADU) 
+float 
+ 
+GAIN10 
+1.570000052 
+CCD gain 
+[channel 10] (e-
+/ADU) 
+float 
+ 
+GAIN11 
+1.50999999 
+CCD gain 
+[channel 11] (e-
+/ADU) 
+float 
+ 
+GAIN12 
+1.529999971 
+CCD gain 
+[channel 12] (e-
+/ADU) 
+float 
+ 
+GAIN13 
+1.549999952 
+CCD gain 
+[channel 13] (e-
+/ADU) 
+float 
+ 
+GAIN14 
+1.570000052 
+CCD gain 
+[channel 14] (e-
+/ADU) 
+float 
+ 
+GAIN15 
+1.529999971 
+CCD gain 
+[channel 15] (e-
+/ADU) 
+float 
+ 
+GAIN16 
+1.519999981 
+CCD gain 
+[channel 16] (e-
+/ADU) 
+float 
+ 
+RON01 
+4.53000021 
+readout noise 
+[channel 01] 
+(e-) 
+float 
+ 
+RON02 
+4.539999962 
+readout noise 
+[channel 02] 
+(e-) 
+float 
+ 
+RON03 
+4.550000191 
+readout noise 
+[channel 03] 
+(e-) 
+float 
+ 
+RON04 
+4.53000021 
+readout noise 
+[channel 04] 
+(e-) 
+float 
+ 
+ 
+ 
+102 
+RON05 
+4.510000229 
+readout noise 
+[channel 05] 
+(e-) 
+float 
+ 
+RON06 
+4.559999943 
+readout noise 
+[channel 06] 
+(e-) 
+float 
+ 
+RON07 
+4.579999924 
+readout noise 
+[channel 07] 
+(e-) 
+float 
+ 
+RON08 
+4.53000021 
+readout noise 
+[channel 08] 
+(e-) 
+float 
+ 
+RON09 
+4.539999962 
+readout noise 
+[channel 09] 
+(e-) 
+float 
+ 
+RON10 
+4.570000172 
+readout noise 
+[channel 10] 
+(e-) 
+float 
+ 
+RON11 
+4.510000229 
+readout noise 
+[channel 11] 
+(e-) 
+float 
+ 
+RON12 
+4.53000021 
+readout noise 
+[channel 12] 
+(e-) 
+float 
+ 
+RON13 
+4.550000191 
+readout noise 
+[channel 13] 
+(e-) 
+float 
+ 
+RON14 
+4.570000172 
+readout noise 
+[channel 14] 
+(e-) 
+float 
+ 
+RON15 
+4.53000021 
+readout noise 
+[channel 15] 
+(e-) 
+float 
+ 
+RON16 
+4.519999981 
+readout noise 
+[channel 16] 
+(e-) 
+float 
+ 
+DETBIA01 
+500.1 
+amplifier bias 
+grey value 
+float 
+ 
+ 
+ 
+103 
+[channel 1] 
+(ADU) 
+DETBIA02 
+510.1 
+amplifier bias 
+grey value 
+[channel 2] 
+(ADU) 
+float 
+ 
+DETBIA03 
+514.1 
+amplifier bias 
+grey value 
+[channel 3] 
+(ADU) 
+float 
+ 
+DETBIA04 
+520.1 
+amplifier bias 
+grey value 
+[channel 4] 
+(ADU) 
+float 
+ 
+DETBIA05 
+524.1 
+amplifier bias 
+grey value 
+[channel 5] 
+(ADU) 
+float 
+ 
+DETBIA06 
+540.1 
+amplifier bias 
+grey value 
+[channel 6] 
+(ADU) 
+float 
+ 
+DETBIA07 
+530.1 
+amplifier bias 
+grey value 
+[channel 7] 
+(ADU) 
+float 
+ 
+DETBIA08 
+532.1 
+amplifier bias 
+grey value 
+[channel 8] 
+(ADU) 
+float 
+ 
+DETBIA09 
+534.1 
+amplifier bias 
+grey value 
+[channel 9] 
+(ADU) 
+float 
+ 
+DETBIA10 
+526.1 
+amplifier bias 
+grey value 
+[channel 10] 
+(ADU) 
+float 
+ 
+DETBIA11 
+532.1 
+amplifier bias 
+grey value 
+float 
+ 
+ 
+ 
+104 
+[channel 11] 
+(ADU) 
+DETBIA12 
+516.1 
+amplifier bias 
+grey value 
+[channel 12] 
+(ADU) 
+float 
+ 
+DETBIA13 
+540.1 
+amplifier bias 
+grey value 
+[channel 13] 
+(ADU) 
+float 
+ 
+DETBIA14 
+560.1 
+amplifier bias 
+grey value 
+[channel 14] 
+(ADU) 
+float 
+ 
+DETBIA15 
+536.1 
+amplifier bias 
+grey value 
+[channel 15] 
+(ADU) 
+float 
+ 
+DETBIA16 
+528.1 
+amplifier bias 
+grey value 
+[channel 16] 
+(ADU) 
+float 
+ 
+ROSPEED 
+100.1 
+readout speed 
+(MHz) 
+float 
+ 
+EXPSTART 
+60296.59285 
+exposure start 
+time (MJD) 
+float 
+ 
+EXPEND 
+60296.59632 
+exposure end 
+time (MJD) 
+float 
+ 
+EXPTIME 
+150 
+exposure time 
+(s) 
+float 
+ 
+DARKTIME 
+300.100002 
+dark current 
+time (s) 
+float 
+ 
+SHTSTAT 
+TRUE 
+shutter status 
+bool 
+ 
+REFFRAME 
+CSSTGSC-1.0 
+guiding catalog 
+version 
+str 
+ 
+SATESWV 
+softwave-1.0 
+satellite 
+software 
+version 
+str 
+ 
+ 
+ 
+105 
+CABSTART 
+2460297.093 
+first cabin time 
+after exposure 
+start (MJD) 
+float 
+ 
+SUNANGL0 
+0.1 
+angle between 
+the Sun and opt 
+axis at 
+CABSTART 
+float 
+ 
+MOONANG0 
+0.1 
+angle between 
+the Moon and 
+opt axis at 
+CABSTART 
+float 
+ 
+TEL_ALT0 
+0.1 
+angle between 
+opt axis and 
+Elimb at 
+CABSTART 
+float 
+ 
+POS_ANG0 
+0.1 
+angle between 
+y axis and 
+North Pole at 
+CABSTART 
+float 
+ 
+POSI0_X 
+-4803.159637 
+orbital position 
+in X at 
+CABSTART

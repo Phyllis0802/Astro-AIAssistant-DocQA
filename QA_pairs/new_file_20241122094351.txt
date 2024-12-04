@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "PSFAXIS3关键字表示什么？", "answer": "PSFAXIS3关键字表示该轴上元素的数量，数据类型为int。"},
+    {"question": "EXTNAME为PSF_DATA时，其数据类型是什么？", "answer": "EXTNAME为PSF_DATA时，其数据类型是str8。"},
+    {"question": "TDIM1的数据类型是什么？", "answer": "TDIM1的数据类型是str12。"},
+    {"question": "多⾊成像1级数据中，XTENSION的关键字是什么？", "answer": "多⾊成像1级数据中，XTENSION的关键字是IMAGE。"},
+    {"question": "BITPIX关键字表示什么信息？", "answer": "BITPIX关键字表示数组数据类型。"},
+    {"question": "CRVAL1和CRVAL2分别代表什么？", "answer": "CRVAL1代表参考像素在轴1上的值，CRVAL2代表参考像素在轴2上的值，两者数据类型都是float。"},
+    {"question": "PV1_0是什么类型的参数？", "answer": "PV1_0是投影畸变参数，数据类型为float。"},
+    {"question": "WCSDIM表示什么信息？", "answer": "WCSDIM表示WCS轴的数量，数据类型为float。"},
+    {"question": "无缝光谱1级数据中，NAXIS1和NAXIS2分别代表什么？", "answer": "无缝光谱1级数据中，NAXIS1和NAXIS2分别代表数组维度的数量，其中NAXIS1的示例值为9216，NAXIS2的示例值为9232，数据类型都是int。"},
+    {"question": "BUNIT关键字描述的是什么信息？", "answer": "BUNIT关键字描述的是数组值的物理单位，示例值为electron/s。"}
+]
+```

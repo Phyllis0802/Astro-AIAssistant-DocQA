@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "LEDTEMP代表什么？", "answer": "LEDTEMP代表LED温度（K），数据类型为float。"},
+    {"question": "V_QC0的数据类型是什么？", "answer": "V_QC0的数据类型是str5。"},
+    {"question": "S_QC0的状态值有哪些可能？", "answer": "S_QC0的状态值可能为0/1/2，数据类型为int。"},
+    {"question": "R_GAIN表示什么？", "answer": "R_GAIN表示参考增益文件，数据类型为str4。"},
+    {"question": "S_CTI的状态值为1表示什么？", "answer": "S_CTI的状态值为1表示CTI校正的状态为启用或已应用，数据类型为int。"},
+    {"question": "CRSCOUNT代表什么？", "answer": "CRSCOUNT代表宇宙射线像素计数，数据类型为int。"},
+    {"question": "VER_AST是什么的版本？", "answer": "VER_AST是天体测量软件的版本，数据类型为str8。"},
+    {"question": "CRVAL1的值是多少？", "answer": "CRVAL1的值是192.9481609，表示参考像素在轴1上的值，数据类型为float。"},
+    {"question": "PV1_0是什么类型的参数？", "answer": "PV1_0是投影畸变参数，数据类型为float。"},
+    {"question": "ZP在天文数据处理中代表什么？", "answer": "ZP在天文数据处理中代表光度零点（photometric zero point）在星等中的值，用于校准光度测量，数据类型为float。"}
+]
+```

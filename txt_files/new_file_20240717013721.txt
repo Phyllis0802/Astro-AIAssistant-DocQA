@@ -1,0 +1,64 @@
+```json
+[
+    {
+        "content": "XTENSION的值是什么？",
+        "summary": "XTENSION的值为IMAGE，表示这是一个图像扩展。"
+    },
+    {
+        "content": "BITPIX的数据类型是什么？",
+        "summary": "BITPIX的值为-64，表示这是一个64位浮点数的数据类型。"
+    },
+    {
+        "content": "NAXIS表示的是什么？",
+        "summary": "NAXIS表示的是数组维度的数量，其值为2，意味着这是一个二维数组。"
+    },
+    {
+        "content": "NAXIS1和NAXIS2分别代表什么？",
+        "summary": "NAXIS1代表数组的第一个维度的大小，其值为2。NAXIS2代表数组的第二个维度的大小，其值为16384。"
+    },
+    {
+        "content": "DATE-OBS表示什么日期？",
+        "summary": "DATE-OBS表示的是观测开始的日期，即2024-08-17T06:05:12。"
+    },
+    {
+        "content": "UTCSTART和UTCEND分别是什么时间？",
+        "summary": "UTCSTART和UTCEND都表示的是相应数据开始和结束曝光的日期时间，其值均为2024-08-17T06:05:12。"
+    },
+    {
+        "content": "PROID是什么的缩写？",
+        "summary": "PROID是项目ID的缩写，具体为PI_OBJECT_SCIENCYOBJ。"
+    },
+    {
+        "content": "SRCTYPE的值是什么？",
+        "summary": "SRCTYPE的值为single，表示源类型为单源。"
+    },
+    {
+        "content": "TELVPA代表望远镜的什么属性？",
+        "summary": "TELVPA代表望远镜的视轴垂直位置角，其值为23.4235。"
+    },
+    {
+        "content": "CHOPPING、NODDING和SCANNING的布尔值分别代表什么？",
+        "summary": "CHOPPING的布尔值为TRUE，表示在切换到黑体（冷）时该值为真。NODDING的布尔值为TRUE，表示在切换到背景信号时该值为真。SCANNING的布尔值为TRUE，表示在OTF模式（可能指开普勒望远镜的Off-The-Focal-Plane模式）下操作时该值为真。"
+    },
+    {
+        "content": "SCANNUM的数值表示什么？",
+        "summary": "SCANNUM的数值为30，表示在每个“开”周期内的“关”周期数。"
+    },
+    {
+        "content": "TRACERR为True时表示什么？",
+        "summary": "当TRACERR为True时，表示存在跟踪误差的标志。"
+    },
+    {
+        "content": "DATATYPE的值是什么？",
+        "summary": "DATATYPE的值为SPECTRAL，表示数据类型为光谱数据。"
+    },
+    {
+        "content": "LO_LOCK的布尔值表示什么？",
+        "summary": "LO_LOCK的布尔值为TRUE，表示振荡器是稳定的。"
+    },
+    {
+        "content": "BEFF、FOREFF分别代表什么效率？",
+        "summary": "BEFF代表波束效率，FOREFF代表前向效率，它们都是用来描述望远镜性能的重要参数。"
+    }
+]
+```

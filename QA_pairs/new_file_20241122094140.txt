@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "多⾊成像1级数据关键字（HDU5）中的XTENSION代表什么？", "answer": "BINTABLE，表示二进制表扩展。"},
+    {"question": "HDU5的BITPIX关键字的数据类型是什么？", "answer": "int，表示整数类型。"},
+    {"question": "在HDU5中，NAXIS1的值是多少？", "answer": "64，表示维度1的长度为64。"},
+    {"question": "HDU5的TTYPE2关键字代表什么？", "answer": "x_win，表示窗口的x坐标。"},
+    {"question": "HDU6的TFORM2关键字的数据格式是什么？", "answer": "D，表示双精度浮点数。"},
+    {"question": "多⾊成像1级数据关键字（HDU6）中TTYPE6的TUNIT6是什么？", "answer": "deg，表示度。"},
+    {"question": "HDU6的TTYPE8代表什么类型的数据？", "answer": "kron_mag，表示Kron星等。"},
+    {"question": "在HDU6中，TTYPE13的TUNIT13是什么？", "answer": "deg，表示度。"},
+    {"question": "HDU6的TTYPE15关键字代表什么信息？", "answer": "parallax_gaia，表示Gaia视差。"},
+    {"question": "phot_g_mean_mag（HDU6）的TUNIT18是什么单位？", "answer": "mag，表示星等。"}
+]
+```

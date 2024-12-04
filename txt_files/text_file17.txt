@@ -1,0 +1,1061 @@
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+IVAR１
+str
+extension name
+表30: IFS CUBE HDU3 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str
+Image extension
+BITPIX
+8
+int
+array data type
+NAXIS
+int
+number of array dimensions
+NAXIS1
+100
+int
+NAXIS2
+100
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+MASK
+str
+extension name
+表31: IFS CUBE HDU4 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str
+Image extension
+BITPIX
+8
+int
+array data type
+76
+NAXIS
+int
+number of array dimensions
+NAXIS1
+100
+int
+NAXIS2
+100
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+EXP_NUM
+str
+extension name
+表32: IFS CUBE HDU5 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str
+Image extension
+BITPIX
+8
+int
+array data type
+NAXIS
+int
+number of array dimensions
+NAXIS1
+100
+int
+NAXIS2
+100
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+LSF
+str
+extension name
+表33: IFS CUBE HDU6 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str
+Image extension
+BITPIX
+8
+int
+array data type
+NAXIS
+int
+number of array dimensions
+NAXIS1
+100
+int
+77
+NAXIS2
+100
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+WEIGHT
+MARTIX
+str
+extension name
+表34: IFS CUBE HDU7 头文件关键字
+Key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str
+binary table extension
+BITPIX
+8
+int
+array data type
+NAXIS
+int
+number of array dimensions
+NAXIS1
+100
+int
+length of dimension 1
+NAXIS2
+100
+int
+length of dimension 2
+PCOUNT
+int
+number of group parameters
+GCOUNT
+1
+int
+number of groups
+TFIELDS
+1
+int
+number of table fields
+EXTNAME
+FLUX
+str
+extension name
+TTYPE1
+FILENAME
+str
+TFORM1
+19A
+str
+（V）星冕仪一级数据关键字
+表35：CPIC DR 数据文件中HDU0 等头文件（header）关键字
+key
+example
+fmt
+comment
+fill_value
+SIMPLE
+TRUE
+bool
+conforms to FITS
+standard
+BITPIX
+-64
+int
+array data type
+78
+NAXIS
+1
+int
+number of array
+dimensions
+NAXIS1
+int
+EXTEND
+TRUE
+bool
+DATE
+2023-07-04T21:21:49
+str19
+date this file was
+written
+FILENAME
+CSST_CPIC_VIS_SCIE
+_20230704212149_20230704212221
+_51000000001_X_L0_V0
+str68
+FILETYPE
+SCIE
+str4
+type of data found
+in data file
+TELESCOP
+CSST
+str4
+telescope used to
+acquire data
+INSTRUME
+CPIC
+str4
+instrument used to
+acquire data
+RADECSYS
+ICRS
+str4
+reference
+coordinate system
+EQUINOX
+2000.0
+str
+FITSCREA
+CPISM V0.9.0
+str
+FITS create
+software version
+OBJECT
+080000+400000
+str
+object name
+TARGET
+080000+400000
+str13
+target name
+(hhmmss+ddmmss)
+OBSID
+51000000001
+str11
+observation ID
+OBJ_RA
+120.0
+float
+RA of the object
+(degrees)
+OBJ_DEC
+40.0
+float
+DEC of the object
+(degrees)
+REFFRAME
+CSSTGSC-1.0
+str11
+guide star catalog
+version
+DATE-OBS
+2023-07-04T21:21:49
+str19
+date of the
+observation
+SATESWV
+SIMULATION
+str
+software version in
+the satellite
+EXPSTART
+60129.89015046300
+float
+exposure start time
+(MJD)
+CABSTART
+60129.89015046300
+float
+79
+SUNANGL0
+-1
+int
+angle between sun
+and optical axis at
+CABSTART
+-1
+MOONANG0 -1
+int
+angle between
+moon and optical
+axis at
+CABSTART
+-1
+TEL_ALT0
+-1
+int
+altitude refer to
+Earth limb at
+CABSTART
+-1
+POS_ANG0
+int
+position angle at
+CABSTART
+POSI0_X
+-1
+int
+orbital position in
+X direction at
+CABSTART
+POSI0_Y
+-1
+int
+orbital position in
+Y direction at
+CABSTART
+POSI0_Z
+-1
+int
+orbital position in
+Z direction at
+CABSTART
+VELO0_X
+-1
+int
+the orbital velocity
+in X direction at
+CABSTART
+VELO0_Y
+-1
+int
+the orbital velocity
+in Y direction at
+CABSTART
+VELO0_Z
+-1
+int
+the orbital velocity
+in Z direction at
+CABSTART
+EULER0_1
+-1
+int
+Euler angle 1 at
+CABSTART
+EULER0_2
+-1
+int
+Euler angle 2 at
+CABSTART
+EULER0_3
+-1
+int
+Euler angle 3 at
+CABSTART
+RA_PNT0
+120.0
+float
+RA of the pointing
+(degrees) at
+CABSTART
+DEC_PNT0
+40.0
+float
+DEC of the
+pointing (degrees)
+at CABSTART
+EXPEND
+60129.89052083330
+float
+exposure end time
+(MJD)
+CABEND
+60129.89052083330
+float
+80
+SUNANGL1
+-1
+int
+angle between sun
+and optical axis at
+CABEND
+-1
+MOONANG1 -1
+int
+angle between
+moon and optical
+axis at CABEND
+-1
+TEL_ALT1
+-1
+int
+altitude refer to
+Earth limb at
+CABEND
+-1
+POS_ANG1
+int
+position angle at
+CABSTART at
+CABEND
+POSI1_X
+-1
+int
+orbital position in
+X direction at
+CABEND
+POSI1_Y
+-1
+int
+orbital position in
+Y direction at
+CABEND
+POSI1_Z
+-1
+int
+orbital position in
+Z direction at
+CABEND
+VELO1_X
+-1
+int
+the orbital velocity
+in X direction at
+CABEND
+VELO1_Y
+-1
+int
+the orbital velocity
+in Y direction at
+CABEND
+VELO1_Z
+-1
+int
+the orbital velocity
+in Z direction at
+CABEND
+EULER1_1
+-1
+int
+Euler angle 1 at
+CABEND
+EULER1_2
+-1
+int
+Euler angle 2 at
+CABEND
+EULER1_3
+-1
+int
+Euler angle 3 at
+CABEND
+RA_PNT1
+120.0
+float
+RA of the pointing
+(degrees) at
+CABEND
+DEC_PNT1
+40.0
+float
+DEC of the
+pointing (degrees)
+at CABEND
+EXPTIME
+32.0
+float
+exposure duration
+EPOCH
+2023
+int
+coordinate epoch
+81
+CHECKSUM ZXAahW5XZWAafW3U
+str16
+HDU checksum
+updated 2023-06-
+29T22:15:45
+DATASUM
+0
+str1
+data unit checksum
+updated 2023-06-
+29T22:15:45
+表36：CPIC DR 的HDU1 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str5
+Image extension
+BITPIX
+-64
+int
+array data type
+NAXIS
+3
+int
+number of array dimensions
+NAXIS1
+1088
+int
+NAXIS2
+1050
+int
+NAXIS3
+2
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+IMAGE
+str5
+EXTVER
+1
+int
+BUNIT
+ADU
+str3
+physical unit of array values
+FILTER
+f661
+str4
+filter band
+DETNAME
+CCD201-20-EM
+str12 detector serial number
+CHIPLAB
+EMCCD
+str5
+chip label
+CHIPTEMP
+173
+int
+chip temperature (in K)
+DEWTEMP
+173
+int
+dewer temperature (in K)
+DETSIZE
+13.3 * 13.3mm
+str13 detector size
+82
+IMGINDEX
+1
+int
+index of image
+IMG_EXPT
+2023-07-04T21:21:49
+str19 exposure start time of this frame
+IMG_CAB
+2023-07-04T21:21:49
+str19
+IMG_DUR
+10
+int
+image frame exposure duration
+IMG_PA
+120.0
+float position angle at IMG_CABT
+IMG_RA
+40.0
+float RA of pointing (degree) at
+IMG_CABT
+IMG_DEC
+float DEC of pointing (degree) at
+IMG_CABT
+DATASEC
+1024 * 1024
+str11 data section
+PIXSCAL
+0.016153
+float pixel scale
+PIXSIZE
+13.0
+float pixel size
+NCHAN
+1
+int
+number of readout channels
+PSCAN1
+16
+int
+horizontal prescan width
+PSCAN2
+int
+vertical prescan height
+OSCAN1
+16
+int
+horizontal overscan width
+OSCAN2
+18
+int
+vertical overscan width
+UDARK
+6
+int
+height of upside dark reference
+region
+BDARK
+2
+int
+height of downside dark
+reference region
+LDARK
+16
+int
+width of leftside dark reference
+region
+RDARK
+16
+int
+width of rightside dark reference
+region
+WCSAXES
+2
+int
+number of World Coordinate
+System axes
+CRPIX1
+544.5
+float x-coordinate of reference pixel
+CRPIX2
+518.5
+float y-coordinate of reference pixel
+83
+CRVAL1
+120.0
+float first axis value at reference pixel
+CRVAL2
+40.0
+float second axis value at reference
+pixel
+CTYPE1
+RA---TAN
+str8
+the coordinate type for the first
+axis
+CTYPE2
+DEC--TAN
+str8
+the coordinate type for the
+second axis
+CD1_1
+1.0
+float partial of first axis coordinate
+w.r.t. x
+CD1_2
+float partial of first axis coordinate
+w.r.t. y
+CD2_1
+float partial of second axis coordinate
+w.r.t. x
+CD2_2
+1.0
+float partial of second axis coordinate
+w.r.t. y
+OTHERS
+str
+EMGAIN
+1
+int
+EMgain for EMCCD
+GAIN
+8
+int
+CCD gain
+DET_BIAS
+30
+int
+CCD bias voltage
+RON
+40
+int
+readout noise
+READTIME
+0.7
+float readout time
+ROSPEED
+10000
+int
+readout speed (in MHz)
+LS_STAT
+OFF
+str3
+laser status
+IWA
+0.2
+float inner working angle of CPIC
+WFSINFO1
+-1
+int
+x-direction residuals of WFS of
+CPIC
+WFSINFO2
+-1
+int
+y-direction residuals of WFS of
+CPIC
+CHECKSUM 19Vi46Vi16Vi16Vi
+str16 HDU checksum updated 2023-
+06-29T22:15:45
+DATASUM
+1952400001
+str
+data unit checksum updated
+2023-06-29T22:15:45
+VER_PIPE
+0.1
+str
+version of CPI-C pipeline
+84
+VER_QC0
+0.1
+str
+version of CPI-C QC0
+VER_QC1
+0.1
+str
+version of CPI-C QC1
+STA_PIPE
+int
+state of CPI-C pipeline
+STA_QC0
+int
+state of CPI-C QC0
+STA_QC1
+int
+state of CPI-C QC1
+STM_PIPE
+1688520174.735930
+float Time of start of date process
+NAME
+---
+str
+name of target
+I_MEAN
+-1
+int
+mean value of total noise of dark
+zone
+-1
+I_STD
+-1
+int
+std value of total noise of dark
+zone
+-1
+I_MARK
+S
+str1
+Status flag for image classify
+CTE_NAM
+sci/no_emgain/CTE.fits
+str
+name of CTE reference file
+CTEV_VAL
+-1
+int
+value of vertical CTE
+-1
+CTEH_VAL
+-1
+int
+value of horizontal CTE
+-1
+BP_NUM
+2
+int
+number of bad pixel
+-1
+B_NAM
+sci/no_emgain/Bias.fits
+str
+name of bias reference file
+B_MEAN
+0.01963575929403310
+float mean value of bias reference
+image
+-1.0
+B_STD
+0.5070645213127140
+float std value of bias reference image -1.0
+SP_NUM
+2
+int
+number of saturated pixels
+-1
+D_NAM
+sci/no_emgain/Dark_10s.fits
+str
+name of dark reference file
+D_MEAN
+-0.03244539350271230
+float mean value of dark reference
+image
+-1.0
+D_STD
+0.5077783465385440
+float std value of dark reference image -1.0
+F_NAM
+sci/no_emgain/Flat.fits
+str
+name of flat reference file
+85
+F_MEAN
+0.8950160724841030
+float mean value of flat reference
+image
+-1.0
+F_STD
+0.2680953977849130
+float std value of flat reference image
+-1.0
+NL_NAM
+sci/no_emgain/Nonlin.fits
+str
+name of nonlinear correction
+reference f
+BG_NAM
+sci/no_emgain/background.fits str
+name of background reference
+file
+CR_MOD
+lacosmic
+str
+mode of CR clean
+multiimages
+CR_NUM
+30
+int
+number of cosmic ray
+-1
+FLAG1
+int
+normal pixels
+FLAG2
+1
+int
+bad pixels
+FLAG3
+2
+int
+hot pixels
+FLAG4
+4
+int
+warm pixels
+FLAG5
+8
+int
+saturated pixels
+FLAG6
+16
+int
+pixels contaminated by cosmic
+ray
+FLAG7
+32
+int
+pixels contaminated by sputnik
+(VI) 高灵敏度太赫兹1 级数据关键字
+表37：HSTDM 数据文件中HDU0 等头文件（header）的关键字
+key
+example
+fmt
+comment
+fill_value
+SIMPLE
+TRUE
+bool conforms to FITS
+standard
+BITPIX
+8
+int
+array data type
+NAXIS
+int
+number of array
+dimensions
+EXTEND
+TRUE
+bool
+NEXTEND
+1
+int
+number of extensions
+DATE
+2024-08-17T06:05:12
+str19 Date when this file was
+written
+86
+FILENAME
+CSST_HSTDM_ONS_SCI
+_20240817060512_20240817060513_
+50100000001_01-0001_L0_V01.fits
+str
+File Name
+FILETYPE
+STARE
+str
+observation type
+TELESCOP
+CSST
+str4
+telescope name
+INSTRUME
+HSTDM
+str5
+Instrument used to
+aquire data
+RADECSYS
+ICRS
+str4
+frame of reference
+EQUINOX
+2000.0
+float
+FITSCREA
+1.0.5
+str5
+FITS create software
+version
+OBJECT
+M51
+str3
+observation object
+name
+TARGET
+132953+471143
+str13 target name
+(hhmmss+ddmmss)
+OBSID
+50100000001
+str11 X+OBSTYPE+8
+OBJ_RA
+13.49797166666670
+float Right
+ascension(Degrees)
+OBJ_DEC
+47.19525833333330
+float Declination(Degrees)
+REFFRAME
+CSSTGSC-1.0
+str11 guide star catalog
+version
+DATE-OBS
+2024-08-17T06:05:12
+str19 date of the observation
+(yyyy-mm-
+ddThh:mm:ss)
+SATESWV
+1
+str4
+software version in the
+satellite
+EXPSTART
+2459767.0
+float exposure start time
+(MJD)
+CABSTART
+2459767.0
+float nearst absolute time
+after exposure start
+(MJD)
+SUNANGL0
+50.0
+float angle between sun and
+optical axis at
+CABSTART
+MOONANG0 30.0
+float angle between moon
+and optical axis at
+CABSTART
+TEL_ALT0
+20.0
+float angle between
+groud_plane and
+87
+optical axis at C
+POS_ANG0
+20.0
+float angle bwt y axis and
+the North Pole at
+CABST
+POSI0_X
+5152.43457735
+float the orbital position in X
+at CABSTART
+POSI0_Y
+-850.64604263
+float the orbital position in Y
+at CABSTART
+POSI0_Z
+4297.77083803
+float the orbital position in Z
+at CABSTART
+VELO0_X
+2.66632246
+float The orbital velocity in
+X at CABSTART
+VELO0_Y
+6.97307976
+float The orbital velocity in
+Y at CABSTART
+VELO0_Z
+-1.80175713
+float The orbital velocity in
+Z at CABSTART
+EULER0_1
+float Euler angle 1
+at CABSTART
+EULER0_2
+float Euler angle 2
+at CABSTART
+EULER0_3
+float Euler angle 3
+at CABSTART
+RA_PNT0
+13.49797166666670
+float RA of the pointing
+(degrees) at
+CABSTART

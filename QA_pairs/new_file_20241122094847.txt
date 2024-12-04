@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "暗帧校正的状态标志是什么？", "answer": "暗帧校正的状态标志是STA_FLAT，其值为0。"},
+    {"question": "天光背景估计的单位是什么？", "answer": "天光背景估计的单位是e-/s per pixel，估计值为0.032387921。"},
+    {"question": "饱和像素的流量限制是多少？", "answer": "饱和像素的流量限制是300 e-/s。"},
+    {"question": "CTE校正的状态标志是多少？", "answer": "CTE校正的状态标志是STA_CTE，其值为1。"},
+    {"question": "投影畸变参数PV1_0的值是多少？", "answer": "投影畸变参数PV1_0的值是1.41E-05。"},
+    {"question": "投影畸变参数PV2_15的值是多少？", "answer": "投影畸变参数PV2_15的值是-2.770645494。"},
+    {"question": "MCI天文测量的图像分类是什么？", "answer": "MCI天文测量的图像分类是normal。"},
+    {"question": "IFS组件的温度单位是什么？", "answer": "IFS组件的温度单位是摄氏度（degC）。"},
+    {"question": "IFS相机的名称是什么？", "answer": "IFS相机的名称在数据中是可变的，例如可以是Blue，表示蓝端相机。"},
+    {"question": "探测器像素尺寸（轴1）是多少微米？", "answer": "探测器像素尺寸（轴1）是15微米。"}
+]
+```

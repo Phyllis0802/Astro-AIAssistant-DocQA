@@ -1,0 +1,44 @@
+```json
+[
+    {
+        "content": "主巡天相机和定标组件的image data数据是什么形式的矩阵？",
+        "summary": "主巡天相机和定标组件的image data数据应该为一个2维的datacube矩阵，以探测器选型使用CCD为例，如果按照计划的16通道读出，需要将16通道数据按照读出先后次序，顺序排列为一个2维矩阵。"
+    },
+    {
+        "content": "在CSST主巡天红外相机中，0级数据如何组织成一个三维的datacube？",
+        "summary": "在主巡天单次曝光150s时间内，CSST主巡天红外相机会多次读出，产生多帧图像（最多可产生256帧，其中每一帧累积前面的数据），形成一个三维的datacube，存于图像扩展中。"
+    },
+    {
+        "content": "MCI 0级数据image data中的数据是如何按通道排列的？",
+        "summary": "MCI 0级数据的image data部分，以探测器选型使用CCD为例，需要按照通道号从小到大的顺序将16通道数据从左到右排列为一个二维矩阵。"
+    },
+    {
+        "content": "IFS的image data数据是如何从4通道数据组织成一个三维datacube的？",
+        "summary": "IFS的image data数据应该为一个3维的datacube矩阵，以探测器选型使用CCD为例，需要将4通道数据按照读出先后次序，顺序排列为一个2维矩阵，在此基础上，第三维为在相同曝光、指向、跟踪、obsid下，一次采集的帧数n。"
+    },
+    {
+        "content": "CPIC模块的可见光和红外图像的像素尺寸分别是多少？",
+        "summary": "CPIC模块的可见光图像数据像素为1080*1050，红外图像数据像素为640*512。"
+    },
+    {
+        "content": "HSTDM模块的0级数据image data是什么类型的文件？",
+        "summary": "HSTDM模块的0级数据image data是二进制文件，数据的状态字为ASCII码固定格式。"
+    },
+    {
+        "content": "全局头文件中的关键字`BITPIX`代表什么？",
+        "summary": "全局头文件中的`BITPIX`关键字表示数组数据类型，比如8代表8位整数，16代表16位整数等。"
+    },
+    {
+        "content": "在全局头文件中，`RA_OBJ`和`DEC_OBJ`分别表示什么？",
+        "summary": "`RA_OBJ`表示观测目标的赤经（RA），单位为度；`DEC_OBJ`表示观测目标的赤纬（Dec），单位为度。"
+    },
+    {
+        "content": "`EXPTIME`关键字在MSC_MS 0级数据头文件中表示什么？",
+        "summary": "`EXPTIME`关键字在MSC_MS 0级数据头文件中表示曝光时间，单位为秒。"
+    },
+    {
+        "content": "RAW EXTENSION HEADER中的`XTENSION`关键字的作用是什么？",
+        "summary": "RAW EXTENSION HEADER中的`XTENSION`关键字表示这是一个图像扩展，即表明该部分数据包含的是图像信息。"
+    }
+]
+```

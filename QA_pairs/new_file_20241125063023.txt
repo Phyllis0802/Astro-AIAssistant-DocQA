@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "“WFIRST”重定向到哪个望远镜的名称？", "answer": "大视场红外巡天望远镜（Wide-Field Infrared Survey Telescope (WFIRST)）"},
+    {"question": "罗曼空间望远镜的曾用名是什么？", "answer": "大视场红外巡天望远镜（Wide-Field Infrared Survey Telescope (WFIRST)）"},
+    {"question": "罗曼空间望远镜的任务类型是什么？", "answer": "红外空间望远镜"},
+    {"question": "罗曼空间望远镜的运营方有哪些？", "answer": "美国国家航空航天局 / 喷气推进实验室 / 戈达德太空飞行中心"},
+    {"question": "罗曼空间望远镜的发射质量是多少？", "answer": "4,166千克（9,184磅）"},
+    {"question": "罗曼空间望远镜计划的任务时长是多久？", "answer": "6年（计划）"},
+    {"question": "罗曼空间望远镜预计的发射日期是什么时候？", "answer": "不早于2026年10月"},
+    {"question": "罗曼空间望远镜使用什么类型的运载火箭发射？", "answer": "猎鹰重型"},
+    {"question": "罗曼空间望远镜的主望远镜口径有多大？", "answer": "2.4米（7英尺10英寸）"},
+    {"question": "罗曼空间望远镜的哪项设计继承了JDEM的提议？", "answer": "罗曼空间望远镜的设计继承了NASA和美国能源部（DOE）的联合暗能量任务（JDEM）的各种提议设计。"}
+]
+```

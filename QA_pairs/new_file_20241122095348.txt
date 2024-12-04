@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "NAXIS1的关键字表示什么？", "answer": "NAXIS1的关键字表示第一个数据轴的长度。"},
+    {"question": "QC1PARM的数据类型是什么？", "answer": "QC1PARM的数据类型是C90，表示QC1参数的字符串，长度最多90个字符。"},
+    {"question": "主巡天天体测量1级数据的关键字‘XTENSION’的示例值是什么？", "answer": "主巡天天体测量1级数据的关键字‘XTENSION’的示例值是IMAGE。"},
+    {"question": "主巡天天体测量模块中，BUNIT的含义是什么？", "answer": "BUNIT的含义是数组值的物理单位，示例值为electron/s。"},
+    {"question": "DETTEMP1代表什么温度？", "answer": "DETTEMP1代表探测器在曝光开始时的温度（K）。"},
+    {"question": "PIXSCAL1的单位是什么？", "answer": "PIXSCAL1的单位是arcsec/pixel，表示每像素对应的角秒数。"},
+    {"question": "每个读出通道的水平预扫描宽度由哪个关键字表示？", "answer": "每个读出通道的水平预扫描宽度由PSCAN1关键字表示。"},
+    {"question": "GAINLVL的关键字含义是什么？", "answer": "GAINLVL的关键字含义是增益级别。"},
+    {"question": "RON01表示哪个通道的读出噪声？", "answer": "RON01表示第01个通道的读出噪声（e-）。"},
+    {"question": "SHTSTAT的关键字中，TRUE代表什么状态？", "answer": "SHTSTAT的关键字中，TRUE代表快门打开的状态。"}
+]
+```

@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "放大器偏置灰度值[通道14]的数据类型是什么？", "answer": "float"},
+    {"question": "曝光开始时间(MJD)的关键字是什么？", "answer": "EXPSTART"},
+    {"question": "卫星软件版本的默认值是什么？", "answer": "从文档中找不到答案"},
+    {"question": "CABSTART时指向的赤经(deg)是多少？", "answer": "116.1808154"},
+    {"question": "CABEND时的轨道速度在Z轴方向是多少(km/s)？", "answer": "-1.8602305"},
+    {"question": "0级数据头文件的扩展类型是什么？", "answer": "IMAGE"},
+    {"question": "IFS工作模式的关键字是什么？", "answer": "IFSMODE"},
+    {"question": "Blue相机的探测器序列号是什么？", "answer": "CCD231-c4-00"},
+    {"question": "第一个帧的曝光开始时间(UTC)是多少？", "answer": "2024-03-06T08:54:41.9"},
+    {"question": "通道1的CCD增益是多少(e-/ADU)？", "answer": "1.50999999"}
+]
+```

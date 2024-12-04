@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "朱雀号Suzaku卫星的任务类型是什么？", "answer": "X射线天文学观测卫星"},
+    {"question": "朱雀号Suzaku卫星的运营方有哪些？", "answer": "JAXA和NASA"},
+    {"question": "朱雀号Suzaku卫星的发射质量是多少？", "answer": "1,706千克（3,761英磅）"},
+    {"question": "朱雀号Suzaku卫星的发射日期是什么时候？", "answer": "2005年7月10日3时30分整 UTC"},
+    {"question": "朱雀号Suzaku卫星的停用日期是什么时候？", "answer": "2015年9月2日"},
+    {"question": "朱雀号Suzaku卫星的主望远镜观测什么波长？", "answer": "X射线"},
+    {"question": "ASTRO-E卫星的发射日期是什么时候？", "answer": "2000年2月10日1时30分整 UTC"},
+    {"question": "朱雀号卫星（Suzaku）是哪国的发射的第几颗X射线天文卫星？", "answer": "日本发射的第5颗X射线天文卫星"},
+    {"question": "朱雀卫星的主要仪器有哪些？", "answer": "软X射线望远镜（XRT）、4台X射线成像光谱仪（XIS）、1台X射线微热量观测仪（XRS）和硬X射线探测器（HXD）"},
+    {"question": "朱雀卫星上的X射线微热量观测仪在哪一年发生故障？", "answer": "2005年"}
+]
+```

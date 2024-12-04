@@ -1,0 +1,14 @@
+```json
+[
+    {"question": "float64数据类型通常用于表示什么？", "answer": "从文档中找不到答案"},
+    {"question": "mag表示的是什么？", "answer": "mag表示的是视星等，但在提供的信息中没有具体说明它是哪种类型的视星等。"},
+    {"question": "什么是predicted and actual apparent magnitude之间的difference？", "answer": "predicted and actual apparent magnitude之间的difference指的是预测视星等与实际观测到的视星等之间的差异。"},
+    {"question": "neo_pro是什么的缩写？", "answer": "从文档中找不到答案"},
+    {"question": "neo_pro的数据类型是什么？", "answer": "neo_pro的数据类型是float64。"},
+    {"question": "neo_pro的[]符号代表什么意义？", "answer": "在提供的信息中，[]符号与neo_pro一起出现，但没有具体解释其意义。通常，在编程和数据处理中，[]符号用于表示数组或列表，但在此上下文中的具体意义不明确。"},
+    {"question": "概率值probability of being neos表示的是什么？", "answer": "概率值probability of being neos表示的是天体被归类为近地天体（NEOs）的概率。"},
+    {"question": "如何解释neo_pro的数值？", "answer": "从文档中找不到答案，但通常，像neo_pro这样的浮点数数值可能表示某种测量值、概率或比率，具体取决于其上下文和用途。"},
+    {"question": "mag和neo_pro在天文领域有什么关联？", "answer": "从文档中找不到答案，但可能mag和neo_pro都涉及天体亮度的测量或分类，具体关联取决于它们的具体应用。"},
+    {"question": "neo_pro数据通常用于哪些天文研究？", "answer": "从文档中找不到答案，但neo_pro数据可能用于研究近地天体（NEOs）的特性、轨道和潜在威胁等方面。"}
+]
+```

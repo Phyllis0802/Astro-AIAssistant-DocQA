@@ -1,0 +1,164 @@
+更为完备的透镜类星体样本，
+例如红移分布和强引力透镜源，
+从而极
+大地提高H0的测量精度，或者对不同红移区间的H0值做出新的限制，
+以解决是否目前H0测量的tension问题是由于不同方法的系统误差所
+致或蕴含新的宇宙演化规律。 
+    窄线塞弗特1星系(NLS1s)是活动星系核中较为特殊的一类。
+它们
+通常具有较强的Fe II发射线与其他高电离的铁线以及其他一些非同
+寻常的性质（见Komossa 2018）
+。例如，在一些NLS1s中发现了比较强
+的相对论性射电喷流及伽马射线辐射，表现出类似于耀变体的性质；
+它们通常具有较强的软X射线辐射
+（即软X射线超）
+，
+且其X射线能谱也
+相对较陡；此外，NLS1s通常具有相对较弱的光学光变（Ai et al. 
+2011，2013）
+。造成作为NLS1s主要特征之一的比较窄的Hβ发射线的
+主导原因仍有很大的争论（Zhang & Wu 2002, Liu et al. 2016）
+。
+NLS1s往往被认为具有较小的黑洞质量与较大的爱丁顿比，这一点和
+测量黑洞质量的维里化因子的可靠估计密切相关。
+利用空间站望远镜
+的多波段高分辨率图像，我们预期测量NLS1s宿主星系质量，利用
+𝑀â¹ −𝑀hÆzye关系估计黑洞质量，再结合SDSS或地面其他望远镜获得
+的光谱，通过𝑅âtc −𝐿×0}}关系（Kaspi et al. 2000, Bentz et al. 
+2013, Du & Wang 2019）得到𝑓因子，得到NLS1宽线区动力学；并结
+合其他电磁波段数据如对于射电噪NLS1，
+可利用射电喷流及伽马辐射
+等，进一步限制宽线区结构（厚度、椭率等）与视线方向倾角等；利
+用得到的𝑓因子，
+获得大样本NLS1s的性质
+（如可计算NLS1样本的爱丁
+顿比）
+；另外，通过高分辨率成像拟合得到其宿主星系的核球、棒、
+并合特征及其与NLS1s黑洞质量和吸积率的关系。 
+ 
+ 
+192 
+ 
+参考文献： 
+Ai, Y.L. et al. 2011, ApJ, 727, 31 
+Ai, Y.L., Yuan, W.M., Zhou, H., et al. 2013, AJ, 145, 90 
+Atek, H., Richard, J., Kneib, J.-P., et al. 2014, ApJ, 786, 60 
+Atek, H., Richard, J., Kneib, J.-P., et al. 2015, ApJ, 800, 18  
+Baldry, I. K., et al. 2006, MNRAS, 373, 469 
+Bentz, M., Denney, K. D., et al. 2013, ApJ, 767, 149 
+Bian, F., et al. 2015, ApJ, 806, 108 
+Binney, J., & Tremaine, S. 1987, Galactic Dynamics 
+Bigiel, F., Leroy, A., Walter, F., et al. 2010, AJ, 140, 1194 
+Blandford, R. D. & McKee, C. F. 1982, ApJ, 255, 419 
+Bouwens, R. J., Illingworth, G. D., Oesch, P. A., et al. 2015b, ApJ, 803, 
+34 
+Bradley, L. D., Zitrin, A., Coe, D., et al. 2014, ApJ, 792, 76 
+Boettcher, E., Zweibel, E. G., Gallagher III, J. S., Benjamin, R. A. 2016, 
+ApJ, 832, 118 
+Bournaud, F., Elmegreen, B. G., & Elmegreen, D. M. 2007, ApJ, 670, 237 
+Bullock, J. S., & Johnston, K. V. 2005, ApJ, 635, 931 
+Cai et al. 2017, ApJ, 836, 1 
+Calistro Rivera, G., Hodge, J. A., Smail, I., et al. 2018, ApJ, 863, 56 
+Campitiello, S. et al. 2018, A&A, 612, A59 
+Cao, Y., et al. 2018, MNRAS, 480, 2178 
+Capak, P. L., et al. 2011, Nature, 470, 233 
+Cardamone, C., Schawinski, K., Sarzi, M., et al. 2009, MNRAS, 399, 1191 
+Carollo, C. M., Bschorr, T. J., Renzini, A., et al. 2013, ApJ, 773, 112 
+Chen, J., Shi, Y., Dempsey, R., et al. 2019, MNRAS, 489, 855 
+Chiang, Y.-S, et al. 2013, ApJ, 779, 127 
+Chiaraluce, E., et al. 2018, A&A, 619,,A95 
+Conselice, C. J. 2014, ARA&A 52, 291 
+Cooper et al. 2010, MNRAS, 234, 351 
+Davari, R., Ho, L. C., & Peng, C. Y. 2016, ApJ, 824, 112 
+193 
+ 
+Dekel, A., Sari, R., & Ceverino, D. 2009, ApJ, 703, 785 
+Dey, A. et al. 2016, ApJ, 823, 11 
+Dimauro et al. 2019, MNRAS, 489, 4135 
+Djorgovski, S., & Davis, M. 1987, ApJ, 313, 59 
+Dressler, A., Lynden-Bell, D., Burstein,D., et al. 1987, ApJ, 313, 42 
+Du, P., & Wang, J.-M. 2019, ApJ, 886, 42 
+Du, P., Zhang, Z.-X., Wang, K., et al. 2018, ApJ, 856, 6 
+Elbaz et al. 2007, ApJ, 234, 33 
+Erb, D. et al. 2011, ApJ, 740, 31 
+Fan, L., Lapi, A., Bressan, A., et al. 2010, ApJ, 718, 1460 
+Fan, L., Lapi, A., De Zotti, G., et al. 2008, ApJ, 689, L101 
+Fan, X., et al. 2006, AJ, 132, 117 
+Fang et al. 2012, ApJ, 751, 109 
+Fujimoto, S., Ouchi, M., Kohno, K., et al. 2018, ApJ, 861, 7 
+Galametz, et al. 2018, MNRAS, 475, 4148 
+Gao, H., & Ho, L. C. 2017, ApJ, 845, 114 
+Gao, H., Ho, L. C., Barth, A. J., & Li, Z.-Y. 2019, ApJS, 244, 34 
+Gladders, M. D., Yee, H. K. C. 2000, AJ, 120, 2148 
+Gonzalez, A. H., Zabludoff, A. I., Zaritsky, D., Dalcanton, J. J., 2000, ApJ, 
+536, 561 
+Goto, T, et al. 2003, MNRAS, 346, 601 
+Greene, J. E., Strader, J., & Ho L. C. 2019, ARA&A, in press  
+Guaita, L., et al. 2010, ApJ, 714, 255 
+Guo, H., Sun, M., et al. 2019, ApJL, 883, L44 
+Haines et al. 2015, ApJ, 806, 101. 
+Hausen, R., & Robertson, B. 2019, arXiv:1906.11248 
+He, Z., Sun, A.-L., Zakamska, N. L., et al. 2018, MNRAS, 478, 3614 
+Henry, A., Scarlata, C., Martin, C. L., Erb, D. 2015, ApJ, 809, 19 
+Hester, J. 2006, ApJ, 647, 910 
+Hopkins, P. F., Bundy, K., Hernquist, L., et al. 2010, MNRAS, 401, 1099 
+Hu, C. et al. 2008, ApJL, 683, 115 
+194 
+ 
+Hu, E., et al. 2010, ApJ, 725, 394 
+Hubble, E. P. 1926, ApJ, 64, 321 
+Illingworth, G. D., Magee, D., Oesch, P. A., et al. 2013, ApJS, 209, 6 
+Ishigaki, M., Kawamata, R., Ouchi, M., et al. 2015, ApJ, 799, 12 
+Izotov Y. I, Orlitová, I., Schaerer D. et al. 2016, Nature, 529, 178 
+Jaacks, J., Choi, J.-H., Nagamine, K., Thompson, R., & Varghese, S. 2012, 
+MNRAS, 420, 1606 
+Jensen, H., et al. 2014, MNRAS, 444, 2114 
+Jiang, L., et al. 2017, ApJ, 846, 134 
+Jiang, L., et al. 2018, Nature Astronomy, 2, 962 
+Jiang et al. 2018, ApJ, 854, 70 
+Jiang, L., McGreer, I. D., Fan, X., et al., 2016, ApJ, 833, 222 
+Jin, Xin et al.，2019, MNRAS，484，4539 
+Li, M. et al. 2019a, ApJ, in review, arXiv: 1909.03138 
+Li, Y. et al. 2019b, ApJL, in review, arXiv: 1911.06329 
+Liu, X., Yang, P.P., Su, R.Z., Zhang, Z. 2016, IJAA, 6, 166 
+Kashikawa, N., et al. 2011, ApJ, 734, 199 
+Kashikawa, N. et al. 2014, ApJ, 780, 116 
+Kaspi, S., Smith, P. S., Netzer, H., et al. 2000, ApJ, 533, 631 
+Kauffmann, G. & Haehnelt, M. 2000, MNRAS, 311, 576 
+Kochanek, C. S., Schneider, P., & Wambsganss, J. 2006, arXiv:0407232 
+Kojima, T. et al. 2019, astro-ph 1910.08559 
+Komossa, S. 2018, Proceedings of Science, volume "NLS1-2018", id.15 
+Kormendy, J., & Kennicutt, Jr., R. C. 2004, ARA&A, 42, 603 
+Kormendy, J., & Ho, L. C. 2013, ARA&A, 51, 511 
+Kovac, K., et al. 2009, ApJ, 708, 1 
+Kulkarni, G. et al. 2017, MNRAS, 469, 4283 
+LaMassa, S. M., Cales, S., et al. 2015, ApJ, 800, 144  
+Lemaux et al. 2018, ApJ, 243, 22 
+Li, L. et al.  2017, AJ, 153, 88 
+Lintott, C., Schawinski, K., Slosar, A., et al. 2008, MNRAS, 389, 1179 
+195 
+ 
+Madau & Dickinson 2014, ARA&A, 415, 486 
+McQuinn, M., et al. 2007, MNRAS, 381, 75 
+Murdoch, W. J, 2019, arXiv, 1901.04592 
+Murphy et al. 2013, ApJ, 768, 2. 
+Naab, T., Johansson, P. H., & Ostriker, J. P. 2009, ApJ, 699, L178 
+Oesch et al. 2012, ApJ, 759, 135. 
+Oesch, P. A., Bouwens, R. H.; Illingworth, G. D. et al. 2018, ApJ, 855, 105 
+Ono, Y., et al. 2018, PASJ, 70,10 
+Otte, B., Gallagher, J. S. III, Reynolds, R. J. 2002, ApJ, 572, 823 
+Ouchi, M., et al. 2010, ApJ, 723, 869 
+Ostriker, J. P., Choi, E., Ciotti, L., et al. 2010, ApJ, 722, 642 
+Peng et al. 2010, ApJ, 721, 193. 
+Peng, C. Y., Ho, L. C., Impey, C. D., & Rix, H.-W. 2010, AJ, 139, 2097 
+Peng, E. W., Jordan, A., Cote, P., et al. 2006, ApJ, 639, 95 
+Peng, E. W., Jordan, A., Cote, P., et al. 2008, ApJ, 681, 197 
+Peng, Y. 2012, ApJ, 757, 4 
+Peter et al. 2007, ApJ, 668, 1  
+Peterson, B. M. 1993, PASP, 105, 247 
+Pohlen, M., & Trujillo, I. 2006, A&A, 454, 759 
+Postman et al. 2005, MNRAS, 341, 54 
+Radburn-Smith, D. J., Roskar, R., Debattista,V. P., et al. 2012, ApJ, 753, 
+138 
+Rhoads & Malhotra 2001, ApJ, 563, 5 
+Roberts, M. S., & Haynes, M. P. 1994, ARA&A, 32, 115

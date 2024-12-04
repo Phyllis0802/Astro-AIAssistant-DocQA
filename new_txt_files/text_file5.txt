@@ -1,0 +1,841 @@
+NAXIS1
+20000
+int
+NAXIS2
+4700
+int
+PCOUNT
+0
+number of parameters
+int
+GCOUNT
+1
+number of groups
+int
+BSCALE
+1
+int
+BZERO
+32768
+int
+EXTNAME
+IMAGE
+extension name
+str
+EXTVER
+1
+extension version number
+int
+BUNIT
+ADU
+physical unit of array values
+str
+COMMENT
+=========
+str72
+26
+===========
+===========
+===========
+===========
+===========
+========
+DETECTOR INFORMATION
+CAMERA
+MS
+camera of main survey
+str2
+DETSN
+12345678
+detector serial number
+str
+DETNAME
+CCD
+detector type
+str
+DETTEMP1
+173
+detector temperature at EXPSTART (K)
+float
+DETTEMP2
+173
+detector temperature at EXPEND (K)
+float
+DETTEMP3
+173
+detector temperature at ROTIME1 (K)
+float
+DETSIZE
+20000x4700
+detector size
+str
+DATASECT
+9216x9232
+data section
+str
+PIXSCAL1
+0.074
+pixel scale for axis 1 (arcsec/pixel)
+float
+PIXSCAL2
+0.074
+pixel scale for axis 2 (arcsec/pixel)
+float
+PIXSIZE1
+10
+pixel size for axis 1 (micron)
+int
+PIXSIZE2
+10
+pixel size for axis 2 (micron)
+int
+CHIPID
+9
+chip ID
+str2
+CHIPLABL
+r-1
+chip label
+str
+FILTER
+r
+filter name
+str
+NCHANNEL
+16
+number of readout channels
+int
+PSCAN1
+27
+horizontal prescan width, per readout
+channel
+int
+27
+PSCAN2
+8
+vertical
+prescan
+width,
+per
+readout
+channel
+int
+OSCAN1
+16
+horizontal overscan width, per readout
+channel
+int
+OSCAN2
+16
+vertical overscan width, per readout
+channel
+int
+WORLD COORDINATE SYSTEM INFORMATION
+WCSAXES
+2
+number of WCS axes
+int
+CRPIX1
+4600.69465
+x-coordinate of reference pixel
+float
+CRPIX2
+4604.383757
+y-coordinate of reference pixel
+float
+CRVAL1
+244.5872723
+value of reference pixel on axis 1
+float
+CRVAL2
+39.68195466
+value of reference pixel on axis 2
+float
+CTYPE1
+RA---TAN
+type of RA WCS projection
+str8
+CTYPE2
+DEC--TAN
+type of Dec WCS projection
+str8
+CD1_1
+-6.81E-06
+transformation matrix element (deg/pix)
+float
+CD1_2
+-1.94E-05
+transformation matrix element (deg/pix)
+float
+CD2_1
+-1.94E-05
+transformation matrix element (deg/pix)
+float
+CD2_2
+6.81E-06
+transformation matrix element (deg/pix)
+float
+READOUT INFORMATION
+GAINLVL
+1
+gain level
+str2
+28
+GAIN01
+1.089977689
+gain (e-/ADU, channel 01)
+float
+GAIN02
+1.09917562
+gain (e-/ADU, channel 02)
+float
+GAIN03
+1.107649165
+gain (e-/ADU, channel 03)
+float
+GAIN04
+1.121722215
+gain (e-/ADU, channel 04)
+float
+GAIN05
+1.081220798
+gain (e-/ADU, channel 05)
+float
+GAIN06
+1.094562729
+gain (e-/ADU, channel 06)
+float
+GAIN07
+1.111430472
+gain (e-/ADU, channel 07)
+float
+GAIN08
+1.105606424
+gain (e-/ADU, channel 08)
+float
+GAIN09
+1.10187497
+gain (e-/ADU, channel 09)
+float
+GAIN10
+1.085064047
+gain (e-/ADU, channel 10)
+float
+GAIN11
+1.122187725
+gain (e-/ADU, channel 11)
+float
+GAIN12
+1.114934178
+gain (e-/ADU, channel 12)
+float
+GAIN13
+1.119336505
+gain (e-/ADU, channel 13)
+float
+GAIN14
+1.09303619
+gain (e-/ADU, channel 14)
+float
+GAIN15
+1.084334798
+gain (e-/ADU, channel 15)
+float
+GAIN16
+1.090894538
+gain (e-/ADU, channel 16)
+float
+RON01
+5.0
+readout noise (e-, channel 01)
+float
+RON02
+5.0
+readout noise (e-, channel 02)
+float
+RON03
+5.0
+readout noise (e-, channel 03)
+float
+RON04
+5.0
+readout noise (e-, channel 04)
+float
+RON05
+5.0
+readout noise (e-, channel 05)
+float
+RON06
+5.0
+readout noise (e-, channel 06)
+float
+RON07
+5.0
+readout noise (e-, channel 07)
+float
+RON08
+5.0
+readout noise (e-, channel 08)
+float
+RON09
+5.0
+readout noise (e-, channel 09)
+float
+29
+RON10
+5.0
+readout noise (e-, channel 10)
+float
+RON11
+5.0
+readout noise (e-, channel 11)
+float
+RON12
+5.0
+readout noise (e-, channel 12)
+float
+RON13
+5.0
+readout noise (e-, channel 13)
+float
+RON14
+5.0
+readout noise (e-, channel 14)
+float
+RON15
+5.0
+readout noise (e-, channel 15)
+float
+RON16
+5.0
+readout noise (e-, channel 16)
+float
+ROTIME0
+2024-08-
+17T06:07:42.1
+readout start time (UTC)
+str21
+ROTIME1
+2024-08-
+17T06:08:22.1
+readout end time (UTC)
+str21
+ROSPEED
+10.0
+readout speed (MHz)
+float
+EXPTIME
+150.0
+exposure time (s)
+float
+DARKTIME
+152.0
+dark current time (s)
+float
+SHUTTER INFORMATION
+SHTSTAT
+TRUE
+shutter status, T=open, F=close
+bool
+SHTOPEN0
+2024-08-
+17T06:07:42.1
+shutter open time (start, UTC)
+str21
+SHTOPEN1
+2024-08-
+17T06:07:42.1
+shutter open time (end, UTC)
+str21
+SHTCLOS0
+2024-08-
+17T06:07:42.1
+shutter close time (start, UTC)
+str21
+SHTCLOS1
+2024-08-
+17T06:07:42.1
+shutter close time (end, UTC)
+str21
+LED INFORMATION
+30
+LEDFLAG
+main
+main/backup LED
+str
+LEDSTAT
+00000000000
+000
+LED status
+str14
+LEDT01
+0.0
+LED01 flash time (ms)
+float
+LEDT02
+0.0
+LED02 flash time (ms)
+float
+LEDT03
+0.0
+LED03 flash time (ms)
+float
+LEDT04
+0.0
+LED04 flash time (ms)
+float
+LEDT05
+0.0
+LED05 flash time (ms)
+float
+LEDT06
+0.0
+LED06 flash time (ms)
+float
+LEDT07
+0.0
+LED07 flash time (ms)
+float
+LEDT08
+0.0
+LED08 flash time (ms)
+float
+LEDT09
+0.0
+LED09 flash time (ms)
+float
+LEDT10
+0.0
+LED10 flash time (ms)
+float
+LEDT11
+0.0
+LED11 flash time (ms)
+float
+LEDT12
+0.0
+LED12 flash time (ms)
+float
+LEDT13
+0.0
+LED13 flash time (ms)
+float
+LEDT14
+0.0
+LED14 flash time (ms)
+float
+LEDTEMP
+173.0
+LED temperature (K)
+float
+VERIFICATION INFORMATION
+CHECKSUM
+5aDaAZAV8
+aAaAWAU
+HDU checksum
+str
+DATASUM
+3747953988
+data unit checksum
+str
+31
+表5. 0 级数据头文件关键字（MSC_IR）
+RAW EXTENSION HEADER KEYWORDS
+keyword
+example
+comment
+dtype
+GENERAL KEYWORDS
+XTENSION
+IMAGE
+image extension
+str
+BITPIX
+16
+array data type
+int
+NAXIS
+3
+number of array dimensions
+int
+NAXIS1
+640
+int
+NAXIS2
+512
+int
+NAXIS3
+int
+BSCALE
+1
+int
+BZERO
+32768
+int
+EXTNAME
+IMAGE
+extension name
+str
+EXTVER
+1
+extension version number
+int
+BUNIT
+ADU
+physical unit of array values
+str
+COMMENT
+========
+=========
+=========
+=========
+=========
+=========
+=========
+=========
+=
+str72
+DETECTOR INFORMATION
+32
+CAMERA
+IR
+camera of main survey
+str2
+DETSN
+12345678
+detector serial number
+str
+DETNAME
+detector type
+str
+DETTEMP1
+173
+detector temperature at EXPSTART (K)
+float
+DETTEMP2
+173
+detector temperature at EXPEND (K)
+float
+DETTEMP3
+173
+detector temperature at READT1 (K)
+float
+DEWTEMP
+dewer temperature (K)
+float
+DETSIZE
+640x512
+detector size
+str
+DATASECT
+640x512
+data section
+str
+PIXSCAL1
+pixel scale for axis 1 (arcsec/pixel)
+float
+PIXSCAL2
+pixel scale for axis 2 (arcsec/pixel)
+float
+PIXSIZE1
+pixel size for axis 1 (micron)
+int
+PIXSIZE2
+pixel size for axis 2 (micron)
+int
+CHIPID
+11
+chip ID
+str2
+CHIPLABL
+ƴ'-1
+chip label
+str
+FILTER
+ƴ'
+filter name
+str
+NCHANNEL
+1
+number of readout channels
+int
+WORLD COORDINATE SYSTEM INFORMATION
+WCSAXES
+2
+number of WCS axes
+int
+CRPIX1
+4600.69465
+x-coordinate of reference pixel
+float
+CRPIX2
+4604.383757
+y-coordinate of reference pixel
+float
+CRVAL1
+244.5872723
+value of reference pixel on axis 1
+float
+CRVAL2
+39.68195466
+value of reference pixel on axis 2
+float
+33
+表6. 0 级数据头文件关键字（MCI）
+CTYPE1
+RA---TAN
+type of RA WCS projection
+str8
+CTYPE2
+DEC--TAN
+type of Dec WCS projection
+str8
+CD1_1
+-6.81E-06
+transformation matrix element (deg/pix)
+float
+CD1_2
+-1.94E-05
+transformation matrix element (deg/pix)
+float
+CD2_1
+-1.94E-05
+transformation matrix element (deg/pix)
+float
+CD2_2
+6.81E-06
+transformation matrix element (deg/pix)
+float
+READOUT INFORMATION
+IMGNUM
+image number
+int
+EXPTIR
+IR exposure time between two images
+float
+GAINIR
+IR gain
+float
+RONIR
+IR readout noise
+float
+ROSPDIR
+IR readout speed (MHz)
+float
+VERIFICATION INFORMATION
+CHECKSUM
+5aDaAZA
+V8aAaAWA
+U
+HDU checksum
+str
+DATASUM
+3747953988
+data unit checksum
+str
+34
+RAW EXTENSION HEADER KEYWORDS
+keyword
+example
+comment
+dtype
+GENERAL KEYWORDS
+XTENSION
+IMAGE
+extension type
+str5
+BITPIX
+16
+array data type
+int
+NAXIS
+2
+number of array dimensions
+int
+NAXIS1
+23984
+int
+NAXIS2
+4936
+int
+PCOUNT
+0
+number of parameters
+int
+GCOUNT
+1
+number of groups
+int
+BSCALE
+1
+int
+BZERO
+32768
+int
+EXTNAME
+SCI
+str3
+EXTVER
+1
+int
+BUNIT
+ADU
+physical unit of array values
+str
+COMMENT
+========
+=========
+=========
+=========
+=========
+=========
+=========
+str72
+35
+=========
+=
+FILE INFORMATION
+DATE
+2023-12-
+18T17:01:40.
+1
+written date (yyyy-mm-ddThh:mm:ss.s)
+str21
+FILENAME
+CSST_MCI
+_C1_EXDF_
+20231218141
+341_2023121
+8141841_201
+00000001_07
+_L0_V01
+str
+FILETYPE
+EXDF
+observation type
+str
+RADECSYS
+ICRS
+coordinate system of the object
+str
+EQUINOX
+2000.1
+float
+FITSSWV
+4.2.1
+FITS creating software version
+str
+INSTRUMENT STATUS AND OBJECT INFORMATION
+TELESCOP
+CSST
+telescope name
+str4
+INSTRUME
+MCI
+instrument name
+str3
+CHANNEL
+C1
+channel number
+str
+FILTERNO
+07
+filter number
+str
+DIFFUSER
+TRUE
+insert diffuser status for flat calibration
+bool
+36
+FLAMP
+1
+status of flat lamp
+int
+MCISTAT
+11111
+MCI components status parameter
+int
+OBJECT
+MCI_obj
+object name
+str
+TARGET
+074443.0+
+392523
+target name (hhmmss.s+ddmmss)
+str15
+OBSID
+20100000066
+observation ID
+str
+RA_OBJ
+116.1808154
+object RA (deg)
+float
+DEC_OBJ
+39.42316681
+object Dec (deg)
+float
+DATE-OBS
+2023-12-18
+T14:13:41.1
+observation
+date
+(yyyy-mm-
+ddThh:mm:ss.s)
+str21
+DETECTOR AND FILTER INFORMATION
+FILTER
+u
+filter band
+str
+DETSN
+E2V-CCD-
+000-0000000
+detector serial number
+str
+DETNAME
+uv
+detector name
+str
+DETTEMP0
+0.1
+detector temperature at EXPSTART (K)
+float
+DETTEMP1
+0.1
+detector temperature at EXPEND (K)
+float
+DETTEMP2
+0.1
+detector temperature at READT1 (K)
+float
+DETSIZE
+9232*9216
+detector size
+str
+DATASECT
+4936*23984
+data section
+str
+PIXSCAL1
+0.17
+pixel scale for axis 1 (arcsec/pixel)
+float
+37
+PIXSCAL2
+0.17
+pixel scale for axis 2 (arcsec/pixel)
+float
+PIXSIZE1
+0.05
+pixel size for axis 1 (micron)
+int
+PIXSIZE2
+0.05
+pixel size for axis 2 (micron)
+int
+NCHANNEL
+16
+number of readout channels
+int

@@ -1,0 +1,938 @@
+standard dev of frame background
+(ADU)-> e-/s
+SATURATE
+366.6666666666670
+float
+the flux limit of saturated pixel (e-/s)
+STA_CTE
+1
+int
+status flag for CTE correction
+STA_SAT
+1
+int
+status flag for satellite correction
+STA_CRS
+int
+status flag for cosmic rays mask
+CRCOUNT
+228977
+int
+cosmic rays pixel counts
+STA_NLIN
+int
+status flag for non-linear correction
+30
+STA_SHUT
+1
+int
+status flag for shutter effect correction
+VER_DIST
+1.0
+str
+version of distortion
+STM_DIST
+2023-06-
+18T14:47:42.528748
+str
+time stamp of distortion
+STA_DIST
+int
+0=done 1=warning 2=wrong
+RADESYS
+ICRS
+str
+CRPIX1
+-10017.0
+float
+x-coordinate of reference pixel
+CRPIX2
+24876.0
+float
+y-coordinate of reference pixel
+CRVAL1
+245.078792
+float
+first axis value at reference pixel
+CRVAL2
+39.679069
+float
+second axis value at reference pixel
+CTYPE1
+RA---TPV
+str
+the coordinate type for the first axis
+CTYPE2
+DEC--TPV
+str
+the coordinate type for the second
+axis
+CD1_1
+-6.8298293516935E-06
+float
+partial of first axis coordinate w.r.t.x
+CD1_2
+1.93877356910052E-05
+float
+partial of first axis coordinate w.r.t.y
+CD2_1
+-1.9387735691005E-05
+float
+partial of second axis coordinate
+w.r.t.x
+CD2_2
+-6.8298293516935E-06
+float
+partial of second axis coordinate
+w.r.t.y
+NS_DIST
+17
+int
+the number of stars used in fitting
+PV1_0
+-0.00096393734549635
+float
+PV1_1
+1.017816474206350
+float
+PV1_2
+0.007604301133893780
+float
+PV1_3
+0.0300128768691265
+float
+PV1_4
+-0.00935808777758008
+float
+PV1_5
+0.02123625002978740
+float
+31
+PV1_6
+-0.03986737941355510
+float
+PV2_0
+0.000136918899767756
+float
+PV2_1
+1.002684074994810
+float
+PV2_2
+0.05197149283037770
+float
+PV2_3
+0.05184498289216300
+float
+PV2_4
+-0.06037180325069310
+float
+PV2_5
+0.0222932036169276
+float
+PV2_6
+-0.00339289292124596
+float
+RA_OFF
+float
+RA offset (mas)
+DEC_OFF
+float
+DEC offset (mas)
+RA_RMS
+10.19
+float
+RA offset (mas)
+DEC_RMS
+10.57
+float
+DEC offset (mas)
+RA_CEN
+244.4438662813640
+float
+the center of detector in ra
+DEC_CEN
+39.53243823106620
+float
+the center of detector in dec
+STA_FLUX
+int
+flux calibration status, 0=done
+1=wrong
+VER_FLUX
+1.3
+str
+version of calibration code
+STM_FLUX
+2023-06-
+18T14:50:53.840795
+str
+flux calibration operation time
+CALI_REF
+GAIA
+str
+the reference database for calibration
+ZP
+23.8746
+float
+photometric zero point in magnitude
+PHRMS
+0.0044
+float
+zpt rms of the matched objects
+APER_R
+10
+int
+(pixels) photo-aperture radius
+FWHM
+2.1945
+float
+FWHM in pixel
+32
+RA_OFF1
+0.0796
+float
+median positional offset from GAIA,
+in arcsec
+DEC_OFF1
+-0.095
+float
+median positional offset from GAIA,
+in arcsec
+NS_FLUX
+50
+int
+total number of stars detected
+NS_MATCH
+20
+int
+total number of matched stars in 2
+arcsec
+MED_CLR
+float
+median (BP-RP)_GAIA of matched
+stars
+SKY_MAG
+21.9397
+float
+estimated sky background
+(mag/arcsec^2)
+MAG_LIM
+22.6807
+float
+magnitude limiting of 5-sigma
+detection
+VER_QC0
+0.0.2
+str
+pipeline version
+STM_QC0
+2023-06-
+18T14:31:21.612377
+str
+QC0 operation time
+STA_QC0
+int
+QC0 Status (0/1/2)
+Q_CHKSUM
+1
+int
+CRC checksum
+F_TELSCP
+int
+telescope flag (0/bit)
+Q_SHUTTR
+int
+indicating shutter status
+Q_COOLNG
+int
+indicating system cooling status
+F_GUIDER
+int
+guider flag (0/bit)
+F_DETECT
+int
+detector flag (0/bit)
+Q_DTDEAD
+int
+indicating dead detector
+Q_DTNOIS
+int
+indicating higher detector noise level
+Q_DIFPAT
+int
+indicating image diffraction pattern
+Q_XTALK
+int
+indicating significant image crosstalk
+Q_BADPIX
+int
+CCD bad pixel fraction larger than
+50%
+Q_BRIBKG
+int
+significant stray light effect in this
+field
+33
+Q_DTTEMP
+int
+large CCD temperature variation in
+this field
+VER_QC1
+0.0.2
+str
+pipeline version
+STM_QC1
+2023-06-
+18T14:53:17.542881
+str
+QC1 operation time
+STA_QC1
+int
+QC1 Status (0/1/2)
+Q_FOCUS
+int
+focus status
+Q_WCS
+int
+WCS Calibration status
+(II)
+主巡天无缝光谱1 级数据关键字
+表17：无缝光谱1 级数据新增关键字（HDU0）
+key
+example
+fmt
+comment
+fill_value
+SIMPLE
+TRUE
+bool conforms to FITS
+standard
+BITPIX
+8
+int
+array data type
+NAXIS
+int
+number of array
+dimensions
+EXTEND
+TRUE
+bool
+NEXTEND
+3
+int
+number of array
+dimensions
+DATE
+2027-07-13T22:24:17
+str19 the date on which this
+file was written
+FILENAME
+CSST_MSC_MS_SCIE_
+20270713222417_20270713222647
+_10160000066_01_L1_V01
+str68
+FILETYPE
+SCIE
+str4
+observation type
+TELESCOP
+CSST
+str4
+telescope used to
+acquire data
+INSTRUME
+MSC
+str3
+instrument used to
+acquire data
+RADECSYS
+ICRS
+str4
+reference coordinates
+system
+EQUINOX
+2000.0
+float
+34
+FITSCREA
+C6
+str2
+FITS create software
+version
+OBJECT
+60000066
+str8
+object name
+TARGET
+162019+394045
+str13 target name
+(hhmmss+ddmmss)
+OBSID
+10160000066
+str11 observation ID
+OBJ_RA
+245.078792
+float R.A. of the object
+(degrees)
+OBJ_DEC
+39.679069
+float declination of the
+object (degrees)
+REFFRAME
+CSSTGSC-1.0
+str11 guide star catalog
+version
+DATE-OBS
+2027-07-13T22:24:17
+str19 date of the observation
+(yyyy-mm-dd
+hh:mm:ss)
+SATESWV
+1
+str4
+software version in the
+satellite
+EXPSTART
+61599.93353
+float exposure start time
+(MJD)
+CABSTART
+61599.93353
+float (MJD)
+SUNANGL0
+50.0
+float angle between sun and
+opt axis at CABSTART
+MOONANG0 30.0
+float angle between moon
+and opt axis at
+CABSTART
+TEL_ALT0
+20.0
+float angle between opt axis
+and Elimb at
+CABSTART
+POS_ANG0
+20.0
+float angle between y axis
+and NP at CABSTART
+POSI0_X
+4854.9011
+float the orbital position in X
+at CABSTART
+POSI0_Y
+-1110.85
+float the orbital position in Y
+at CABSTART
+POSI0_Z
+4567.3288
+float the orbital position in Z
+at CABSTART
+VELO0_X
+1.969908919754740
+float the orbital velocity in X
+at CABSTART
+VELO0_Y
+7.424480514030170
+float the orbital velocity in Y
+at CABSTART
+35
+VELO0_Z
+-0.2871649019743930
+float the orbital velocity in Z
+at CABSTART
+EULER0_1
+float euler angle 1 at
+CABSTART
+EULER0_2
+float euler angle 2 at
+CABSTART
+EULER0_3
+float euler angle 3 at
+CABSTART
+RA_PNT0
+245.078792
+float RA of the pointing
+(degrees) at
+CABSTART
+DEC_PNT0
+39.679069
+float DEC of the pointing
+(degrees) at
+CABSTART
+EXPEND
+61599.93527
+float exposure end time
+(MJD)
+CABEND
+61599.93527
+float (MJD)
+SUNANGL1
+50.0
+float angle between sun and
+opt axis at CABEND
+MOONANG1 30.0
+float angle between moon
+and opt axis at
+CABEND
+TEL_ALT1
+20.0
+float angle between opt axis
+and Elimb at CABEND
+POS_ANG1
+20.0
+float angle between y axis
+and NP at CABEND
+POSI1_X
+float the orbital position in X
+at CABEND
+POSI1_Y
+float the orbital position in Y
+at CABEND
+POSI1_Z
+float the orbital position in Z
+at CABEND
+VELO1_X
+float the orbital velocity in X
+at CABEND
+VELO1_Y
+float the orbital velocity in Y
+at CABEND
+VELO1_Z
+float the orbital velocity in Z
+at CABEND
+EULER1_1
+float euler angle 1 at
+CABEND
+EULER1_2
+float euler angle 2 at
+CABEND
+36
+EULER1_3
+float euler angle 3 at
+CABEND
+RA_PNT1
+245.078792
+float RA of the pointing
+(degrees) at CABEND
+DEC_PNT1
+39.679069
+float DEC of the pointing
+(degrees) at CABEND
+EXPTIME
+150.0
+float exposure duration
+EPOCH
+2027.5
+float coordinate epoch
+CHECKSUM QKcjRIciQIciQIci
+str16 HDU checksum
+updated 2023-06-
+30T16:11:52
+DATASUM
+0
+str1
+data unit checksum
+updated 2023-06-
+30T16:11:52
+表18：无缝光谱1 级数据HDU1 头文件关键字
+key
+example
+fmt
+comment
+fill_value
+XTENSION
+IMAGE
+str5
+Image extension
+BITPIX
+-32
+int
+array data type
+NAXIS
+2
+int
+number of array dimensions
+NAXIS1
+2
+int
+NAXIS2
+2
+int
+PCOUNT
+int
+number of parameters
+GCOUNT
+1
+int
+number of groups
+EXTNAME
+SCI
+str3
+Extension name
+EXTVER
+1
+int
+Extension version number
+BUNIT
+e-/s
+str4
+Physical unit
+CAMERA
+MS
+str2
+camera of main survey
+DETSN
+12345678
+str8
+detector serial number
+37
+DETNAME
+CCD
+str3
+detector type
+DETTEMP1
+173.0
+float
+detector temperature at
+EXPSTART(in Kelvin)
+DETTEMP2
+173.0
+float
+detector temperature at EXPEND(in
+Kelvin)
+DETTEMP3
+173.0
+float
+detector temperature at READT1(in
+Kelvin)
+DETSIZE
+9560x9264
+str9
+detector size
+DATASECT
+9216x9232
+str9
+data section
+PIXSCAL1
+0.074
+float
+pixel scale for axis 1
+PIXSCAL2
+0.074
+float
+pixel scale for axis 2
+PIXSIZE1
+10
+int
+pixel size for axis 1 (in um)
+PIXSIZE2
+10
+int
+pixel size for axis 2 (in um)
+CHIPID
+1
+str2
+chip ID
+CHIPLAB
+GI-1
+str4
+chip label
+FILTER
+GI
+str2
+filter name
+NCHAN
+16
+int
+number of readout channels
+PSCAN1
+27
+int
+horizontal prescan width, per
+readout channel
+PSCAN2
+8
+int
+vertical prescan width, per readout
+channel
+OSCAN1
+16
+int
+horizontal overscan width,per
+readout channel
+OSCAN2
+16
+int
+vertical overscan width,per readout
+channel
+WCSAXES
+2
+int
+number of World Coordinate
+System axes
+OTHERS
+str0
+GAINLVL
+1
+str2
+gain level
+GAIN01
+1.1
+float
+gain (channel 01)
+38
+GAIN02
+1.1
+float
+gain (channel 02)
+GAIN03
+1.1
+float
+gain (channel 03)
+GAIN04
+1.1
+float
+gain (channel 04)
+GAIN05
+1.1
+float
+gain (channel 05)
+GAIN06
+1.1
+float
+gain (channel 06)
+GAIN07
+1.1
+float
+gain (channel 07)
+GAIN08
+1.1
+float
+gain (channel 08)
+GAIN09
+1.1
+float
+gain (channel 09)
+GAIN10
+1.1
+float
+gain (channel 10)
+GAIN11
+1.1
+float
+gain (channel 11)
+GAIN12
+1.1
+float
+gain (channel 12)
+GAIN13
+1.1
+float
+gain (channel 13)
+GAIN14
+1.1
+float
+gain (channel 14)
+GAIN15
+1.1
+float
+gain (channel 15)
+GAIN16
+1.1
+float
+gain (channel 16)
+RON01
+5.0
+float
+read noise (channel 01)
+RON02
+5.0
+float
+read noise (channel 02)
+RON03
+5.0
+float
+read noise (channel 03)
+RON04
+5.0
+float
+read noise (channel 04)
+RON05
+5.0
+float
+read noise (channel 05)
+RON06
+5.0
+float
+read noise (channel 06)
+RON07
+5.0
+float
+read noise (channel 07)
+39
+RON08
+5.0
+float
+read noise (channel 08)
+RON09
+5.0
+float
+read noise (channel 09)
+RON10
+5.0
+float
+read noise (channel 10)
+RON11
+5.0
+float
+read noise (channel 11)
+RON12
+5.0
+float
+read noise (channel 12)
+RON13
+5.0
+float
+read noise (channel 13)
+RON14
+5.0
+float
+read noise (channel 14)
+RON15
+5.0
+float
+read noise (channel 15)
+RON16
+5.0
+float
+read noise (channel 16)
+READT0
+2024-00-00T00:00:00
+str19 readout start time(UTC)
+READT1
+2024-00-00T00:00:00
+str19 readout end time(UTC)
+ROSPEED
+10.0
+float
+readout speed (in MHz)
+EXPTIME
+150.0
+float
+exposure duration
+DARKTIME
+152.0
+float
+dark current time
+SHTSTAT
+TRUE
+bool
+shutter status
+SHTOPEN0
+float
+shutter open time (begin)
+SHTOPEN1
+float
+shutter open time (end)
+SHTCLOS0
+float
+shutter close time (begin)
+SHTCLOS1
+float
+shutter close time (end)
+LEDFLAG
+int
+main/backup LED
+LEDSTAT
+0
+str14 LED status
+LEDEXPT
+float
+LED flash time (s)
+40
+LEDTEMP
+173.0
+float
+LED temperature (in K)
+CHECKSUM
+jEaQk9UOjEZOj9ZO
+str16 HDU checksum updated 2023-06-
+30T16:11:52
+DATASUM
+4137663647
+str10 data unit checksum updated 2023-
+06-30T16:11:52
+VER_INST
+0.1
+str3
+Instrument calibration pipeline
+version
+STM_INST
+2023-06-
+19T03:15:30.928441
+str26 Instrument pipeline processing time
+STA_INST
+int
+Instrument calibration status
+VER_CRDS
+0.0.1
+str5
+Version of CRDS file selection
+software used
+R_GAIN
+N/A
+str3
+Gain reference file name
+R_MASK
+N/A
+str3
+Mask reference file name
+R_BIAS
+csst_msc_bias_01_0001.fits
+str26 Superbias reference file name
+R_DARK
+csst_msc_dark_01_0001.fits
+str26 Dark reference file name
+R_DFLAT
+csst_msc_flat_01_0001.fits
+str26 Detector Flat reference file name
+STA_DQI
+int
+Data quality initialization status
+STA_SATC
+int
+Saturation checking status
+STA_ERRI
+int
+Error initialization status
+STA_BIAS
+int
+Bias correction status
+STA_DARK
+int
+Dark correction status
+STA_FLAT
+int
+Flat field correction status
+STA_CR
+int
+Cosmic ray rejection status
+NGOODPIX
+84806590
+int
+Number of good pixels
+GOODMIN
+-72.07832336425780
+float
+Minmum value of good pixels
+GOODMAX
+832.6776123046880
+float
+Maxmum value of good pixels
+41
+GOODMEAN 0.3172028362751010
+float
+Mean value of good pixels
+SNRMIN

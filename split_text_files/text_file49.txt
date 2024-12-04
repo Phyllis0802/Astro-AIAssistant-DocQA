@@ -1,0 +1,615 @@
+amplifier,unit 
+of mA 
+float 
+ 
+V_LNA 
+3 
+Voltage of Low 
+noise 
+amplifier,unit 
+of V 
+float 
+ 
+V_IF 
+5 
+Voltage of IF 
+detection 
+output,unit of V 
+float 
+ 
+OBSTIME 
+5 
+accumulation 
+time on source, 
+unit of sec 
+float 
+ 
+SCAN-NUM 
+5 
+scan number in 
+observation 
+proceduce 
+int 
+ 
+OBSERVER 
+NAME1 
+Observer's 
+name 
+str5 
+ 
+ENGINEER 
+NAME2 
+Engineer's 
+name 
+str5 
+ 
+OPERATOR 
+NAME3 
+Operator's 
+name 
+str5 
+ 
+DATE-OBS 
+2022/11/18 
+Date of 
+observation 
+str10 
+ 
+TIME-OBS 
+09:30:00 
+Time of the 
+observation 
+str8 
+ 
+POSI0_X 
+5152.434577 
+satellite 
+position in 
+x(J2000, km) 
+float 
+ 
+POSI0_Y 
+-850.6460426 
+satellite 
+position in 
+y(J2000, km) 
+float 
+ 
+ 
+ 
+176 
+POSI0_Z 
+4297.770838 
+satellite 
+position in 
+z(J2000, km) 
+float 
+ 
+VELO0_X 
+2.66632246 
+satellite 
+velocity in 
+x(J2000,km/s) 
+float 
+ 
+VELO0_Y 
+6.97307976 
+satellite 
+velocity in 
+y(J2000,km/s) 
+float 
+ 
+VELO0_Z 
+-1.80175713 
+satellite 
+velocity in 
+z(J2000,km/s) 
+float 
+ 
+OBSID 
+50000029816 
+observation ID 
+int 
+ 
+LEVEL_D 
+0 
+level of data 
+product(0,1,2) 
+int 
+ 
+FILETYPE 
+sig 
+file 
+type(src,off,ref,
+sig) 
+str3 
+ 
+FILENAME 
+CSST_HSTDM
+_ONS_SCI_20
+240817060512
+_20240817060
+513_50100000
+001_01-
+0001_L1_V01.f
+its 
+filename 
+str80 
+ 
+CHECKSUM 
+QoaaTlSTQlY
+ZQlYZ 
+HDU checksum 
+updated 2024-
+03-
+07T10:12:49 
+str16 
+ 
+DATASUM 
+2815573105 
+data unit 
+checksum 
+updated 2024-
+03-
+07T10:12:49 
+str10 
+ 
+EXTNAME 
+SCI 
+extension name 
+str3 
+ 
+ 
+ 
+ 
+ 
+177 
+表45: HSTDM 数据AUX 文件HDU0 头文件(header)关键字 
+ 
+key 
+example 
+f
+m
+t 
+comment 
+fill_v
+alue 
+General keywords 
+SIMPL
+E 
+ 
+L1 
+ 
+ 
+BITPIX 
+ 
+I2 
+ 
+ 
+NAXIS 
+always 2 
+I2 
+ 
+ 
+EXTEN
+D 
+always F 
+L1 
+ 
+ 
+NEXTE
+ND 
+always 0 
+I2 
+number of 
+array 
+dimensions 
+ 
+GROUP
+S 
+always F 
+L1 
+ 
+ 
+DATE 
+ 
+C
+20 
+date this file 
+was written 
+(yyyy-mm-
+ddThh:mm:ss
+) 
+ 
+FILEN
+AME 
+file name of  the generated aux file resembles that of  
+the corresponding ONS_SCI L0 file 
+‘CSST_HSTDM_AUX_20240817060512_20240817
+060513_50100000001_01-0001_L1_V01’ 
+ 
+C
+68 
+ 
+ 
+FILETY
+PE 
+only ‘AUX’ 
+C
+12 
+type of data 
+found in data 
+file 
+ 
+TELES
+COP 
+always ‘CSST’ 
+C
+06 
+telescope 
+used to 
+acquire data 
+ 
+ 
+ 
+178 
+INSTR
+UME 
+‘HSTDM’ 
+C
+06 
+instrument 
+used to 
+acquire data 
+ 
+RADEC
+SYS 
+always ‘ICRS’ 
+C
+08 
+reference 
+coordinate 
+system 
+ 
+EQUIN
+OX 
+always 2000.0 
+R
+4 
+ 
+ 
+FITSCR
+EA 
+ 
+ 
+FITS create 
+software 
+version 
+ 
+OBJEC
+T 
+Observation object name 
+C
+30 
+Observation 
+object name 
+ 
+TARGE
+T 
+target name (hhmmss+ddmmss) 
+C
+13 
+target name 
+(hhmmss+dd
+mmss) 
+ 
+OBSID 
+X+OBSTYPE+8，X instrument name(msc, mci 
+ifs,cipc hstdm) 
+C
+11 
+X+OBSTYPE
++8，X 
+instrument 
+name(msc, 
+mci ifs,cipc 
+hstdm) 
+ 
+PROID 
+Project ID associate with OBSID(format not 
+determined yet) 
+C
+13 
+Project ID 
+associate with 
+OBSID(forma
+t not 
+determined 
+yet) 
+ 
+OBJ_R
+A 
+Right ascension(Degrees) 
+R
+8 
+Right 
+ascension(De
+grees) 
+ 
+OBJ_D
+EC 
+Declination(Degrees) 
+R
+8 
+Declination(D
+egrees) 
+ 
+OFFPA
+RM 
+‘algorithm=standard(average), file_num=10' 
+C
+90 
+off point data 
+parameter 
+used in 
+ 
+ 
+ 
+179 
+generating sci 
+data 
+BLKPA
+RM 
+‘algorithm=standard(average), file_num=10' 
+ 
+blk  point data 
+parameter 
+used in 
+generating sci 
+data 
+ 
+PNTPR
+AM 
+‘algorithm=standard(nearset average), file_num=10' 
+ 
+ooc PNT data 
+parameter 
+used in 
+generating sci 
+data 
+ 
+EFFPA
+RM 
+‘algorithm=standard, associate_file_num=10' 
+ 
+OOC EFF  
+data 
+parameter 
+used in 
+generating sci 
+data 
+ 
+ 
+表46: HSTDM 数据QC 文件HDU0 头文件(header)关键字 
+key 
+example 
+f
+m
+t 
+comment 
+fill_va
+lue 
+General keywords 
+SIMPL
+E 
+ 
+L1 
+ 
+ 
+BITPIX 
+ 
+I2 
+ 
+ 
+NAXIS 
+always 2 
+I2 
+ 
+ 
+EXTEN
+D 
+always F 
+L1 
+ 
+ 
+NEXTE
+ND 
+always 0 
+I2 
+number of 
+array 
+dimensions 
+ 
+ 
+ 
+180 
+GROUP
+S 
+always F 
+L1 
+ 
+ 
+DATE 
+ 
+C
+20 
+date this file 
+was written 
+(yyyy-mm-
+ddThh:mm:ss) 
+ 
+FILEN
+AME 
+file name of  the generated aux file resembles that of  
+the corresponding ONS_SCI L0 file 
+‘CSST_HSTDM_QC_20240817060512_202408170
+60513_50100000001_01-0001_L1_V01’ 
+C
+68 
+ 
+ 
+FILET
+YPE 
+only ‘QC’ 
+C
+12 
+type of data 
+found in data 
+file 
+ 
+TELES
+COP 
+always ‘CSST’ 
+C
+06 
+telescope used 
+to acquire 
+data 
+ 
+INSTR
+UME 
+‘HSTDM’ 
+C
+06 
+instrument 
+used to 
+acquire data 
+ 
+RADEC
+SYS 
+always ‘ICRS’ 
+C
+08 
+reference 
+coordinate 
+system 
+ 
+EQUIN
+OX 
+always 2000.0 
+R
+4 
+ 
+ 
+FITSC
+REA 
+ 
+ 
+FITS create 
+software 
+version 
+ 
+OBJEC
+T 
+Observation object name 
+C
+30 
+Observation 
+object name 
+ 
+TARGE
+T 
+target name (hhmmss+ddmmss) 
+C
+13 
+target name 
+(hhmmss+dd
+mmss) 
+ 
+OBSID 
+X+OBSTYPE+8，X instrument name(msc, mci 
+ifs,cipc hstdm) 
+C
+11 
+X+OBSTYPE
++8，X 
+ 
+ 
+ 
+181 
+instrument 
+name(msc, 
+mci ifs,cipc 
+hstdm) 
+PROID 
+Project ID associate with OBSID(format not 
+determined yet) 
+C
+13 
+Project ID 
+associate with 
+OBSID(forma
+t not 
+determined 
+yet) 
+ 
+OBJ_R
+A 
+Right ascension(Degrees) 
+R
+8 
+Right 
+ascension(De
+grees) 
+ 
+OBJ_D
+EC 
+Declination(Degrees) 
+R
+8 
+Declination(D
+egrees) 
+ 
+QC0PA
+RM 
+‘algorithm=(standard, average,...), 
+associate_file_num=10' 
+C
+90 
+QC0 
+parameter for 
+the associated 
+data file in 
+generating L1 
+data 
+ 
+ 
+表47: HSTDM 数据QC 文件HDU1 头文件(header)关键字 
+key 
+example 
+fmt 
+comment 
+fill_value 
+ 
+XTENSION 
+always ‘QC1’ 
+str5 extension type 
+ 
+BITPIX 
+always 32 for raw data 
+int 
+bits per data 
+value 
+ 
+NAXIS 
+always 2 
+int 
+number of 
+data axes 
+ 
+NAXIS1 
+35 
+int length of first 
+data axis 
+ 
+EXTNAME
